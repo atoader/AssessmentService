@@ -1,0 +1,10 @@
+theory http://docs.omdoc.org/cad/solidobj.omdoc?solidobj
+Declares http://docs.omdoc.org/cad/solidobj.omdoc?solidobj http://docs.omdoc.org/cad/solidobj.omdoc?solidobj?solid-object
+constant: http://docs.omdoc.org/cad/solidobj.omdoc?solidobj?solid-object
+Declares http://docs.omdoc.org/cad/solidobj.omdoc?solidobj http://docs.omdoc.org/cad/solidobj.omdoc?solidobj?shape
+constant: http://docs.omdoc.org/cad/solidobj.omdoc?solidobj?shape
+Declares http://docs.omdoc.org/cad/solidobj.omdoc?solidobj http://docs.omdoc.org/cad/solidobj.omdoc?solidobj?solidobjects
+constant: http://docs.omdoc.org/cad/solidobj.omdoc?solidobj?solidobjects
+Declares http://docs.omdoc.org/cad/solidobj.omdoc?solidobj http://docs.omdoc.org/cad/solidobj.omdoc?solidobj?type
+constant: http://docs.omdoc.org/cad/solidobj.omdoc?solidobj?type
+Includes http://docs.omdoc.org/cad/solidobj.omdoc?solidobj http://docs.omdoc.org/../../fcad/flange/cds/physobj?physobj

@@ -1,0 +1,16 @@
+theory http://www.openmath.org/cd?linalg4
+HasMeta http://www.openmath.org/cd?linalg4 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?linalg4 http://www.openmath.org/cd?linalg4?characteristic_eqn
+constant: http://www.openmath.org/cd?linalg4?characteristic_eqn
+Declares http://www.openmath.org/cd?linalg4 http://www.openmath.org/cd?linalg4?columncount
+constant: http://www.openmath.org/cd?linalg4?columncount
+Declares http://www.openmath.org/cd?linalg4 http://www.openmath.org/cd?linalg4?eigenvalue
+constant: http://www.openmath.org/cd?linalg4?eigenvalue
+Declares http://www.openmath.org/cd?linalg4 http://www.openmath.org/cd?linalg4?eigenvector
+constant: http://www.openmath.org/cd?linalg4?eigenvector
+Declares http://www.openmath.org/cd?linalg4 http://www.openmath.org/cd?linalg4?rank
+constant: http://www.openmath.org/cd?linalg4?rank
+Declares http://www.openmath.org/cd?linalg4 http://www.openmath.org/cd?linalg4?rowcount
+constant: http://www.openmath.org/cd?linalg4?rowcount
+Declares http://www.openmath.org/cd?linalg4 http://www.openmath.org/cd?linalg4?size
+constant: http://www.openmath.org/cd?linalg4?size

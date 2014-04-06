@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc base="http://docs.omdoc.org/crane/gear.omdoc">
+  <mref target="http://docs.omdoc.org/crane/gear.omdoc?gear"/>
+  <definition for="http://docs.omdoc.org/crane/gear.omdoc?gear?tooth http://docs.omdoc.org/crane/gear.omdoc?gear?gear">
+    <omdoc:CMP 
+    xml:id="gear.definition3.CMP1" about="#gear.definition3.CMP1" stex:srcref="../../../../../stc/fcad/crane/cds/gear.tex#textrange(from=2;1,to=7;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="gear.definition3.CMP1.p1" class="ltx_p" about="#gear.definition3.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/crane/gear.omdoc?gear?gear"> gear </omdoc:ref>
+        or
+        <omdoc:ref target="http://docs.omdoc.org/crane/gear.omdoc?gear?gear"> cogwheel </omdoc:ref>
+        is a rotating machine part having cut
+        <omdoc:ref target="http://docs.omdoc.org/crane/gear.omdoc?gear?tooth"> teeth </omdoc:ref>
+        , or
+        <omdoc:ref target="http://docs.omdoc.org/crane/gear.omdoc?gear?tooth"> cogs </omdoc:ref>
+        which mesh with another toothed part in order to transmit torque, in most cases with teeth on the one gear of identical shape, and often also with that shape (or at least width) on the other gear.
+      </p>
+</omdoc:CMP>
+  </definition>
+</omdoc>

@@ -1,0 +1,10 @@
+theory http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint
+Declares http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?key
+constant: http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?key
+Declares http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?keyway
+constant: http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?keyway
+Declares http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?keyed-joint
+constant: http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?keyed-joint
+Declares http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?feather-key-joint
+constant: http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?feather-key-joint
+Includes http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint http://docs.omdoc.org/../../fcad/crane/cds/torque?torque

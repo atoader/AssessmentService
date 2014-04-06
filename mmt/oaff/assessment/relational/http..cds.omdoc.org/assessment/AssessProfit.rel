@@ -1,0 +1,4 @@
+theory http://cds.omdoc.org/assessment?AssessProfit
+Includes http://cds.omdoc.org/assessment?AssessProfit http://cds.omdoc.org/assessment?Profit
+Declares http://cds.omdoc.org/assessment?AssessProfit http://cds.omdoc.org/assessment?AssessProfit?assess_value
+constant: http://cds.omdoc.org/assessment?AssessProfit?assess_value

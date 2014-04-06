@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="RatiosSol" base="http://cds.omdoc.org/frameit">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#159.9.0-270.12.1"/>
+    </metadata>
+    <import from="http://cds.omdoc.org/frameit?Ratios">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#180.10.2-196.10.18"/>
+      </metadata>
+    </import>
+    <constant name="building_height">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#199.11.2-268.11.71"/>
+      </metadata>
+      <definition>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS position="0" base="http://www.openmath.org/cd" module="arith1" name="times"/>
+            <om:OMS position="1" base="http://cds.omdoc.org/frameit" module="Ratios" name="human_height"/>
+            <om:OMA position="2">
+              <om:OMS position="2_0" base="http://www.openmath.org/cd" module="arith1" name="divide"/>
+              <om:OMS position="2_1" base="http://cds.omdoc.org/frameit" module="Ratios" name="building_shadow"/>
+              <om:OMS position="2_2" base="http://cds.omdoc.org/frameit" module="Ratios" name="human_shadow"/>
+            </om:OMA>
+          </om:OMA>
+        </om:OMOBJ>
+      </definition>
+    </constant>
+  </theory>
+</omdoc>

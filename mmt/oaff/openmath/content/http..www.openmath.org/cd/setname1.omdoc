@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="setname1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/setname.mmt#39.2.0-100.9.1"/>
+    </metadata>
+    <constant name="C">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/setname.mmt#71.3.2-73.3.4"/>
+      </metadata>
+    </constant>
+    <constant name="N">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/setname.mmt#76.4.2-78.4.4"/>
+      </metadata>
+    </constant>
+    <constant name="P">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/setname.mmt#81.5.2-83.5.4"/>
+      </metadata>
+    </constant>
+    <constant name="Q">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/setname.mmt#86.6.2-88.6.4"/>
+      </metadata>
+    </constant>
+    <constant name="R">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/setname.mmt#91.7.2-93.7.4"/>
+      </metadata>
+    </constant>
+    <constant name="Z">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/setname.mmt#96.8.2-98.8.4"/>
+      </metadata>
+    </constant>
+  </theory>
+</omdoc>

@@ -1,0 +1,1205 @@
+<omdoc base="http://docs.omdoc.org/crane/taskdescription.omdoc">
+  <plain-narration>
+    <omdoc:omtext 
+    stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=13;0,to=13;50)" about="#omtext1" xml:id="omtext1" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <omdoc:uses from="../../../slides/units/en/time.omdoc#time"></omdoc:uses>
+      <omdoc:uses from="../../../slides/units/en/length.omdoc#length"></omdoc:uses>
+      <omdoc:uses from="../../../slides/missing/en/arithmetics.omdoc#arithmetics"></omdoc:uses>
+      <omdoc:uses from="../../../fcad/crane/cds/crane.omdoc#crane"></omdoc:uses>
+      <omdoc:uses from="../../../fcad/crane/cds/welding.omdoc#welding"></omdoc:uses>
+</omdoc:omtext>
+  </plain-narration>
+  <plain-narration>
+    <omdoc:omtext 
+    stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=19;1,to=24;12)" about="#omgroup2.omtext2" xml:id="omgroup2.omtext2" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <omdoc:CMP 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=19;1,to=19;15)" about="#omgroup2.omtext2.CMP1" xml:id="omgroup2.omtext2.CMP1">
+        <p 
+        about="#omgroup2.omtext2.CMP1.p1" class="ltx_p" id="omgroup2.omtext2.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+          The aim of this assisgnment is to contruct an
+          <omdoc:ref target="http://docs.omdoc.org/crane/crane.omdoc?crane?assembly-crane">
+            assembly crane
+          </omdoc:ref>
+          for lifting heavy building elements and machine components in workshops.
+          <span class="ltx_text ltx_font_bold">
+            The principle sketch below is solely intended for orientation and clarification of the boundary conditions of the construction assignments!
+          </span>
+</p>
+</omdoc:CMP>
+</omdoc:omtext>
+  </plain-narration>
+  <plain-narration>
+    <div 
+    class="ltx_figure" id="S0.F1" xmlns="http://www.w3.org/1999/xhtml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <object 
+      alt="" height="322" width="284" class="ltx_graphics ltx_centering" id="S0.F1.g1" data="PIC/principle-solution-crane.png">
+</object>
+      <div about="#S0.F1.caption2" class="ltx_caption" id="S0.F1.caption2">
+        <span class=" ltx_tag_figure">Figure 1:</span>
+        Concept of an Assembly Crane
+      </div>
+</div>
+  </plain-narration>
+  <plain-narration>
+    <omdoc:omtext 
+    stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=31;1,to=35;12)" about="#omgroup2.omtext4" xml:id="omgroup2.omtext4" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <omdoc:CMP 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=31;1,to=31;15)" about="#omgroup2.omtext4.CMP1" xml:id="omgroup2.omtext4.CMP1">
+        <p 
+        about="#omgroup2.omtext4.CMP1.p1" class="ltx_p" id="omgroup2.omtext4.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+          The
+          <omdoc:ref target="http://docs.omdoc.org/crane/crane.omdoc?crane?assembly-crane">
+            assembly crane
+          </omdoc:ref>
+          to be constructed can be divided into two principal groups: The
+          <omdoc:ref target="http://docs.omdoc.org/crane/foo.omdoc?foo?base-frame"> base frame </omdoc:ref>
+          (1) and the
+          <omdoc:ref target="http://docs.omdoc.org/crane/winch.omdoc?winch?winch-("> winch unit </omdoc:ref>
+          2).
+</p>
+</omdoc:CMP>
+</omdoc:omtext>
+  </plain-narration>
+  <plain-narration>
+    <omdoc:omtext 
+    stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=38;1,to=56;12)" about="#omgroup2.omtext5" xml:id="omgroup2.omtext5" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <omdoc:CMP 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=38;1,to=38;15)" about="#omgroup2.omtext5.CMP1" xml:id="omgroup2.omtext5.CMP1">
+        <p 
+        about="#omgroup2.omtext5.CMP1.p1" class="ltx_p" id="omgroup2.omtext5.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+          The
+          <omdoc:ref target="http://docs.omdoc.org/crane/crane.omdoc?crane?base"> base </omdoc:ref>
+          frame (1) supports all components of the
+          <omdoc:ref target="http://docs.omdoc.org/crane/crane.omdoc?crane?assembly"> assembly </omdoc:ref>
+          crane and transfers forces induced by the the load to be floor. To reduce costs and simplify provisioning, the assembly crane should be realized as a
+          <omdoc:ref target="http://docs.omdoc.org/crane/welding.omdoc?welding?weldment-design">
+            weldment design
+          </omdoc:ref>
+          , ideally from normed
+          <omdoc:ref target="http://docs.omdoc.org/crane/foo.omdoc?foo?steel"> steel </omdoc:ref>
+          profiles. The design should take the intended load into account appropriately. The
+          <omdoc:ref target="http://docs.omdoc.org/crane/crane.omdoc?crane?base"> base </omdoc:ref>
+          frame should be designed to ensure a sufficiently high strength and rigidity under maximal load
+          <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+            <om:OMA>
+              <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+              <om:OMV name="F"></om:OMV>
+              <om:OMA>
+                <om:OMS base="http://cds.omdoc.org/arith.omdoc" module="arith" name="times"></om:OMS>
+                <om:OMV name="m"></om:OMV>
+                <om:OMV name="a"></om:OMV>
+                <om:OMV name="x"></om:OMV>
+              </om:OMA>
+            </om:OMA>
+          </om:OMOBJ>
+          . Moreover the
+          <omdoc:ref target="http://docs.omdoc.org/crane/crane.omdoc?crane?base"> base </omdoc:ref>
+          frame must provide convenient interfaces for the additional components of the
+          <omdoc:ref target="http://docs.omdoc.org/crane/crane.omdoc?crane?crane"> crane </omdoc:ref>
+          . To ensure the centered positioning of construction elements, the lower part of the
+          <omdoc:ref target="http://docs.omdoc.org/crane/crane.omdoc?crane?base"> base </omdoc:ref>
+          frame should be realized from two parallel
+          <omdoc:ref target="http://docs.omdoc.org/crane/foo.omdoc?foo?profiles"> profiles </omdoc:ref>
+          . The
+          <omdoc:ref target="http://docs.omdoc.org/crane/foo.omdoc?foo?clearance"> clearance </omdoc:ref>
+          between the two legs of the base frame should not fall below
+          <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+            <om:OMA>
+              <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+              <om:OMV name="b"></om:OMV>
+              <om:OMA>
+                <om:OMS base="http://cds.omdoc.org/arith.omdoc" module="arith" name="times"></om:OMS>
+                <om:OMV name="m"></om:OMV>
+                <om:OMV name="i"></om:OMV>
+                <om:OMV name="n"></om:OMV>
+              </om:OMA>
+            </om:OMA>
+          </om:OMOBJ>
+          and the overall width should not exceed
+          <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+            <om:OMA>
+              <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+              <om:OMV name="b"></om:OMV>
+              <om:OMA>
+                <om:OMS base="http://cds.omdoc.org/arith.omdoc" module="arith" name="times"></om:OMS>
+                <om:OMV name="m"></om:OMV>
+                <om:OMV name="a"></om:OMV>
+                <om:OMV name="x"></om:OMV>
+              </om:OMA>
+            </om:OMA>
+          </om:OMOBJ>
+          . To enable transport of loads, the
+          <omdoc:ref target="http://docs.omdoc.org/crane/crane.omdoc?crane?base"> base </omdoc:ref>
+          frame is to be equipped with sufficiently strong
+          <omdoc:ref target="http://docs.omdoc.org/crane/castor.omdoc?castor?castors"> castors </omdoc:ref>
+          :
+          <omdoc:ref target="http://docs.omdoc.org/crane/castor.omdoc?castor?rigid-castor">
+            rigid castor
+          </omdoc:ref>
+          s on the front and
+          <omdoc:ref target="http://docs.omdoc.org/crane/castor.omdoc?castor?swivel-castor">
+            swivel castor
+          </omdoc:ref>
+          s on the back of the
+          <omdoc:ref target="http://docs.omdoc.org/crane/crane.omdoc?crane?base-frame">
+            base frame
+          </omdoc:ref>
+          . To ease handling, the frame should contain a subtable handle bar.
+</p>
+</omdoc:CMP>
+</omdoc:omtext>
+  </plain-narration>
+  <plain-narration>
+    <omdoc:omtext 
+    stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=58;1,to=63;12)" about="#omgroup2.omtext6" xml:id="omgroup2.omtext6" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <omdoc:CMP 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=58;1,to=58;15)" about="#omgroup2.omtext6.CMP1" xml:id="omgroup2.omtext6.CMP1">
+        <p 
+        about="#omgroup2.omtext6.CMP1.p1" class="ltx_p" id="omgroup2.omtext6.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+          The
+          <omdoc:ref target="http://docs.omdoc.org/crane/hoist.omdoc?hoist?hoist"> hoist </omdoc:ref>
+          consists of a (also to be constructed) electically powered
+          <omdoc:ref target="http://docs.omdoc.org/crane/winch.omdoc?winch?winch"> winch </omdoc:ref>
+          (2), that is connected to a
+          <omdoc:ref target="http://docs.omdoc.org/crane/hoist.omdoc?hoist?lifting"> lifting </omdoc:ref>
+          hook (4) via a
+          <omdoc:ref target="http://docs.omdoc.org/crane/cable.omdoc?cable?cable"> cable </omdoc:ref>
+          that is passed through some
+          <omdoc:ref target="http://docs.omdoc.org/crane/sheave.omdoc?sheave?scheave"> scheave </omdoc:ref>
+          s. This enables continuous lifting, lowering, and holding of loads.
+</p>
+</omdoc:CMP>
+</omdoc:omtext>
+  </plain-narration>
+  <plain-narration>
+    <div 
+    class="ltx_figure" id="S0.F2" xmlns="http://www.w3.org/1999/xhtml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <object 
+      alt="" height="134" width="249" class="ltx_graphics ltx_centering" id="S0.F2.g1" data="PIC/principle-solution-winch.png">
+</object>
+      <div about="#S0.F2.caption2" class="ltx_caption" id="S0.F2.caption2">
+        <span class=" ltx_tag_figure">Figure 2:</span>
+        Prinzipdarstellung der Windeneinheit (2)
+      </div>
+</div>
+  </plain-narration>
+  <plain-narration>
+    <omdoc:omtext 
+    stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=70;1,to=86;12)" about="#omgroup2.omtext8" xml:id="omgroup2.omtext8" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <omdoc:CMP 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=70;1,to=70;15)" about="#omgroup2.omtext8.CMP1" xml:id="omgroup2.omtext8.CMP1">
+        <p 
+        about="#omgroup2.omtext8.CMP1.p1" class="ltx_p" id="omgroup2.omtext8.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+          The
+          <omdoc:ref target="http://docs.omdoc.org/crane/winch.omdoc?winch?winch"> winch </omdoc:ref>
+          unit (2) itself (see Figure
+           
+          <ref xref="LABEL:fig:principle-solutions-winch" type="cite" xmlns="http://omdoc.org/ns"></ref>
+          ) consists of a drive motor with
+          <omdoc:ref target="http://docs.omdoc.org/crane/worm-drive.omdoc?worm-drive?worm">
+            worm geared
+          </omdoc:ref>
+          drive (5), a
+          <omdoc:ref target="http://docs.omdoc.org/crane/winch.omdoc?winch?spool"> spool </omdoc:ref>
+          (6), and an electrically driven disc brake (9). To make moving the
+          <omdoc:ref target="http://docs.omdoc.org/crane/crane.omdoc?crane?assembly"> assembly </omdoc:ref>
+          crane easy, the frame of the winch unit and the
+          <omdoc:ref target="http://docs.omdoc.org/crane/winch.omdoc?winch?spool"> spool </omdoc:ref>
+          are to be realizeed as light-weight sheet metal
+          <omdoc:ref target="http://docs.omdoc.org/crane/welding.omdoc?welding?weldment">
+            weldment
+          </omdoc:ref>
+          designs. The
+          <omdoc:ref target="http://docs.omdoc.org/crane/winch.omdoc?winch?spool"> spool </omdoc:ref>
+          consists of wound-up and lenghwise
+          <omdoc:ref target="http://docs.omdoc.org/crane/welding.omdoc?welding?welded"> welded </omdoc:ref>
+          sheet metal drum (6a) together with the two rigid drum sides (6b). The
+          <omdoc:ref target="http://docs.omdoc.org/crane/torque.omdoc?torque?torque"> torque </omdoc:ref>
+          of the
+          <omdoc:ref target="http://docs.omdoc.org/crane/motor.omdoc?motor?motor"> motor </omdoc:ref>
+          is transferred to the axis of the
+          <omdoc:ref target="http://docs.omdoc.org/crane/winch.omdoc?winch?spool"> spool </omdoc:ref>
+          via a
+          <omdoc:ref target="http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?feather-key-joint">
+            feather key joint
+          </omdoc:ref>
+          . The axis is rigidly welded to the drum sides and is itself mounted in MK: still needs to be translated a Fest-Los-Lageranordnung (8) w
+          ”
+          alzgelagert. Die als Halte- und Sicherheitsbremse ausgelegte Lamellenbremse (9) ist mittels eines Kegelpressverbands
+          Â
+           
+          (10) fliegend auf der Seiltrommelwelle befestigt.
+</p>
+</omdoc:CMP>
+</omdoc:omtext>
+  </plain-narration>
+  <plain-narration>
+    <omdoc:omtext 
+    stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=88;1,to=92;12)" about="#omgroup2.omtext9" xml:id="omgroup2.omtext9" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <omdoc:CMP 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=88;1,to=88;15)" about="#omgroup2.omtext9.CMP1" xml:id="omgroup2.omtext9.CMP1">
+        <p 
+        about="#omgroup2.omtext9.CMP1.p1" class="ltx_p" id="omgroup2.omtext9.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+          The whole
+          <omdoc:ref target="http://docs.omdoc.org/crane/winch.omdoc?winch?winch"> winch </omdoc:ref>
+          unit is mounted on a frame construction (11) that is fastened to the crane frame with a through-bold connection. The design of the winch mount, has to allow that components can be mounted.
+</p>
+</omdoc:CMP>
+</omdoc:omtext>
+  </plain-narration>
+  <plain-narration>
+    <omdoc:omtext 
+    stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=94;1,to=99;12)" about="#omgroup2.omtext10" xml:id="omgroup2.omtext10" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <omdoc:CMP 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=94;1,to=94;15)" about="#omgroup2.omtext10.CMP1" xml:id="omgroup2.omtext10.CMP1">
+        <p 
+        about="#omgroup2.omtext10.CMP1.p1" class="ltx_p" id="omgroup2.omtext10.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+          Werkstoffauswahl, Oberfl
+          ”
+          acheng
+          ”
+          ute und Ausf
+          ”
+          uhrung aller bearbeiteten Fl
+          ”
+          achen richten sich nach Funktion und Beanspruchung der jeweiligen Bauteile bzw. Kontaktfl
+          ”
+          achen und sind unter Ber
+          ”
+          ucksichtigung einer m
+          ”
+          oglichst kosteng
+          ”
+          unstigen Herstellung sinnvoll festzulegen.
+</p>
+</omdoc:CMP>
+</omdoc:omtext>
+  </plain-narration>
+  <plain-narration>
+    <omdoc:omtext 
+    stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=101;1,to=103;12)" about="#omgroup2.omtext11" xml:id="omgroup2.omtext11" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <omdoc:CMP 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=101;1,to=101;15)" about="#omgroup2.omtext11.CMP1" xml:id="omgroup2.omtext11.CMP1">
+        <p 
+        about="#omgroup2.omtext11.CMP1.p1" class="ltx_p" id="omgroup2.omtext11.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+          Gegeben sind die folgenden Kenndaten und Hauptabmessungen:
+</p>
+</omdoc:CMP>
+</omdoc:omtext>
+  </plain-narration>
+  <plain-narration>
+    <omdoc:omtext 
+    stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=104;8,to=114;12)" about="#omgroup2.omtext12" xml:id="omgroup2.omtext12" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <omdoc:metadata 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=104;8,to=114;12)" about="#omgroup2.omtext12.metadata1" xml:id="omgroup2.omtext12.metadata1">
+        <dc:title 
+        stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=104;8,to=114;12)" about="#omgroup2.omtext12.metadata1.title1" xml:id="omgroup2.omtext12.metadata1.title1">
+          Abmessungen / Lasten
+</dc:title>
+</omdoc:metadata>
+      <omdoc:CMP 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=105;13,to=106;6)" about="#omgroup2.omtext12.CMP2" xml:id="omgroup2.omtext12.CMP2">
+        <p 
+        about="#omgroup2.omtext12.CMP2.p1" class="ltx_p" id="omgroup2.omtext12.CMP2.p1" xmlns="http://www.w3.org/1999/xhtml">
+          <br class="ltx_break"></br>
+          <table 
+          about="#omgroup2.omtext12.CMP2.p1.tabular1" class="ltx_tabular" id="omgroup2.omtext12.CMP2.p1.tabular1">
+            <tbody class="ltx_tbody">
+              <tr 
+              about="#omgroup2.omtext12.CMP2.p1.tabular1.tr1" class="ltx_tr" id="omgroup2.omtext12.CMP2.p1.tabular1.tr1">
+                <th 
+                about="#omgroup2.omtext12.CMP2.p1.tabular1.tr1.td1" class="ltx_td ltx_align_left" id="omgroup2.omtext12.CMP2.p1.tabular1.tr1.td1">
+                  Maximal load
+</th>
+                <td 
+                about="#omgroup2.omtext12.CMP2.p1.tabular1.tr1.td2" class="ltx_td ltx_align_left" id="omgroup2.omtext12.CMP2.p1.tabular1.tr1.td2">
+                  <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                    <om:OMA>
+                      <om:OMS base="http://cds.omdoc.org/relation.omdoc" module="relation" name="eq"></om:OMS>
+                      <om:OMA>
+                        <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+                        <om:OMV name="F"></om:OMV>
+                        <om:OMA>
+                          <om:OMS base="http://cds.omdoc.org/arith.omdoc" module="arith" name="times"></om:OMS>
+                          <om:OMV name="m"></om:OMV>
+                          <om:OMV name="a"></om:OMV>
+                          <om:OMV name="x"></om:OMV>
+                        </om:OMA>
+                      </om:OMA>
+                      <om:OMA>
+                        <om:OMS base="http://cds.omdoc.org/arith.omdoc" module="arith" name="times"></om:OMS>
+                        <om:OMI>15</om:OMI>
+                        <om:OMV name="k"></om:OMV>
+                        <om:OMV name="N"></om:OMV>
+                      </om:OMA>
+                    </om:OMA>
+                  </om:OMOBJ>
+</td>
+</tr>
+              <tr 
+              about="#omgroup2.omtext12.CMP2.p1.tabular1.tr2" class="ltx_tr" id="omgroup2.omtext12.CMP2.p1.tabular1.tr2">
+                <th 
+                about="#omgroup2.omtext12.CMP2.p1.tabular1.tr2.td1" class="ltx_td ltx_align_left" id="omgroup2.omtext12.CMP2.p1.tabular1.tr2.td1">
+                  Maximal height between floor and lower fib edge
+</th>
+                <td 
+                about="#omgroup2.omtext12.CMP2.p1.tabular1.tr2.td2" class="ltx_td ltx_align_left" id="omgroup2.omtext12.CMP2.p1.tabular1.tr2.td2">
+                  <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                    <om:OMA>
+                      <om:OMS base="http://cds.omdoc.org/relation.omdoc" module="relation" name="eq"></om:OMS>
+                      <om:OMA>
+                        <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+                        <om:OMV name="h"></om:OMV>
+                        <om:OMA>
+                          <om:OMS base="http://cds.omdoc.org/arith.omdoc" module="arith" name="times"></om:OMS>
+                          <om:OMV name="m"></om:OMV>
+                          <om:OMV name="a"></om:OMV>
+                          <om:OMV name="x"></om:OMV>
+                        </om:OMA>
+                      </om:OMA>
+                      <om:OMA>
+                        <om:OMS base="http://cds.omdoc.org/quantities.omdoc" module="quantities" name="quantityof">
+                        </om:OMS>
+                        <om:OMI>1900</om:OMI>
+                        <om:OMS base="http://cds.omdoc.org/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                      </om:OMA>
+                    </om:OMA>
+                  </om:OMOBJ>
+</td>
+</tr>
+              <tr 
+              about="#omgroup2.omtext12.CMP2.p1.tabular1.tr3" class="ltx_tr" id="omgroup2.omtext12.CMP2.p1.tabular1.tr3">
+                <th 
+                about="#omgroup2.omtext12.CMP2.p1.tabular1.tr3.td1" class="ltx_td ltx_align_left" id="omgroup2.omtext12.CMP2.p1.tabular1.tr3.td1">
+                  wheel displacement
+</th>
+                <td 
+                about="#omgroup2.omtext12.CMP2.p1.tabular1.tr3.td2" class="ltx_td ltx_align_left" id="omgroup2.omtext12.CMP2.p1.tabular1.tr3.td2">
+                  <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                    <om:OMA>
+                      <om:OMS base="http://cds.omdoc.org/relation.omdoc" module="relation" name="eq"></om:OMS>
+                      <om:OMA>
+                        <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+                        <om:OMV name="l"></om:OMV>
+                        <om:OMA>
+                          <om:OMS base="http://cds.omdoc.org/arith.omdoc" module="arith" name="times"></om:OMS>
+                          <om:OMV name="R"></om:OMV>
+                          <om:OMV name="a"></om:OMV>
+                          <om:OMV name="d"></om:OMV>
+                        </om:OMA>
+                      </om:OMA>
+                      <om:OMA>
+                        <om:OMS base="http://cds.omdoc.org/quantities.omdoc" module="quantities" name="quantityof">
+                        </om:OMS>
+                        <om:OMI>1800</om:OMI>
+                        <om:OMS base="http://cds.omdoc.org/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                      </om:OMA>
+                    </om:OMA>
+                  </om:OMOBJ>
+</td>
+</tr>
+              <tr 
+              about="#omgroup2.omtext12.CMP2.p1.tabular1.tr4" class="ltx_tr" id="omgroup2.omtext12.CMP2.p1.tabular1.tr4">
+                <th 
+                about="#omgroup2.omtext12.CMP2.p1.tabular1.tr4.td1" class="ltx_td ltx_align_left" id="omgroup2.omtext12.CMP2.p1.tabular1.tr4.td1">
+                  Fib length
+</th>
+                <td 
+                about="#omgroup2.omtext12.CMP2.p1.tabular1.tr4.td2" class="ltx_td ltx_align_left" id="omgroup2.omtext12.CMP2.p1.tabular1.tr4.td2">
+                  <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                    <om:OMA>
+                      <om:OMS base="http://cds.omdoc.org/relation.omdoc" module="relation" name="eq"></om:OMS>
+                      <om:OMA>
+                        <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+                        <om:OMV name="l"></om:OMV>
+                        <om:OMA>
+                          <om:OMS base="http://cds.omdoc.org/arith.omdoc" module="arith" name="times"></om:OMS>
+                          <om:OMV name="A"></om:OMV>
+                          <om:OMV name="u"></om:OMV>
+                          <om:OMV name="s"></om:OMV>
+                          <om:OMV name="l"></om:OMV>
+                          <om:OMV name="e"></om:OMV>
+                          <om:OMV name="g"></om:OMV>
+                          <om:OMV name="e"></om:OMV>
+                          <om:OMV name="r"></om:OMV>
+                        </om:OMA>
+                      </om:OMA>
+                      <om:OMA>
+                        <om:OMS base="http://cds.omdoc.org/quantities.omdoc" module="quantities" name="quantityof">
+                        </om:OMS>
+                        <om:OMI>1300</om:OMI>
+                        <om:OMS base="http://cds.omdoc.org/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                      </om:OMA>
+                    </om:OMA>
+                  </om:OMOBJ>
+</td>
+</tr>
+              <tr 
+              about="#omgroup2.omtext12.CMP2.p1.tabular1.tr5" class="ltx_tr" id="omgroup2.omtext12.CMP2.p1.tabular1.tr5">
+                <th 
+                about="#omgroup2.omtext12.CMP2.p1.tabular1.tr5.td1" class="ltx_td ltx_align_left" id="omgroup2.omtext12.CMP2.p1.tabular1.tr5.td1">
+                  Minimal clearance between base frame legs
+</th>
+                <td 
+                about="#omgroup2.omtext12.CMP2.p1.tabular1.tr5.td2" class="ltx_td ltx_align_left" id="omgroup2.omtext12.CMP2.p1.tabular1.tr5.td2">
+                  <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                    <om:OMA>
+                      <om:OMS base="http://cds.omdoc.org/relation.omdoc" module="relation" name="eq"></om:OMS>
+                      <om:OMA>
+                        <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+                        <om:OMV name="b"></om:OMV>
+                        <om:OMA>
+                          <om:OMS base="http://cds.omdoc.org/arith.omdoc" module="arith" name="times"></om:OMS>
+                          <om:OMV name="m"></om:OMV>
+                          <om:OMV name="i"></om:OMV>
+                          <om:OMV name="n"></om:OMV>
+                        </om:OMA>
+                      </om:OMA>
+                      <om:OMA>
+                        <om:OMS base="http://cds.omdoc.org/quantities.omdoc" module="quantities" name="quantityof">
+                        </om:OMS>
+                        <om:OMI>700</om:OMI>
+                        <om:OMS base="http://cds.omdoc.org/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                      </om:OMA>
+                    </om:OMA>
+                  </om:OMOBJ>
+</td>
+</tr>
+              <tr 
+              about="#omgroup2.omtext12.CMP2.p1.tabular1.tr6" class="ltx_tr" id="omgroup2.omtext12.CMP2.p1.tabular1.tr6">
+                <th 
+                about="#omgroup2.omtext12.CMP2.p1.tabular1.tr6.td1" class="ltx_td ltx_align_left" id="omgroup2.omtext12.CMP2.p1.tabular1.tr6.td1">
+                  Maximal width
+</th>
+                <td 
+                about="#omgroup2.omtext12.CMP2.p1.tabular1.tr6.td2" class="ltx_td ltx_align_left" id="omgroup2.omtext12.CMP2.p1.tabular1.tr6.td2">
+                  <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                    <om:OMA>
+                      <om:OMS base="http://cds.omdoc.org/relation.omdoc" module="relation" name="eq"></om:OMS>
+                      <om:OMA>
+                        <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+                        <om:OMV name="b"></om:OMV>
+                        <om:OMA>
+                          <om:OMS base="http://cds.omdoc.org/arith.omdoc" module="arith" name="times"></om:OMS>
+                          <om:OMV name="m"></om:OMV>
+                          <om:OMV name="a"></om:OMV>
+                          <om:OMV name="x"></om:OMV>
+                        </om:OMA>
+                      </om:OMA>
+                      <om:OMA>
+                        <om:OMS base="http://cds.omdoc.org/quantities.omdoc" module="quantities" name="quantityof">
+                        </om:OMS>
+                        <om:OMI>900</om:OMI>
+                        <om:OMS base="http://cds.omdoc.org/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                      </om:OMA>
+                    </om:OMA>
+                  </om:OMOBJ>
+</td>
+</tr>
+            </tbody>
+</table>
+</p>
+</omdoc:CMP>
+</omdoc:omtext>
+  </plain-narration>
+  <plain-narration>
+    <omdoc:omtext 
+    stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=115;8,to=121;12)" about="#omgroup2.omtext13" xml:id="omgroup2.omtext13" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <omdoc:metadata 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=115;8,to=121;12)" about="#omgroup2.omtext13.metadata1" xml:id="omgroup2.omtext13.metadata1">
+        <dc:title 
+        stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=115;8,to=121;12)" about="#omgroup2.omtext13.metadata1.title1" xml:id="omgroup2.omtext13.metadata1.title1">
+          Werkstoffkennwerte
+</dc:title>
+</omdoc:metadata>
+      <omdoc:CMP 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=116;13,to=117;6)" about="#omgroup2.omtext13.CMP2" xml:id="omgroup2.omtext13.CMP2">
+        <p 
+        about="#omgroup2.omtext13.CMP2.p1" class="ltx_p" id="omgroup2.omtext13.CMP2.p1" xmlns="http://www.w3.org/1999/xhtml">
+          <br class="ltx_break"></br>
+          <table 
+          about="#omgroup2.omtext13.CMP2.p1.tabular1" class="ltx_tabular" id="omgroup2.omtext13.CMP2.p1.tabular1">
+            <tbody class="ltx_tbody">
+              <tr 
+              about="#omgroup2.omtext13.CMP2.p1.tabular1.tr1" class="ltx_tr" id="omgroup2.omtext13.CMP2.p1.tabular1.tr1">
+                <td 
+                about="#omgroup2.omtext13.CMP2.p1.tabular1.tr1.td1" class="ltx_td ltx_align_left" id="omgroup2.omtext13.CMP2.p1.tabular1.tr1.td1">
+                  Material Motor Axis
+</td>
+                <td 
+                about="#omgroup2.omtext13.CMP2.p1.tabular1.tr1.td2" class="ltx_td ltx_align_left" id="omgroup2.omtext13.CMP2.p1.tabular1.tr1.td2">
+                  C22E
+</td>
+</tr>
+              <tr 
+              about="#omgroup2.omtext13.CMP2.p1.tabular1.tr2" class="ltx_tr" id="omgroup2.omtext13.CMP2.p1.tabular1.tr2">
+                <td 
+                about="#omgroup2.omtext13.CMP2.p1.tabular1.tr2.td1" class="ltx_td ltx_align_left" id="omgroup2.omtext13.CMP2.p1.tabular1.tr2.td1">
+                  Material Brake Axis
+</td>
+                <td 
+                about="#omgroup2.omtext13.CMP2.p1.tabular1.tr2.td2" class="ltx_td ltx_align_left" id="omgroup2.omtext13.CMP2.p1.tabular1.tr2.td2">
+                  C45E
+</td>
+</tr>
+            </tbody>
+</table>
+</p>
+</omdoc:CMP>
+</omdoc:omtext>
+  </plain-narration>
+  <plain-narration>
+    <omdoc:omtext 
+    stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=122;8,to=130;12)" about="#omgroup2.omtext14" xml:id="omgroup2.omtext14" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <omdoc:metadata 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=122;8,to=130;12)" about="#omgroup2.omtext14.metadata1" xml:id="omgroup2.omtext14.metadata1">
+        <dc:title 
+        stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=122;8,to=130;12)" about="#omgroup2.omtext14.metadata1.title1" xml:id="omgroup2.omtext14.metadata1.title1">
+          Beiwerte Seil / Trommel
+</dc:title>
+</omdoc:metadata>
+      <omdoc:CMP 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=123;13,to=124;6)" about="#omgroup2.omtext14.CMP2" xml:id="omgroup2.omtext14.CMP2">
+        <p 
+        about="#omgroup2.omtext14.CMP2.p1" class="ltx_p" id="omgroup2.omtext14.CMP2.p1" xmlns="http://www.w3.org/1999/xhtml">
+          <br class="ltx_break"></br>
+          <table 
+          about="#omgroup2.omtext14.CMP2.p1.tabular1" class="ltx_tabular" id="omgroup2.omtext14.CMP2.p1.tabular1">
+            <tbody class="ltx_tbody">
+              <tr 
+              about="#omgroup2.omtext14.CMP2.p1.tabular1.tr1" class="ltx_tr" id="omgroup2.omtext14.CMP2.p1.tabular1.tr1">
+                <td 
+                about="#omgroup2.omtext14.CMP2.p1.tabular1.tr1.td1" class="ltx_td ltx_align_left" id="omgroup2.omtext14.CMP2.p1.tabular1.tr1.td1">
+                  Beiwert
+                  <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                    <om:OMV name="c"></om:OMV>
+                  </om:OMOBJ>
+                  nach DIN 15020
+</td>
+                <td 
+                about="#omgroup2.omtext14.CMP2.p1.tabular1.tr1.td2" class="ltx_td ltx_align_left" id="omgroup2.omtext14.CMP2.p1.tabular1.tr1.td2">
+                  <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                    <om:OMA>
+                      <om:OMS base="http://cds.omdoc.org/relation.omdoc" module="relation" name="eq"></om:OMS>
+                      <om:OMV name="c"></om:OMV>
+                      <om:OMI>0</om:OMI>
+                      <om:OMI>8</om:OMI>
+                    </om:OMA>
+                  </om:OMOBJ>
+</td>
+</tr>
+              <tr 
+              about="#omgroup2.omtext14.CMP2.p1.tabular1.tr2" class="ltx_tr" id="omgroup2.omtext14.CMP2.p1.tabular1.tr2">
+                <td 
+                about="#omgroup2.omtext14.CMP2.p1.tabular1.tr2.td1" class="ltx_td ltx_align_left" id="omgroup2.omtext14.CMP2.p1.tabular1.tr2.td1">
+                  Beiwert
+                  <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                    <om:OMA>
+                      <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+                      <om:OMV name="h"></om:OMV>
+                      <om:OMI>1</om:OMI>
+                    </om:OMA>
+                  </om:OMOBJ>
+                  nach DIN 15020
+</td>
+                <td 
+                about="#omgroup2.omtext14.CMP2.p1.tabular1.tr2.td2" class="ltx_td ltx_align_left" id="omgroup2.omtext14.CMP2.p1.tabular1.tr2.td2">
+                  <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                    <om:OMA>
+                      <om:OMS base="http://cds.omdoc.org/relation.omdoc" module="relation" name="eq"></om:OMS>
+                      <om:OMA>
+                        <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+                        <om:OMV name="h"></om:OMV>
+                        <om:OMI>1</om:OMI>
+                      </om:OMA>
+                      <om:OMI>14</om:OMI>
+                    </om:OMA>
+                  </om:OMOBJ>
+</td>
+</tr>
+              <tr 
+              about="#omgroup2.omtext14.CMP2.p1.tabular1.tr3" class="ltx_tr" id="omgroup2.omtext14.CMP2.p1.tabular1.tr3">
+                <td 
+                about="#omgroup2.omtext14.CMP2.p1.tabular1.tr3.td1" class="ltx_td ltx_align_left" id="omgroup2.omtext14.CMP2.p1.tabular1.tr3.td1">
+                  Beiwert
+                  <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                    <om:OMA>
+                      <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+                      <om:OMV name="h"></om:OMV>
+                      <om:OMI>2</om:OMI>
+                    </om:OMA>
+                  </om:OMOBJ>
+                  nach DIN 15020
+</td>
+                <td 
+                about="#omgroup2.omtext14.CMP2.p1.tabular1.tr3.td2" class="ltx_td ltx_align_left" id="omgroup2.omtext14.CMP2.p1.tabular1.tr3.td2">
+                  <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                    <om:OMA>
+                      <om:OMS base="http://cds.omdoc.org/relation.omdoc" module="relation" name="eq"></om:OMS>
+                      <om:OMA>
+                        <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+                        <om:OMV name="h"></om:OMV>
+                        <om:OMI>2</om:OMI>
+                      </om:OMA>
+                      <om:OMI>1</om:OMI>
+                    </om:OMA>
+                  </om:OMOBJ>
+</td>
+</tr>
+              <tr 
+              about="#omgroup2.omtext14.CMP2.p1.tabular1.tr4" class="ltx_tr" id="omgroup2.omtext14.CMP2.p1.tabular1.tr4">
+                <td 
+                about="#omgroup2.omtext14.CMP2.p1.tabular1.tr4.td1" class="ltx_td ltx_align_left" id="omgroup2.omtext14.CMP2.p1.tabular1.tr4.td1">
+                  Hublastbeiwert
+</td>
+                <td 
+                about="#omgroup2.omtext14.CMP2.p1.tabular1.tr4.td2" class="ltx_td ltx_align_left" id="omgroup2.omtext14.CMP2.p1.tabular1.tr4.td2">
+                  <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                    <om:OMA>
+                      <om:OMS base="http://cds.omdoc.org/relation.omdoc" module="relation" name="eq"></om:OMS>
+                      <om:OMV name="ψ"></om:OMV>
+                      <om:OMI>1</om:OMI>
+                      <om:OMI>12</om:OMI>
+                    </om:OMA>
+                  </om:OMOBJ>
+</td>
+</tr>
+            </tbody>
+</table>
+</p>
+</omdoc:CMP>
+</omdoc:omtext>
+  </plain-narration>
+  <plain-narration>
+    <omdoc:omtext 
+    stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=131;8,to=141;12)" about="#omgroup2.omtext15" xml:id="omgroup2.omtext15" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <omdoc:metadata 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=131;8,to=141;12)" about="#omgroup2.omtext15.metadata1" xml:id="omgroup2.omtext15.metadata1">
+        <dc:title 
+        stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=131;8,to=141;12)" about="#omgroup2.omtext15.metadata1.title1" xml:id="omgroup2.omtext15.metadata1.title1">
+          Angaben zu Zukaufteilen
+</dc:title>
+</omdoc:metadata>
+      <omdoc:CMP 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=132;18,to=133;6)" about="#omgroup2.omtext15.CMP2" xml:id="omgroup2.omtext15.CMP2">
+        <p 
+        about="#omgroup2.omtext15.CMP2.p1" class="ltx_p" id="omgroup2.omtext15.CMP2.p1" xmlns="http://www.w3.org/1999/xhtml">
+          <br class="ltx_break"></br>
+          <table 
+          about="#omgroup2.omtext15.CMP2.p1.tabular1" class="ltx_tabular" id="omgroup2.omtext15.CMP2.p1.tabular1">
+            <tbody class="ltx_tbody">
+              <tr 
+              about="#omgroup2.omtext15.CMP2.p1.tabular1.tr1" class="ltx_tr" id="omgroup2.omtext15.CMP2.p1.tabular1.tr1">
+                <th 
+                about="#omgroup2.omtext15.CMP2.p1.tabular1.tr1.td1" class="ltx_td ltx_align_left" id="omgroup2.omtext15.CMP2.p1.tabular1.tr1.td1">
+                  Getriebemotor
+</th>
+                <td 
+                width="142.26378pt" about="#omgroup2.omtext15.CMP2.p1.tabular1.tr1.td2" style="width:142.26378pt;" class="ltx_td ltx_align_justify" id="omgroup2.omtext15.CMP2.p1.tabular1.tr1.td2">
+                  SEW SAF 77R37 DRS 80M4
+</td>
+</tr>
+              <tr 
+              about="#omgroup2.omtext15.CMP2.p1.tabular1.tr2" class="ltx_tr" id="omgroup2.omtext15.CMP2.p1.tabular1.tr2">
+                <th 
+                about="#omgroup2.omtext15.CMP2.p1.tabular1.tr2.td1" class="ltx_td ltx_align_left" id="omgroup2.omtext15.CMP2.p1.tabular1.tr2.td1">
+                  Ausgangsdrehzahl Getriebemotor
+</th>
+                <td 
+                width="142.26378pt" about="#omgroup2.omtext15.CMP2.p1.tabular1.tr2.td2" style="width:142.26378pt;" class="ltx_td ltx_align_justify" id="omgroup2.omtext15.CMP2.p1.tabular1.tr2.td2">
+                  <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                    <om:OMA>
+                      <om:OMS base="http://cds.omdoc.org/relation.omdoc" module="relation" name="eq"></om:OMS>
+                      <om:OMA>
+                        <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+                        <om:OMV name="n"></om:OMV>
+                        <om:OMV name="a"></om:OMV>
+                      </om:OMA>
+                      <om:OMA>
+                        <om:OMS base="http://cds.omdoc.org/quantities.omdoc" module="quantities" name="quantityof">
+                        </om:OMS>
+                        <om:OMI>6</om:OMI>
+                        <om:OMI>4</om:OMI>
+                        <om:OMA>
+                          <om:OMS base="http://cds.omdoc.org/arithmetics.omdoc" module="arithmetics" name="power"></om:OMS>
+                          <om:OMS base="http://cds.omdoc.org/time.omdoc" module="time" name="SIminute"></om:OMS>
+                          <om:OMA>
+                            <om:OMS base="http://cds.omdoc.org/arith.omdoc" module="arith" name="minus"></om:OMS>
+                            <om:OMI>1</om:OMI>
+                          </om:OMA>
+                        </om:OMA>
+                      </om:OMA>
+                    </om:OMA>
+                  </om:OMOBJ>
+</td>
+</tr>
+              <tr 
+              about="#omgroup2.omtext15.CMP2.p1.tabular1.tr3" class="ltx_tr" id="omgroup2.omtext15.CMP2.p1.tabular1.tr3">
+                <th 
+                about="#omgroup2.omtext15.CMP2.p1.tabular1.tr3.td1" class="ltx_td ltx_align_left" id="omgroup2.omtext15.CMP2.p1.tabular1.tr3.td1">
+                  Kranhaken
+</th>
+                <td 
+                width="142.26378pt" about="#omgroup2.omtext15.CMP2.p1.tabular1.tr3.td2" style="width:142.26378pt;" class="ltx_td ltx_align_justify" id="omgroup2.omtext15.CMP2.p1.tabular1.tr3.td2">
+                  Gabelkopf- oder
+                  ”
+                  Osenhaken nach DIN EN 1677
+</td>
+</tr>
+              <tr 
+              about="#omgroup2.omtext15.CMP2.p1.tabular1.tr4" class="ltx_tr" id="omgroup2.omtext15.CMP2.p1.tabular1.tr4">
+                <th 
+                about="#omgroup2.omtext15.CMP2.p1.tabular1.tr4.td1" class="ltx_td ltx_align_left" id="omgroup2.omtext15.CMP2.p1.tabular1.tr4.td1">
+                  Bremse
+</th>
+                <td 
+                width="142.26378pt" about="#omgroup2.omtext15.CMP2.p1.tabular1.tr4.td2" style="width:142.26378pt;" class="ltx_td ltx_align_justify" id="omgroup2.omtext15.CMP2.p1.tabular1.tr4.td2">
+                  Elektromagnetische Lamellen- bremse der Fa. Stromag, Typ EMB
+                  Â
+                   
+                  160 in Sonderausf
+                  ”
+                  uhrung: vgl. 4
+                  â
+                  
+                  
+                  sonstige Hinweise
+</td>
+</tr>
+            </tbody>
+</table>
+</p>
+</omdoc:CMP>
+</omdoc:omtext>
+  </plain-narration>
+  <plain-narration>
+    <omdoc:omtext 
+    stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=142;8,to=149;12)" about="#omgroup2.omtext16" xml:id="omgroup2.omtext16" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <omdoc:metadata 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=142;8,to=149;12)" about="#omgroup2.omtext16.metadata1" xml:id="omgroup2.omtext16.metadata1">
+        <dc:title 
+        stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=142;8,to=149;12)" about="#omgroup2.omtext16.metadata1.title1" xml:id="omgroup2.omtext16.metadata1.title1">
+          Gebrauch und Produktion
+</dc:title>
+</omdoc:metadata>
+      <omdoc:CMP 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=143;13,to=144;6)" about="#omgroup2.omtext16.CMP2" xml:id="omgroup2.omtext16.CMP2">
+        <p 
+        about="#omgroup2.omtext16.CMP2.p1" class="ltx_p" id="omgroup2.omtext16.CMP2.p1" xmlns="http://www.w3.org/1999/xhtml">
+          <br class="ltx_break"></br>
+          <table 
+          about="#omgroup2.omtext16.CMP2.p1.tabular1" class="ltx_tabular" id="omgroup2.omtext16.CMP2.p1.tabular1">
+            <tbody class="ltx_tbody">
+              <tr 
+              about="#omgroup2.omtext16.CMP2.p1.tabular1.tr1" class="ltx_tr" id="omgroup2.omtext16.CMP2.p1.tabular1.tr1">
+                <td 
+                about="#omgroup2.omtext16.CMP2.p1.tabular1.tr1.td1" class="ltx_td ltx_align_left" id="omgroup2.omtext16.CMP2.p1.tabular1.tr1.td1">
+                  Einsatzdauer
+</td>
+                <td 
+                about="#omgroup2.omtext16.CMP2.p1.tabular1.tr1.td2" class="ltx_td ltx_align_left" id="omgroup2.omtext16.CMP2.p1.tabular1.tr1.td2">
+                  15 Jahre
+</td>
+</tr>
+              <tr 
+              about="#omgroup2.omtext16.CMP2.p1.tabular1.tr2" class="ltx_tr" id="omgroup2.omtext16.CMP2.p1.tabular1.tr2">
+                <td 
+                about="#omgroup2.omtext16.CMP2.p1.tabular1.tr2.td1" class="ltx_td ltx_align_left" id="omgroup2.omtext16.CMP2.p1.tabular1.tr2.td1">
+                  Arbeitsspiele
+</td>
+                <td 
+                about="#omgroup2.omtext16.CMP2.p1.tabular1.tr2.td2" class="ltx_td ltx_align_left" id="omgroup2.omtext16.CMP2.p1.tabular1.tr2.td2">
+                  20 H
+                  ”
+                  ube/Arbeitstag
+</td>
+</tr>
+              <tr 
+              about="#omgroup2.omtext16.CMP2.p1.tabular1.tr3" class="ltx_tr" id="omgroup2.omtext16.CMP2.p1.tabular1.tr3">
+                <td 
+                about="#omgroup2.omtext16.CMP2.p1.tabular1.tr3.td1" class="ltx_td ltx_align_left" id="omgroup2.omtext16.CMP2.p1.tabular1.tr3.td1">
+                  Geplantes Produktionsvolumen
+</td>
+                <td 
+                about="#omgroup2.omtext16.CMP2.p1.tabular1.tr3.td2" class="ltx_td ltx_align_left" id="omgroup2.omtext16.CMP2.p1.tabular1.tr3.td2">
+                  100 St
+                  ”
+                  uck/Jahr
+</td>
+</tr>
+            </tbody>
+</table>
+</p>
+</omdoc:CMP>
+</omdoc:omtext>
+  </plain-narration>
+  <plain-narration>
+    <omdoc:omtext 
+    stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=154;0,to=164;12)" about="#omgroup3.omgroup2.omtext2" xml:id="omgroup3.omgroup2.omtext2" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <omdoc:metadata 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=154;0,to=164;12)" about="#omgroup3.omgroup2.omtext2.metadata1" xml:id="omgroup3.omgroup2.omtext2.metadata1">
+        <dc:title 
+        stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=154;0,to=164;12)" about="#omgroup3.omgroup2.omtext2.metadata1.title1" xml:id="omgroup3.omgroup2.omtext2.metadata1.title1">
+          Seiltrommel einlagig bewickelt
+</dc:title>
+</omdoc:metadata>
+      <omdoc:CMP 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=154;0,to=154;52)" about="#omgroup3.omgroup2.omtext2.CMP2" xml:id="omgroup3.omgroup2.omtext2.CMP2">
+        <p 
+        about="#omgroup3.omgroup2.omtext2.CMP2.p1" class="ltx_p" id="omgroup3.omgroup2.omtext2.CMP2.p1" xmlns="http://www.w3.org/1999/xhtml">
+          Erforderliche Windungszahl zum Aufwickeln der Seill
+          ”
+          ange
+          <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+            <om:OMA>
+              <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+              <om:OMV name="L"></om:OMV>
+              <om:OMV name="S"></om:OMV>
+            </om:OMA>
+          </om:OMOBJ>
+          bei einem Wickeldurchmesser
+          <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+            <om:OMV name="D"></om:OMV>
+          </om:OMOBJ>
+          :
+</p>
+        <table class="ltx_equation" id="A0.Ex1" xmlns="http://www.w3.org/1999/xhtml">
+          <tr class="ltx_equation ltx_align_baseline">
+            <td class="ltx_eqn_pad"></td>
+            <td class="ltx_align_center">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://cds.omdoc.org/relation.omdoc" module="relation" name="eq"></om:OMS>
+                  <om:OMV name="W"></om:OMV>
+                  <om:OMA>
+                    <om:OMS base="http://cds.omdoc.org/arith.omdoc" module="arith" name="plus"></om:OMS>
+                    <om:OMI>2</om:OMI>
+                    <om:OMA>
+                      <om:OMS base="http://cds.omdoc.org/arith.omdoc" module="arith" name="divide"></om:OMS>
+                      <om:OMA>
+                        <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+                        <om:OMV name="L"></om:OMV>
+                        <om:OMV name="S"></om:OMV>
+                      </om:OMA>
+                      <om:OMA>
+                        <om:OMS base="http://cds.omdoc.org/arithmetics.omdoc" module="arithmetics" name="times"></om:OMS>
+                        <om:OMV name="D"></om:OMV>
+                        <om:OMV name="π"></om:OMV>
+                      </om:OMA>
+                    </om:OMA>
+                  </om:OMA>
+                </om:OMA>
+              </om:OMOBJ>
+            </td>
+            <td class="ltx_eqn_pad"></td>
+          </tr>
+        </table>
+        <p 
+        about="#omgroup3.omgroup2.omtext2.CMP2.p3" class="ltx_p" id="omgroup3.omgroup2.omtext2.CMP2.p3" xmlns="http://www.w3.org/1999/xhtml">
+          Hiermit l
+          ”
+          asst sich f
+          ”
+          ur den Seildurchmesser
+          <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+            <om:OMV name="d"></om:OMV>
+          </om:OMOBJ>
+          die erforderliche L
+          ”
+          ange
+          <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+            <om:OMV name="L"></om:OMV>
+          </om:OMOBJ>
+          der Seiltrommel zur Aufwicklung des Seils absch
+          ”
+          atzen, wobei
+          <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+            <om:OMV name="p"></om:OMV>
+          </om:OMOBJ>
+          der Seilsteigung entspricht:
+</p>
+        <table class="ltx_equation" id="A0.Ex2" xmlns="http://www.w3.org/1999/xhtml">
+          <tr class="ltx_equation ltx_align_baseline">
+            <td class="ltx_eqn_pad"></td>
+            <td class="ltx_align_center">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://cds.omdoc.org/relation.omdoc" module="relation" name="eq"></om:OMS>
+                  <om:OMV name="L"></om:OMV>
+                  <om:OMA>
+                    <om:OMS base="http://cds.omdoc.org/arith.omdoc" module="arith" name="plus"></om:OMS>
+                    <om:OMA>
+                      <om:OMS base="http://cds.omdoc.org/arithmetics.omdoc" module="arithmetics" name="times"></om:OMS>
+                      <om:OMV name="W"></om:OMV>
+                      <om:OMV name="p"></om:OMV>
+                    </om:OMA>
+                    <om:OMV name="d"></om:OMV>
+                  </om:OMA>
+                </om:OMA>
+              </om:OMOBJ>
+            </td>
+            <td class="ltx_eqn_pad"></td>
+          </tr>
+        </table>
+</omdoc:CMP>
+</omdoc:omtext>
+  </plain-narration>
+  <plain-narration>
+    <omdoc:omtext 
+    stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=166;0,to=168;12)" about="#omgroup3.omgroup2.omtext3" xml:id="omgroup3.omgroup2.omtext3" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <omdoc:metadata 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=166;0,to=168;12)" about="#omgroup3.omgroup2.omtext3.metadata1" xml:id="omgroup3.omgroup2.omtext3.metadata1">
+        <dc:title 
+        stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=166;0,to=168;12)" about="#omgroup3.omgroup2.omtext3.metadata1.title1" xml:id="omgroup3.omgroup2.omtext3.metadata1.title1">
+          Hinweis
+</dc:title>
+</omdoc:metadata>
+      <omdoc:CMP 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=166;0,to=166;29)" about="#omgroup3.omgroup2.omtext3.CMP2" xml:id="omgroup3.omgroup2.omtext3.CMP2">
+        <p 
+        about="#omgroup3.omgroup2.omtext3.CMP2.p1" class="ltx_p" id="omgroup3.omgroup2.omtext3.CMP2.p1" xmlns="http://www.w3.org/1999/xhtml">
+          F
+          ”
+          ur nicht gerillte Seiltrommeln entspricht
+          <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+            <om:OMV name="p"></om:OMV>
+          </om:OMOBJ>
+          dem Durchmesser des Seils.
+</p>
+</omdoc:CMP>
+</omdoc:omtext>
+  </plain-narration>
+  <plain-narration>
+    <omdoc:omtext 
+    stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=170;0,to=184;12)" about="#omgroup3.omgroup2.omtext4" xml:id="omgroup3.omgroup2.omtext4" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <omdoc:metadata 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=170;0,to=184;12)" about="#omgroup3.omgroup2.omtext4.metadata1" xml:id="omgroup3.omgroup2.omtext4.metadata1">
+        <dc:title 
+        stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=170;0,to=184;12)" about="#omgroup3.omgroup2.omtext4.metadata1.title1" xml:id="omgroup3.omgroup2.omtext4.metadata1.title1">
+          Trommelwanddicke
+</dc:title>
+</omdoc:metadata>
+      <omdoc:CMP 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=170;0,to=170;38)" about="#omgroup3.omgroup2.omtext4.CMP2" xml:id="omgroup3.omgroup2.omtext4.CMP2">
+        <p 
+        about="#omgroup3.omgroup2.omtext4.CMP2.p1" class="ltx_p" id="omgroup3.omgroup2.omtext4.CMP2.p1" xmlns="http://www.w3.org/1999/xhtml">
+          Beim Aufwickeln des belasteten Seils schn
+          ”
+          urt sich der Trommelzylinder ein. Nach
+          <span class="ltx_text ltx_font_smallcaps">Ernst</span>
+          sind die in einem Mantelringsegment tangential wirkende Druckspannung
+          <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+            <om:OMA>
+              <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+              <om:OMV name="σ"></om:OMV>
+              <om:OMV name="d"></om:OMV>
+            </om:OMA>
+          </om:OMOBJ>
+          und die durch Einschn
+          ”
+          urung des Trommelzylinders in Achsrichtung wirkende Biegespannung
+          <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+            <om:OMA>
+              <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+              <om:OMV name="σ"></om:OMV>
+              <om:OMV name="b"></om:OMV>
+            </om:OMA>
+          </om:OMOBJ>
+          f
+          ”
+          ur die Bemessung der kleinsten Trommelwanddicke
+          <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+            <om:OMA>
+              <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+              <om:OMV name="t"></om:OMV>
+              <om:OMV name="m"></om:OMV>
+            </om:OMA>
+          </om:OMOBJ>
+          im Bereich der ersten auflaufenden Seilwindung ma
+          ”
+          sgebend:
+</p>
+        <table class="ltx_equation" id="A0.Ex3" xmlns="http://www.w3.org/1999/xhtml">
+          <tr class="ltx_equation ltx_align_baseline">
+            <td class="ltx_eqn_pad"></td>
+            <td class="ltx_align_center">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://cds.omdoc.org/latexml.omdoc" module="latexml" name="formulae"></om:OMS>
+                  <om:OMA>
+                    <om:OMS base="http://cds.omdoc.org/relation.omdoc" module="relation" name="eq"></om:OMS>
+                    <om:OMA>
+                      <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+                      <om:OMV name="σ"></om:OMV>
+                      <om:OMV name="d"></om:OMV>
+                    </om:OMA>
+                    <om:OMA>
+                      <om:OMS base="http://cds.omdoc.org/arith.omdoc" module="arith" name="minus"></om:OMS>
+                      <om:OMA>
+                        <om:OMS base="http://cds.omdoc.org/arith.omdoc" module="arith" name="divide"></om:OMS>
+                        <om:OMA>
+                          <om:OMS base="http://cds.omdoc.org/arithmetics.omdoc" module="arithmetics" name="times"></om:OMS>
+                          <om:OMF dec="0.5"/>
+                          <om:OMA>
+                            <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+                            <om:OMV name="F"></om:OMV>
+                            <om:OMV name="S"></om:OMV>
+                          </om:OMA>
+                          <om:OMV name="ψ"></om:OMV>
+                        </om:OMA>
+                        <om:OMA>
+                          <om:OMS base="http://cds.omdoc.org/arithmetics.omdoc" module="arithmetics" name="times"></om:OMS>
+                          <om:OMV name="p"></om:OMV>
+                          <om:OMA>
+                            <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+                            <om:OMV name="t"></om:OMV>
+                            <om:OMV name="m"></om:OMV>
+                          </om:OMA>
+                        </om:OMA>
+                      </om:OMA>
+                    </om:OMA>
+                    <om:OMSTR>und</om:OMSTR>
+                  </om:OMA>
+                  <om:OMA>
+                    <om:OMS base="http://cds.omdoc.org/relation.omdoc" module="relation" name="eq"></om:OMS>
+                    <om:OMA>
+                      <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+                      <om:OMV name="σ"></om:OMV>
+                      <om:OMV name="b"></om:OMV>
+                    </om:OMA>
+                    <om:OMA>
+                      <om:OMS base="http://cds.omdoc.org/latexml.omdoc" module="latexml" name="plus-or-minus"></om:OMS>
+                      <om:OMA>
+                        <om:OMS base="http://cds.omdoc.org/arith.omdoc" module="arith" name="divide"></om:OMS>
+                        <om:OMA>
+                          <om:OMS base="http://cds.omdoc.org/arithmetics.omdoc" module="arithmetics" name="times"></om:OMS>
+                          <om:OMF dec="0.96"/>
+                          <om:OMA>
+                            <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+                            <om:OMV name="F"></om:OMV>
+                            <om:OMV name="S"></om:OMV>
+                          </om:OMA>
+                          <om:OMV name="ψ"></om:OMV>
+                        </om:OMA>
+                        <om:OMA>
+                          <om:OMS base="http://cds.omdoc.org/latexml.omdoc" module="latexml" name="square-root"></om:OMS>
+                          <om:OMA>
+                            <om:OMS base="http://cds.omdoc.org/arithmetics.omdoc" module="arithmetics" name="times"></om:OMS>
+                            <om:OMV name="D"></om:OMV>
+                            <om:OMA>
+                              <om:OMS base="http://cds.omdoc.org/arithmetics.omdoc" module="arithmetics" name="power"></om:OMS>
+                              <om:OMA>
+                                <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+                                <om:OMV name="t"></om:OMV>
+                                <om:OMV name="m"></om:OMV>
+                              </om:OMA>
+                              <om:OMI>3</om:OMI>
+                            </om:OMA>
+                          </om:OMA>
+                        </om:OMA>
+                      </om:OMA>
+                    </om:OMA>
+                  </om:OMA>
+                </om:OMA>
+              </om:OMOBJ>
+            </td>
+            <td class="ltx_eqn_pad"></td>
+          </tr>
+        </table>
+        <p 
+        about="#omgroup3.omgroup2.omtext4.CMP2.p3" class="ltx_p" id="omgroup3.omgroup2.omtext4.CMP2.p3" xmlns="http://www.w3.org/1999/xhtml">
+          mit
+          <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+            <om:OMA>
+              <om:OMS base="http://cds.omdoc.org/arith.omdoc" module="arith" name="times"></om:OMS>
+              <om:OMA>
+                <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+                <om:OMV name="F"></om:OMV>
+                <om:OMV name="S"></om:OMV>
+              </om:OMA>
+              <om:OMV name="S"></om:OMV>
+            </om:OMA>
+          </om:OMOBJ>
+          Seilzugkraft,
+          <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+            <om:OMV name="ψ"></om:OMV>
+          </om:OMOBJ>
+          Hublastbeiwert,
+          <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+            <om:OMV name="D"></om:OMV>
+          </om:OMOBJ>
+          Trommeldurchmesser,
+          <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+            <om:OMV name="p"></om:OMV>
+          </om:OMOBJ>
+          Seilsteigung.
+</p>
+</omdoc:CMP>
+</omdoc:omtext>
+  </plain-narration>
+  <plain-narration>
+    <omdoc:omtext 
+    stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=194;1,to=199;12)" about="#omgroup3.omgroup2.omtext6" xml:id="omgroup3.omgroup2.omtext6" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <omdoc:CMP 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=194;1,to=194;15)" about="#omgroup3.omgroup2.omtext6.CMP1" xml:id="omgroup3.omgroup2.omtext6.CMP1">
+        <p 
+        about="#omgroup3.omgroup2.omtext6.CMP1.p1" class="ltx_p" id="omgroup3.omgroup2.omtext6.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+          Die Torsionsschubsspannung
+          <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+            <om:OMA>
+              <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+              <om:OMV name="τ"></om:OMV>
+              <om:OMV name="t"></om:OMV>
+            </om:OMA>
+          </om:OMOBJ>
+          infolge des zu
+          ”
+          ubertragenden Drehmomentes kann auf- grund des verh
+          ”
+          altnism
+          ”
+          a
+          ”
+          sig gro
+          ”
+          sen Trommeldurchmessers vernachl
+          ”
+          assigt werden, ebenso bei relativ gedrungenen Trommeln die Biegebeanspruchung
+          <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+            <om:OMA>
+              <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="subscript"></om:OMS>
+              <om:OMA>
+                <om:OMS base="http://cds.omdoc.org/ambiguous.omdoc" module="ambiguous" name="superscript"></om:OMS>
+                <om:OMV name="σ"></om:OMV>
+                <om:OMV name="′"></om:OMV>
+              </om:OMA>
+              <om:OMV name="b"></om:OMV>
+            </om:OMA>
+          </om:OMOBJ>
+          durch den Zug des ablaufenden Seils.
+</p>
+</omdoc:CMP>
+</omdoc:omtext>
+  </plain-narration>
+  <plain-narration>
+    <omdoc:omtext 
+    stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=201;0,to=203;12)" about="#omgroup3.omgroup2.omtext7" xml:id="omgroup3.omgroup2.omtext7" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <omdoc:metadata 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=201;0,to=203;12)" about="#omgroup3.omgroup2.omtext7.metadata1" xml:id="omgroup3.omgroup2.omtext7.metadata1">
+        <dc:title 
+        stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=201;0,to=203;12)" about="#omgroup3.omgroup2.omtext7.metadata1.title1" xml:id="omgroup3.omgroup2.omtext7.metadata1.title1">
+          Quelle
+</dc:title>
+</omdoc:metadata>
+      <omdoc:CMP 
+      stex:srcref="../../../fcad/crane/spec/taskdescription.tex#textrange(from=201;0,to=201;28)" about="#omgroup3.omgroup2.omtext7.CMP2" xml:id="omgroup3.omgroup2.omtext7.CMP2">
+        <p 
+        about="#omgroup3.omgroup2.omtext7.CMP2.p1" class="ltx_p" id="omgroup3.omgroup2.omtext7.CMP2.p1" xmlns="http://www.w3.org/1999/xhtml">
+          Dubbel, Taschenbuch f
+          ”
+          ur den Maschinenbau 19. Auflage
+</p>
+</omdoc:CMP>
+</omdoc:omtext>
+  </plain-narration>
+</omdoc>

@@ -1,0 +1,8 @@
+HasDomain http://oaff.kwarc.info/openmath/test?MinmaxTest http://oaff.kwarc.info/openmath/test?Minmax
+HasCodomain http://oaff.kwarc.info/openmath/test?MinmaxTest http://cds.omdoc.org/urtheories?ScalaOM
+view http://oaff.kwarc.info/openmath/test?MinmaxTest
+Declares http://oaff.kwarc.info/openmath/test?MinmaxTest http://oaff.kwarc.info/openmath/test?MinmaxTest?[http:%2F%2Fwww.openmath.org%2Fcd%3FOpenMath]
+Declares http://oaff.kwarc.info/openmath/test?MinmaxTest http://oaff.kwarc.info/openmath/test?MinmaxTest?[http:%2F%2Fwww.openmath.org%2Fcd%3Frelation1]
+Declares http://oaff.kwarc.info/openmath/test?MinmaxTest http://oaff.kwarc.info/openmath/test?MinmaxTest?[http:%2F%2Fwww.openmath.org%2Fcd%3Flogic1]
+Declares http://oaff.kwarc.info/openmath/test?MinmaxTest http://oaff.kwarc.info/openmath/test?MinmaxTest?[http:%2F%2Fwww.openmath.org%2Fcd%3Flist1]
+Declares http://oaff.kwarc.info/openmath/test?MinmaxTest http://oaff.kwarc.info/openmath/test?MinmaxTest?[http:%2F%2Fwww.openmath.org%2Fcd%3Fminmax1]

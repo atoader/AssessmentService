@@ -1,0 +1,59 @@
+\begin{module}[id=nutbolt]
+\importmodule[load=\FCAD{flange/cds/thread}]{thread}
+\importmodule[load=\FCAD{flange/cds/solidobj}]{solidobj}
+\begin{definition}
+  A \defi{bolt} is a type of fastener with a \adefii[thread]{straight}{straight}{thread},
+  \trefii[thread]{external}{thread} designed to mate with a complementary
+  \trefi[thread]{thread} in a \defi{nut}, a type of fastener with a hole with an
+  \trefii[thread]{internal}{thread}.
+\end{definition}
+
+\begin{axiom}
+  \atrefi{Nuts}{nut} and \trefi{bolt}s are almost always used together to fasten a stack of parts together. The
+  two partners are kept together by a combination of their \trefi[thread]{thread}s' friction, a slight
+  stretch of the \trefi{bolt}, and compression of the parts.
+\end{axiom}
+
+\begin{definition}
+  The geometry of a \trefi{nut} is (largely) determined by its \defi{height} and the
+  \defii{flat}{size}, i.e., the size of the wrench used to tighten it on a \trefi{bolt}.
+\end{definition}
+
+\begin{omtext}
+  There are many types of \trefi{nut}s: \atrefii{acorn}{acorn}{nut},
+  \atrefii{hex}{hex}{nut}, or \trefii{wing}{nut}.
+\end{omtext}
+
+\begin{definition}
+  The \defii{acorn}{nut} is a type of \trefi{nut} which gets its name from its shape. It
+  is a nut that has a domed top to prevent contact with the
+  \trefii[thread]{external}{thread} of the corresponding \trefi{bolt}.
+\end{definition}
+
+\begin{definition}
+  The \defii{hex}{nut} is a type of \trefi{nut} that has an \trefii{internal}{thread} and
+  a hexagonal outer shape. 
+\end{definition}
+
+\begin{definition}
+  A \defii{wing}{nut} is a type of \trefi{nut} with two large metal "wings", one on each
+  side, so it can be easily tightened and loosened by hand without tools.
+\end{definition}
+
+\begin{definition}
+  The geometry of a \trefi{bolt} is determined by its \defi{length}, \defi{head},
+  \defi{thread}, and \defi{thread}{length}.
+\end{definition}
+
+\begin{omtext}
+  There are also many types of \trefi{bolts}s: \atrefii{hex}{hex}{bolt}, or
+  \trefii{wing}{bolt}.
+\end{omtext}
+\end{module}
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "all"
+%%% End: 
+
+% LocalWords:  nutbolt defi adefii trefii trefi trefi omtext atrefii defii
+% LocalWords:  solidobj

@@ -1,0 +1,4 @@
+theory http://cds.omdoc.org/frameit?ConcreteSol
+Includes http://cds.omdoc.org/frameit?ConcreteSol http://cds.omdoc.org/frameit?Concrete
+Declares http://cds.omdoc.org/frameit?ConcreteSol http://cds.omdoc.org/frameit?ConcreteSol?vol
+constant: http://cds.omdoc.org/frameit?ConcreteSol?vol

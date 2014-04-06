@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <view name="LinalgArith" base="http://oaff.kwarc.info/openmath/uom" from="http://www.openmath.org/cd?arith1" to="http://cds.omdoc.org/urtheories?ScalaOM">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#2478.92.0-4342.143.1"/>
+    </metadata>
+    <constant name="plus">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#2580.94.2-3615.120.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="args">
+              <type>
+                <om:OMA position="0_1">
+                  <om:OMS position="0_1_0" base="http://cds.omdoc.org/urtheories" module="Scala" name="List"/>
+                  <om:OMS position="0_1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+                </om:OMA>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala">
+              <![CDATA[var matrices: List[List[Term]] = Nil
+      var restArgs: List[Term] = Nil
+      args.foreach {
+        case v@linalg2.vector(_) => matrices ::= List(v)
+        case linalg2.matrix(m) => matrices ::= m
+        case a => restArgs ::= a 
+      }
+      
+      matrices.length match {
+        case 0 => plus(restArgs)
+        case 1 => Utils.plusWithRest(linalg2.matrix(matrices(0)), restArgs)
+        case _ => 
+          val rCounts = matrices.map(_.length)
+          val cCounts = matrices.map(m => Linalgs.vectorSize(m(0)))
+          if (rCounts.forall(_ == rCounts(0)) && cCounts.forall(_ == cCounts(0))) {
+            if (rCounts(0) == 1) { // only vectors
+              val vsum = Linalgs.addVectors(matrices)
+              Utils.plusWithRest(vsum, restArgs)
+            } else {
+              Utils.plusWithRest(linalg2.matrix(List.transpose(matrices).map(plus(_))), restArgs)
+            }
+          } else {
+            throw UOMException("matrices cannot be added")
+          }
+      }]]>
+            </om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="times">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#3619.122.2-4337.141.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="args">
+              <type>
+                <om:OMA position="0_1">
+                  <om:OMS position="0_1_0" base="http://cds.omdoc.org/urtheories" module="Scala" name="List"/>
+                  <om:OMS position="0_1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+                </om:OMA>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala">
+              <![CDATA[for (i <- Range(0, args.length - 1)) {
+      val a = args(i)
+      val b = args(i + 1)
+      if (Linalgs.isVecOrMat(args(i)) && Linalgs.isVecOrMat(args(i + 1))) {
+        val a = Linalgs.toMatrix(args(i))
+        val b = Linalgs.toMatrix(args(i + 1))
+        if (Linalgs.dimMatchMult(a, b)) {
+          val prod = Linalgs.binaryMatMult(a, b)
+          if (args.length == 2)
+            return prod
+          else
+            return arith1.times(args.take(i) ::: List(prod) ::: args.takeRight(args.length - i - 2))
+        } else {
+          throw UOMException(s"matrix multiplication(${a}, ${b}: dimensions do not match")
+        }
+      }
+    }
+    return arith1.times(args)]]>
+            </om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+  </view>
+</omdoc>

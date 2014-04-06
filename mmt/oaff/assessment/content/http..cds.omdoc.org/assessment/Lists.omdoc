@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="Lists" base="http://cds.omdoc.org/assessment">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/assessment/assessment.mmt#44.2.0-242.7.1"/>
+    </metadata>
+    <import from="http://www.openmath.org/cd?arith1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/assessment/assessment.mmt#62.3.2-104.3.44"/>
+      </metadata>
+    </import>
+    <import from="http://www.openmath.org/cd?relation1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/assessment/assessment.mmt#107.4.2-152.4.47"/>
+      </metadata>
+    </import>
+    <import from="http://www.openmath.org/cd?list1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/assessment/assessment.mmt#155.5.2-196.5.43"/>
+      </metadata>
+    </import>
+    <import from="http://www.openmath.org/cd?list2">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/assessment/assessment.mmt#199.6.2-240.6.43"/>
+      </metadata>
+    </import>
+  </theory>
+</omdoc>

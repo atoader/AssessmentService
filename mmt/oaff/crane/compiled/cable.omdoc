@@ -1,0 +1,21 @@
+<omdoc base="http://docs.omdoc.org/crane/cable.omdoc">
+  <theory name="cable" base="http://docs.omdoc.org/crane/cable.omdoc">
+    <import from="../../../fcad/crane/cds/rope?rope"> </import>
+    <constant name="cable"> </constant>
+  </theory>
+  <definition for="http://docs.omdoc.org/crane/cable.omdoc?cable?cable">
+    <omdoc:CMP 
+    stex:srcref="../../../../../stc/fcad/crane/cds/cable.tex#textrange(from=3;1,to=6;18)" about="#cable.definition3.CMP1" xml:id="cable.definition3.CMP1" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#cable.definition3.CMP1.p1" class="ltx_p" id="cable.definition3.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/crane/cable.omdoc?cable?cable"> wire rope </omdoc:ref>
+        , or
+        <omdoc:ref target="http://docs.omdoc.org/crane/cable.omdoc?cable?cable"> cable </omdoc:ref>
+        , is a type of
+        <omdoc:ref target="http://docs.omdoc.org/crane/rope.omdoc?rope?rope"> rope </omdoc:ref>
+        which consists of several strands of metal (usually stell) wire laid into a helix.
+</p>
+</omdoc:CMP>
+  </definition>
+</omdoc>

@@ -1,0 +1,19 @@
+namespace http://www.openmath.org/cd
+
+theory list1 : ?OpenMath =
+  list # [ 1,… ] prec 200 
+  map # map_list 1 2 
+  suchthat 
+
+
+theory list2 : ?OpenMath =
+  list_selector # list_selector 1 2
+  first # hd 1
+  rest # tl 1
+  append # 1 ::: 2
+  cons # 1 :: 2
+  nil # nil
+  reverse # rev 1
+  size # len 1 
+  in # member 1 2
+

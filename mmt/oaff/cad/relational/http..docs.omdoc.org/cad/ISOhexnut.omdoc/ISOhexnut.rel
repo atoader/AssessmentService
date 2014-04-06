@@ -1,0 +1,3 @@
+theory http://docs.omdoc.org/cad/ISOhexnut.omdoc?ISOhexnut
+Includes http://docs.omdoc.org/cad/ISOhexnut.omdoc?ISOhexnut http://docs.omdoc.org/../../fcad/flange/cds/ISOmetricthread?ISOmetricthread
+Includes http://docs.omdoc.org/cad/ISOhexnut.omdoc?ISOhexnut http://docs.omdoc.org/../../fcad/flange/cds/nutbolt?nutbolt

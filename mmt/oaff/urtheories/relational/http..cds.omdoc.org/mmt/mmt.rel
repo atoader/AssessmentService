@@ -1,0 +1,3 @@
+theory http://cds.omdoc.org/mmt?mmt
+Declares http://cds.omdoc.org/mmt?mmt http://cds.omdoc.org/mmt?mmt?context
+constant: http://cds.omdoc.org/mmt?mmt?context

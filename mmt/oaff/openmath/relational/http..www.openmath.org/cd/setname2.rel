@@ -1,0 +1,16 @@
+theory http://www.openmath.org/cd?setname2
+HasMeta http://www.openmath.org/cd?setname2 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?setname2 http://www.openmath.org/cd?setname2?A
+constant: http://www.openmath.org/cd?setname2?A
+Declares http://www.openmath.org/cd?setname2 http://www.openmath.org/cd?setname2?Boolean
+constant: http://www.openmath.org/cd?setname2?Boolean
+Declares http://www.openmath.org/cd?setname2 http://www.openmath.org/cd?setname2?Zm
+constant: http://www.openmath.org/cd?setname2?Zm
+Declares http://www.openmath.org/cd?setname2 http://www.openmath.org/cd?setname2?GFp
+constant: http://www.openmath.org/cd?setname2?GFp
+Declares http://www.openmath.org/cd?setname2 http://www.openmath.org/cd?setname2?GFpn
+constant: http://www.openmath.org/cd?setname2?GFpn
+Declares http://www.openmath.org/cd?setname2 http://www.openmath.org/cd?setname2?QuotientField
+constant: http://www.openmath.org/cd?setname2?QuotientField
+Declares http://www.openmath.org/cd?setname2 http://www.openmath.org/cd?setname2?H
+constant: http://www.openmath.org/cd?setname2?H

@@ -1,0 +1,10 @@
+theory http://docs.omdoc.org/crane/castor.omdoc?castor
+Declares http://docs.omdoc.org/crane/castor.omdoc?castor http://docs.omdoc.org/crane/castor.omdoc?castor?caster
+constant: http://docs.omdoc.org/crane/castor.omdoc?castor?caster
+Declares http://docs.omdoc.org/crane/castor.omdoc?castor http://docs.omdoc.org/crane/castor.omdoc?castor?fork
+constant: http://docs.omdoc.org/crane/castor.omdoc?castor?fork
+Declares http://docs.omdoc.org/crane/castor.omdoc?castor http://docs.omdoc.org/crane/castor.omdoc?castor?rigid-caster
+constant: http://docs.omdoc.org/crane/castor.omdoc?castor?rigid-caster
+Declares http://docs.omdoc.org/crane/castor.omdoc?castor http://docs.omdoc.org/crane/castor.omdoc?castor?swivel-caster
+constant: http://docs.omdoc.org/crane/castor.omdoc?castor?swivel-caster
+Includes http://docs.omdoc.org/crane/castor.omdoc?castor http://docs.omdoc.org/../../slides/units/en/angles?angles

@@ -1,0 +1,8 @@
+\begin{module}[id=ISOmetricthread]%
+\importmodule[load=\KWARCslides{units/en/quantities}]{quantities}%
+\importmodule[load=\KWARCslides{units/en/angles}]{angles}%
+\importmodule[load=\KWARCslides{units/en/length}]{length}%
+\importmodule[load=\FCAD{flange/cds/thread}]{thread}%
+\symdef{ISOmetricthread}[2]{\text{M}#1\kern-.15em\times\kern-.15em#2}%
+\symdef{sISOmetricthread}[1]{\text{M}#1}%
+\end{module}%

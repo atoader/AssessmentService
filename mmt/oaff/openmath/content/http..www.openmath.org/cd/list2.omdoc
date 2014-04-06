@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="list2" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/list.mmt#133.8.0-334.18.1"/>
+    </metadata>
+    <constant name="list_selector">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/list.mmt#162.9.2-196.9.36"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?list2?list_selector" precedence="0" fixity="mixfix" arguments="list_selector 1 2"/>
+      </notation>
+    </constant>
+    <constant name="first">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/list.mmt#199.10.2-212.10.15"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?list2?first" precedence="0" fixity="mixfix" arguments="hd 1"/>
+      </notation>
+    </constant>
+    <constant name="rest">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/list.mmt#215.11.2-227.11.14"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?list2?rest" precedence="0" fixity="mixfix" arguments="tl 1"/>
+      </notation>
+    </constant>
+    <constant name="append">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/list.mmt#230.12.2-247.12.19"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?list2?append" precedence="0" fixity="mixfix" arguments="1 ::: 2"/>
+      </notation>
+    </constant>
+    <constant name="cons">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/list.mmt#250.13.2-264.13.16"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?list2?cons" precedence="0" fixity="mixfix" arguments="1 :: 2"/>
+      </notation>
+    </constant>
+    <constant name="nil">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/list.mmt#267.14.2-277.14.12"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?list2?nil" precedence="0" fixity="mixfix" arguments="nil"/>
+      </notation>
+    </constant>
+    <constant name="reverse">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/list.mmt#280.15.2-296.15.18"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?list2?reverse" precedence="0" fixity="mixfix" arguments="rev 1"/>
+      </notation>
+    </constant>
+    <constant name="size">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/list.mmt#299.16.2-313.16.16"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?list2?size" precedence="0" fixity="mixfix" arguments="len 1"/>
+      </notation>
+    </constant>
+    <constant name="in">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/list.mmt#316.17.2-332.17.18"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?list2?in" precedence="0" fixity="mixfix" arguments="member 1 2"/>
+      </notation>
+    </constant>
+  </theory>
+</omdoc>

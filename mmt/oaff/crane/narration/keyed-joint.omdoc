@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc base="http://docs.omdoc.org/crane/keyed-joint.omdoc">
+  <mref target="http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint"/>
+  <definition 
+  for="http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?keyed-joint http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?keyway http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?key">
+    <omdoc:CMP 
+    xml:id="keyed-joint.definition5.CMP1" about="#keyed-joint.definition5.CMP1" stex:srcref="../../../../../stc/fcad/crane/cds/keyed-joint.tex#textrange(from=3;1,to=11;18)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="keyed-joint.definition5.CMP1.p1" class="ltx_p" about="#keyed-joint.definition5.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?key"> key </omdoc:ref>
+        is a machine element used to connect a rotating machine element to a shaft. The key prevents relative rotation between the two parts and enables
+        <omdoc:ref target="http://docs.omdoc.org/crane/torque.omdoc?torque?torque"> torque </omdoc:ref>
+        transmission. A key is used for temporary fastening. For a key to function, the shaft and rotating machine element must have a
+        <omdoc:ref target="http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?keyway"> keyway </omdoc:ref>
+        , also known as a
+        <omdoc:ref target="http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?keyway"> keyseat </omdoc:ref>
+        , which is a slot or pocket the key fits in. The whole system is called a
+        <omdoc:ref target="http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?keyed-joint"> keyed joint </omdoc:ref>
+        . A
+        <omdoc:ref target="http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?keyed"> keyed </omdoc:ref>
+        joint still allows relative axial movement between the parts.
+      </p>
+</omdoc:CMP>
+</definition>
+  <definition 
+  for="http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?feather-key-joint http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?keyed-joint http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?keyway http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?key">
+    <omdoc:CMP 
+    xml:id="keyed-joint.definition7.CMP1" about="#keyed-joint.definition7.CMP1" stex:srcref="../../../../../stc/fcad/crane/cds/keyed-joint.tex#textrange(from=13;1,to=17;18)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="keyed-joint.definition7.CMP1.p1" class="ltx_p" about="#keyed-joint.definition7.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        In a
+        <omdoc:ref target="http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?feather-key-joint"> feather key joint </omdoc:ref>
+        , both the key and the rotating machine element have rectangular
+        <omdoc:ref target="http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?keyway"> keyway </omdoc:ref>
+        s between which a rectangular
+        <omdoc:ref target="http://docs.omdoc.org/crane/keyed-joint.omdoc?keyed-joint?key"> key </omdoc:ref>
+        is placed for joining.
+      </p>
+</omdoc:CMP>
+</definition>
+</omdoc>

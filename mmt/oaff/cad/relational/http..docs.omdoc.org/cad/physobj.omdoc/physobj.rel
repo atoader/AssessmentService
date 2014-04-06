@@ -1,0 +1,23 @@
+theory http://docs.omdoc.org/cad/physobj.omdoc?physobj
+Declares http://docs.omdoc.org/cad/physobj.omdoc?physobj http://docs.omdoc.org/cad/physobj.omdoc?physobj?matter
+constant: http://docs.omdoc.org/cad/physobj.omdoc?physobj?matter
+Declares http://docs.omdoc.org/cad/physobj.omdoc?physobj http://docs.omdoc.org/cad/physobj.omdoc?physobj?state
+constant: http://docs.omdoc.org/cad/physobj.omdoc?physobj?state
+Declares http://docs.omdoc.org/cad/physobj.omdoc?physobj http://docs.omdoc.org/cad/physobj.omdoc?physobj?solid
+constant: http://docs.omdoc.org/cad/physobj.omdoc?physobj?solid
+Declares http://docs.omdoc.org/cad/physobj.omdoc?physobj http://docs.omdoc.org/cad/physobj.omdoc?physobj?liquid
+constant: http://docs.omdoc.org/cad/physobj.omdoc?physobj?liquid
+Declares http://docs.omdoc.org/cad/physobj.omdoc?physobj http://docs.omdoc.org/cad/physobj.omdoc?physobj?gaseous
+constant: http://docs.omdoc.org/cad/physobj.omdoc?physobj?gaseous
+Declares http://docs.omdoc.org/cad/physobj.omdoc?physobj http://docs.omdoc.org/cad/physobj.omdoc?physobj?fluid
+constant: http://docs.omdoc.org/cad/physobj.omdoc?physobj?fluid
+Declares http://docs.omdoc.org/cad/physobj.omdoc?physobj http://docs.omdoc.org/cad/physobj.omdoc?physobj?substance
+constant: http://docs.omdoc.org/cad/physobj.omdoc?physobj?substance
+Declares http://docs.omdoc.org/cad/physobj.omdoc?physobj http://docs.omdoc.org/cad/physobj.omdoc?physobj?physical-object
+constant: http://docs.omdoc.org/cad/physobj.omdoc?physobj?physical-object
+Declares http://docs.omdoc.org/cad/physobj.omdoc?physobj http://docs.omdoc.org/cad/physobj.omdoc?physobj?particle
+constant: http://docs.omdoc.org/cad/physobj.omdoc?physobj?particle
+Declares http://docs.omdoc.org/cad/physobj.omdoc?physobj http://docs.omdoc.org/cad/physobj.omdoc?physobj?extent
+constant: http://docs.omdoc.org/cad/physobj.omdoc?physobj?extent
+Declares http://docs.omdoc.org/cad/physobj.omdoc?physobj http://docs.omdoc.org/cad/physobj.omdoc?physobj?geometry
+constant: http://docs.omdoc.org/cad/physobj.omdoc?physobj?geometry

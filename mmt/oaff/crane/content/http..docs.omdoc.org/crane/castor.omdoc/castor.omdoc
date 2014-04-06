@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="castor" base="http://docs.omdoc.org/crane/castor.omdoc">
+    <constant name="caster"> </constant>
+    <constant name="fork"> </constant>
+    <constant name="rigid-caster"> </constant>
+    <constant name="swivel-caster"> </constant>
+    <import from="http://docs.omdoc.org/../../slides/units/en/angles?angles"> </import>
+  </theory>
+</omdoc>

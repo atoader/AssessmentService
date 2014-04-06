@@ -1,0 +1,36 @@
+<omdoc base="http://www.openmath.org/cds/complex.mmt">
+        <theory name="complex1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/complex.mmt#39.2.0-203.9.1"/></metadata>
+        <constant name="complex_cartesian">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/complex.mmt#71.3.2-98.3.29"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?complex1?complex_cartesian" precedence="0" fixity="mixfix" arguments="CC 1 2"/></notation>
+     </constant><constant name="complex_polar">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/complex.mmt#101.4.2-124.4.25"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?complex1?complex_polar" precedence="0" fixity="mixfix" arguments="CP 1 2"/></notation>
+     </constant><constant name="argument">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/complex.mmt#127.5.2-144.5.19"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?complex1?argument" precedence="0" fixity="mixfix" arguments="Arg 1"/></notation>
+     </constant><constant name="real">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/complex.mmt#147.6.2-159.6.14"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?complex1?real" precedence="0" fixity="mixfix" arguments="Re 1"/></notation>
+     </constant><constant name="imaginary">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/complex.mmt#162.7.2-179.7.19"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?complex1?imaginary" precedence="0" fixity="mixfix" arguments="Im 1"/></notation>
+     </constant><constant name="conjugate">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/complex.mmt#182.8.2-201.8.21"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?complex1?conjugate" precedence="0" fixity="mixfix" arguments="Conj 1"/></notation>
+     </constant>
+      </theory>
+     </omdoc>

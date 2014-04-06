@@ -1,0 +1,20 @@
+theory http://oaff.kwarc.info/openmath/test?List
+Includes http://oaff.kwarc.info/openmath/test?List http://www.openmath.org/cd?arith1
+Includes http://oaff.kwarc.info/openmath/test?List http://www.openmath.org/cd?relation1
+Includes http://oaff.kwarc.info/openmath/test?List http://www.openmath.org/cd?logic1
+Includes http://oaff.kwarc.info/openmath/test?List http://www.openmath.org/cd?list1
+Includes http://oaff.kwarc.info/openmath/test?List http://www.openmath.org/cd?list2
+Declares http://oaff.kwarc.info/openmath/test?List http://oaff.kwarc.info/openmath/test?List?in_test
+constant: http://oaff.kwarc.info/openmath/test?List?in_test
+Declares http://oaff.kwarc.info/openmath/test?List http://oaff.kwarc.info/openmath/test?List?list_selector_test
+constant: http://oaff.kwarc.info/openmath/test?List?list_selector_test
+Declares http://oaff.kwarc.info/openmath/test?List http://oaff.kwarc.info/openmath/test?List?first_test
+constant: http://oaff.kwarc.info/openmath/test?List?first_test
+Declares http://oaff.kwarc.info/openmath/test?List http://oaff.kwarc.info/openmath/test?List?rest_test
+constant: http://oaff.kwarc.info/openmath/test?List?rest_test
+Declares http://oaff.kwarc.info/openmath/test?List http://oaff.kwarc.info/openmath/test?List?append_test
+constant: http://oaff.kwarc.info/openmath/test?List?append_test
+Declares http://oaff.kwarc.info/openmath/test?List http://oaff.kwarc.info/openmath/test?List?cons_test
+constant: http://oaff.kwarc.info/openmath/test?List?cons_test
+Declares http://oaff.kwarc.info/openmath/test?List http://oaff.kwarc.info/openmath/test?List?reverse_test
+constant: http://oaff.kwarc.info/openmath/test?List?reverse_test

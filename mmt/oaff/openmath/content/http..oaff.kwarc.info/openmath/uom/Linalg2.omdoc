@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <view name="Linalg2" base="http://oaff.kwarc.info/openmath/uom" from="http://www.openmath.org/cd?linalg2" to="http://cds.omdoc.org/urtheories?ScalaOM">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#1659.52.0-1961.65.1"/>
+    </metadata>
+    <constant name="vector">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#1756.53.2-1808.55.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="ls">
+              <type>
+                <om:OMA position="0_1">
+                  <om:OMS position="0_1_0" base="http://cds.omdoc.org/urtheories" module="Scala" name="List"/>
+                  <om:OMS position="0_1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+                </om:OMA>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala"><![CDATA[vector(ls)]]></om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="matrixrow">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#1814.57.2-1869.59.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="ls">
+              <type>
+                <om:OMA position="0_1">
+                  <om:OMS position="0_1_0" base="http://cds.omdoc.org/urtheories" module="Scala" name="List"/>
+                  <om:OMS position="0_1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+                </om:OMA>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala"><![CDATA[vector(ls)]]></om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="matrix">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#1875.61.2-1958.63.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="ls">
+              <type>
+                <om:OMA position="0_1">
+                  <om:OMS position="0_1_0" base="http://cds.omdoc.org/urtheories" module="Scala" name="List"/>
+                  <om:OMS position="0_1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+                </om:OMA>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala"><![CDATA[if (ls.length == 1) ls(0) else matrix(ls)]]></om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+  </view>
+</omdoc>

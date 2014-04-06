@@ -1,0 +1,6 @@
+theory http://docs.omdoc.org/crane/crane.omdoc?crane
+Declares http://docs.omdoc.org/crane/crane.omdoc?crane http://docs.omdoc.org/crane/crane.omdoc?crane?crane
+constant: http://docs.omdoc.org/crane/crane.omdoc?crane?crane
+Includes http://docs.omdoc.org/crane/crane.omdoc?crane http://docs.omdoc.org/../../fcad/crane/cds/sheave?sheave
+Includes http://docs.omdoc.org/crane/crane.omdoc?crane http://docs.omdoc.org/../../fcad/crane/cds/winch?winch
+Includes http://docs.omdoc.org/crane/crane.omdoc?crane http://docs.omdoc.org/../../fcad/crane/cds/hoist?hoist

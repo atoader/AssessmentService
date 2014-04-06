@@ -1,0 +1,32 @@
+log file test.log
+//log+ presenter
+//log+ backend
+log+ controller
+//log+ extman
+//log+ reader
+log+ archive    
+//log+ checker
+//log+ object-checker
+//log+ query
+//log+ catalog
+log+ server
+log+ uom
+//log+ abox
+//log+ structure-parser
+//log+ parser
+//log+ scanner
+//log+ lf
+
+//plugin info.kwarc.mmt.lf.Plugin
+
+archive add ../urtheories
+archive add .
+
+//archive openmath notation
+//archive openmath clean
+
+//base http://www.openmath.org/cdall
+//archive openmath register org.openmath.www.cd
+base http://www.openmath.org/cd?all
+archive openmath register info.kwarc.oaff.openmath.uom
+

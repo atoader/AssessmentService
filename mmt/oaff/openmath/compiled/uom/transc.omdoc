@@ -1,0 +1,39 @@
+<omdoc base="http://www.openmath.org/uom/transc.mmt">
+        <view name="Transc1" base="http://oaff.kwarc.info/openmath/uom" from="http://www.openmath.org/cd?transc1" to="http://cds.omdoc.org/urtheories?ScalaOM">
+           <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/transc.mmt#48.2.0-955.48.1"/></metadata>
+           <constant name="sin"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/transc.mmt#146.4.2-212.6.3"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="a"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[Numbers.transc(a, sin(a), math.sin)]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="cos"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/transc.mmt#216.8.2-282.10.3"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="a"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[Numbers.transc(a, cos(a), math.cos)]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="tan"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/transc.mmt#286.12.1-352.14.3"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="a"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[Numbers.transc(a, tan(a), math.tan)]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="cot"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/transc.mmt#356.16.1-416.18.3"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="a"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[arith1.divide(OMI(1), tan(a))]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="arcsin"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/transc.mmt#420.20.1-493.22.3"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="a"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[Numbers.transc(a, arcsin(a), math.asin)]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="arccos"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/transc.mmt#497.24.1-570.26.3"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="a"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[Numbers.transc(a, arccos(a), math.acos)]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="arctan"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/transc.mmt#574.28.1-647.30.3"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="a"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[Numbers.transc(a, arctan(a), math.atan)]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="arccot"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/transc.mmt#651.32.1-742.34.3"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="a"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[arith1.minus(arith1.divide(nums1.pi, OMI(2)), arctan(a))]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="exp"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/transc.mmt#746.36.1-812.38.3"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="a"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[Numbers.transc(a, exp(a), math.exp)]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="ln"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/transc.mmt#816.40.1-880.42.3"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="a"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[Numbers.transc(a, ln(a), math.log)]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="log"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/transc.mmt#884.44.1-951.46.3"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="a"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV><om:OMV position="1" name="b"><type><om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[arith1.divide(ln(a), ln(b))]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant>
+         </view>
+     </omdoc>

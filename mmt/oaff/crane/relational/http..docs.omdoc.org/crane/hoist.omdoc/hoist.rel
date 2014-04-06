@@ -1,0 +1,6 @@
+theory http://docs.omdoc.org/crane/hoist.omdoc?hoist
+Declares http://docs.omdoc.org/crane/hoist.omdoc?hoist http://docs.omdoc.org/crane/hoist.omdoc?hoist?hoist
+constant: http://docs.omdoc.org/crane/hoist.omdoc?hoist?hoist
+Declares http://docs.omdoc.org/crane/hoist.omdoc?hoist http://docs.omdoc.org/crane/hoist.omdoc?hoist?lifting-hook
+constant: http://docs.omdoc.org/crane/hoist.omdoc?hoist?lifting-hook
+Includes http://docs.omdoc.org/crane/hoist.omdoc?hoist http://docs.omdoc.org/../../fcad/crane/cds/cable?cable

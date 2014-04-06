@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="mmt" base="http://cds.omdoc.org/mmt">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://docs.omdoc.org/urtheories/meta.mmt#144.7.0-170.9.1"/>
+    </metadata>
+    <constant name="context">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://docs.omdoc.org/urtheories/meta.mmt#161.8.3-170.9.1"/>
+      </metadata>
+    </constant>
+  </theory>
+</omdoc>

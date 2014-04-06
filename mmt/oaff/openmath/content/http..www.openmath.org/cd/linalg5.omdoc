@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="linalg5" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#574.28.0-1056.44.1"/>
+    </metadata>
+    <constant name="zero">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#605.29.2-618.29.15"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg5?zero" precedence="0" fixity="mixfix" arguments="O 1 2"/>
+      </notation>
+    </constant>
+    <constant name="identity">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#621.30.2-636.30.17"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg5?identity" precedence="0" fixity="mixfix" arguments="I 1"/>
+      </notation>
+    </constant>
+    <constant name="diagonal_matrix">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#639.31.2-666.31.29"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg5?diagonal_matrix" precedence="0" fixity="mixfix" arguments="diag 1,…"/>
+      </notation>
+    </constant>
+    <constant name="scalar">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#669.32.2-689.32.22"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg5?scalar" precedence="0" fixity="mixfix" arguments="scalar 1 2"/>
+      </notation>
+    </constant>
+    <constant name="const">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#692.33.2-710.33.20"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg5?const" precedence="0" fixity="mixfix" arguments="const 1 2"/>
+      </notation>
+    </constant>
+    <constant name="banded">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#713.34.2-731.34.20"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg5?banded" precedence="0" fixity="mixfix" arguments="banded 1"/>
+      </notation>
+    </constant>
+    <constant name="symmetric">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#734.35.2-758.35.26"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg5?symmetric" precedence="0" fixity="mixfix" arguments="symmetric 1"/>
+      </notation>
+    </constant>
+    <constant name="skew_symmetric">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#761.36.2-795.36.36"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg5?skew_symmetric" precedence="0" fixity="mixfix" arguments="skew_symmetric 1"/>
+      </notation>
+    </constant>
+    <constant name="Hermitian">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#798.37.2-822.37.26"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg5?Hermitian" precedence="0" fixity="mixfix" arguments="Hermitian 1"/>
+      </notation>
+    </constant>
+    <constant name="anti_Hermitian">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#825.38.2-859.38.36"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg5?anti_Hermitian" precedence="0" fixity="mixfix" arguments="anti_Hermitian 1"/>
+      </notation>
+    </constant>
+    <constant name="lower_triangular">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#862.39.2-900.39.40"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg5?lower_triangular" precedence="0" fixity="mixfix" arguments="lower_triangular 1"/>
+      </notation>
+    </constant>
+    <constant name="upper_triangular">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#903.40.2-941.40.40"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg5?upper_triangular" precedence="0" fixity="mixfix" arguments="upper_triangular 1"/>
+      </notation>
+    </constant>
+    <constant name="tridiagonal">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#944.41.2-972.41.30"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg5?tridiagonal" precedence="0" fixity="mixfix" arguments="tridiagonal 1"/>
+      </notation>
+    </constant>
+    <constant name="lower_Hessenberg">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#975.42.2-1013.42.40"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg5?lower_Hessenberg" precedence="0" fixity="mixfix" arguments="lower_Hessenberg 1"/>
+      </notation>
+    </constant>
+    <constant name="upper_Hessenberg">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#1016.43.2-1054.43.40"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg5?upper_Hessenberg" precedence="0" fixity="mixfix" arguments="upper_Hessenberg 1"/>
+      </notation>
+    </constant>
+  </theory>
+</omdoc>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="units_ops1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#834.58.0-878.60.1"/>
+    </metadata>
+    <constant name="prefix">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#869.59.2-876.59.9"/>
+      </metadata>
+    </constant>
+  </theory>
+</omdoc>

@@ -1,0 +1,4 @@
+\begin{module}[id=ISOhexbolt]%
+\importmodule[load=\FCAD{flange/cds/ISOmetricthread}]{ISOmetricthread}%
+\importmodule[load=\FCAD{flange/cds/nutbolt}]{nutbolt}%
+\end{module}%

@@ -1,0 +1,21 @@
+namespace http://www.openmath.org/cd
+
+theory arith1 : ?OpenMath =
+  plus # 1+… prec 20
+  minus # 1 - 2 prec 20
+  times # 1*… prec 30
+  divide # 1 / 2 prec 30
+  power # 1 ^ 2 prec 40
+  root # √ 2 1 
+  abs # | 1 | prec 0
+  unary_minus # - 1 prec 50
+  gcd # gcd 1,… 
+  lcm # lcm 1,… 
+  product # ∏ 1 2
+  sum # ∑ 1 2
+
+
+theory arith2 : ?OpenMath =
+  times
+  inverse # inverse 1
+

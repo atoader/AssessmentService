@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="units_siprefix1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#880.62.0-1106.83.1"/>
+    </metadata>
+    <constant name="atto">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#920.63.2-925.63.7"/>
+      </metadata>
+    </constant>
+    <constant name="centi">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#929.64.2-935.64.8"/>
+      </metadata>
+    </constant>
+    <constant name="deci">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#939.65.2-944.65.7"/>
+      </metadata>
+    </constant>
+    <constant name="deka">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#948.66.2-953.66.7"/>
+      </metadata>
+    </constant>
+    <constant name="exa">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#957.67.2-961.67.6"/>
+      </metadata>
+    </constant>
+    <constant name="femto">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#965.68.2-971.68.8"/>
+      </metadata>
+    </constant>
+    <constant name="giga">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#975.69.2-980.69.7"/>
+      </metadata>
+    </constant>
+    <constant name="hecto">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#984.70.2-990.70.8"/>
+      </metadata>
+    </constant>
+    <constant name="kilo">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#994.71.2-999.71.7"/>
+      </metadata>
+    </constant>
+    <constant name="mega">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1003.72.2-1008.72.7"/>
+      </metadata>
+    </constant>
+    <constant name="micro">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1012.73.2-1018.73.8"/>
+      </metadata>
+    </constant>
+    <constant name="milli">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1022.74.2-1028.74.8"/>
+      </metadata>
+    </constant>
+    <constant name="nano">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1032.75.2-1037.75.7"/>
+      </metadata>
+    </constant>
+    <constant name="peta">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1041.76.2-1046.76.7"/>
+      </metadata>
+    </constant>
+    <constant name="pico">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1050.77.2-1055.77.7"/>
+      </metadata>
+    </constant>
+    <constant name="tera">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1059.78.2-1064.78.7"/>
+      </metadata>
+    </constant>
+    <constant name="yocto">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1068.79.2-1074.79.8"/>
+      </metadata>
+    </constant>
+    <constant name="yotta">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1078.80.2-1084.80.8"/>
+      </metadata>
+    </constant>
+    <constant name="zepto">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1088.81.2-1094.81.8"/>
+      </metadata>
+    </constant>
+    <constant name="zetta">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1098.82.2-1104.82.8"/>
+      </metadata>
+    </constant>
+  </theory>
+</omdoc>

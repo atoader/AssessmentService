@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <view name="List1" base="http://oaff.kwarc.info/openmath/uom" from="http://www.openmath.org/cd?list1" to="http://cds.omdoc.org/urtheories?ScalaOM">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/list.mmt#48.2.0-485.16.1"/>
+    </metadata>
+    <constant name="list">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/list.mmt#142.4.2-190.6.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="ls">
+              <type>
+                <om:OMA position="0_1">
+                  <om:OMS position="0_1_0" base="http://cds.omdoc.org/urtheories" module="Scala" name="List"/>
+                  <om:OMS position="0_1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+                </om:OMA>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala"><![CDATA[list(ls)]]></om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="map">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/list.mmt#194.8.2-480.14.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="f">
+              <type>
+                <om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+            <om:OMV position="1" name="c">
+              <type>
+                <om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala">
+              <![CDATA[c match {
+      case list(ls) => list(ls.map(t => OMA(f, List(t))))
+      case set1.set(s) => set1.set(s.map(t => OMA(f, List(t))))
+      case interval1.integer_interval(a, b) => interval1.integer_interval(OMA(f, List(a)), OMA(f, List(b)))
+    }]]>
+            </om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+  </view>
+</omdoc>

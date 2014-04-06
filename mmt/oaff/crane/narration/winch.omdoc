@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc base="http://docs.omdoc.org/crane/winch.omdoc">
+  <mref target="http://docs.omdoc.org/crane/winch.omdoc?winch"/>
+  <definition 
+  for="http://docs.omdoc.org/crane/winch.omdoc?winch?crank http://docs.omdoc.org/crane/winch.omdoc?winch?winch http://docs.omdoc.org/crane/winch.omdoc?winch?spool">
+    <omdoc:CMP 
+    xml:id="winch.definition5.CMP1" about="#winch.definition5.CMP1" stex:srcref="../../../../../stc/fcad/crane/cds/winch.tex#textrange(from=4;1,to=9;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="winch.definition5.CMP1.p1" class="ltx_p" about="#winch.definition5.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/crane/winch.omdoc?winch?winch"> winch </omdoc:ref>
+        is a mechanical device that is used to pull in (wind up) or let out (wind out) or otherwise adjust the tension of a
+        <omdoc:ref target="http://docs.omdoc.org/crane/cable.omdoc?cable?cable"> cable </omdoc:ref>
+        . A winch consists of a
+        <omdoc:ref target="http://docs.omdoc.org/crane/winch.omdoc?winch?spool"> spool </omdoc:ref>
+        (also called
+        <omdoc:ref target="http://docs.omdoc.org/crane/winch.omdoc?winch?spool"> winch drum </omdoc:ref>
+        ) and a
+        <omdoc:ref target="http://docs.omdoc.org/crane/winch.omdoc?winch?crank"> crank </omdoc:ref>
+        or
+        <omdoc:ref target="http://docs.omdoc.org/crane/winch.omdoc?winch?motor"> motor </omdoc:ref>
+        .
+      </p>
+</omdoc:CMP>
+</definition>
+</omdoc>

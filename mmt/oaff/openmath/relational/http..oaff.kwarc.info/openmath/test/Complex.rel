@@ -1,0 +1,13 @@
+theory http://oaff.kwarc.info/openmath/test?Complex
+Includes http://oaff.kwarc.info/openmath/test?Complex http://www.openmath.org/cd?arith1
+Includes http://oaff.kwarc.info/openmath/test?Complex http://www.openmath.org/cd?relation1
+Includes http://oaff.kwarc.info/openmath/test?Complex http://www.openmath.org/cd?logic1
+Includes http://oaff.kwarc.info/openmath/test?Complex http://www.openmath.org/cd?complex1
+Declares http://oaff.kwarc.info/openmath/test?Complex http://oaff.kwarc.info/openmath/test?Complex?realTest1
+constant: http://oaff.kwarc.info/openmath/test?Complex?realTest1
+Declares http://oaff.kwarc.info/openmath/test?Complex http://oaff.kwarc.info/openmath/test?Complex?imaginaryTest
+constant: http://oaff.kwarc.info/openmath/test?Complex?imaginaryTest
+Declares http://oaff.kwarc.info/openmath/test?Complex http://oaff.kwarc.info/openmath/test?Complex?argument
+constant: http://oaff.kwarc.info/openmath/test?Complex?argument
+Declares http://oaff.kwarc.info/openmath/test?Complex http://oaff.kwarc.info/openmath/test?Complex?conjugate
+constant: http://oaff.kwarc.info/openmath/test?Complex?conjugate

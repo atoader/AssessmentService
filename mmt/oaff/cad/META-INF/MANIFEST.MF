@@ -1,0 +1,4 @@
+id: cad
+source-base: http://cds.omdoc.org/cad
+narration-base: http://docs.omdoc.org/cad
+

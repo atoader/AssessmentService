@@ -1,0 +1,29 @@
+<omdoc base="http://docs.omdoc.org/crane/crane.omdoc">
+  <theory name="crane" base="http://docs.omdoc.org/crane/crane.omdoc">
+    <import from="../../../fcad/crane/cds/sheave?sheave"> </import>
+    <import from="../../../fcad/crane/cds/winch?winch"> </import>
+    <import from="../../../fcad/crane/cds/hoist?hoist"> </import>
+    <constant name="crane"> </constant>
+  </theory>
+  <definition for="http://docs.omdoc.org/crane/crane.omdoc?crane?crane">
+    <omdoc:CMP 
+    stex:srcref="../../../../../stc/fcad/crane/cds/crane.tex#textrange(from=5;1,to=11;16)" about="#crane.definition5.CMP1" xml:id="crane.definition5.CMP1" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#crane.definition5.CMP1.p1" class="ltx_p" id="crane.definition5.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/crane/crane.omdoc?crane?crane"> crane </omdoc:ref>
+        is a type of machine, generally equipped with a
+        <omdoc:ref target="http://docs.omdoc.org/crane/hoist.omdoc?hoist?hoist"> hoist </omdoc:ref>
+        or
+        <omdoc:ref target="http://docs.omdoc.org/crane/winch.omdoc?winch?winch"> winch </omdoc:ref>
+        ,
+        <omdoc:ref target="http://docs.omdoc.org/crane/cable.omdoc?cable?cable"> cable </omdoc:ref>
+        s or
+        <omdoc:ref target="http://docs.omdoc.org/crane/rope.omdoc?rope?rope"> rope </omdoc:ref>
+        s, and
+        <omdoc:ref target="http://docs.omdoc.org/crane/sheave.omdoc?sheave?sheave"> sheave </omdoc:ref>
+        s, that can be used both to lift and lower materials and to move them horizontally. It is mainly used for lifting heavy things and transporting them to other places.
+</p>
+</omdoc:CMP>
+  </definition>
+</omdoc>

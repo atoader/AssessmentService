@@ -1,0 +1,49 @@
+\begin{module}[id=enclosed-cooling-system]
+\importmodule[load=\FCAD{flange/cds/piping}]{piping}
+
+\begin{definition}[title=Heat Exchanger]
+  A \defii{heat}{exchanger} is a piece of equipment built for efficient heat transfer from
+  one medium to another. The heat exchanger separates the media by a solid wall to prevent
+  mixing.
+\end{definition}
+
+\begin{definition}[title=Enclosed Cooling System]
+  An \defiii{enclosed}{cooling}{system} is a two-stage marine cooling system which uses a
+  \trefi{heat}{exchanger} to separate the \defii{raw}{water} from the \defii{fresh}{water}
+  (the \defii{engine}{coolant}).
+  
+  \mycgraphics{\FCAD{flange/PIC/cooling1}}
+
+  The \atrefii{coolant}{fresh}{water} is circulated through the engine and a
+  \trefi{heat}{exchanger} in a \trefi{piping} system and absorbs the heat of the
+  engine. Raw water is still drawn up through a \trefi{seacock} but only flows through the
+  \trefi{heat}{exchanger}. This cooler \trefii{raw}{water} absorbs the heat from the \trefii{engine}{coolant} through the heat exchanger and is then pumped out.
+\end{definition}
+ 
+\begin{definition}[title=Pump]
+  A \defi{pump} is a device that moves fluids (liquids or gases) by mechanical action.
+\end{definition}
+
+\begin{definition}[title=Water Pump]
+  A \defii{water}{pump} is a \trefi{pump} that moves water.
+\end{definition}
+
+\begin{definition}[title=Seacock]
+  The \defi{seacock} (also called \defiii[seacock]{through}{hull}{fitting}) is a
+  through-hull device that allows water to enter the hull from the outside. This device
+  has a valve that allows you to shut off the water flow e.g. if you have a leak in the
+  \trefi[piping]{piping}.
+\end{definition}
+
+\begin{definition}[title=Sea Strainer]
+  The \defii{sea}{strainer} is a device through which the \trefii{raw}{water} flows and is designed
+  to filter out debris, sand, leaves, etc. before it gets to the engine. This device works
+  much like a swimming pool skimmer.
+\end{definition}
+\end{module}
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "all"
+%%% End: 
+
+% LocalWords:  defii defiii trefi trefii mycgraphics atrefii defi

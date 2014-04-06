@@ -1,0 +1,4 @@
+theory http://docs.omdoc.org/crane/cable.omdoc?cable
+Declares http://docs.omdoc.org/crane/cable.omdoc?cable http://docs.omdoc.org/crane/cable.omdoc?cable?cable
+constant: http://docs.omdoc.org/crane/cable.omdoc?cable?cable
+Includes http://docs.omdoc.org/crane/cable.omdoc?cable http://docs.omdoc.org/../../fcad/crane/cds/rope?rope

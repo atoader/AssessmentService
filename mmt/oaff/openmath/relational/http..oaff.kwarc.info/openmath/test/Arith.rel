@@ -1,0 +1,26 @@
+theory http://oaff.kwarc.info/openmath/test?Arith
+HasMeta http://oaff.kwarc.info/openmath/test?Arith http://www.openmath.org/cd?OpenMath
+Includes http://oaff.kwarc.info/openmath/test?Arith http://www.openmath.org/cd?arith1
+Includes http://oaff.kwarc.info/openmath/test?Arith http://www.openmath.org/cd?nums1
+Includes http://oaff.kwarc.info/openmath/test?Arith http://www.openmath.org/cd?relation1
+Includes http://oaff.kwarc.info/openmath/test?Arith http://www.openmath.org/cd?logic1
+Declares http://oaff.kwarc.info/openmath/test?Arith http://oaff.kwarc.info/openmath/test?Arith?plusTest
+constant: http://oaff.kwarc.info/openmath/test?Arith?plusTest
+Declares http://oaff.kwarc.info/openmath/test?Arith http://oaff.kwarc.info/openmath/test?Arith?minusTest
+constant: http://oaff.kwarc.info/openmath/test?Arith?minusTest
+Declares http://oaff.kwarc.info/openmath/test?Arith http://oaff.kwarc.info/openmath/test?Arith?timesTest
+constant: http://oaff.kwarc.info/openmath/test?Arith?timesTest
+Declares http://oaff.kwarc.info/openmath/test?Arith http://oaff.kwarc.info/openmath/test?Arith?divideTest
+constant: http://oaff.kwarc.info/openmath/test?Arith?divideTest
+Declares http://oaff.kwarc.info/openmath/test?Arith http://oaff.kwarc.info/openmath/test?Arith?powerTest
+constant: http://oaff.kwarc.info/openmath/test?Arith?powerTest
+Declares http://oaff.kwarc.info/openmath/test?Arith http://oaff.kwarc.info/openmath/test?Arith?rootTest
+constant: http://oaff.kwarc.info/openmath/test?Arith?rootTest
+Declares http://oaff.kwarc.info/openmath/test?Arith http://oaff.kwarc.info/openmath/test?Arith?absTest
+constant: http://oaff.kwarc.info/openmath/test?Arith?absTest
+Declares http://oaff.kwarc.info/openmath/test?Arith http://oaff.kwarc.info/openmath/test?Arith?unary_minusTest
+constant: http://oaff.kwarc.info/openmath/test?Arith?unary_minusTest
+Declares http://oaff.kwarc.info/openmath/test?Arith http://oaff.kwarc.info/openmath/test?Arith?gcdTest
+constant: http://oaff.kwarc.info/openmath/test?Arith?gcdTest
+Declares http://oaff.kwarc.info/openmath/test?Arith http://oaff.kwarc.info/openmath/test?Arith?lcmTest
+constant: http://oaff.kwarc.info/openmath/test?Arith?lcmTest

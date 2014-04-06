@@ -1,0 +1,6 @@
+theory http://www.openmath.org/cd?minmax1
+HasMeta http://www.openmath.org/cd?minmax1 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?minmax1 http://www.openmath.org/cd?minmax1?min
+constant: http://www.openmath.org/cd?minmax1?min
+Declares http://www.openmath.org/cd?minmax1 http://www.openmath.org/cd?minmax1?max
+constant: http://www.openmath.org/cd?minmax1?max

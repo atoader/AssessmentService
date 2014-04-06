@@ -1,0 +1,17 @@
+document http://docs.omdoc.org/cad
+Declares http://docs.omdoc.org/cad http://docs.omdoc.org/cad/color.omdoc
+Declares http://docs.omdoc.org/cad http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc
+Declares http://docs.omdoc.org/cad http://docs.omdoc.org/cad/financial-transaction.omdoc
+Declares http://docs.omdoc.org/cad http://docs.omdoc.org/cad/five-sizes.omdoc
+Declares http://docs.omdoc.org/cad http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc
+Declares http://docs.omdoc.org/cad http://docs.omdoc.org/cad/importsall.omdoc
+Declares http://docs.omdoc.org/cad http://docs.omdoc.org/cad/ISOhexbolt.omdoc
+Declares http://docs.omdoc.org/cad http://docs.omdoc.org/cad/ISOhexnut.omdoc
+Declares http://docs.omdoc.org/cad http://docs.omdoc.org/cad/ISOmetricthread.omdoc
+Declares http://docs.omdoc.org/cad http://docs.omdoc.org/cad/nutbolt.omdoc
+Declares http://docs.omdoc.org/cad http://docs.omdoc.org/cad/partnumber.omdoc
+Declares http://docs.omdoc.org/cad http://docs.omdoc.org/cad/physobj.omdoc
+Declares http://docs.omdoc.org/cad http://docs.omdoc.org/cad/piping.omdoc
+Declares http://docs.omdoc.org/cad http://docs.omdoc.org/cad/price-function.omdoc
+Declares http://docs.omdoc.org/cad http://docs.omdoc.org/cad/solidobj.omdoc
+Declares http://docs.omdoc.org/cad http://docs.omdoc.org/cad/thread.omdoc

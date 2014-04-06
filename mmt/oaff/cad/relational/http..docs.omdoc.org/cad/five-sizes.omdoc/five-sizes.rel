@@ -1,0 +1,13 @@
+theory http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes
+Declares http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?five-point-size-scale
+constant: http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?five-point-size-scale
+Declares http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?XS
+constant: http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?XS
+Declares http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?S
+constant: http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?S
+Declares http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?M
+constant: http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?M
+Declares http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?L
+constant: http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?L
+Declares http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?XL
+constant: http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?XL

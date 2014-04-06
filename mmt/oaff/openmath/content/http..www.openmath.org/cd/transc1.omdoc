@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="transc1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#39.2.0-570.30.1"/>
+    </metadata>
+    <constant name="arccos">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#70.3.2-88.3.20"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?arccos" precedence="0" fixity="mixfix" arguments="arccos 1"/>
+      </notation>
+    </constant>
+    <constant name="arccosh">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#91.4.2-111.4.22"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?arccosh" precedence="0" fixity="mixfix" arguments="arccosh 1"/>
+      </notation>
+    </constant>
+    <constant name="arccot">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#114.5.2-132.5.20"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?arccot" precedence="0" fixity="mixfix" arguments="arccot 1"/>
+      </notation>
+    </constant>
+    <constant name="arccoth">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#135.6.2-155.6.22"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?arccoth" precedence="0" fixity="mixfix" arguments="arccoth 1"/>
+      </notation>
+    </constant>
+    <constant name="arccsc">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#158.7.2-176.7.20"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?arccsc" precedence="0" fixity="mixfix" arguments="arccsc 1"/>
+      </notation>
+    </constant>
+    <constant name="arccsch">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#179.8.2-199.8.22"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?arccsch" precedence="0" fixity="mixfix" arguments="arccsch 1"/>
+      </notation>
+    </constant>
+    <constant name="arcsec">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#202.9.2-220.9.20"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?arcsec" precedence="0" fixity="mixfix" arguments="arcsec 1"/>
+      </notation>
+    </constant>
+    <constant name="arcsech">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#223.10.2-243.10.22"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?arcsech" precedence="0" fixity="mixfix" arguments="arcsech 1"/>
+      </notation>
+    </constant>
+    <constant name="arcsin">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#246.11.2-264.11.20"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?arcsin" precedence="0" fixity="mixfix" arguments="arcsin 1"/>
+      </notation>
+    </constant>
+    <constant name="arcsinh">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#267.12.2-287.12.22"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?arcsinh" precedence="0" fixity="mixfix" arguments="arcsinh 1"/>
+      </notation>
+    </constant>
+    <constant name="arctan">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#290.13.2-308.13.20"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?arctan" precedence="0" fixity="mixfix" arguments="arctan 1"/>
+      </notation>
+    </constant>
+    <constant name="arctanh">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#311.14.2-331.14.22"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?arctanh" precedence="0" fixity="mixfix" arguments="arctanh 1"/>
+      </notation>
+    </constant>
+    <constant name="cos">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#334.15.2-346.15.14"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?cos" precedence="0" fixity="mixfix" arguments="cos 1"/>
+      </notation>
+    </constant>
+    <constant name="cosh">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#349.16.2-363.16.16"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?cosh" precedence="0" fixity="mixfix" arguments="cosh 1"/>
+      </notation>
+    </constant>
+    <constant name="cot">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#366.17.2-378.17.14"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?cot" precedence="0" fixity="mixfix" arguments="cot 1"/>
+      </notation>
+    </constant>
+    <constant name="coth">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#381.18.2-395.18.16"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?coth" precedence="0" fixity="mixfix" arguments="coth 1"/>
+      </notation>
+    </constant>
+    <constant name="csc">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#398.19.2-410.19.14"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?csc" precedence="0" fixity="mixfix" arguments="csc 1"/>
+      </notation>
+    </constant>
+    <constant name="csch">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#413.20.2-427.20.16"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?csch" precedence="0" fixity="mixfix" arguments="csch 1"/>
+      </notation>
+    </constant>
+    <constant name="exp">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#430.21.2-442.21.14"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?exp" precedence="0" fixity="mixfix" arguments="exp 1"/>
+      </notation>
+    </constant>
+    <constant name="ln">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#445.22.2-455.22.12"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?ln" precedence="0" fixity="mixfix" arguments="ln 1"/>
+      </notation>
+    </constant>
+    <constant name="log">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#458.23.2-472.23.16"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?log" precedence="0" fixity="mixfix" arguments="log 1 2"/>
+      </notation>
+    </constant>
+    <constant name="sec">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#475.24.2-487.24.14"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?sec" precedence="0" fixity="mixfix" arguments="sec 1"/>
+      </notation>
+    </constant>
+    <constant name="sech">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#490.25.2-504.25.16"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?sech" precedence="0" fixity="mixfix" arguments="sech 1"/>
+      </notation>
+    </constant>
+    <constant name="sin">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#507.26.2-519.26.14"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?sin" precedence="0" fixity="mixfix" arguments="sin 1"/>
+      </notation>
+    </constant>
+    <constant name="sinh">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#522.27.2-536.27.16"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?sinh" precedence="0" fixity="mixfix" arguments="sinh 1"/>
+      </notation>
+    </constant>
+    <constant name="tan">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#539.28.2-551.28.14"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?tan" precedence="0" fixity="mixfix" arguments="tan 1"/>
+      </notation>
+    </constant>
+    <constant name="tanh">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/transc.mmt#554.29.2-568.29.16"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?transc1?tanh" precedence="0" fixity="mixfix" arguments="tanh 1"/>
+      </notation>
+    </constant>
+  </theory>
+</omdoc>

@@ -1,0 +1,164 @@
+<omdoc base="http://docs.omdoc.org/cad/physobj.omdoc">
+  <theory name="physobj" base="http://docs.omdoc.org/cad/physobj.omdoc">
+    <constant name="matter"> </constant>
+    <constant name="state"> </constant>
+    <constant name="solid"> </constant>
+    <constant name="liquid"> </constant>
+    <constant name="gaseous"> </constant>
+    <constant name="fluid"> </constant>
+    <constant name="substance"> </constant>
+    <constant name="physical-object"> </constant>
+    <constant name="particle"> </constant>
+    <constant name="extent"> </constant>
+    <constant name="geometry"> </constant>
+  </theory>
+  <plain-narration>
+    <omdoc:omtext 
+    stex:srcref="../../../fcad/flange/cds/physobj.tex#textrange(from=3;1,to=7;12)" about="#physobj.omtext1" xml:id="physobj.omtext1" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <omdoc:CMP 
+      stex:srcref="../../../fcad/flange/cds/physobj.tex#textrange(from=3;1,to=3;15)" about="#physobj.omtext1.CMP1" xml:id="physobj.omtext1.CMP1">
+        <p 
+        about="#physobj.omtext1.CMP1.p1" class="ltx_p" id="physobj.omtext1.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+          The following definitions are circular, they describe very fundamental concepts that are very hard to properly define. We take a relatively naive approach here, where space-time is Euclidean and mater is made up by elementary particles.
+</p>
+</omdoc:CMP>
+</omdoc:omtext>
+  </plain-narration>
+  <definition 
+  for="http://docs.omdoc.org/cad/physobj.omdoc?physobj?liquid http://docs.omdoc.org/cad/physobj.omdoc?physobj?solid http://docs.omdoc.org/cad/physobj.omdoc?physobj?matter http://docs.omdoc.org/cad/physobj.omdoc?physobj?gaseous http://docs.omdoc.org/cad/physobj.omdoc?physobj?state">
+    <omdoc:CMP 
+    stex:srcref="../../../fcad/flange/cds/physobj.tex#textrange(from=9;1,to=20;16)" about="#physobj.definition7.CMP1" xml:id="physobj.definition7.CMP1" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#physobj.definition7.CMP1.p1" class="ltx_p" id="physobj.definition7.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?matter"> Matter </omdoc:ref>
+        is generally anything that has mass and
+        <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?extent"> extent </omdoc:ref>
+        . Matter is said to exist in three principal
+        <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?state"> state </omdoc:ref>
+        s depending on the bonding of the particles that make up the matter:
+</p>
+      <ul class="ltx_itemize" id="I1" xmlns="http://www.w3.org/1999/xhtml">
+        <li style="list-style-type:none;" class="ltx_item" id="I1.i1">
+          <span class=" ltx_tag_itemize">•</span>
+          <div class="ltx_para" id="I1.i1.p1">
+            <p about="#I1.i1.p1.p1" class="ltx_p" id="I1.i1.p1.p1">
+              <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?solid"> solid </omdoc:ref>
+              : the particles are tightly bound by forces that prevent movement against each other and make the matter rigit.
+            </p>
+          </div>
+        </li>
+        <li style="list-style-type:none;" class="ltx_item" id="I1.i2">
+          <span class=" ltx_tag_itemize">•</span>
+          <div class="ltx_para" id="I1.i2.p1">
+            <p about="#I1.i2.p1.p1" class="ltx_p" id="I1.i2.p1.p1">
+              <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?liquid"> liquid </omdoc:ref>
+              : the particles are bound less tightly by forces, so that the particles can move against each other but are still strong enough to full separation.
+            </p>
+          </div>
+        </li>
+        <li style="list-style-type:none;" class="ltx_item" id="I1.i3">
+          <span class=" ltx_tag_itemize">•</span>
+          <div class="ltx_para" id="I1.i3.p1">
+            <p about="#I1.i3.p1.p1" class="ltx_p" id="I1.i3.p1.p1">
+              <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?gaseous"> gaseous </omdoc:ref>
+              : the particles are vastly separated from each other.
+            </p>
+          </div>
+        </li>
+      </ul>
+</omdoc:CMP>
+</definition>
+  <definition 
+  for="http://docs.omdoc.org/cad/physobj.omdoc?physobj?fluid http://docs.omdoc.org/cad/physobj.omdoc?physobj?liquid http://docs.omdoc.org/cad/physobj.omdoc?physobj?solid http://docs.omdoc.org/cad/physobj.omdoc?physobj?matter http://docs.omdoc.org/cad/physobj.omdoc?physobj?gaseous http://docs.omdoc.org/cad/physobj.omdoc?physobj?state">
+    <omdoc:CMP 
+    stex:srcref="../../../fcad/flange/cds/physobj.tex#textrange(from=22;1,to=24;16)" about="#physobj.definition9.CMP1" xml:id="physobj.definition9.CMP1" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#physobj.definition9.CMP1.p1" class="ltx_p" id="physobj.definition9.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?gas"> Gases </omdoc:ref>
+        and
+        <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?liquid"> liquid </omdoc:ref>
+        s are together called
+        <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?fluid"> fluid </omdoc:ref>
+        s
+</p>
+</omdoc:CMP>
+</definition>
+  <definition 
+  for="http://docs.omdoc.org/cad/physobj.omdoc?physobj?substance http://docs.omdoc.org/cad/physobj.omdoc?physobj?fluid http://docs.omdoc.org/cad/physobj.omdoc?physobj?liquid http://docs.omdoc.org/cad/physobj.omdoc?physobj?solid http://docs.omdoc.org/cad/physobj.omdoc?physobj?matter http://docs.omdoc.org/cad/physobj.omdoc?physobj?gaseous http://docs.omdoc.org/cad/physobj.omdoc?physobj?state">
+    <omdoc:CMP 
+    stex:srcref="../../../fcad/flange/cds/physobj.tex#textrange(from=26;1,to=30;16)" about="#physobj.definition11.CMP1" xml:id="physobj.definition11.CMP1" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#physobj.definition11.CMP1.p1" class="ltx_p" id="physobj.definition11.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A (chemical)
+        <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?substance">
+          substance
+        </omdoc:ref>
+        is a form of
+        <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?matter"> matter </omdoc:ref>
+        that has constant chemical composition and characteristic properties. It cannot be separated into components by physical separation methods, i.e. without breaking chemical bonds.
+</p>
+</omdoc:CMP>
+</definition>
+  <definition 
+  for="http://docs.omdoc.org/cad/physobj.omdoc?physobj?physical-object http://docs.omdoc.org/cad/physobj.omdoc?physobj?substance http://docs.omdoc.org/cad/physobj.omdoc?physobj?fluid http://docs.omdoc.org/cad/physobj.omdoc?physobj?liquid http://docs.omdoc.org/cad/physobj.omdoc?physobj?solid http://docs.omdoc.org/cad/physobj.omdoc?physobj?matter http://docs.omdoc.org/cad/physobj.omdoc?physobj?gaseous http://docs.omdoc.org/cad/physobj.omdoc?physobj?state http://docs.omdoc.org/cad/physobj.omdoc?physobj?particle">
+    <omdoc:CMP 
+    stex:srcref="../../../fcad/flange/cds/physobj.tex#textrange(from=32;1,to=37;16)" about="#physobj.definition14.CMP1" xml:id="physobj.definition14.CMP1" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#physobj.definition14.CMP1.p1" class="ltx_p" id="physobj.definition14.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?physical-object">
+          physical object
+        </omdoc:ref>
+        is a collection of
+        <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?particle"> particle </omdoc:ref>
+        s (pieces of
+        <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?matter"> matter </omdoc:ref>
+        ) taken to be one; an entity that can be perceived by the senses and acted upon. Physical objects are characterized by their extent in time and space and the matter they consist of.
+</p>
+</omdoc:CMP>
+</definition>
+  <definition 
+  for="http://docs.omdoc.org/cad/physobj.omdoc?physobj?physical-object http://docs.omdoc.org/cad/physobj.omdoc?physobj?substance http://docs.omdoc.org/cad/physobj.omdoc?physobj?fluid http://docs.omdoc.org/cad/physobj.omdoc?physobj?liquid http://docs.omdoc.org/cad/physobj.omdoc?physobj?solid http://docs.omdoc.org/cad/physobj.omdoc?physobj?matter http://docs.omdoc.org/cad/physobj.omdoc?physobj?gaseous http://docs.omdoc.org/cad/physobj.omdoc?physobj?state http://docs.omdoc.org/cad/physobj.omdoc?physobj?particle http://docs.omdoc.org/cad/physobj.omdoc?physobj?extent">
+    <omdoc:CMP 
+    stex:srcref="../../../fcad/flange/cds/physobj.tex#textrange(from=39;1,to=42;16)" about="#physobj.definition16.CMP1" xml:id="physobj.definition16.CMP1" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#physobj.definition16.CMP1.p1" class="ltx_p" id="physobj.definition16.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        The
+        <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?extent"> extent </omdoc:ref>
+        of a physical object is the space it takes up seen over time. This is taken to be a function from time into subsets of three-dimensional space.
+</p>
+</omdoc:CMP>
+</definition>
+  <plain-narration>
+    <omdoc:omtext 
+    stex:srcref="../../../fcad/flange/cds/physobj.tex#textrange(from=44;1,to=47;12)" about="#physobj.omtext17" xml:id="physobj.omtext17" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <omdoc:CMP 
+      stex:srcref="../../../fcad/flange/cds/physobj.tex#textrange(from=44;1,to=44;15)" about="#physobj.omtext17.CMP1" xml:id="physobj.omtext17.CMP1">
+        <p 
+        about="#physobj.omtext17.CMP1.p1" class="ltx_p" id="physobj.omtext17.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+          Often the extent function is constant up to translations and rotations (moving the object around in space).
+</p>
+</omdoc:CMP>
+</omdoc:omtext>
+  </plain-narration>
+  <definition 
+  for="http://docs.omdoc.org/cad/physobj.omdoc?physobj?physical-object http://docs.omdoc.org/cad/physobj.omdoc?physobj?substance http://docs.omdoc.org/cad/physobj.omdoc?physobj?fluid http://docs.omdoc.org/cad/physobj.omdoc?physobj?liquid http://docs.omdoc.org/cad/physobj.omdoc?physobj?solid http://docs.omdoc.org/cad/physobj.omdoc?physobj?matter http://docs.omdoc.org/cad/physobj.omdoc?physobj?gaseous http://docs.omdoc.org/cad/physobj.omdoc?physobj?state http://docs.omdoc.org/cad/physobj.omdoc?physobj?particle http://docs.omdoc.org/cad/physobj.omdoc?physobj?extent http://docs.omdoc.org/cad/physobj.omdoc?physobj?geometry">
+    <omdoc:CMP 
+    stex:srcref="../../../fcad/flange/cds/physobj.tex#textrange(from=49;1,to=52;16)" about="#physobj.definition19.CMP1" xml:id="physobj.definition19.CMP1" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#physobj.definition19.CMP1.p1" class="ltx_p" id="physobj.definition19.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        The
+        <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?geometry"> geometry </omdoc:ref>
+        of a physical object (at a given point in time
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMV name="t"></om:OMV>
+        </om:OMOBJ>
+        ) is the equivalence class of its extent at
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMV name="t"></om:OMV>
+        </om:OMOBJ>
+        under all euclidean translations and rotations.
+</p>
+</omdoc:CMP>
+</definition>
+</omdoc>

@@ -1,0 +1,121 @@
+namespace http://oaff.kwarc.info/openmath/uom
+
+view Set1 : http://www.openmath.org/cd?set1 -> http://cds.omdoc.org/urtheories?ScalaOM =
+
+  cartesian_product = (args: List[Term]) scala
+  	var (sets, restArgs) = Collections.collectSets(args)
+  	if (restArgs == Nil) {
+  	  // we can only compute the product if all arguments are sets
+  	  var prod = Collections.cartesianProduct(sets)
+  	  set(prod.map(tensor1.tuple(_)))
+  	} else {
+  		cartesian_product(args)
+  	}
+  
+  
+  emptyset = scala
+    set(Nil)
+  
+  
+  map = (f: Term, s: Term) scala
+    s match {
+      case set(ls) => set(ls map (t => OMA(f, List(t))))
+      case interval1.integer_interval(l,r) => (l,r) match {
+      	case (OMI(a), OMI(b)) => map(f, set((a to b).toList.map(OMI(_))))
+      	case _ => map(f,s)
+      }
+      case _ => map(f,s)
+    }
+  
+
+  size = (s: Term) scala
+    s match {
+      case set(ls) => if (Utils.isFullyKnown(s)) OMI(ls.length) else size(s)
+      case _ => size(s)
+    }
+  
+  
+  set = (args: List[Term]) scala
+    set(args.distinct.sortBy(_.hashCode))
+  
+  
+  suchthat = (s: Term, p: Term) scala
+    suchthat(s,p)
+  
+  
+  intersect = (args: List[Term]) scala
+  	var (sets, restArgs) = Collections.collectSets(args)
+  	(sets, restArgs) match {
+      case (Nil, Nil) => set(Nil)
+      case (Nil, _) => intersect(restArgs)
+      case _ => 
+        var res = set(sets.reduceLeft(_.intersect(_)))
+        if (restArgs == Nil) res else intersect(res :: restArgs) 
+    }
+   
+  
+  union = (args: List[Term]) scala
+    var (sets, restArgs) = Collections.collectSets(args)
+  	(sets, restArgs) match {
+      case (Nil, Nil) => set(Nil)
+      case (Nil, _) => union(restArgs)
+      case _ => 
+        var res = set(sets.reduceLeft(_.union(_)))
+        if (restArgs == Nil) res else union(res :: restArgs) 
+    }
+   
+  
+  in = (a: Term, s: Term) scala
+    s match {
+      case set(ls) => logic1.or(ls.map(relation1.OMeq(_, a)))
+      case _ => in(a,s)
+    }
+  
+  
+  notin = (a: Term, s: Term) scala
+    logic1.not(in(a,s))
+  
+  
+  setdiff = (s1: Term, s2: Term) scala
+    (s1, s2) match {
+      case (set(ls1), set(ls2)) => set(ls1.diff(ls2))
+      case _ => setdiff(s1,s2)
+    }
+   
+  
+  subset = (s1: Term, s2: Term) scala
+    (s1, s2) match {
+      case (set(ls1), set(ls2)) => Utils.ombool(ls1.diff(ls2) == Nil)
+      case _ => subset(s1,s2)
+    }
+  
+  
+  prsubset = (s1: Term, s2: Term) scala
+    s1 match {
+    	case set(ls) => if (ls == Nil) logic1.`false` else logic1.and(subset(s1, s2), relation1.neq(s1, s2))
+  	  case _ => prsubset(s1, s2)
+  	}
+  
+  
+  notsubset = (s1: Term, s2: Term) scala
+    logic1.not(subset(s1, s2))
+  
+  
+  notprsubset = (s1: Term, s2: Term) scala
+    logic1.not(prsubset(s1, s2))
+  
+  
+  
+  
+view Set2 : http://www.openmath.org/cd?set2 -> http://cds.omdoc.org/urtheories?ScalaOM =
+  
+  lift_binary = (op: Term, s1: Term, s2: Term) scala
+    (s1, s2) match {
+      case (set1.set(ls1), set1.set(ls2)) => set1.set(Collections.cartesianProduct(List(ls1, ls2)).map(OMA(op, _)))
+      case _ => lift_binary(op, s1, s2)
+    }
+  
+  
+
+
+

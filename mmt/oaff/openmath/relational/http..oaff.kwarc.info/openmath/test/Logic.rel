@@ -1,0 +1,15 @@
+theory http://oaff.kwarc.info/openmath/test?Logic
+Includes http://oaff.kwarc.info/openmath/test?Logic http://www.openmath.org/cd?relation1
+Includes http://oaff.kwarc.info/openmath/test?Logic http://www.openmath.org/cd?logic1
+Declares http://oaff.kwarc.info/openmath/test?Logic http://oaff.kwarc.info/openmath/test?Logic?equivalentTest
+constant: http://oaff.kwarc.info/openmath/test?Logic?equivalentTest
+Declares http://oaff.kwarc.info/openmath/test?Logic http://oaff.kwarc.info/openmath/test?Logic?impliesTest
+constant: http://oaff.kwarc.info/openmath/test?Logic?impliesTest
+Declares http://oaff.kwarc.info/openmath/test?Logic http://oaff.kwarc.info/openmath/test?Logic?notTest
+constant: http://oaff.kwarc.info/openmath/test?Logic?notTest
+Declares http://oaff.kwarc.info/openmath/test?Logic http://oaff.kwarc.info/openmath/test?Logic?andTest
+constant: http://oaff.kwarc.info/openmath/test?Logic?andTest
+Declares http://oaff.kwarc.info/openmath/test?Logic http://oaff.kwarc.info/openmath/test?Logic?orTest
+constant: http://oaff.kwarc.info/openmath/test?Logic?orTest
+Declares http://oaff.kwarc.info/openmath/test?Logic http://oaff.kwarc.info/openmath/test?Logic?xorTest
+constant: http://oaff.kwarc.info/openmath/test?Logic?xorTest

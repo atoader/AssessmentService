@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <view 
+  name="RoundingTest" base="http://oaff.kwarc.info/openmath/test" from="http://oaff.kwarc.info/openmath/test?Rounding" to="http://cds.omdoc.org/urtheories?ScalaOM">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/rounding.mmt#323.14.0-589.19.1"/>
+    </metadata>
+    <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3FOpenMath]" domain="http://www.openmath.org/cd?OpenMath">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/rounding.mmt#400.15.2-467.15.69"/>
+      </metadata>
+      <value>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://cds.omdoc.org/urtheories" module="Syntactic"/>
+        </om:OMOBJ>
+      </value>
+    </import>
+    <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Frelation1]" domain="http://www.openmath.org/cd?relation1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/rounding.mmt#470.16.2-509.16.41"/>
+      </metadata>
+      <value>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Relation1"/>
+        </om:OMOBJ>
+      </value>
+    </import>
+    <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Flogic1]" domain="http://www.openmath.org/cd?logic1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/rounding.mmt#512.17.2-545.17.35"/>
+      </metadata>
+      <value>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Logic1"/>
+        </om:OMOBJ>
+      </value>
+    </import>
+    <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Frounding1]" domain="http://www.openmath.org/cd?rounding1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/rounding.mmt#548.18.2-587.18.41"/>
+      </metadata>
+      <value>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Rounding1"/>
+        </om:OMOBJ>
+      </value>
+    </import>
+</view>
+</omdoc>

@@ -1,0 +1,10 @@
+theory http://docs.omdoc.org/cad/ISOmetricthread.omdoc?ISOmetricthread
+Declares http://docs.omdoc.org/cad/ISOmetricthread.omdoc?ISOmetricthread http://docs.omdoc.org/cad/ISOmetricthread.omdoc?ISOmetricthread?ISOmetricthread
+constant: http://docs.omdoc.org/cad/ISOmetricthread.omdoc?ISOmetricthread?ISOmetricthread
+Declares http://docs.omdoc.org/cad/ISOmetricthread.omdoc?ISOmetricthread http://docs.omdoc.org/cad/ISOmetricthread.omdoc?ISOmetricthread?sISOmetricthread
+constant: http://docs.omdoc.org/cad/ISOmetricthread.omdoc?ISOmetricthread?sISOmetricthread
+Includes http://docs.omdoc.org/cad/ISOmetricthread.omdoc?ISOmetricthread http://docs.omdoc.org/smglo/sTeX/arith.omdoc?arith
+Includes http://docs.omdoc.org/cad/ISOmetricthread.omdoc?ISOmetricthread http://docs.omdoc.org/../../slides/units/en/quantities?quantities
+Includes http://docs.omdoc.org/cad/ISOmetricthread.omdoc?ISOmetricthread http://docs.omdoc.org/../../slides/units/en/angles?angles
+Includes http://docs.omdoc.org/cad/ISOmetricthread.omdoc?ISOmetricthread http://docs.omdoc.org/../../slides/units/en/length?length
+Includes http://docs.omdoc.org/cad/ISOmetricthread.omdoc?ISOmetricthread http://docs.omdoc.org/../../fcad/flange/cds/thread?thread

@@ -1,0 +1,4 @@
+theory http://www.openmath.org/cd?permut1
+HasMeta http://www.openmath.org/cd?permut1 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?permut1 http://www.openmath.org/cd?permut1?permutation
+constant: http://www.openmath.org/cd?permut1?permutation

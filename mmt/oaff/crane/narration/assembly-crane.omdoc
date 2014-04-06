@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc base="http://docs.omdoc.org/crane/assembly-crane.omdoc">
+  <mref target="http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane"/>
+  <definition 
+  for="http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane?leg http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane?base-frame http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane?assembly-crane http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane?mast http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane?jib">
+    <omdoc:CMP 
+    xml:id="assembly-crane.definition7.CMP1" about="#assembly-crane.definition7.CMP1" stex:srcref="../../../../../stc/fcad/crane/cds/assembly-crane.tex#textrange(from=3;1,to=13;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="assembly-crane.definition7.CMP1.p1" class="ltx_p" about="#assembly-crane.definition7.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        An
+        <omdoc:ref target="http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane?assembly-crane"> assembly crane </omdoc:ref>
+        is a small type of
+        <omdoc:ref target="http://docs.omdoc.org/crane/crane.omdoc?crane?crane"> crane </omdoc:ref>
+        used for lifting heavy building elements and machine components in workshops. It usually consists of a
+        <omdoc:ref target="http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane?base-frame"> base frame </omdoc:ref>
+        supports all components of the
+        <omdoc:ref target="http://docs.omdoc.org/crane/crane.omdoc?crane?assembly"> assembly </omdoc:ref>
+        crane and transfers the forces induced by the load to be floor. The base frame is often realized as a two-pronged fork structure with two
+        <omdoc:ref target="http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane?leg"> leg </omdoc:ref>
+        s.
+      </p>
+      <p id="assembly-crane.definition7.CMP1.p2" class="ltx_p" about="#assembly-crane.definition7.CMP1.p2" xmlns="http://www.w3.org/1999/xhtml">
+        The vertical
+        <omdoc:ref target="http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane?mast"> mast </omdoc:ref>
+        supports the
+        <omdoc:ref target="http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane?jib"> jib </omdoc:ref>
+        , a horizontal beam that carries the
+        <omdoc:ref target="http://docs.omdoc.org/crane/sheave.omdoc?sheave?sheave"> sheave </omdoc:ref>
+        s for the
+        <omdoc:ref target="http://docs.omdoc.org/crane/cable.omdoc?cable?cable"> cable </omdoc:ref>
+        which carries the
+        <omdoc:ref target="http://docs.omdoc.org/crane/hoist.omdoc?hoist?lifting-hook"> lifting hook </omdoc:ref>
+        .
+      </p>
+</omdoc:CMP>
+</definition>
+</omdoc>

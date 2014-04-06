@@ -1,0 +1,26 @@
+<omdoc base="http://www.openmath.org/cds/rounding.mmt">
+        <theory name="rounding1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/rounding.mmt#39.2.0-150.7.1"/></metadata>
+        <constant name="ceiling">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/rounding.mmt#72.3.2-89.3.19"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?rounding1?ceiling" precedence="0" fixity="mixfix" arguments="⌈ 1 ⌉"/></notation>
+     </constant><constant name="floor">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/rounding.mmt#93.4.2-108.4.17"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?rounding1?floor" precedence="0" fixity="mixfix" arguments="⌊ 1 ⌋"/></notation>
+     </constant><constant name="round">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/rounding.mmt#112.5.2-128.5.18"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?rounding1?round" precedence="0" fixity="mixfix" arguments="round 1"/></notation>
+     </constant><constant name="trunc">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/rounding.mmt#132.6.2-148.6.18"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?rounding1?trunc" precedence="0" fixity="mixfix" arguments="trunc 1"/></notation>
+     </constant>
+      </theory>
+     </omdoc>

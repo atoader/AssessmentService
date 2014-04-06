@@ -1,0 +1,39 @@
+\begin{module}[id=ISOhexbolt]
+\importmodule[load=\FCAD{flange/cds/ISOmetricthread}]{ISOmetricthread}
+\importmodule[load=\FCAD{flange/cds/nutbolt}]{nutbolt}
+
+\begin{definition}
+  The \defi{size}s of \defiii{ISO}{hex}{bolt}s are standardized by their internal
+  \trefi[thread]{thread} (irrespective of the \trefi[thread]{pitch}) by the ISO.
+
+\begin{center}
+  \def\mm#1{\ensuremath{\quantityof{#1}\SImillimetre}}
+\begin{tabular}{|l|l|l|l|}\hline
+  \trefi[thread]{thread} & \trefii[nutbolt]{flat}{size} & diameter & \trefi[nutbolt]{height}\\\hline
+  $\sISOmetricthread{1}$    &                 & \mm{2.5}   & \\
+  $\sISOmetricthread{1.6}$ &                 & \mm{3.2}   &  \\
+  $\sISOmetricthread{2}$    & \mm{4}    &                   & \mm{1.6}\\
+  $\sISOmetricthread{2.5}$ & \mm{5}    &                   & \mm{2}\\
+  $\sISOmetricthread{3}$    & \mm{5.5} & \mm{6.4}   & \mm{2.4}\\
+  $\sISOmetricthread{4}$    & \mm{7}    & \mm{8.1}   & \mm{2.4}\\
+  $\sISOmetricthread{5}$    & \mm{8}    & \mm{9.2}   & \mm{4}\\
+  $\sISOmetricthread{6}$    & \mm{10}  & \mm{11.5} & \mm{5}\\
+  $\sISOmetricthread{8}$    & \mm{13}  & \mm{15}    & \mm{6.5}\\
+  $\sISOmetricthread{10}$  & \mm{16}  & \mm{19.6} & \mm{8}\\
+  $\sISOmetricthread{12}$  & \mm{17}  & \mm{22.1} & \mm{10}\\
+  $\sISOmetricthread{16}$  & \mm{24}  & \mm{27.7} & \mm{13}\\
+  $\sISOmetricthread{20}$  & \mm{30}  & \mm{34.6} & \mm{16}\\
+  $\sISOmetricthread{24}$  & \mm{36}  & \mm{41.6} & \mm{19}\\
+  $\sISOmetricthread{30}$  & \mm{46}  & \mm{53.1} & \mm{24}\\   
+  $\sISOmetricthread{36}$  & \mm{55}  & \mm{63.5} & \mm{29}\\\hline
+\end{tabular}
+\end{center}
+\end{definition}
+\end{module}
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "all"
+%%% End: 
+
+% LocalWords:  ISOhexbolt ISOmetricthread nutbolt ensuremath quantityof hline
+% LocalWords:  SImillimetre trefi trefii trefi

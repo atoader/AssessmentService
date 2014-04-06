@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="units_time" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1158.89.0-1275.97.1"/>
+    </metadata>
+    <constant name="calendar_month">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1192.90.2-1207.90.17"/>
+      </metadata>
+    </constant>
+    <constant name="calendar_year">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1211.91.2-1225.91.16"/>
+      </metadata>
+    </constant>
+    <constant name="day">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1229.92.2-1233.92.6"/>
+      </metadata>
+    </constant>
+    <constant name="hour">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1237.93.2-1242.93.7"/>
+      </metadata>
+    </constant>
+    <constant name="minute">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1246.94.2-1253.94.9"/>
+      </metadata>
+    </constant>
+    <constant name="second">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1257.95.2-1264.95.9"/>
+      </metadata>
+    </constant>
+    <constant name="week">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1268.96.2-1273.96.7"/>
+      </metadata>
+    </constant>
+  </theory>
+</omdoc>

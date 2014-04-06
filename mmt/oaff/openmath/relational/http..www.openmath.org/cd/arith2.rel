@@ -1,0 +1,6 @@
+theory http://www.openmath.org/cd?arith2
+HasMeta http://www.openmath.org/cd?arith2 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?arith2 http://www.openmath.org/cd?arith2?times
+constant: http://www.openmath.org/cd?arith2?times
+Declares http://www.openmath.org/cd?arith2 http://www.openmath.org/cd?arith2?inverse
+constant: http://www.openmath.org/cd?arith2?inverse

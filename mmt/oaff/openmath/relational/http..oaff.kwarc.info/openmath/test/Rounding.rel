@@ -1,0 +1,12 @@
+theory http://oaff.kwarc.info/openmath/test?Rounding
+Includes http://oaff.kwarc.info/openmath/test?Rounding http://www.openmath.org/cd?relation1
+Includes http://oaff.kwarc.info/openmath/test?Rounding http://www.openmath.org/cd?logic1
+Includes http://oaff.kwarc.info/openmath/test?Rounding http://www.openmath.org/cd?rounding1
+Declares http://oaff.kwarc.info/openmath/test?Rounding http://oaff.kwarc.info/openmath/test?Rounding?floorTest
+constant: http://oaff.kwarc.info/openmath/test?Rounding?floorTest
+Declares http://oaff.kwarc.info/openmath/test?Rounding http://oaff.kwarc.info/openmath/test?Rounding?ceilingTest
+constant: http://oaff.kwarc.info/openmath/test?Rounding?ceilingTest
+Declares http://oaff.kwarc.info/openmath/test?Rounding http://oaff.kwarc.info/openmath/test?Rounding?roundTest
+constant: http://oaff.kwarc.info/openmath/test?Rounding?roundTest
+Declares http://oaff.kwarc.info/openmath/test?Rounding http://oaff.kwarc.info/openmath/test?Rounding?truncTest
+constant: http://oaff.kwarc.info/openmath/test?Rounding?truncTest

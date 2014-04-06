@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <view 
+  name="RelationTest" base="http://oaff.kwarc.info/openmath/test" from="http://oaff.kwarc.info/openmath/test?Relation" to="http://cds.omdoc.org/urtheories?ScalaOM">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/relation.mmt#343.16.0-607.21.1"/>
+    </metadata>
+    <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3FOpenMath]" domain="http://www.openmath.org/cd?OpenMath">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/relation.mmt#420.17.2-487.17.69"/>
+      </metadata>
+      <value>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://cds.omdoc.org/urtheories" module="Syntactic"/>
+        </om:OMOBJ>
+      </value>
+    </import>
+    <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Frelation1]" domain="http://www.openmath.org/cd?relation1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/relation.mmt#490.18.2-529.18.41"/>
+      </metadata>
+      <value>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Relation1"/>
+        </om:OMOBJ>
+      </value>
+    </import>
+    <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Flogic1]" domain="http://www.openmath.org/cd?logic1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/relation.mmt#532.19.2-565.19.35"/>
+      </metadata>
+      <value>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Logic1"/>
+        </om:OMOBJ>
+      </value>
+    </import>
+    <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Fcomplex1]" domain="http://www.openmath.org/cd?complex1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/relation.mmt#568.20.2-605.20.39"/>
+      </metadata>
+      <value>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Complex1"/>
+        </om:OMOBJ>
+      </value>
+    </import>
+</view>
+</omdoc>

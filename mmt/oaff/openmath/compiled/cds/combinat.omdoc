@@ -1,0 +1,44 @@
+<omdoc base="http://www.openmath.org/cds/combinat.mmt">
+        <theory name="combinat1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/combinat.mmt#39.2.0-233.9.1"/></metadata>
+        <constant name="binomial">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/combinat.mmt#72.3.2-96.3.26"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?combinat1?binomial" precedence="0" fixity="mixfix" arguments="binomial 1 2"/></notation>
+     </constant><constant name="multinomial">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/combinat.mmt#99.4.2-129.4.32"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?combinat1?multinomial" precedence="0" fixity="mixfix" arguments="multinomial 1,…"/></notation>
+     </constant><constant name="Stirling1">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/combinat.mmt#132.5.2-158.5.28"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?combinat1?Stirling1" precedence="0" fixity="mixfix" arguments="Stirling1 1 2"/></notation>
+     </constant><constant name="Stirling2">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/combinat.mmt#161.6.2-187.6.28"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?combinat1?Stirling2" precedence="0" fixity="mixfix" arguments="Stirling2 1 2"/></notation>
+     </constant><constant name="Fibonacci">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/combinat.mmt#190.7.2-214.7.26"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?combinat1?Fibonacci" precedence="0" fixity="mixfix" arguments="Fibonacci 1"/></notation>
+     </constant><constant name="Bell">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/combinat.mmt#217.8.2-231.8.16"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?combinat1?Bell" precedence="0" fixity="mixfix" arguments="Bell 1"/></notation>
+     </constant>
+      </theory><theory name="permut1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/combinat.mmt#235.11.0-298.13.1"/></metadata>
+        <constant name="permutation">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/combinat.mmt#266.12.2-296.12.32"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?permut1?permutation" precedence="0" fixity="mixfix" arguments="permutation 1,…"/></notation>
+     </constant>
+      </theory>
+     </omdoc>

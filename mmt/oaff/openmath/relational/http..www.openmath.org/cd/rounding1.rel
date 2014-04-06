@@ -1,0 +1,10 @@
+theory http://www.openmath.org/cd?rounding1
+HasMeta http://www.openmath.org/cd?rounding1 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?rounding1 http://www.openmath.org/cd?rounding1?ceiling
+constant: http://www.openmath.org/cd?rounding1?ceiling
+Declares http://www.openmath.org/cd?rounding1 http://www.openmath.org/cd?rounding1?floor
+constant: http://www.openmath.org/cd?rounding1?floor
+Declares http://www.openmath.org/cd?rounding1 http://www.openmath.org/cd?rounding1?round
+constant: http://www.openmath.org/cd?rounding1?round
+Declares http://www.openmath.org/cd?rounding1 http://www.openmath.org/cd?rounding1?trunc
+constant: http://www.openmath.org/cd?rounding1?trunc

@@ -1,0 +1,23 @@
+<omdoc base="http://docs.omdoc.org/cad/color.omdoc">
+  <theory name="color" base="http://docs.omdoc.org/cad/color.omdoc">
+    <import from="../../../fcad/flange/cds/physobj?physobj"> </import>
+    <constant name="color"> </constant>
+  </theory>
+  <definition for="http://docs.omdoc.org/cad/color.omdoc?color?color">
+    <omdoc:CMP 
+    stex:srcref="../../../fcad/flange/cds/color.tex#textrange(from=3;1,to=7;16)" about="#color.definition3.CMP1" xml:id="color.definition3.CMP1" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#color.definition3.CMP1.p1" class="ltx_p" id="color.definition3.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        The
+        <omdoc:ref target="http://docs.omdoc.org/cad/color.omdoc?color?color"> color </omdoc:ref>
+        of a
+        <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?physical-object">
+          physical object
+        </omdoc:ref>
+        is defined by the spectrum of lights it emits or reflects. It is determined by the object
+        ’
+        s substance, its temperature and the spectrum of the incoming light.
+</p>
+</omdoc:CMP>
+  </definition>
+</omdoc>

@@ -1,0 +1,14 @@
+theory http://www.openmath.org/cd?complex1
+HasMeta http://www.openmath.org/cd?complex1 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?complex1 http://www.openmath.org/cd?complex1?complex_cartesian
+constant: http://www.openmath.org/cd?complex1?complex_cartesian
+Declares http://www.openmath.org/cd?complex1 http://www.openmath.org/cd?complex1?complex_polar
+constant: http://www.openmath.org/cd?complex1?complex_polar
+Declares http://www.openmath.org/cd?complex1 http://www.openmath.org/cd?complex1?argument
+constant: http://www.openmath.org/cd?complex1?argument
+Declares http://www.openmath.org/cd?complex1 http://www.openmath.org/cd?complex1?real
+constant: http://www.openmath.org/cd?complex1?real
+Declares http://www.openmath.org/cd?complex1 http://www.openmath.org/cd?complex1?imaginary
+constant: http://www.openmath.org/cd?complex1?imaginary
+Declares http://www.openmath.org/cd?complex1 http://www.openmath.org/cd?complex1?conjugate
+constant: http://www.openmath.org/cd?complex1?conjugate

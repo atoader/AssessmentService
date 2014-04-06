@@ -1,0 +1,14 @@
+theory http://www.openmath.org/cd?units_us1
+HasMeta http://www.openmath.org/cd?units_us1 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?units_us1 http://www.openmath.org/cd?units_us1?acre_us_survey
+constant: http://www.openmath.org/cd?units_us1?acre_us_survey
+Declares http://www.openmath.org/cd?units_us1 http://www.openmath.org/cd?units_us1?foot_us_survey
+constant: http://www.openmath.org/cd?units_us1?foot_us_survey
+Declares http://www.openmath.org/cd?units_us1 http://www.openmath.org/cd?units_us1?mile_us_survey
+constant: http://www.openmath.org/cd?units_us1?mile_us_survey
+Declares http://www.openmath.org/cd?units_us1 http://www.openmath.org/cd?units_us1?pint_us_dry
+constant: http://www.openmath.org/cd?units_us1?pint_us_dry
+Declares http://www.openmath.org/cd?units_us1 http://www.openmath.org/cd?units_us1?pint_us_liquid
+constant: http://www.openmath.org/cd?units_us1?pint_us_liquid
+Declares http://www.openmath.org/cd?units_us1 http://www.openmath.org/cd?units_us1?yard_us_survey
+constant: http://www.openmath.org/cd?units_us1?yard_us_survey

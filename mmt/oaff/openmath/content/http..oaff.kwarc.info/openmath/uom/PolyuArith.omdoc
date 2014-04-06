@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <view name="PolyuArith" base="http://oaff.kwarc.info/openmath/uom" from="http://www.openmath.org/cd?arith1" to="http://cds.omdoc.org/urtheories?ScalaOM">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/polygrp.mmt#143.6.0-706.29.1"/>
+    </metadata>
+    <constant name="plus">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/polygrp.mmt#243.8.2-703.27.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="args">
+              <type>
+                <om:OMA position="0_1">
+                  <om:OMS position="0_1_0" base="http://cds.omdoc.org/urtheories" module="Scala" name="List"/>
+                  <om:OMS position="0_1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+                </om:OMA>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala">
+              <![CDATA[var polys: List[Term] = Nil
+    var restArgs: List[Term] = Nil
+    
+    args foreach {
+      case polyu.polynomial_u(p, _) => polys ::= p
+      case p@polyu.poly_u_rep(_) => polys :: p
+      case a => restArgs ::= a
+    }
+    if (polys == Nil) {
+      plus(restArgs)
+    } else {
+      var sum = Polys.addPolys(polys)
+      if (restArgs == Nil) {
+        sum
+      } else {
+        plus(sum :: restArgs)
+      }
+    }]]>
+            </om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+  </view>
+</omdoc>

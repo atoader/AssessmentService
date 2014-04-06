@@ -1,0 +1,12 @@
+HasDomain http://oaff.kwarc.info/openmath/uom?List2 http://www.openmath.org/cd?list2
+HasCodomain http://oaff.kwarc.info/openmath/uom?List2 http://cds.omdoc.org/urtheories?ScalaOM
+view http://oaff.kwarc.info/openmath/uom?List2
+Declares http://oaff.kwarc.info/openmath/uom?List2 http://oaff.kwarc.info/openmath/uom?List2?list_selector
+Declares http://oaff.kwarc.info/openmath/uom?List2 http://oaff.kwarc.info/openmath/uom?List2?first
+Declares http://oaff.kwarc.info/openmath/uom?List2 http://oaff.kwarc.info/openmath/uom?List2?rest
+Declares http://oaff.kwarc.info/openmath/uom?List2 http://oaff.kwarc.info/openmath/uom?List2?cons
+Declares http://oaff.kwarc.info/openmath/uom?List2 http://oaff.kwarc.info/openmath/uom?List2?append
+Declares http://oaff.kwarc.info/openmath/uom?List2 http://oaff.kwarc.info/openmath/uom?List2?nil
+Declares http://oaff.kwarc.info/openmath/uom?List2 http://oaff.kwarc.info/openmath/uom?List2?reverse
+Declares http://oaff.kwarc.info/openmath/uom?List2 http://oaff.kwarc.info/openmath/uom?List2?size
+Declares http://oaff.kwarc.info/openmath/uom?List2 http://oaff.kwarc.info/openmath/uom?List2?in

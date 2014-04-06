@@ -1,0 +1,5 @@
+HasDomain http://oaff.kwarc.info/openmath/uom?LinalgArith http://www.openmath.org/cd?arith1
+HasCodomain http://oaff.kwarc.info/openmath/uom?LinalgArith http://cds.omdoc.org/urtheories?ScalaOM
+view http://oaff.kwarc.info/openmath/uom?LinalgArith
+Declares http://oaff.kwarc.info/openmath/uom?LinalgArith http://oaff.kwarc.info/openmath/uom?LinalgArith?plus
+Declares http://oaff.kwarc.info/openmath/uom?LinalgArith http://oaff.kwarc.info/openmath/uom?LinalgArith?times

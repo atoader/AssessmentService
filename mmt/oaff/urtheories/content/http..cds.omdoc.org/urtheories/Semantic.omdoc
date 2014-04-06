@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <view name="Semantic" base="http://cds.omdoc.org/urtheories" from="http://www.openmath.org/cd?OpenMath" to="http://cds.omdoc.org/urtheories?ScalaOM">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://docs.omdoc.org/urtheories/bifoundations.mmt#277.10.0-510.16.1"/>
+    </metadata>
+    <constant name="Object">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://docs.omdoc.org/urtheories/bifoundations.mmt#345.11.2-363.11.20"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMS base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+      </om:OMOBJ>
+    </constant>
+    <constant name="mapsto">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://docs.omdoc.org/urtheories/bifoundations.mmt#366.12.2-388.12.24"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMS base="http://cds.omdoc.org/urtheories" module="Scala" name="Function"/>
+      </om:OMOBJ>
+    </constant>
+    <constant name="naryObject">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://docs.omdoc.org/urtheories/bifoundations.mmt#391.13.2-415.13.26"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMA>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="List"/>
+          <om:OMS position="1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+        </om:OMA>
+      </om:OMOBJ>
+    </constant>
+    <constant name="binder">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://docs.omdoc.org/urtheories/bifoundations.mmt#418.14.2-455.14.39"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMA>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Function"/>
+          <om:OMS position="1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Context"/>
+          <om:OMS position="2" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+          <om:OMS position="3" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+        </om:OMA>
+      </om:OMOBJ>
+    </constant>
+    <constant name="FMP">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://docs.omdoc.org/urtheories/bifoundations.mmt#458.15.2-508.15.52"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="x">
+              <type>
+                <om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala"><![CDATA[assert(x == OMS(d))]]></om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+  </view>
+</omdoc>

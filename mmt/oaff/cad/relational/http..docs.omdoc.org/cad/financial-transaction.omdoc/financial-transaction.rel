@@ -1,0 +1,29 @@
+theory http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction
+Declares http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?financial-transaction
+constant: http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?financial-transaction
+Declares http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?asset
+constant: http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?asset
+Declares http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?payment
+constant: http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?payment
+Declares http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?transaction-price
+constant: http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?transaction-price
+Declares http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?seller
+constant: http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?seller
+Declares http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?buyer
+constant: http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?buyer
+Declares http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?bid
+constant: http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?bid
+Declares http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?bid-price
+constant: http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?bid-price
+Declares http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?offer
+constant: http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?offer
+Declares http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?asking-price
+constant: http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?asking-price
+Declares http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?individual-price
+constant: http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?individual-price
+Declares http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?overall-price
+constant: http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?overall-price
+Declares http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?price
+constant: http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?price
+Includes http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction http://docs.omdoc.org/../../sissi/winograd/cds/legalentities?legalentities
+Includes http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction http://docs.omdoc.org/../../slides/units/en/quantities?quantities

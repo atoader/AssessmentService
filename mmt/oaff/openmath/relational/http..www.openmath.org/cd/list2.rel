@@ -1,0 +1,20 @@
+theory http://www.openmath.org/cd?list2
+HasMeta http://www.openmath.org/cd?list2 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?list2 http://www.openmath.org/cd?list2?list_selector
+constant: http://www.openmath.org/cd?list2?list_selector
+Declares http://www.openmath.org/cd?list2 http://www.openmath.org/cd?list2?first
+constant: http://www.openmath.org/cd?list2?first
+Declares http://www.openmath.org/cd?list2 http://www.openmath.org/cd?list2?rest
+constant: http://www.openmath.org/cd?list2?rest
+Declares http://www.openmath.org/cd?list2 http://www.openmath.org/cd?list2?append
+constant: http://www.openmath.org/cd?list2?append
+Declares http://www.openmath.org/cd?list2 http://www.openmath.org/cd?list2?cons
+constant: http://www.openmath.org/cd?list2?cons
+Declares http://www.openmath.org/cd?list2 http://www.openmath.org/cd?list2?nil
+constant: http://www.openmath.org/cd?list2?nil
+Declares http://www.openmath.org/cd?list2 http://www.openmath.org/cd?list2?reverse
+constant: http://www.openmath.org/cd?list2?reverse
+Declares http://www.openmath.org/cd?list2 http://www.openmath.org/cd?list2?size
+constant: http://www.openmath.org/cd?list2?size
+Declares http://www.openmath.org/cd?list2 http://www.openmath.org/cd?list2?in
+constant: http://www.openmath.org/cd?list2?in

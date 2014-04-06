@@ -1,0 +1,22 @@
+namespace http://oaff.kwarc.info/openmath/test
+
+import cd http://www.openmath.org/cd
+
+theory Complex =
+  include cd:?arith1
+  include cd:?relation1
+  include cd:?logic1
+  include cd:?complex1
+  realTest1 : FMP = Re (CC 1 2) = 1
+  imaginaryTest : FMP = Im (CC 1 2) = 2
+  argument : FMP = Arg (CP 1 2) = 2
+  conjugate : FMP = Conj (CC 1 2) = CC 1 (-2)
+
+
+view ComplexTest : ?Complex -> http://cds.omdoc.org/urtheories?ScalaOM =
+  include cd:?OpenMath  = http://cds.omdoc.org/urtheories?Syntactic
+  include cd:?arith1    = uom?Arith1
+  include cd:?relation1 = uom?Relation1
+  include cd:?logic1 = uom?Logic1
+  include cd:?complex1 = uom?Complex1
+

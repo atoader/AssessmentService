@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="torque" base="http://docs.omdoc.org/crane/torque.omdoc">
+    <constant name="torque">
+      <notation>
+        <text-notation dimensions="1" name="http://docs.omdoc.org/crane/torque.omdoc?torque?torque" precedence="1" fixity="mixfix" arguments="τ"/>
+      </notation>
+    </constant>
+    <import from="http://docs.omdoc.org/smglo/sTeX/relation.omdoc?relation"> </import>
+    <import from="http://docs.omdoc.org/../smglo/sTeX/crossproduct?crossproduct"> </import>
+    <import from="http://docs.omdoc.org/../smglo/sTeX/norm?norm"> </import>
+    <import from="http://docs.omdoc.org/../../slides/missing/en/arithmetics?arithmetics"> </import>
+  </theory>
+</omdoc>

@@ -1,0 +1,16 @@
+theory http://www.openmath.org/cd?interval1
+HasMeta http://www.openmath.org/cd?interval1 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?interval1 http://www.openmath.org/cd?interval1?integer_interval
+constant: http://www.openmath.org/cd?interval1?integer_interval
+Declares http://www.openmath.org/cd?interval1 http://www.openmath.org/cd?interval1?interval
+constant: http://www.openmath.org/cd?interval1?interval
+Declares http://www.openmath.org/cd?interval1 http://www.openmath.org/cd?interval1?interval_cc
+constant: http://www.openmath.org/cd?interval1?interval_cc
+Declares http://www.openmath.org/cd?interval1 http://www.openmath.org/cd?interval1?interval_co
+constant: http://www.openmath.org/cd?interval1?interval_co
+Declares http://www.openmath.org/cd?interval1 http://www.openmath.org/cd?interval1?interval_oc
+constant: http://www.openmath.org/cd?interval1?interval_oc
+Declares http://www.openmath.org/cd?interval1 http://www.openmath.org/cd?interval1?interval_oo
+constant: http://www.openmath.org/cd?interval1?interval_oo
+Declares http://www.openmath.org/cd?interval1 http://www.openmath.org/cd?interval1?oriented_interval
+constant: http://www.openmath.org/cd?interval1?oriented_interval

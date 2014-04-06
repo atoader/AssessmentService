@@ -1,0 +1,23 @@
+theory http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt
+Declares http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?bolt
+constant: http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?bolt
+Declares http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?thread
+constant: http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?thread
+Declares http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?nut
+constant: http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?nut
+Declares http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?height
+constant: http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?height
+Declares http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?flat-size
+constant: http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?flat-size
+Declares http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?acorn-nut
+constant: http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?acorn-nut
+Declares http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?hex-nut
+constant: http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?hex-nut
+Declares http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?wing-nut
+constant: http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?wing-nut
+Declares http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?length
+constant: http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?length
+Declares http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?head
+constant: http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?head
+Includes http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt http://docs.omdoc.org/../../fcad/flange/cds/thread?thread
+Includes http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt http://docs.omdoc.org/../../fcad/flange/cds/solidobj?solidobj

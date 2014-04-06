@@ -1,0 +1,32 @@
+theory http://www.openmath.org/cd?set1
+HasMeta http://www.openmath.org/cd?set1 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?set1 http://www.openmath.org/cd?set1?cartesian_product
+constant: http://www.openmath.org/cd?set1?cartesian_product
+Declares http://www.openmath.org/cd?set1 http://www.openmath.org/cd?set1?emptyset
+constant: http://www.openmath.org/cd?set1?emptyset
+Declares http://www.openmath.org/cd?set1 http://www.openmath.org/cd?set1?map
+constant: http://www.openmath.org/cd?set1?map
+Declares http://www.openmath.org/cd?set1 http://www.openmath.org/cd?set1?size
+constant: http://www.openmath.org/cd?set1?size
+Declares http://www.openmath.org/cd?set1 http://www.openmath.org/cd?set1?suchthat
+constant: http://www.openmath.org/cd?set1?suchthat
+Declares http://www.openmath.org/cd?set1 http://www.openmath.org/cd?set1?set
+constant: http://www.openmath.org/cd?set1?set
+Declares http://www.openmath.org/cd?set1 http://www.openmath.org/cd?set1?intersect
+constant: http://www.openmath.org/cd?set1?intersect
+Declares http://www.openmath.org/cd?set1 http://www.openmath.org/cd?set1?union
+constant: http://www.openmath.org/cd?set1?union
+Declares http://www.openmath.org/cd?set1 http://www.openmath.org/cd?set1?setdiff
+constant: http://www.openmath.org/cd?set1?setdiff
+Declares http://www.openmath.org/cd?set1 http://www.openmath.org/cd?set1?in
+constant: http://www.openmath.org/cd?set1?in
+Declares http://www.openmath.org/cd?set1 http://www.openmath.org/cd?set1?notin
+constant: http://www.openmath.org/cd?set1?notin
+Declares http://www.openmath.org/cd?set1 http://www.openmath.org/cd?set1?subset
+constant: http://www.openmath.org/cd?set1?subset
+Declares http://www.openmath.org/cd?set1 http://www.openmath.org/cd?set1?prsubset
+constant: http://www.openmath.org/cd?set1?prsubset
+Declares http://www.openmath.org/cd?set1 http://www.openmath.org/cd?set1?notsubset
+constant: http://www.openmath.org/cd?set1?notsubset
+Declares http://www.openmath.org/cd?set1 http://www.openmath.org/cd?set1?notprsubset
+constant: http://www.openmath.org/cd?set1?notprsubset

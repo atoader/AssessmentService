@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="tensor1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/tensor.mmt#39.2.0-91.4.1"/>
+    </metadata>
+    <constant name="tuple">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/tensor.mmt#70.3.2-89.3.21"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?tensor1?tuple" precedence="0" fixity="mixfix" arguments="tuple 1,…"/>
+      </notation>
+    </constant>
+  </theory>
+</omdoc>

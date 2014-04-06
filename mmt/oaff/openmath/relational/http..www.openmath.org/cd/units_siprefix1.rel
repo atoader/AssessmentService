@@ -1,0 +1,42 @@
+theory http://www.openmath.org/cd?units_siprefix1
+HasMeta http://www.openmath.org/cd?units_siprefix1 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?units_siprefix1 http://www.openmath.org/cd?units_siprefix1?atto
+constant: http://www.openmath.org/cd?units_siprefix1?atto
+Declares http://www.openmath.org/cd?units_siprefix1 http://www.openmath.org/cd?units_siprefix1?centi
+constant: http://www.openmath.org/cd?units_siprefix1?centi
+Declares http://www.openmath.org/cd?units_siprefix1 http://www.openmath.org/cd?units_siprefix1?deci
+constant: http://www.openmath.org/cd?units_siprefix1?deci
+Declares http://www.openmath.org/cd?units_siprefix1 http://www.openmath.org/cd?units_siprefix1?deka
+constant: http://www.openmath.org/cd?units_siprefix1?deka
+Declares http://www.openmath.org/cd?units_siprefix1 http://www.openmath.org/cd?units_siprefix1?exa
+constant: http://www.openmath.org/cd?units_siprefix1?exa
+Declares http://www.openmath.org/cd?units_siprefix1 http://www.openmath.org/cd?units_siprefix1?femto
+constant: http://www.openmath.org/cd?units_siprefix1?femto
+Declares http://www.openmath.org/cd?units_siprefix1 http://www.openmath.org/cd?units_siprefix1?giga
+constant: http://www.openmath.org/cd?units_siprefix1?giga
+Declares http://www.openmath.org/cd?units_siprefix1 http://www.openmath.org/cd?units_siprefix1?hecto
+constant: http://www.openmath.org/cd?units_siprefix1?hecto
+Declares http://www.openmath.org/cd?units_siprefix1 http://www.openmath.org/cd?units_siprefix1?kilo
+constant: http://www.openmath.org/cd?units_siprefix1?kilo
+Declares http://www.openmath.org/cd?units_siprefix1 http://www.openmath.org/cd?units_siprefix1?mega
+constant: http://www.openmath.org/cd?units_siprefix1?mega
+Declares http://www.openmath.org/cd?units_siprefix1 http://www.openmath.org/cd?units_siprefix1?micro
+constant: http://www.openmath.org/cd?units_siprefix1?micro
+Declares http://www.openmath.org/cd?units_siprefix1 http://www.openmath.org/cd?units_siprefix1?milli
+constant: http://www.openmath.org/cd?units_siprefix1?milli
+Declares http://www.openmath.org/cd?units_siprefix1 http://www.openmath.org/cd?units_siprefix1?nano
+constant: http://www.openmath.org/cd?units_siprefix1?nano
+Declares http://www.openmath.org/cd?units_siprefix1 http://www.openmath.org/cd?units_siprefix1?peta
+constant: http://www.openmath.org/cd?units_siprefix1?peta
+Declares http://www.openmath.org/cd?units_siprefix1 http://www.openmath.org/cd?units_siprefix1?pico
+constant: http://www.openmath.org/cd?units_siprefix1?pico
+Declares http://www.openmath.org/cd?units_siprefix1 http://www.openmath.org/cd?units_siprefix1?tera
+constant: http://www.openmath.org/cd?units_siprefix1?tera
+Declares http://www.openmath.org/cd?units_siprefix1 http://www.openmath.org/cd?units_siprefix1?yocto
+constant: http://www.openmath.org/cd?units_siprefix1?yocto
+Declares http://www.openmath.org/cd?units_siprefix1 http://www.openmath.org/cd?units_siprefix1?yotta
+constant: http://www.openmath.org/cd?units_siprefix1?yotta
+Declares http://www.openmath.org/cd?units_siprefix1 http://www.openmath.org/cd?units_siprefix1?zepto
+constant: http://www.openmath.org/cd?units_siprefix1?zepto
+Declares http://www.openmath.org/cd?units_siprefix1 http://www.openmath.org/cd?units_siprefix1?zetta
+constant: http://www.openmath.org/cd?units_siprefix1?zetta

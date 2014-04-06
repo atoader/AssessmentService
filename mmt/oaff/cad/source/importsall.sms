@@ -1,0 +1,6 @@
+\begin{module}[id=importsall]%
+\importmodule[ISOhexnut]{ISOhexnut}%
+\importmodule[flange-bolt-gasket]{flange-bolt-gasket}%
+\importmodule[solidobj]{solidobj}%
+\importmodule[price-function]{price-function}%
+\end{module}%

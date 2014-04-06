@@ -1,0 +1,86 @@
+namespace http://oaff.kwarc.info/openmath/uom
+
+view List1 : http://www.openmath.org/cd?list1 -> http://cds.omdoc.org/urtheories?ScalaOM =
+
+  list = (ls: List[Term]) scala
+    list(ls)
+  
+
+  map = (f: Term, c: Term) scala
+    c match {
+      case list(ls) => list(ls.map(t => OMA(f, List(t))))
+      case set1.set(s) => set1.set(s.map(t => OMA(f, List(t))))
+      case interval1.integer_interval(a, b) => interval1.integer_interval(OMA(f, List(a)), OMA(f, List(b)))
+    }
+  
+  
+
+
+view List2 : http://www.openmath.org/cd?list2 -> http://cds.omdoc.org/urtheories?ScalaOM =
+
+  list_selector = (i: Term, l: Term) scala
+    (i, l) match {
+      case (OMI(n), list1.list(ls)) =>
+        if (n <= ls.length) ls(n.toInt - 1) else throw UOMException("list2.list_selector index out of bounds")
+      case _ => list_selector(i, l)
+    } 
+  
+  
+  first = (l: Term) scala
+    l match {
+      case list1.list(Nil) => throw UOMException("list2.first: empty list")
+      case list1.list(h :: _) => h
+      case _ => first(l)
+    }
+  
+  
+  rest = (l: Term) scala
+    l match {
+      case list1.list(Nil) => throw UOMException("list2.rest: empty list")
+      case list1.list(_ :: t) => list1.list(t)
+      case _ => rest(l)
+    }
+  
+  
+  cons = (a: Term, l: Term) scala
+    l match {
+      case list1.list(ls) => list1.list(a :: ls)
+      case _ => cons(a, l)
+    }
+  
+  
+  append = (l1: Term, l2: Term) scala
+    (l1, l2) match {
+      case (list1.list(ls1), list1.list(ls2)) => list1.list(ls1 ::: ls2) 
+      case _ => append(l1, l2)
+    }
+  
+  
+  nil = scala
+    list1.list(Nil)
+  
+  
+  reverse = (l: Term) scala
+    l match {
+      case list1.list(ls) => list1.list(ls.reverse)
+      case _ => reverse(l)
+    }
+  
+  
+  size = (l: Term) scala
+    l match {
+      case list1.list(ls) => OMI(ls.length)
+      case _ => size(l)
+    }
+  
+  
+  in = (a: Term, l: Term) scala
+    l match {
+      case list1.list(ls) => logic1.or(ls.map(relation1.OMeq(_, a)))
+      case _ => in(a, l)
+    }
+  
+
+
+
+

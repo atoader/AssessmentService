@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="Comparation" base="http://cds.omdoc.org/assessment">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/assessment/assessment.mmt#244.9.0-322.13.1"/>
+    </metadata>
+    <import from="http://cds.omdoc.org/assessment?Lists">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/assessment/assessment.mmt#268.10.2-283.10.17"/>
+      </metadata>
+    </import>
+    <constant name="base">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/assessment/assessment.mmt#286.11.2-299.11.15"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://cds.omdoc.org/assessment?Comparation?base" precedence="0" fixity="mixfix" arguments="base"/>
+      </notation>
+    </constant>
+    <constant name="comp">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/assessment/assessment.mmt#303.12.2-319.12.18"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://cds.omdoc.org/assessment?Comparation?comp" precedence="0" fixity="mixfix" arguments="comp 1 2"/>
+      </notation>
+    </constant>
+  </theory>
+</omdoc>

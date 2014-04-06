@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="assembly-crane" base="http://docs.omdoc.org/crane/assembly-crane.omdoc">
+    <constant name="assembly-crane"> </constant>
+    <constant name="base-frame"> </constant>
+    <constant name="leg"> </constant>
+    <constant name="mast"> </constant>
+    <constant name="jib"> </constant>
+    <import from="http://docs.omdoc.org/../../fcad/crane/cds/crane?crane"> </import>
+  </theory>
+</omdoc>

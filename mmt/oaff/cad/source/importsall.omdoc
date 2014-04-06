@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--This OMDoc document is generated from an sTeX-encoded one via LaTeXML, you may want to reconsider editing it.-->
+<omdoc xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX" xml:base="https://tnt.kwarc.info/repos/stc/fcad/flange/cds/importsall" xml:id="Document">
+  <metadata/>
+  <theory xml:id="importsall" about="#importsall" stex:srcref="../../../fcad/flange/cds/importsall.tex#textrange(from=1;0,to=9;12)">
+    <omdoc:omtext xml:id="importsall.omtext1" about="#importsall.omtext1" stex:srcref="../../../fcad/flange/cds/importsall.tex#textrange(from=2;1,to=4;12)">
+      <omdoc:CMP xml:id="importsall.omtext1.CMP1" about="#importsall.omtext1.CMP1" stex:srcref="../../../fcad/flange/cds/importsall.tex#textrange(from=2;1,to=2;15)">
+<p xmlns="http://www.w3.org/1999/xhtml" id="importsall.omtext1.CMP1.p1" class="ltx_p" about="#importsall.omtext1.CMP1.p1">this is only for generating the graph</p></omdoc:CMP>
+    </omdoc:omtext>
+    <omdoc:imports from="../../../fcad/flange/cds/ISOhexnut#ISOhexnut" xml:id="importsall.imports2" about="#importsall.imports2" stex:srcref="../../../fcad/flange/cds/importsall.tex#textrange(from=5;0,to=5;35)"/>
+    <omdoc:imports from="../../../fcad/flange/cds/flange-bolt-gasket#flange-bolt-gasket" xml:id="importsall.imports3" about="#importsall.imports3" stex:srcref="../../../fcad/flange/cds/importsall.tex#textrange(from=6;0,to=6;53)"/>
+    <omdoc:imports from="../../../fcad/flange/cds/solidobj#solidobj" xml:id="importsall.imports4" about="#importsall.imports4" stex:srcref="../../../fcad/flange/cds/importsall.tex#textrange(from=7;0,to=7;33)"/>
+    <omdoc:imports from="../../../fcad/flange/cds/price-function#price-function" xml:id="importsall.imports5" about="#importsall.imports5" stex:srcref="../../../fcad/flange/cds/importsall.tex#textrange(from=8;0,to=8;45)"/>
+  </theory>
+</omdoc>

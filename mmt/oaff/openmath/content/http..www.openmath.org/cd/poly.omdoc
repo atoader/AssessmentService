@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="poly" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/polygrp.mmt#174.9.0-694.26.1"/>
+    </metadata>
+    <constant name="power">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/polygrp.mmt#202.10.2-216.10.16"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?poly?power" precedence="0" fixity="mixfix" arguments="1 ^ 2"/>
+      </notation>
+    </constant>
+    <constant name="factored">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/polygrp.mmt#219.11.2-243.11.26"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?poly?factored" precedence="0" fixity="mixfix" arguments="factored 1,…"/>
+      </notation>
+    </constant>
+    <constant name="squarefreed">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/polygrp.mmt#246.12.2-276.12.32"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?poly?squarefreed" precedence="0" fixity="mixfix" arguments="squarefreed 1,…"/>
+      </notation>
+    </constant>
+    <constant name="partially_factored">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/polygrp.mmt#280.13.2-324.13.46"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?poly?partially_factored" precedence="0" fixity="mixfix" arguments="partially_factored 1,…"/>
+      </notation>
+    </constant>
+    <constant name="expand">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/polygrp.mmt#327.14.2-345.14.20"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?poly?expand" precedence="0" fixity="mixfix" arguments="expand 1"/>
+      </notation>
+    </constant>
+    <constant name="degree">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/polygrp.mmt#348.15.2-366.15.20"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?poly?degree" precedence="0" fixity="mixfix" arguments="degree 1"/>
+      </notation>
+    </constant>
+    <constant name="degree_wrt">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/polygrp.mmt#369.16.2-397.16.30"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?poly?degree_wrt" precedence="0" fixity="mixfix" arguments="degree_wrt 1 2"/>
+      </notation>
+    </constant>
+    <constant name="leading_coefficient">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/polygrp.mmt#400.17.2-446.17.48"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?poly?leading_coefficient" precedence="0" fixity="mixfix" arguments="leading_coefficient 1 2"/>
+      </notation>
+    </constant>
+    <constant name="coefficient">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/polygrp.mmt#449.18.2-481.18.34"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?poly?coefficient" precedence="0" fixity="mixfix" arguments="coefficient 1 2 3"/>
+      </notation>
+    </constant>
+    <constant name="coefficient_ring">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/polygrp.mmt#484.19.2-522.19.40"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?poly?coefficient_ring" precedence="0" fixity="mixfix" arguments="coefficient_ring 1"/>
+      </notation>
+    </constant>
+    <constant name="evaluate">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/polygrp.mmt#525.20.2-551.20.28"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?poly?evaluate" precedence="0" fixity="mixfix" arguments="evaluate 1 2,…"/>
+      </notation>
+    </constant>
+    <constant name="factor">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/polygrp.mmt#554.21.2-572.21.20"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?poly?factor" precedence="0" fixity="mixfix" arguments="factor 1"/>
+      </notation>
+    </constant>
+    <constant name="squarefree">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/polygrp.mmt#575.22.2-601.22.28"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?poly?squarefree" precedence="0" fixity="mixfix" arguments="squarefree 1"/>
+      </notation>
+    </constant>
+    <constant name="discriminant">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/polygrp.mmt#604.23.2-636.23.34"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?poly?discriminant" precedence="0" fixity="mixfix" arguments="discriminant 1 2"/>
+      </notation>
+    </constant>
+    <constant name="resultant">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/polygrp.mmt#639.24.2-667.24.30"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?poly?resultant" precedence="0" fixity="mixfix" arguments="resultant 1 2 3"/>
+      </notation>
+    </constant>
+    <constant name="convert">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/polygrp.mmt#670.25.2-692.25.24"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?poly?convert" precedence="0" fixity="mixfix" arguments="convert 1 2"/>
+      </notation>
+    </constant>
+  </theory>
+</omdoc>

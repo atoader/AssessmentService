@@ -1,0 +1,12 @@
+theory http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane
+Declares http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane?assembly-crane
+constant: http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane?assembly-crane
+Declares http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane?base-frame
+constant: http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane?base-frame
+Declares http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane?leg
+constant: http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane?leg
+Declares http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane?mast
+constant: http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane?mast
+Declares http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane?jib
+constant: http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane?jib
+Includes http://docs.omdoc.org/crane/assembly-crane.omdoc?assembly-crane http://docs.omdoc.org/../../fcad/crane/cds/crane?crane

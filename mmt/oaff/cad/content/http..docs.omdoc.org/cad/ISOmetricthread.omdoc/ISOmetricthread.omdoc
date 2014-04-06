@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="ISOmetricthread" base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc">
+    <constant name="ISOmetricthread">
+      <notation>
+        <text-notation 
+        dimensions="1" name="http://docs.omdoc.org/cad/ISOmetricthread.omdoc?ISOmetricthread?ISOmetricthread" precedence="1" fixity="mixfix" arguments="M ⁢ 1 × 2">
+</text-notation>
+      </notation>
+    </constant>
+    <constant name="sISOmetricthread">
+      <notation>
+        <text-notation 
+        dimensions="1" name="http://docs.omdoc.org/cad/ISOmetricthread.omdoc?ISOmetricthread?sISOmetricthread" precedence="1" fixity="mixfix" arguments="M ⁢ 1">
+</text-notation>
+      </notation>
+    </constant>
+    <import from="http://docs.omdoc.org/smglo/sTeX/arith.omdoc?arith"> </import>
+    <import from="http://docs.omdoc.org/../../slides/units/en/quantities?quantities"> </import>
+    <import from="http://docs.omdoc.org/../../slides/units/en/angles?angles"> </import>
+    <import from="http://docs.omdoc.org/../../slides/units/en/length?length"> </import>
+    <import from="http://docs.omdoc.org/../../fcad/flange/cds/thread?thread"> </import>
+  </theory>
+</omdoc>

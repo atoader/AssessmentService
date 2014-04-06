@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <view name="List2" base="http://oaff.kwarc.info/openmath/uom" from="http://www.openmath.org/cd?list2" to="http://cds.omdoc.org/urtheories?ScalaOM">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/list.mmt#487.18.0-2007.83.1"/>
+    </metadata>
+    <constant name="list_selector">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/list.mmt#581.20.2-839.26.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="i">
+              <type>
+                <om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+            <om:OMV position="1" name="l">
+              <type>
+                <om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala">
+              <![CDATA[(i, l) match {
+      case (OMI(n), list1.list(ls)) =>
+        if (n <= ls.length) ls(n.toInt - 1) else throw UOMException("list2.list_selector index out of bounds")
+      case _ => list_selector(i, l)
+    }]]>
+            </om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="first">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/list.mmt#845.28.2-1030.34.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="l">
+              <type>
+                <om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala">
+              <![CDATA[l match {
+      case list1.list(Nil) => throw UOMException("list2.first: empty list")
+      case list1.list(h :: _) => h
+      case _ => first(l)
+    }]]>
+            </om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="rest">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/list.mmt#1036.36.2-1230.42.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="l">
+              <type>
+                <om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala">
+              <![CDATA[l match {
+      case list1.list(Nil) => throw UOMException("list2.rest: empty list")
+      case list1.list(_ :: t) => list1.list(t)
+      case _ => rest(l)
+    }]]>
+            </om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="cons">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/list.mmt#1236.44.2-1369.49.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="a">
+              <type>
+                <om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+            <om:OMV position="1" name="l">
+              <type>
+                <om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala"><![CDATA[l match { case list1.list(ls) => list1.list(a :: ls) case _ => cons(a, l) }]]></om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="append">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/list.mmt#1375.51.2-1548.56.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="l1">
+              <type>
+                <om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+            <om:OMV position="1" name="l2">
+              <type>
+                <om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala"><![CDATA[(l1, l2) match { case (list1.list(ls1), list1.list(ls2)) => list1.list(ls1 ::: ls2) case _ => append(l1, l2) }]]></om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="nil">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/list.mmt#1554.58.2-1591.60.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMSF>
+          <om:text format="scala"><![CDATA[list1.list(Nil)]]></om:text>
+        </om:OMSF>
+      </om:OMOBJ>
+    </constant>
+    <constant name="reverse">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/list.mmt#1597.62.2-1727.67.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="l">
+              <type>
+                <om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala"><![CDATA[l match { case list1.list(ls) => list1.list(ls.reverse) case _ => reverse(l) }]]></om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="size">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/list.mmt#1733.69.2-1849.74.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="l">
+              <type>
+                <om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala"><![CDATA[l match { case list1.list(ls) => OMI(ls.length) case _ => size(l) }]]></om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="in">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/list.mmt#1855.76.2-2004.81.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="a">
+              <type>
+                <om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+            <om:OMV position="1" name="l">
+              <type>
+                <om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala"><![CDATA[l match { case list1.list(ls) => logic1.or(ls.map(relation1.OMeq(_, a))) case _ => in(a, l) }]]></om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+  </view>
+</omdoc>

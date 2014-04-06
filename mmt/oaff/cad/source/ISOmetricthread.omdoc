@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<!--This OMDoc document is generated from an sTeX-encoded one via LaTeXML, you may want to reconsider editing it.-->
+<omdoc xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns:om="http://www.openmath.org/OpenMath" xmlns:m="http://www.w3.org/1998/Math/MathML" xml:base="https://tnt.kwarc.info/repos/stc/fcad/flange/cds/ISOmetricthread" xml:id="Document">
+  <metadata/>
+  <theory xml:id="ISOmetricthread" about="#ISOmetricthread" stex:srcref="../../../fcad/flange/cds/ISOmetricthread.tex#textrange(from=1;0,to=37;12)">
+    <imports from="../../../slides/extcds/omstd/arith1.omdoc#arith1"/>
+    <omdoc:imports from="../../../slides/units/en/quantities#quantities" xml:id="ISOmetricthread.imports1" about="#ISOmetricthread.imports1" stex:srcref="../../../fcad/flange/cds/ISOmetricthread.tex#textrange(from=2;0,to=2;60)"/>
+    <omdoc:imports from="../../../slides/units/en/angles#angles" xml:id="ISOmetricthread.imports2" about="#ISOmetricthread.imports2" stex:srcref="../../../fcad/flange/cds/ISOmetricthread.tex#textrange(from=3;0,to=3;52)"/>
+    <omdoc:imports from="../../../slides/units/en/length#length" xml:id="ISOmetricthread.imports3" about="#ISOmetricthread.imports3" stex:srcref="../../../fcad/flange/cds/ISOmetricthread.tex#textrange(from=4;0,to=4;52)"/>
+    <omdoc:imports from="../../../fcad/flange/cds/thread#thread" xml:id="ISOmetricthread.imports4" about="#ISOmetricthread.imports4" stex:srcref="../../../fcad/flange/cds/ISOmetricthread.tex#textrange(from=5;0,to=5;47)"/>
+    <omdoc:symbol name="ISOmetricthread" xml:id="ISOmetricthread.sym" about="#ISOmetricthread.sym" stex:srcref="../../../fcad/flange/cds/ISOmetricthread.tex#textrange(from=6;0,to=6;69)"/>
+    <omdoc:notation cd="ISOmetricthread" name="ISOmetricthread">
+      <omdoc:prototype>
+        <om:OMA>
+          <om:OMS cd="ISOmetricthread" cr="fun" name="ISOmetricthread"/>
+          <omdoc:expr name="arg1"/>
+          <omdoc:expr name="arg2"/>
+        </om:OMA>
+      </omdoc:prototype>
+      <omdoc:rendering>
+        <m:mrow>
+          <m:mrow>
+            <m:mtext>M</m:mtext>
+            <m:mo>&#x2062;</m:mo>
+            <render name="arg1"/>
+          </m:mrow>
+          <m:mo>&#xD7;</m:mo>
+          <render name="arg2"/>
+        </m:mrow>
+      </omdoc:rendering>
+    </omdoc:notation>
+    <omdoc:symbol name="sISOmetricthread" xml:id="sISOmetricthread.sym" about="#sISOmetricthread.sym" stex:srcref="../../../fcad/flange/cds/ISOmetricthread.tex#textrange(from=7;0,to=7;40)"/>
+    <omdoc:notation cd="ISOmetricthread" name="sISOmetricthread">
+      <omdoc:prototype>
+        <om:OMA>
+          <om:OMS cd="ISOmetricthread" cr="fun" name="sISOmetricthread"/>
+          <omdoc:expr name="arg1"/>
+        </om:OMA>
+      </omdoc:prototype>
+      <omdoc:rendering>
+        <m:mrow>
+          <m:mtext>M</m:mtext>
+          <m:mo>&#x2062;</m:mo>
+          <render name="arg1"/>
+        </m:mrow>
+      </omdoc:rendering>
+    </omdoc:notation>
+    <omdoc:definition for="ISOmetricthread sISOmetricthread" xml:id="ISOmetricthread.def" about="#ISOmetricthread.def" stex:srcref="../../../fcad/flange/cds/ISOmetricthread.tex#textrange(from=8;0,to=30;16)">
+      <omdoc:CMP xml:id="ISOmetricthread.def.CMP1" about="#ISOmetricthread.def.CMP1" stex:srcref="../../../fcad/flange/cds/ISOmetricthread.tex#textrange(from=8;0,to=30;16)">
+<p xmlns="http://www.w3.org/1999/xhtml" id="ISOmetricthread.def.CMP1.p1" class="ltx_p" about="#ISOmetricthread.def.CMP1.p1">Straight <omdoc:term cd="thread" name="thread" xml:id="ISOmetricthread.def.CMP1.p1.term1" about="#ISOmetricthread.def.CMP1.p1.term1" stex:srcref="../../../fcad/flange/cds/ISOmetricthread.tex#textrange(from=8;38,to=9;33)">thread</omdoc:term>s are standardized by diameter <om:OMOBJ><om:OMV name="d"/></om:OMOBJ> (in
+<omdoc:term cd="length" name="millimeter" xml:id="ISOmetricthread.def.CMP1.p1.term3" about="#ISOmetricthread.def.CMP1.p1.term3" stex:srcref="../../../fcad/flange/cds/ISOmetricthread.tex#textrange(from=9;60,to=10;28)">millimeter</omdoc:term>s) and <omdoc:term cd="thread" name="pitch" xml:id="ISOmetricthread.def.CMP1.p1.term4" about="#ISOmetricthread.def.CMP1.p1.term4" stex:srcref="../../../fcad/flange/cds/ISOmetricthread.tex#textrange(from=9;32,to=10;56)">pitch</omdoc:term><om:OMOBJ><om:OMV name="p"/></om:OMOBJ>. A <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMV name="d"/><om:OMV name="p"/></om:OMA></om:OMOBJ>
+thread has one <omdoc:term cd="thread" name="start" xml:id="ISOmetricthread.def.CMP1.p1.term7" about="#ISOmetricthread.def.CMP1.p1.term7" stex:srcref="../../../fcad/flange/cds/ISOmetricthread.tex#textrange(from=10;42,to=11;38)">start</omdoc:term>, an angle of <om:OMOBJ><om:OMA><om:OMS cd="quantities" name="quantityof"/><om:OMI>60</om:OMI><om:OMS cd="angles" name="arcdegree"/></om:OMA></om:OMOBJ>,
+<omdoc:term cd="thread" name="pitch" xml:id="ISOmetricthread.def.CMP1.p1.term9" about="#ISOmetricthread.def.CMP1.p1.term9" stex:srcref="../../../fcad/flange/cds/ISOmetricthread.tex#textrange(from=11;46,to=12;23)">pitch</omdoc:term><om:OMOBJ><om:OMV name="p"/></om:OMOBJ>, <omdoc:term cd="thread" name="major-diameter" xml:id="ISOmetricthread.def.CMP1.p1.term11" about="#ISOmetricthread.def.CMP1.p1.term11" stex:srcref="../../../fcad/flange/cds/ISOmetricthread.tex#textrange(from=11;8,to=12;61)">major diameter</omdoc:term><om:OMOBJ><om:OMV name="d"/></om:OMOBJ> and
+<omdoc:term cd="thread" name="minor-diameter" xml:id="ISOmetricthread.def.CMP1.p1.term13" about="#ISOmetricthread.def.CMP1.p1.term13" stex:srcref="../../../fcad/flange/cds/ISOmetricthread.tex#textrange(from=12;48,to=13;34)">minor diameter</omdoc:term><om:OMOBJ><om:OMA ic="variant:cdot"><om:OMS cd="arithmetics" name="times"/><om:OMV name="d"/><om:OMA><om:OMS cd="arith1" name="divide"/><om:OMA><om:OMS cd="arithmetics" name="times"/><om:OMI>5</om:OMI><om:OMA><om:OMS cd="latexml" name="square-root"/><om:OMI>3</om:OMI></om:OMA></om:OMA><om:OMI>8</om:OMI></om:OMA><om:OMV name="p"/></om:OMA></om:OMOBJ>.</p>
+<p xmlns="http://www.w3.org/1999/xhtml" id="ISOmetricthread.def.CMP1.p2" class="ltx_p" about="#ISOmetricthread.def.CMP1.p2">The following threads are recognized by the ISO 261 standard:
+<om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>1</om:OMI><om:OMF dec="0.25"/></om:OMA></om:OMOBJ>, <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMF dec="1.2"/><om:OMF dec="0.25"/></om:OMA></om:OMOBJ>,
+<om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMF dec="1.6"/><om:OMF dec="0.35"/></om:OMA></om:OMOBJ>, <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>2</om:OMI><om:OMF dec="0.4"/></om:OMA></om:OMOBJ>,
+<om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMF dec="2.5"/><om:OMF dec="0.45"/></om:OMA></om:OMOBJ>, <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>3</om:OMI><om:OMF dec="0.5"/></om:OMA></om:OMOBJ>, <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>4</om:OMI><om:OMF dec="0.7"/></om:OMA></om:OMOBJ>,
+<om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>5</om:OMI><om:OMF dec="0.8"/></om:OMA></om:OMOBJ>, <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>6</om:OMI><om:OMI>1</om:OMI></om:OMA></om:OMOBJ>, <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>8</om:OMI><om:OMF dec="1.25"/></om:OMA></om:OMOBJ>,
+<om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>8</om:OMI><om:OMI>1</om:OMI></om:OMA></om:OMOBJ>, <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>10</om:OMI><om:OMF dec="1.5"/></om:OMA></om:OMOBJ>, <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>10</om:OMI><om:OMF dec="1.25"/></om:OMA></om:OMOBJ>,
+<om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>10</om:OMI><om:OMI>1</om:OMI></om:OMA></om:OMOBJ>, <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>12</om:OMI><om:OMF dec="1.75"/></om:OMA></om:OMOBJ>, <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>12</om:OMI><om:OMF dec="1.5"/></om:OMA></om:OMOBJ>,
+<om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>12</om:OMI><om:OMF dec="1.25"/></om:OMA></om:OMOBJ>, <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>16</om:OMI><om:OMI>2</om:OMI></om:OMA></om:OMOBJ>, <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>16</om:OMI><om:OMF dec="1.5"/></om:OMA></om:OMOBJ>,
+<om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>20</om:OMI><om:OMF dec="2.5"/></om:OMA></om:OMOBJ>, <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>20</om:OMI><om:OMI>2</om:OMI></om:OMA></om:OMOBJ>, <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>20</om:OMI><om:OMF dec="1.5"/></om:OMA></om:OMOBJ>,
+<om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>24</om:OMI><om:OMI>3</om:OMI></om:OMA></om:OMOBJ>, <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>24</om:OMI><om:OMI>2</om:OMI></om:OMA></om:OMOBJ>, <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>30</om:OMI><om:OMF dec="3.5"/></om:OMA></om:OMOBJ>,
+<om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>30</om:OMI><om:OMI>2</om:OMI></om:OMA></om:OMOBJ>, <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>36</om:OMI><om:OMI>4</om:OMI></om:OMA></om:OMOBJ>, <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>36</om:OMI><om:OMI>3</om:OMI></om:OMA></om:OMOBJ>,
+<om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>42</om:OMI><om:OMF dec="4.5"/></om:OMA></om:OMOBJ>, <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>42</om:OMI><om:OMI>3</om:OMI></om:OMA></om:OMOBJ>, <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>48</om:OMI><om:OMI>5</om:OMI></om:OMA></om:OMOBJ>,
+<om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>48</om:OMI><om:OMI>3</om:OMI></om:OMA></om:OMOBJ>, <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>56</om:OMI><om:OMF dec="5.5"/></om:OMA></om:OMOBJ>, <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>56</om:OMI><om:OMI>4</om:OMI></om:OMA></om:OMOBJ>,
+<om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>64</om:OMI><om:OMI>6</om:OMI></om:OMA></om:OMOBJ>, and <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>64</om:OMI><om:OMI>4</om:OMI></om:OMA></om:OMOBJ>. The names of those threads
+that only exist in one pitch may be shortened by leaving out the pitch information.</p></omdoc:CMP>
+    </omdoc:definition>
+    <omdoc:example for="#ISOmetricthread.def" xml:id="ISOmetricthread.example8" about="#ISOmetricthread.example8" stex:srcref="../../../fcad/flange/cds/ISOmetricthread.tex#textrange(from=32;0,to=36;13)">
+      <omdoc:CMP xml:id="ISOmetricthread.example8.CMP1" about="#ISOmetricthread.example8.CMP1" stex:srcref="../../../fcad/flange/cds/ISOmetricthread.tex#textrange(from=32;0,to=32;40)">
+<p xmlns="http://www.w3.org/1999/xhtml" id="ISOmetricthread.example8.CMP1.p1" class="ltx_p" about="#ISOmetricthread.example8.CMP1.p1">A <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="sISOmetricthread"/><om:OMI>6</om:OMI></om:OMA></om:OMOBJ> thread is really a <om:OMOBJ><om:OMA><om:OMS cd="ISOmetricthread" name="ISOmetricthread"/><om:OMI>6</om:OMI><om:OMI>1</om:OMI></om:OMA></om:OMOBJ> and has a major diameter
+of <om:OMOBJ><om:OMA><om:OMS cd="quantities" name="quantityof"/><om:OMI>6</om:OMI><om:OMS cd="length" name="SImillimetre"/></om:OMA></om:OMOBJ>, a pitch (and lead) of <om:OMOBJ><om:OMA><om:OMS cd="quantities" name="quantityof"/><om:OMI>1</om:OMI><om:OMS cd="length" name="SImillimetre"/></om:OMA></om:OMOBJ>, and a
+minor diameter of <om:OMOBJ><om:OMA><om:OMS cd="quantities" name="quantityof"/><om:OMF dec="4.917"/><om:OMS cd="length" name="SImillimetre"/></om:OMA></om:OMOBJ>.</p></omdoc:CMP>
+    </omdoc:example>
+  </theory>
+</omdoc>

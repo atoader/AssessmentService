@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <view name="String" base="http://oaff.kwarc.info/openmath/uom" from="http://www.openmath.org/cd?string" to="http://cds.omdoc.org/urtheories?ScalaOM">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/string.mmt#48.2.0-143.4.1"/>
+    </metadata>
+  </view>
+</omdoc>

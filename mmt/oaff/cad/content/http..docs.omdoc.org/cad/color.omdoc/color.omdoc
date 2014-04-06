@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="color" base="http://docs.omdoc.org/cad/color.omdoc">
+    <constant name="color"> </constant>
+    <import from="http://docs.omdoc.org/../../fcad/flange/cds/physobj?physobj"> </import>
+  </theory>
+</omdoc>

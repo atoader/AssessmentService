@@ -1,0 +1,8 @@
+theory http://www.openmath.org/cd?list1
+HasMeta http://www.openmath.org/cd?list1 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?list1 http://www.openmath.org/cd?list1?list
+constant: http://www.openmath.org/cd?list1?list
+Declares http://www.openmath.org/cd?list1 http://www.openmath.org/cd?list1?map
+constant: http://www.openmath.org/cd?list1?map
+Declares http://www.openmath.org/cd?list1 http://www.openmath.org/cd?list1?suchthat
+constant: http://www.openmath.org/cd?list1?suchthat

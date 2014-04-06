@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="keyed-joint" base="http://docs.omdoc.org/crane/keyed-joint.omdoc">
+    <constant name="key"> </constant>
+    <constant name="keyway"> </constant>
+    <constant name="keyed-joint"> </constant>
+    <constant name="feather-key-joint"> </constant>
+    <import from="http://docs.omdoc.org/../../fcad/crane/cds/torque?torque"> </import>
+  </theory>
+</omdoc>

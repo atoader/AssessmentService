@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="list1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/list.mmt#39.2.0-131.6.1"/>
+    </metadata>
+    <constant name="list">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/list.mmt#68.3.2-93.3.27"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?list1?list" precedence="200" fixity="mixfix" arguments="[ 1,… ]"/>
+      </notation>
+    </constant>
+    <constant name="map">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/list.mmt#96.4.2-116.4.22"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?list1?map" precedence="0" fixity="mixfix" arguments="map_list 1 2"/>
+      </notation>
+    </constant>
+    <constant name="suchthat">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/list.mmt#119.5.2-129.5.12"/>
+      </metadata>
+    </constant>
+  </theory>
+</omdoc>

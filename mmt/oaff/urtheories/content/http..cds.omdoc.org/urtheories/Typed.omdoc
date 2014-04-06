@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="Typed" base="http://cds.omdoc.org/urtheories">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://docs.omdoc.org/urtheories/lf.mmt#83.4.0-167.9.1"/>
+    </metadata>
+    <constant name="kind">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://docs.omdoc.org/urtheories/lf.mmt#101.5.3-106.5.8"/>
+      </metadata>
+    </constant>
+    <constant name="type">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://docs.omdoc.org/urtheories/lf.mmt#110.6.3-115.6.8"/>
+      </metadata>
+    </constant>
+    <import from="http://cds.omdoc.org/mmt?Errors">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://docs.omdoc.org/urtheories/lf.mmt#119.7.3-140.7.24"/>
+      </metadata>
+    </import>
+    <import from="http://cds.omdoc.org/mmt?ModExp">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://docs.omdoc.org/urtheories/lf.mmt#144.8.3-165.8.24"/>
+      </metadata>
+    </import>
+  </theory>
+</omdoc>

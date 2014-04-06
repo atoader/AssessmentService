@@ -1,0 +1,33 @@
+<omdoc base="http://www.openmath.org/uom/integer.mmt">
+        <view name="Integer1" base="http://oaff.kwarc.info/openmath/uom" from="http://www.openmath.org/cd?integer1" to="http://cds.omdoc.org/urtheories?ScalaOM">
+           <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/integer.mmt#48.2.0-811.35.1"/></metadata>
+           <constant name="factorof"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/integer.mmt#148.4.2-312.9.4"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="a"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV><om:OMV position="1" name="b"><type><om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[(a,b) match {
+      case (OMI(m), OMI(n)) => if (n % m == 0) logic1.`true` else logic1.`false`
+      case _ => a
+    }]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="factorial"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/integer.mmt#318.11.2-543.19.4"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="a"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[def fact(n: BigInt) : BigInt =
+        if (n == 0 || n == 1) return 1 else return n * fact(n - 1) 
+      
+      a match {
+        case OMI(n) => OMI(fact(n))
+        case _ => a
+      }]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="quotient"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/integer.mmt#549.21.2-674.26.4"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="a"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV><om:OMV position="1" name="b"><type><om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[(a,b) match {
+      case (OMI(m), OMI(n)) => OMI(m / n)
+      case _ => a
+    }]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="remainder"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/integer.mmt#680.28.2-806.33.4"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="a"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV><om:OMV position="1" name="b"><type><om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[(a,b) match {
+      case (OMI(m), OMI(n)) => OMI(m % n)
+      case _ => a
+    }]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant>
+         </view>
+     </omdoc>

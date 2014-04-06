@@ -1,0 +1,30 @@
+\begin{module}[id=torque]
+  \gimport{crossproduct}
+  \gimport{norm}
+  \importmodule[load=\KWARCslides{missing/en/arithmetics}]{arithmetics}
+  \symdef{torque}{\tau}
+  \symvariant{torque}{moment}{M}
+  \begin{definition}
+    The \defi{torque} $\torque$, \defi[torque]{moment} or \defii[torque]{moment
+      of}{force}, is defined to be the rate of change of angular momentum of an
+    object. When it is called moment, it is commonly denoted as
+    \notatiendum{$\torque[moment]$}.
+  \end{definition}
+
+  \begin{omtext}
+    The magnitude of torque depends on three quantities: the force applied, the length of
+    the lever arm connecting the axis to the point of force application, and the angle
+    between the force vector and the lever arm
+    \[\torque=\crossproduct{r}F\qquad\text{or}\qquad
+    \norm\torque=\atimes{\norm{r},\norm{F},\sin\theta}
+    \]
+    where $\torque$ is is the torque vector and $\norm\torque$ is the magnitude of the
+    torque, $r$ is the displacement vector (a vector from the point from which torque is
+    measured to the point where force is applied), $F$ is the force vector, and $\theta$
+    is the angle between the force vector and the lever arm vector.
+  \end{omtext}
+\end{module}
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "all"
+%%% End: 

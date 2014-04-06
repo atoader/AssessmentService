@@ -1,0 +1,4 @@
+HasDomain http://oaff.kwarc.info/openmath/uom?PolyuArith http://www.openmath.org/cd?arith1
+HasCodomain http://oaff.kwarc.info/openmath/uom?PolyuArith http://cds.omdoc.org/urtheories?ScalaOM
+view http://oaff.kwarc.info/openmath/uom?PolyuArith
+Declares http://oaff.kwarc.info/openmath/uom?PolyuArith http://oaff.kwarc.info/openmath/uom?PolyuArith?plus

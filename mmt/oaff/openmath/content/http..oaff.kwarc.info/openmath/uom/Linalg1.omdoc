@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <view name="Linalg1" base="http://oaff.kwarc.info/openmath/uom" from="http://www.openmath.org/cd?linalg1" to="http://cds.omdoc.org/urtheories?ScalaOM">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#48.2.0-1657.50.1"/>
+    </metadata>
+    <constant name="vectorproduct">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#148.4.2-559.12.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="a">
+              <type>
+                <om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+            <om:OMV position="1" name="b">
+              <type>
+                <om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala">
+              <![CDATA[(a, b) match {
+      case (linalg2.vector(List(a1, a2, a3)), linalg2.vector(List(b1, b2, b3))) =>
+        linalg2.vector(List(arith1.minus(arith1.times(a2,b3), arith1.times(a3,b2)),
+            arith1.minus(arith1.times(a3,b1), arith1.times(a1,b3)),
+            arith1.minus(arith1.times(a1,b2), arith1.times(a2,b1))))
+      case _ => vectorproduct(a, b)
+    }]]>
+            </om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="scalarproduct">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#565.14.2-920.22.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="a">
+              <type>
+                <om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+            <om:OMV position="1" name="b">
+              <type>
+                <om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala">
+              <![CDATA[(a, b) match {
+      case (linalg2.vector(v1), linalg2.vector(v2)) =>
+        if (v1.length == v2.length)
+          arith1.plus(v1.zip(v2).map(x => arith1.times(x._1, x._2)))
+        else throw UOMException("linalg1.scalarproduct: vectors have unequal lengths")	
+      case _ => scalarproduct(a, b)
+    }]]>
+            </om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="outerproduct">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#926.24.2-1005.26.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="a">
+              <type>
+                <om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+            <om:OMV position="1" name="b">
+              <type>
+                <om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala"><![CDATA[arith1.times(transpose(a), b)]]></om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="vector_selector">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#1011.28.2-1193.33.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="a">
+              <type>
+                <om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+            <om:OMV position="1" name="b">
+              <type>
+                <om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala"><![CDATA[(a, b) match { case (OMI(i), linalg2.vector(v)) => Collections.nth(i.toInt, v) case _ => vector_selector(a, b) }]]></om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="matrix_selector">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#1199.35.2-1431.40.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="row">
+              <type>
+                <om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+            <om:OMV position="1" name="col">
+              <type>
+                <om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+            <om:OMV position="2" name="mat">
+              <type>
+                <om:OMS position="2_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala">
+              <![CDATA[(row, mat) match {
+      case (OMI(r), linalg2.matrix(m)) => vector_selector(col, Collections.nth(r.toInt, m)) 
+      case _ => matrix_selector(row, col, mat)
+    }]]>
+            </om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="transpose">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#1437.42.2-1652.48.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="a">
+              <type>
+                <om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala">
+              <![CDATA[a match {
+      case linalg2.matrix(_) => Linalgs.transposeMatrix(a)
+      case linalg2.vector(v) => linalg2.matrix(v.map(linalg2.vector(_)))
+      case _ => transpose(a) 
+    }]]>
+            </om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+  </view>
+</omdoc>

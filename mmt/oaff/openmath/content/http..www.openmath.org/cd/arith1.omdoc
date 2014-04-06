@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="arith1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/arith.mmt#39.2.0-327.15.1"/>
+    </metadata>
+    <constant name="plus">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/arith.mmt#69.3.2-88.3.21"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?arith1?plus" precedence="20" fixity="mixfix" arguments="1+…"/>
+      </notation>
+    </constant>
+    <constant name="minus">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/arith.mmt#91.4.2-113.4.24"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?arith1?minus" precedence="20" fixity="mixfix" arguments="1 - 2"/>
+      </notation>
+    </constant>
+    <constant name="times">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/arith.mmt#116.5.2-136.5.22"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?arith1?times" precedence="30" fixity="mixfix" arguments="1*…"/>
+      </notation>
+    </constant>
+    <constant name="divide">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/arith.mmt#139.6.2-162.6.25"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?arith1?divide" precedence="30" fixity="mixfix" arguments="1 / 2"/>
+      </notation>
+    </constant>
+    <constant name="power">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/arith.mmt#165.7.2-187.7.24"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?arith1?power" precedence="40" fixity="mixfix" arguments="1 ^ 2"/>
+      </notation>
+    </constant>
+    <constant name="root">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/arith.mmt#190.8.2-204.8.16"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?arith1?root" precedence="0" fixity="mixfix" arguments="√ 2 1"/>
+      </notation>
+    </constant>
+    <constant name="abs">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/arith.mmt#207.9.2-226.9.21"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?arith1?abs" precedence="0" fixity="mixfix" arguments="| 1 |"/>
+      </notation>
+    </constant>
+    <constant name="unary_minus">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/arith.mmt#229.10.2-255.10.28"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?arith1?unary_minus" precedence="50" fixity="mixfix" arguments="- 1"/>
+      </notation>
+    </constant>
+    <constant name="gcd">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/arith.mmt#258.11.2-273.11.17"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?arith1?gcd" precedence="0" fixity="mixfix" arguments="gcd 1,…"/>
+      </notation>
+    </constant>
+    <constant name="lcm">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/arith.mmt#276.12.2-291.12.17"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?arith1?lcm" precedence="0" fixity="mixfix" arguments="lcm 1,…"/>
+      </notation>
+    </constant>
+    <constant name="product">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/arith.mmt#294.13.2-310.13.18"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?arith1?product" precedence="0" fixity="mixfix" arguments="∏ 1 2"/>
+      </notation>
+    </constant>
+    <constant name="sum">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/arith.mmt#313.14.2-325.14.14"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?arith1?sum" precedence="0" fixity="mixfix" arguments="∑ 1 2"/>
+      </notation>
+    </constant>
+  </theory>
+</omdoc>

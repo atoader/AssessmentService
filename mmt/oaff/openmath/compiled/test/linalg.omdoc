@@ -1,0 +1,270 @@
+<omdoc base="http://www.openmath.org/test/linalg.mmt">
+        <theory name="Linalg" base="http://oaff.kwarc.info/openmath/test">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#88.4.0-1180.23.1"/></metadata>
+        <import from="http://www.openmath.org/cd?arith1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#106.5.2-125.5.21"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?relation1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#128.6.2-150.6.24"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?logic1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#153.7.2-172.7.21"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?linalg1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#175.8.2-195.8.22"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?linalg2">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#198.9.2-218.9.22"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?linalg4">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#221.10.2-241.10.22"/></metadata>
+            
+          </import><constant name="outerproduct_test">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#244.11.2-331.11.89"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMA position="1"><om:OMS position="1_0" base="http://www.openmath.org/cd" module="linalg1" name="outerproduct"/>
+              <om:OMA position="1_1"><om:OMS position="1_1_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_1_1">1</om:OMI><om:OMI position="1_1_2">2</om:OMI><om:OMI position="1_1_3">3</om:OMI>
+      </om:OMA><om:OMA position="1_2"><om:OMS position="1_2_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_2_1">1</om:OMI><om:OMI position="1_2_2">2</om:OMI><om:OMI position="1_2_3">3</om:OMI>
+      </om:OMA>
+      </om:OMA><om:OMA position="2"><om:OMS position="2_0" base="http://www.openmath.org/cd" module="linalg2" name="matrix"/>
+              <om:OMA position="2_1"><om:OMS position="2_1_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="2_1_1">1</om:OMI><om:OMI position="2_1_2">2</om:OMI><om:OMI position="2_1_3">3</om:OMI>
+      </om:OMA><om:OMA position="2_2"><om:OMS position="2_2_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="2_2_1">2</om:OMI><om:OMI position="2_2_2">4</om:OMI><om:OMI position="2_2_3">6</om:OMI>
+      </om:OMA><om:OMA position="2_3"><om:OMS position="2_3_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="2_3_1">3</om:OMI><om:OMI position="2_3_2">6</om:OMI><om:OMI position="2_3_3">9</om:OMI>
+      </om:OMA>
+      </om:OMA>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant><constant name="scalaproduct_test">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#334.12.2-389.12.57"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMA position="1"><om:OMS position="1_0" base="http://www.openmath.org/cd" module="linalg1" name="scalarproduct"/>
+              <om:OMA position="1_1"><om:OMS position="1_1_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_1_1">1</om:OMI><om:OMI position="1_1_2">2</om:OMI><om:OMI position="1_1_3">3</om:OMI>
+      </om:OMA><om:OMA position="1_2"><om:OMS position="1_2_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_2_1">1</om:OMI><om:OMI position="1_2_2">2</om:OMI><om:OMI position="1_2_3">3</om:OMI>
+      </om:OMA>
+      </om:OMA><om:OMI position="2">14</om:OMI>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant><constant name="vectorproduct_test">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#392.13.2-457.13.67"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMA position="1"><om:OMS position="1_0" base="http://www.openmath.org/cd" module="linalg1" name="vectorproduct"/>
+              <om:OMA position="1_1"><om:OMS position="1_1_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_1_1">1</om:OMI><om:OMI position="1_1_2">2</om:OMI><om:OMI position="1_1_3">3</om:OMI>
+      </om:OMA><om:OMA position="1_2"><om:OMS position="1_2_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_2_1">2</om:OMI><om:OMI position="1_2_2">3</om:OMI><om:OMI position="1_2_3">4</om:OMI>
+      </om:OMA>
+      </om:OMA><om:OMA position="2"><om:OMS position="2_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMA position="2_1"><om:OMS position="2_1_0" base="http://www.openmath.org/cd" module="arith1" name="unary_minus"/>
+              <om:OMI position="2_1_1">1</om:OMI>
+      </om:OMA><om:OMI position="2_2">2</om:OMI><om:OMA position="2_3"><om:OMS position="2_3_0" base="http://www.openmath.org/cd" module="arith1" name="unary_minus"/>
+              <om:OMI position="2_3_1">1</om:OMI>
+      </om:OMA>
+      </om:OMA>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant><constant name="vector_selector_test">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#460.14.2-508.14.50"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMA position="1"><om:OMS position="1_0" base="http://www.openmath.org/cd" module="linalg1" name="vector_selector"/>
+              <om:OMI position="1_1">2</om:OMI><om:OMA position="1_2"><om:OMS position="1_2_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_2_1">1</om:OMI><om:OMI position="1_2_2">2</om:OMI><om:OMI position="1_2_3">3</om:OMI>
+      </om:OMA>
+      </om:OMA><om:OMI position="2">2</om:OMI>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant><constant name="matrix_selector_test">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#511.15.2-589.15.80"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMA position="1"><om:OMS position="1_0" base="http://www.openmath.org/cd" module="linalg1" name="matrix_selector"/>
+              <om:OMI position="1_1">2</om:OMI><om:OMI position="1_2">3</om:OMI><om:OMA position="1_3"><om:OMS position="1_3_0" base="http://www.openmath.org/cd" module="linalg2" name="matrix"/>
+              <om:OMA position="1_3_1"><om:OMS position="1_3_1_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_3_1_1">1</om:OMI><om:OMI position="1_3_1_2">2</om:OMI><om:OMI position="1_3_1_3">3</om:OMI>
+      </om:OMA><om:OMA position="1_3_2"><om:OMS position="1_3_2_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_3_2_1">2</om:OMI><om:OMI position="1_3_2_2">4</om:OMI><om:OMI position="1_3_2_3">6</om:OMI>
+      </om:OMA><om:OMA position="1_3_3"><om:OMS position="1_3_3_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_3_3_1">3</om:OMI><om:OMI position="1_3_3_2">6</om:OMI><om:OMI position="1_3_3_3">9</om:OMI>
+      </om:OMA>
+      </om:OMA>
+      </om:OMA><om:OMI position="2">6</om:OMI>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant><constant name="transpose_test">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#592.16.2-693.16.103"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMA position="1"><om:OMS position="1_0" base="http://www.openmath.org/cd" module="linalg1" name="transpose"/>
+              <om:OMA position="1_1"><om:OMS position="1_1_0" base="http://www.openmath.org/cd" module="linalg2" name="matrix"/>
+              <om:OMA position="1_1_1"><om:OMS position="1_1_1_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_1_1_1">1</om:OMI><om:OMI position="1_1_1_2">2</om:OMI><om:OMI position="1_1_1_3">3</om:OMI>
+      </om:OMA><om:OMA position="1_1_2"><om:OMS position="1_1_2_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_1_2_1">1</om:OMI><om:OMI position="1_1_2_2">2</om:OMI><om:OMI position="1_1_2_3">3</om:OMI>
+      </om:OMA><om:OMA position="1_1_3"><om:OMS position="1_1_3_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_1_3_1">2</om:OMI><om:OMI position="1_1_3_2">4</om:OMI><om:OMI position="1_1_3_3">6</om:OMI>
+      </om:OMA>
+      </om:OMA>
+      </om:OMA><om:OMA position="2"><om:OMS position="2_0" base="http://www.openmath.org/cd" module="linalg2" name="matrix"/>
+              <om:OMA position="2_1"><om:OMS position="2_1_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="2_1_1">1</om:OMI><om:OMI position="2_1_2">1</om:OMI><om:OMI position="2_1_3">2</om:OMI>
+      </om:OMA><om:OMA position="2_2"><om:OMS position="2_2_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="2_2_1">2</om:OMI><om:OMI position="2_2_2">2</om:OMI><om:OMI position="2_2_3">4</om:OMI>
+      </om:OMA><om:OMA position="2_3"><om:OMS position="2_3_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="2_3_1">3</om:OMI><om:OMI position="2_3_2">3</om:OMI><om:OMI position="2_3_3">6</om:OMI>
+      </om:OMA>
+      </om:OMA>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant><constant name="size_test">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#696.17.2-735.17.41"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="linalg4" name="size"/>
+              <om:OMA position="1"><om:OMS position="1_0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMA position="1_1"><om:OMS position="1_1_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_1_1">1</om:OMI><om:OMI position="1_1_2">2</om:OMI><om:OMI position="1_1_3">3</om:OMI>
+      </om:OMA><om:OMI position="1_2">3</om:OMI>
+      </om:OMA>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant><constant name="rowcount_test">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#738.18.2-801.18.65"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="linalg4" name="rowcount"/>
+              <om:OMA position="1"><om:OMS position="1_0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMA position="1_1"><om:OMS position="1_1_0" base="http://www.openmath.org/cd" module="linalg2" name="matrix"/>
+              <om:OMA position="1_1_1"><om:OMS position="1_1_1_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_1_1_1">1</om:OMI><om:OMI position="1_1_1_2">2</om:OMI><om:OMI position="1_1_1_3">3</om:OMI>
+      </om:OMA><om:OMA position="1_1_2"><om:OMS position="1_1_2_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_1_2_1">2</om:OMI><om:OMI position="1_1_2_2">4</om:OMI><om:OMI position="1_1_2_3">6</om:OMI>
+      </om:OMA>
+      </om:OMA><om:OMI position="1_2">2</om:OMI>
+      </om:OMA>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant><constant name="columncount_test">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#804.19.2-884.19.82"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="linalg4" name="columncount"/>
+              <om:OMA position="1"><om:OMS position="1_0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMA position="1_1"><om:OMS position="1_1_0" base="http://www.openmath.org/cd" module="linalg2" name="matrix"/>
+              <om:OMA position="1_1_1"><om:OMS position="1_1_1_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_1_1_1">1</om:OMI><om:OMI position="1_1_1_2">2</om:OMI><om:OMI position="1_1_1_3">3</om:OMI>
+      </om:OMA><om:OMA position="1_1_2"><om:OMS position="1_1_2_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_1_2_1">2</om:OMI><om:OMI position="1_1_2_2">4</om:OMI><om:OMI position="1_1_2_3">6</om:OMI>
+      </om:OMA><om:OMA position="1_1_3"><om:OMS position="1_1_3_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_1_3_1">3</om:OMI><om:OMI position="1_1_3_2">6</om:OMI><om:OMI position="1_1_3_3">9</om:OMI>
+      </om:OMA>
+      </om:OMA><om:OMI position="1_2">3</om:OMI>
+      </om:OMA>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant><constant name="plus_vec_test">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#887.20.2-956.20.71"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMA position="1"><om:OMS position="1_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_1">2</om:OMI><om:OMI position="1_2">3</om:OMI><om:OMI position="1_3">4</om:OMI>
+      </om:OMA><om:OMA position="2"><om:OMS position="2_0" base="http://www.openmath.org/cd" module="arith1" name="plus"/>
+              <om:OMA position="2_1"><om:OMS position="2_1_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="2_1_1">1</om:OMI><om:OMI position="2_1_2">2</om:OMI><om:OMI position="2_1_3">3</om:OMI>
+      </om:OMA><om:OMA position="2_2"><om:OMS position="2_2_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="2_2_1">1</om:OMI><om:OMI position="2_2_2">0</om:OMI><om:OMI position="2_2_3">1</om:OMI>
+      </om:OMA><om:OMA position="2_3"><om:OMS position="2_3_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="2_3_1">0</om:OMI><om:OMI position="2_3_2">1</om:OMI><om:OMI position="2_3_3">0</om:OMI>
+      </om:OMA>
+      </om:OMA>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant><constant name="plus_mat_test">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#959.21.2-1065.21.108"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMA position="1"><om:OMS position="1_0" base="http://www.openmath.org/cd" module="linalg2" name="matrix"/>
+              <om:OMA position="1_1"><om:OMS position="1_1_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_1_1">2</om:OMI><om:OMI position="1_1_2">2</om:OMI><om:OMI position="1_1_3">3</om:OMI>
+      </om:OMA><om:OMA position="1_2"><om:OMS position="1_2_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_2_1">3</om:OMI><om:OMI position="1_2_2">5</om:OMI><om:OMI position="1_2_3">7</om:OMI>
+      </om:OMA>
+      </om:OMA><om:OMA position="2"><om:OMS position="2_0" base="http://www.openmath.org/cd" module="arith1" name="plus"/>
+              <om:OMA position="2_1"><om:OMS position="2_1_0" base="http://www.openmath.org/cd" module="linalg2" name="matrix"/>
+              <om:OMA position="2_1_1"><om:OMS position="2_1_1_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="2_1_1_1">1</om:OMI><om:OMI position="2_1_1_2">2</om:OMI><om:OMI position="2_1_1_3">3</om:OMI>
+      </om:OMA><om:OMA position="2_1_2"><om:OMS position="2_1_2_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="2_1_2_1">2</om:OMI><om:OMI position="2_1_2_2">4</om:OMI><om:OMI position="2_1_2_3">6</om:OMI>
+      </om:OMA>
+      </om:OMA><om:OMA position="2_2"><om:OMS position="2_2_0" base="http://www.openmath.org/cd" module="linalg2" name="matrix"/>
+              <om:OMA position="2_2_1"><om:OMS position="2_2_1_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="2_2_1_1">1</om:OMI><om:OMI position="2_2_1_2">0</om:OMI><om:OMI position="2_2_1_3">0</om:OMI>
+      </om:OMA><om:OMA position="2_2_2"><om:OMS position="2_2_2_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="2_2_2_1">1</om:OMI><om:OMI position="2_2_2_2">1</om:OMI><om:OMI position="2_2_2_3">1</om:OMI>
+      </om:OMA>
+      </om:OMA>
+      </om:OMA>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant><constant name="times_mat_test">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#1068.22.2-1178.22.112"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMA position="1"><om:OMS position="1_0" base="http://www.openmath.org/cd" module="arith1" name="times"/>
+              <om:OMA position="1_1"><om:OMS position="1_1_0" base="http://www.openmath.org/cd" module="linalg2" name="matrix"/>
+              <om:OMA position="1_1_1"><om:OMS position="1_1_1_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_1_1_1">1</om:OMI><om:OMI position="1_1_1_2">2</om:OMI><om:OMI position="1_1_1_3">3</om:OMI>
+      </om:OMA><om:OMA position="1_1_2"><om:OMS position="1_1_2_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_1_2_1">4</om:OMI><om:OMI position="1_1_2_2">5</om:OMI><om:OMI position="1_1_2_3">6</om:OMI>
+      </om:OMA>
+      </om:OMA><om:OMA position="1_2"><om:OMS position="1_2_0" base="http://www.openmath.org/cd" module="linalg2" name="matrix"/>
+              <om:OMA position="1_2_1"><om:OMS position="1_2_1_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_2_1_1">10</om:OMI><om:OMI position="1_2_1_2">11</om:OMI>
+      </om:OMA><om:OMA position="1_2_2"><om:OMS position="1_2_2_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_2_2_1">12</om:OMI><om:OMI position="1_2_2_2">13</om:OMI>
+      </om:OMA><om:OMA position="1_2_3"><om:OMS position="1_2_3_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="1_2_3_1">14</om:OMI><om:OMI position="1_2_3_2">15</om:OMI>
+      </om:OMA>
+      </om:OMA>
+      </om:OMA><om:OMA position="2"><om:OMS position="2_0" base="http://www.openmath.org/cd" module="linalg2" name="matrix"/>
+              <om:OMA position="2_1"><om:OMS position="2_1_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="2_1_1">76</om:OMI><om:OMI position="2_1_2">82</om:OMI>
+      </om:OMA><om:OMA position="2_2"><om:OMS position="2_2_0" base="http://www.openmath.org/cd" module="linalg2" name="vector"/>
+              <om:OMI position="2_2_1">184</om:OMI><om:OMI position="2_2_2">199</om:OMI>
+      </om:OMA>
+      </om:OMA>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant>
+      </theory><view name="LinalgTest" base="http://oaff.kwarc.info/openmath/test" from="http://oaff.kwarc.info/openmath/test?Linalg" to="http://cds.omdoc.org/urtheories?ScalaOM">
+           <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#1182.25.0-1555.33.1"/></metadata>
+           <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3FOpenMath]" domain="http://www.openmath.org/cd?OpenMath">
+                     <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#1255.26.2-1322.26.69"/></metadata>
+                     <value><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://cds.omdoc.org/urtheories" module="Syntactic"/></om:OMOBJ></value>
+                </import><import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Farith1]" domain="http://www.openmath.org/cd?arith1">
+                     <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#1325.27.2-1361.27.38"/></metadata>
+                     <value><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Arith1"/></om:OMOBJ></value>
+                </import><import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Frelation1]" domain="http://www.openmath.org/cd?relation1">
+                     <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#1364.28.2-1403.28.41"/></metadata>
+                     <value><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Relation1"/></om:OMOBJ></value>
+                </import><import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Flogic1]" domain="http://www.openmath.org/cd?logic1">
+                     <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#1406.29.2-1439.29.35"/></metadata>
+                     <value><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Logic1"/></om:OMOBJ></value>
+                </import><import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Flinalg1]" domain="http://www.openmath.org/cd?linalg1">
+                     <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#1442.30.2-1477.30.37"/></metadata>
+                     <value><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Linalg1"/></om:OMOBJ></value>
+                </import><import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Flinalg2]" domain="http://www.openmath.org/cd?linalg2">
+                     <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#1480.31.2-1515.31.37"/></metadata>
+                     <value><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Linalg2"/></om:OMOBJ></value>
+                </import><import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Flinalg4]" domain="http://www.openmath.org/cd?linalg4">
+                     <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#1518.32.2-1553.32.37"/></metadata>
+                     <value><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Linalg4"/></om:OMOBJ></value>
+                </import>
+         </view>
+     </omdoc>

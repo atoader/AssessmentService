@@ -1,0 +1,437 @@
+<omdoc base="http://www.openmath.org/cds/units.mmt">
+        <theory name="dimensions1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#39.2.0-318.23.1"/></metadata>
+        <constant name="acceleration">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#74.3.2-87.3.15"/></metadata>
+       
+       
+       
+     </constant><constant name="area">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#90.4.2-95.4.7"/></metadata>
+       
+       
+       
+     </constant><constant name="charge">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#98.5.2-105.5.9"/></metadata>
+       
+       
+       
+     </constant><constant name="concentration">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#109.6.2-123.6.16"/></metadata>
+       
+       
+       
+     </constant><constant name="current">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#126.7.2-134.7.10"/></metadata>
+       
+       
+       
+     </constant><constant name="density">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#138.8.2-146.8.10"/></metadata>
+       
+       
+       
+     </constant><constant name="displacement">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#150.9.2-163.9.15"/></metadata>
+       
+       
+       
+     </constant><constant name="energy">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#167.10.2-174.10.9"/></metadata>
+       
+       
+       
+     </constant><constant name="force">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#178.11.2-184.11.8"/></metadata>
+       
+       
+       
+     </constant><constant name="length">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#188.12.2-195.12.9"/></metadata>
+       
+       
+       
+     </constant><constant name="mass">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#199.13.2-204.13.7"/></metadata>
+       
+       
+       
+     </constant><constant name="momentum">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#208.14.2-217.14.11"/></metadata>
+       
+       
+       
+     </constant><constant name="pressure">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#221.15.2-230.15.11"/></metadata>
+       
+       
+       
+     </constant><constant name="resistance">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#234.16.2-245.16.13"/></metadata>
+       
+       
+       
+     </constant><constant name="speed">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#249.17.2-255.17.8"/></metadata>
+       
+       
+       
+     </constant><constant name="temperature">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#259.18.2-271.18.14"/></metadata>
+       
+       
+       
+     </constant><constant name="time">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#275.19.2-280.19.7"/></metadata>
+       
+       
+       
+     </constant><constant name="velocity">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#284.20.2-293.20.11"/></metadata>
+       
+       
+       
+     </constant><constant name="voltage">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#297.21.2-305.21.10"/></metadata>
+       
+       
+       
+     </constant><constant name="volume">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#309.22.2-316.22.9"/></metadata>
+       
+       
+       
+     </constant>
+      </theory><theory name="units_metric1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#320.25.0-670.43.1"/></metadata>
+        <constant name="Coulomb">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#358.26.2-370.26.14"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?units_metric1?Coulomb" precedence="0" fixity="mixfix" arguments="C"/></notation>
+     </constant><constant name="Joule">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#374.27.2-384.27.12"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?units_metric1?Joule" precedence="0" fixity="mixfix" arguments="J"/></notation>
+     </constant><constant name="Newton">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#388.28.2-399.28.13"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?units_metric1?Newton" precedence="0" fixity="mixfix" arguments="N"/></notation>
+     </constant><constant name="Newton_per_sqr_metre">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#403.29.2-432.29.31"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?units_metric1?Newton_per_sqr_metre" precedence="0" fixity="mixfix" arguments="Npsqm"/></notation>
+     </constant><constant name="Pascal">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#436.30.2-448.30.14"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?units_metric1?Pascal" precedence="0" fixity="mixfix" arguments="Pa"/></notation>
+     </constant><constant name="Watt">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#452.31.2-461.31.11"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?units_metric1?Watt" precedence="0" fixity="mixfix" arguments="W"/></notation>
+     </constant><constant name="amp">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#465.32.2-473.32.10"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?units_metric1?amp" precedence="0" fixity="mixfix" arguments="A"/></notation>
+     </constant><constant name="degree_Kelvin">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#477.33.2-495.33.20"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?units_metric1?degree_Kelvin" precedence="0" fixity="mixfix" arguments="K"/></notation>
+     </constant><constant name="gramme">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#499.34.2-510.34.13"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?units_metric1?gramme" precedence="0" fixity="mixfix" arguments="g"/></notation>
+     </constant><constant name="litre">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#514.35.2-524.35.12"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?units_metric1?litre" precedence="0" fixity="mixfix" arguments="l"/></notation>
+     </constant><constant name="litre_pre1964">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#528.36.2-542.36.16"/></metadata>
+       
+       
+       
+     </constant><constant name="metre">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#546.37.2-556.37.12"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?units_metric1?metre" precedence="0" fixity="mixfix" arguments="m"/></notation>
+     </constant><constant name="metre_sqrd">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#560.38.2-577.38.19"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?units_metric1?metre_sqrd" precedence="0" fixity="mixfix" arguments="sqm"/></notation>
+     </constant><constant name="metres_per_second">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#581.39.2-605.39.26"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?units_metric1?metres_per_second" precedence="0" fixity="mixfix" arguments="mps"/></notation>
+     </constant><constant name="metres_per_second_sqrd">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#609.40.2-640.40.33"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?units_metric1?metres_per_second_sqrd" precedence="0" fixity="mixfix" arguments="mpssq"/></notation>
+     </constant><constant name="second">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#644.41.2-655.41.13"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?units_metric1?second" precedence="0" fixity="mixfix" arguments="s"/></notation>
+     </constant><constant name="volt">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#659.42.2-668.42.11"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?units_metric1?volt" precedence="0" fixity="mixfix" arguments="v"/></notation>
+     </constant>
+      </theory><theory name="units_imperial1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#672.45.0-832.56.1"/></metadata>
+        <constant name="acre">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#711.46.2-716.46.7"/></metadata>
+       
+       
+       
+     </constant><constant name="bar">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#720.47.2-724.47.6"/></metadata>
+       
+       
+       
+     </constant><constant name="foot">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#728.48.2-733.48.7"/></metadata>
+       
+       
+       
+     </constant><constant name="mile">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#737.49.2-742.49.7"/></metadata>
+       
+       
+       
+     </constant><constant name="miles_per_hr">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#746.50.2-759.50.15"/></metadata>
+       
+       
+       
+     </constant><constant name="miles_per_hr_sqrd">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#763.51.2-781.51.20"/></metadata>
+       
+       
+       
+     </constant><constant name="pint">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#785.52.2-790.52.7"/></metadata>
+       
+       
+       
+     </constant><constant name="pound_force">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#794.53.2-806.53.14"/></metadata>
+       
+       
+       
+     </constant><constant name="pound_mass">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#810.54.2-821.54.13"/></metadata>
+       
+       
+       
+     </constant><constant name="yard">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#825.55.2-830.55.7"/></metadata>
+       
+       
+       
+     </constant>
+      </theory><theory name="units_ops1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#834.58.0-878.60.1"/></metadata>
+        <constant name="prefix">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#869.59.2-876.59.9"/></metadata>
+       
+       
+       
+     </constant>
+      </theory><theory name="units_siprefix1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#880.62.0-1106.83.1"/></metadata>
+        <constant name="atto">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#920.63.2-925.63.7"/></metadata>
+       
+       
+       
+     </constant><constant name="centi">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#929.64.2-935.64.8"/></metadata>
+       
+       
+       
+     </constant><constant name="deci">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#939.65.2-944.65.7"/></metadata>
+       
+       
+       
+     </constant><constant name="deka">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#948.66.2-953.66.7"/></metadata>
+       
+       
+       
+     </constant><constant name="exa">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#957.67.2-961.67.6"/></metadata>
+       
+       
+       
+     </constant><constant name="femto">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#965.68.2-971.68.8"/></metadata>
+       
+       
+       
+     </constant><constant name="giga">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#975.69.2-980.69.7"/></metadata>
+       
+       
+       
+     </constant><constant name="hecto">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#984.70.2-990.70.8"/></metadata>
+       
+       
+       
+     </constant><constant name="kilo">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#994.71.2-999.71.7"/></metadata>
+       
+       
+       
+     </constant><constant name="mega">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1003.72.2-1008.72.7"/></metadata>
+       
+       
+       
+     </constant><constant name="micro">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1012.73.2-1018.73.8"/></metadata>
+       
+       
+       
+     </constant><constant name="milli">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1022.74.2-1028.74.8"/></metadata>
+       
+       
+       
+     </constant><constant name="nano">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1032.75.2-1037.75.7"/></metadata>
+       
+       
+       
+     </constant><constant name="peta">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1041.76.2-1046.76.7"/></metadata>
+       
+       
+       
+     </constant><constant name="pico">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1050.77.2-1055.77.7"/></metadata>
+       
+       
+       
+     </constant><constant name="tera">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1059.78.2-1064.78.7"/></metadata>
+       
+       
+       
+     </constant><constant name="yocto">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1068.79.2-1074.79.8"/></metadata>
+       
+       
+       
+     </constant><constant name="yotta">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1078.80.2-1084.80.8"/></metadata>
+       
+       
+       
+     </constant><constant name="zepto">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1088.81.2-1094.81.8"/></metadata>
+       
+       
+       
+     </constant><constant name="zetta">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1098.82.2-1104.82.8"/></metadata>
+       
+       
+       
+     </constant>
+      </theory><theory name="units_sts" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1108.85.0-1156.87.1"/></metadata>
+        <constant name="unit_prefix">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1142.86.2-1154.86.14"/></metadata>
+       
+       
+       
+     </constant>
+      </theory><theory name="units_time" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1158.89.0-1275.97.1"/></metadata>
+        <constant name="calendar_month">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1192.90.2-1207.90.17"/></metadata>
+       
+       
+       
+     </constant><constant name="calendar_year">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1211.91.2-1225.91.16"/></metadata>
+       
+       
+       
+     </constant><constant name="day">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1229.92.2-1233.92.6"/></metadata>
+       
+       
+       
+     </constant><constant name="hour">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1237.93.2-1242.93.7"/></metadata>
+       
+       
+       
+     </constant><constant name="minute">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1246.94.2-1253.94.9"/></metadata>
+       
+       
+       
+     </constant><constant name="second">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1257.95.2-1264.95.9"/></metadata>
+       
+       
+       
+     </constant><constant name="week">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1268.96.2-1273.96.7"/></metadata>
+       
+       
+       
+     </constant>
+      </theory><theory name="units_us1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1277.99.0-1420.106.1"/></metadata>
+        <constant name="acre_us_survey">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1311.100.2-1326.100.17"/></metadata>
+       
+       
+       
+     </constant><constant name="foot_us_survey">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1330.101.2-1345.101.17"/></metadata>
+       
+       
+       
+     </constant><constant name="mile_us_survey">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1349.102.2-1364.102.17"/></metadata>
+       
+       
+       
+     </constant><constant name="pint_us_dry">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1368.103.2-1380.103.14"/></metadata>
+       
+       
+       
+     </constant><constant name="pint_us_liquid">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1384.104.2-1399.104.17"/></metadata>
+       
+       
+       
+     </constant><constant name="yard_us_survey">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1403.105.2-1418.105.17"/></metadata>
+       
+       
+       
+     </constant>
+      </theory>
+     </omdoc>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="set2" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/set.mmt#447.20.0-503.22.1"/>
+    </metadata>
+    <constant name="lift_binary">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/set.mmt#475.21.2-501.21.28"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?set2?lift_binary" precedence="0" fixity="mixfix" arguments="lift2 1 2 3"/>
+      </notation>
+    </constant>
+  </theory>
+</omdoc>

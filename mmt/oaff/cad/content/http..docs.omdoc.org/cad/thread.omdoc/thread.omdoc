@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="thread" base="http://docs.omdoc.org/cad/thread.omdoc">
+    <constant name="screw-thread"> </constant>
+    <constant name="straight-thread"> </constant>
+    <constant name="external-thread"> </constant>
+    <constant name="internal-thread"> </constant>
+    <constant name="tapered-thread"> </constant>
+    <constant name="major-diameter"> </constant>
+    <constant name="minor-diameter"> </constant>
+    <constant name="angle"> </constant>
+    <constant name="pitch"> </constant>
+    <constant name="start"> </constant>
+    <constant name="lead"> </constant>
+  </theory>
+</omdoc>

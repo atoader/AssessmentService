@@ -1,0 +1,16 @@
+theory http://www.openmath.org/cd?relation1
+HasMeta http://www.openmath.org/cd?relation1 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?relation1 http://www.openmath.org/cd?relation1?eq
+constant: http://www.openmath.org/cd?relation1?eq
+Declares http://www.openmath.org/cd?relation1 http://www.openmath.org/cd?relation1?lt
+constant: http://www.openmath.org/cd?relation1?lt
+Declares http://www.openmath.org/cd?relation1 http://www.openmath.org/cd?relation1?gt
+constant: http://www.openmath.org/cd?relation1?gt
+Declares http://www.openmath.org/cd?relation1 http://www.openmath.org/cd?relation1?neq
+constant: http://www.openmath.org/cd?relation1?neq
+Declares http://www.openmath.org/cd?relation1 http://www.openmath.org/cd?relation1?leq
+constant: http://www.openmath.org/cd?relation1?leq
+Declares http://www.openmath.org/cd?relation1 http://www.openmath.org/cd?relation1?geq
+constant: http://www.openmath.org/cd?relation1?geq
+Declares http://www.openmath.org/cd?relation1 http://www.openmath.org/cd?relation1?approx
+constant: http://www.openmath.org/cd?relation1?approx

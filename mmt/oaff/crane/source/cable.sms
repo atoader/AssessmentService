@@ -1,0 +1,3 @@
+\begin{module}[id=cable]%
+\importmodule[load=\FCAD{crane/cds/rope}]{rope}%
+\end{module}%

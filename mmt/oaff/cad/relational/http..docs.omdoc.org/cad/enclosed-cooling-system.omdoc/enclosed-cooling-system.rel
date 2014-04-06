@@ -1,0 +1,20 @@
+theory http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system
+Declares http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?heat-exchanger
+constant: http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?heat-exchanger
+Declares http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?enclosed-cooling-system
+constant: http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?enclosed-cooling-system
+Declares http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?raw-water
+constant: http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?raw-water
+Declares http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?fresh-water
+constant: http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?fresh-water
+Declares http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?engine-coolant
+constant: http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?engine-coolant
+Declares http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?pump
+constant: http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?pump
+Declares http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?water-pump
+constant: http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?water-pump
+Declares http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?seacock
+constant: http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?seacock
+Declares http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?sea-strainer
+constant: http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?sea-strainer
+Includes http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system http://docs.omdoc.org/../../fcad/flange/cds/piping?piping

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="units_imperial1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#672.45.0-832.56.1"/>
+    </metadata>
+    <constant name="acre">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#711.46.2-716.46.7"/>
+      </metadata>
+    </constant>
+    <constant name="bar">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#720.47.2-724.47.6"/>
+      </metadata>
+    </constant>
+    <constant name="foot">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#728.48.2-733.48.7"/>
+      </metadata>
+    </constant>
+    <constant name="mile">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#737.49.2-742.49.7"/>
+      </metadata>
+    </constant>
+    <constant name="miles_per_hr">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#746.50.2-759.50.15"/>
+      </metadata>
+    </constant>
+    <constant name="miles_per_hr_sqrd">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#763.51.2-781.51.20"/>
+      </metadata>
+    </constant>
+    <constant name="pint">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#785.52.2-790.52.7"/>
+      </metadata>
+    </constant>
+    <constant name="pound_force">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#794.53.2-806.53.14"/>
+      </metadata>
+    </constant>
+    <constant name="pound_mass">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#810.54.2-821.54.13"/>
+      </metadata>
+    </constant>
+    <constant name="yard">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#825.55.2-830.55.7"/>
+      </metadata>
+    </constant>
+  </theory>
+</omdoc>

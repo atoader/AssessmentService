@@ -1,0 +1,23 @@
+namespace http://oaff.kwarc.info/openmath/uom
+
+view Minmax1 : http://www.openmath.org/cd?minmax1 -> http://cds.omdoc.org/urtheories?ScalaOM =
+  
+  min = (a: Term) scala
+    a match {
+      case set1.set(s) => Numbers.minMaxList(false, s)
+      case list1.list(ls) => Numbers.minMaxList(false, ls)
+      case _ => OMI(0)
+    }
+  
+  
+  max = (a: Term) scala
+    a match {
+      case set1.set(s) => Numbers.minMaxList(true, s)
+      case list1.list(ls) => Numbers.minMaxList(true, ls)
+      case _ => OMI(0)
+    }
+  
+  
+
+
+

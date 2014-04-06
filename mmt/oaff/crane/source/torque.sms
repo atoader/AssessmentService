@@ -1,0 +1,7 @@
+\begin{module}[id=torque]%
+  \gimport{crossproduct}%
+  \gimport{norm}%
+  \importmodule[load=\KWARCslides{missing/en/arithmetics}]{arithmetics}%
+  \symdef{torque}{\tau}%
+  \symvariant{torque}{moment}{M}%
+\end{module}%

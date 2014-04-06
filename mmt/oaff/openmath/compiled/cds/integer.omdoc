@@ -1,0 +1,26 @@
+<omdoc base="http://www.openmath.org/cds/integer.mmt">
+        <theory name="integer1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/integer.mmt#39.2.0-159.8.1"/></metadata>
+        <constant name="factorial">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/integer.mmt#71.3.2-87.3.18"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?integer1?factorial" precedence="0" fixity="mixfix" arguments="1 !"/></notation>
+     </constant><constant name="factorof">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/integer.mmt#90.4.2-108.4.20"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?integer1?factorof" precedence="0" fixity="mixfix" arguments="1 | 2"/></notation>
+     </constant><constant name="quotient">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/integer.mmt#111.5.2-131.5.22"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?integer1?quotient" precedence="0" fixity="mixfix" arguments="1 div 2"/></notation>
+     </constant><constant name="remainder">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/integer.mmt#134.6.2-154.6.22"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?integer1?remainder" precedence="0" fixity="mixfix" arguments="1 mod 2"/></notation>
+     </constant>
+      </theory>
+     </omdoc>

@@ -1,0 +1,4 @@
+theory http://cds.omdoc.org/frameit?LawOfCosinesSol
+Includes http://cds.omdoc.org/frameit?LawOfCosinesSol http://cds.omdoc.org/frameit?LawOfCosines
+Declares http://cds.omdoc.org/frameit?LawOfCosinesSol http://cds.omdoc.org/frameit?LawOfCosinesSol?h
+constant: http://cds.omdoc.org/frameit?LawOfCosinesSol?h

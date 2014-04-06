@@ -1,0 +1,23 @@
+namespace http://www.openmath.org/cd
+
+theory set1 : ?OpenMath =
+  cartesian_product # prod 1,… 
+  emptyset # ∅ 
+  map # map_set 1 2
+  size # card 1 
+  suchthat # suchthat 1 2
+  set # { 1,… } prec 0 
+  intersect # 1⋂… prec 20
+  union # 1⋃… prec 20
+  setdiff # 1 ∖ 2 prec 20
+  in # 1 ∈ 2 prec 10
+  notin # 1 ∉ 2 prec 10
+  subset # 1 ⊆ 2 prec 10
+  prsubset # 1 ⊂ 2 prec 10
+  notsubset # 1 ⊈ 2 prec 10
+  notprsubset # 1 ⊄ 2 prec 10
+
+
+theory set2 : ?OpenMath =
+  lift_binary # lift2 1 2 3
+

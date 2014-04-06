@@ -1,0 +1,14 @@
+theory http://www.openmath.org/cd?setname1
+HasMeta http://www.openmath.org/cd?setname1 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?setname1 http://www.openmath.org/cd?setname1?C
+constant: http://www.openmath.org/cd?setname1?C
+Declares http://www.openmath.org/cd?setname1 http://www.openmath.org/cd?setname1?N
+constant: http://www.openmath.org/cd?setname1?N
+Declares http://www.openmath.org/cd?setname1 http://www.openmath.org/cd?setname1?P
+constant: http://www.openmath.org/cd?setname1?P
+Declares http://www.openmath.org/cd?setname1 http://www.openmath.org/cd?setname1?Q
+constant: http://www.openmath.org/cd?setname1?Q
+Declares http://www.openmath.org/cd?setname1 http://www.openmath.org/cd?setname1?R
+constant: http://www.openmath.org/cd?setname1?R
+Declares http://www.openmath.org/cd?setname1 http://www.openmath.org/cd?setname1?Z
+constant: http://www.openmath.org/cd?setname1?Z

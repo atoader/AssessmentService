@@ -1,0 +1,9 @@
+theory http://docs.omdoc.org/crane/worm-drive.omdoc?worm-drive
+Declares http://docs.omdoc.org/crane/worm-drive.omdoc?worm-drive http://docs.omdoc.org/crane/worm-drive.omdoc?worm-drive?worm-drive
+constant: http://docs.omdoc.org/crane/worm-drive.omdoc?worm-drive?worm-drive
+Declares http://docs.omdoc.org/crane/worm-drive.omdoc?worm-drive http://docs.omdoc.org/crane/worm-drive.omdoc?worm-drive?worm
+constant: http://docs.omdoc.org/crane/worm-drive.omdoc?worm-drive?worm
+Declares http://docs.omdoc.org/crane/worm-drive.omdoc?worm-drive http://docs.omdoc.org/crane/worm-drive.omdoc?worm-drive?worm-gear
+constant: http://docs.omdoc.org/crane/worm-drive.omdoc?worm-drive?worm-gear
+Includes http://docs.omdoc.org/crane/worm-drive.omdoc?worm-drive http://docs.omdoc.org/../../fcad/crane/cds/transmission?transmission
+Includes http://docs.omdoc.org/crane/worm-drive.omdoc?worm-drive http://docs.omdoc.org/../../fcad/crane/cds/gear?gear

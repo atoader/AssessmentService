@@ -1,0 +1,47 @@
+\begin{module}[id=ISOmetricthread]
+\importmodule[load=\KWARCslides{units/en/quantities}]{quantities}
+\importmodule[load=\KWARCslides{units/en/angles}]{angles}
+\importmodule[load=\KWARCslides{units/en/length}]{length}
+\importmodule[load=\FCAD{flange/cds/thread}]{thread}
+\symdef{ISOmetricthread}[2]{\text{M}#1\kern-.15em\times\kern-.15em#2}
+\symdef{sISOmetricthread}[1]{\text{M}#1}
+\begin{definition}[for={ISOmetricthread,sISOmetricthread},id=ISOmetricthread.def]
+  Straight \trefi[thread]{thread}s are standardized by diameter $d$ (in
+  \trefi[length]{millimeter}s) and \trefi[thread]{pitch} $p$. A $\ISOmetricthread{d}{p}$
+  thread has one \trefi[thread]{start}, an angle of $\quantityof{60}\arcdegree$,
+  \trefi[thread]{pitch} $p$, \trefii[thread]{major}{diameter} $d$ and
+  \trefii[thread]{minor}{diameter} $\atimes[cdot]{d,\frac{\atimes{5,\sqrt3}}8,p}$.
+
+  The following threads are recognized by the ISO 261 standard:
+  $\ISOmetricthread{1}{0.25}$, $\ISOmetricthread{1.2}{0.25}$,
+  $\ISOmetricthread{1.6}{0.35}$, $\ISOmetricthread{2}{0.4}$,
+  $\ISOmetricthread{2.5}{0.45}$, $\ISOmetricthread{3}{0.5}$, $\ISOmetricthread{4}{0.7}$,
+  $\ISOmetricthread{5}{0.8}$, $\ISOmetricthread{6}{1}$, $\ISOmetricthread{8}{1.25}$,
+  $\ISOmetricthread{8}{1}$, $\ISOmetricthread{10}{1.5}$, $\ISOmetricthread{10}{1.25}$,
+  $\ISOmetricthread{10}{1}$, $\ISOmetricthread{12}{1.75}$, $\ISOmetricthread{12}{1.5}$,
+  $\ISOmetricthread{12}{1.25}$, $\ISOmetricthread{16}{2}$, $\ISOmetricthread{16}{1.5}$,
+  $\ISOmetricthread{20}{2.5}$, $\ISOmetricthread{20}{2}$, $\ISOmetricthread{20}{1.5}$,
+  $\ISOmetricthread{24}{3}$, $\ISOmetricthread{24}{2}$, $\ISOmetricthread{30}{3.5}$,
+  $\ISOmetricthread{30}{2}$, $\ISOmetricthread{36}{4}$, $\ISOmetricthread{36}{3}$,
+  $\ISOmetricthread{42}{4.5}$, $\ISOmetricthread{42}{3}$, $\ISOmetricthread{48}{5}$,
+  $\ISOmetricthread{48}{3}$, $\ISOmetricthread{56}{5.5}$, $\ISOmetricthread{56}{4}$,
+  $\ISOmetricthread{64}{6}$, and $\ISOmetricthread{64}{4}$. The names of those threads
+  that only exist in one pitch may be shortened by leaving out the pitch information. 
+\end{definition}
+
+\begin{example}[for=ISOmetricthread.def]
+  A $\sISOmetricthread6$ thread is really a $\ISOmetricthread61$ and has a major diameter
+  of $\quantityof6\SImillimetre$, a pitch (and lead) of $\quantityof1\SImillimetre$, and a
+  minor diameter of $\quantityof{4.917}\SImillimetre$.
+\end{example}
+\end{module}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "all"
+%%% End: 
+
+% LocalWords:  ISOmetricthread KWARCslides symdef mathbf trefi SIlength trefii
+% LocalWords:  quantityof arcdegree atimes cdot atimes sqrt3 sISOmetricthread6
+% LocalWords:  ISOmetricthread61 SImillimetre SImillimetre standardized
+% LocalWords:  recognized

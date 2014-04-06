@@ -1,0 +1,31 @@
+namespace http://cds.omdoc.org/assessment
+
+theory Lists = 
+  include http://www.openmath.org/cd?arith1
+  include http://www.openmath.org/cd?relation1
+  include http://www.openmath.org/cd?list1
+  include http://www.openmath.org/cd?list2
+
+
+theory Comparation = 
+  include ?Lists
+  base # base  
+  comp # comp 1 2 
+
+
+theory ValuationFunction = 
+  include ?Comparation
+  function 
+  value  
+
+
+theory Profit = 
+  include ?Comparation
+  pi 
+  x 
+
+
+theory Assessment = 
+  include ?ValuationFunction
+  assess_value = comp (list_selector value function) base
+

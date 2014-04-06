@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="linalg2" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#293.12.0-402.16.1"/>
+    </metadata>
+    <constant name="vector">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#324.13.2-349.13.27"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg2?vector" precedence="0" fixity="mixfix" arguments="⟨ 1,… ⟩"/>
+      </notation>
+    </constant>
+    <constant name="matrixrow">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#352.14.2-373.14.23"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg2?matrixrow" precedence="0" fixity="mixfix" arguments="row 1,…"/>
+      </notation>
+    </constant>
+    <constant name="matrix">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#376.15.2-400.15.26"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg2?matrix" precedence="0" fixity="mixfix" arguments="⟪ 1,… ⟫"/>
+      </notation>
+    </constant>
+  </theory>
+</omdoc>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="setname2" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/setname.mmt#102.11.0-236.19.1"/>
+    </metadata>
+    <constant name="A">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/setname.mmt#134.12.2-136.12.4"/>
+      </metadata>
+    </constant>
+    <constant name="Boolean">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/setname.mmt#139.13.2-147.13.10"/>
+      </metadata>
+    </constant>
+    <constant name="Zm">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/setname.mmt#150.14.2-160.14.12"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?setname2?Zm" precedence="0" fixity="mixfix" arguments="Zm 1"/>
+      </notation>
+    </constant>
+    <constant name="GFp">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/setname.mmt#163.15.2-175.15.14"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?setname2?GFp" precedence="0" fixity="mixfix" arguments="GFp 1"/>
+      </notation>
+    </constant>
+    <constant name="GFpn">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/setname.mmt#178.16.2-194.16.18"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?setname2?GFpn" precedence="0" fixity="mixfix" arguments="GFpn 1 2"/>
+      </notation>
+    </constant>
+    <constant name="QuotientField">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/setname.mmt#197.17.2-229.17.34"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?setname2?QuotientField" precedence="0" fixity="mixfix" arguments="QuotientField 1"/>
+      </notation>
+    </constant>
+    <constant name="H">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/setname.mmt#232.18.2-234.18.4"/>
+      </metadata>
+    </constant>
+  </theory>
+</omdoc>

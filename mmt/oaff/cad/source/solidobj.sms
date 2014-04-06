@@ -1,0 +1,4 @@
+\begin{module}[id=solidobj]%
+\importmodule[load=\FCAD{flange/cds/physobj}]{physobj}%
+\symdef{solidobjects}{\text{SObj}}%
+\end{module}%

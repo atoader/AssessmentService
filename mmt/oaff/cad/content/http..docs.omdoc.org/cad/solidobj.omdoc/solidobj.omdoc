@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="solidobj" base="http://docs.omdoc.org/cad/solidobj.omdoc">
+    <constant name="solid-object"> </constant>
+    <constant name="shape"> </constant>
+    <constant name="solidobjects">
+      <notation>
+        <text-notation dimensions="1" name="http://docs.omdoc.org/cad/solidobj.omdoc?solidobj?solidobjects" precedence="1" fixity="mixfix" arguments="SObj"/>
+      </notation>
+    </constant>
+    <constant name="type"> </constant>
+    <import from="http://docs.omdoc.org/../../fcad/flange/cds/physobj?physobj"> </import>
+  </theory>
+</omdoc>

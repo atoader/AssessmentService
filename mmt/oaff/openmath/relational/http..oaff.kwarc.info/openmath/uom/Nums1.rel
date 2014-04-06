@@ -1,0 +1,4 @@
+HasDomain http://oaff.kwarc.info/openmath/uom?Nums1 http://www.openmath.org/cd?nums1
+HasCodomain http://oaff.kwarc.info/openmath/uom?Nums1 http://cds.omdoc.org/urtheories?ScalaOM
+view http://oaff.kwarc.info/openmath/uom?Nums1
+Declares http://oaff.kwarc.info/openmath/uom?Nums1 http://oaff.kwarc.info/openmath/uom?Nums1?rational

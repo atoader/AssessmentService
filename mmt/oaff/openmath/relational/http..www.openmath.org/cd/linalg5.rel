@@ -1,0 +1,32 @@
+theory http://www.openmath.org/cd?linalg5
+HasMeta http://www.openmath.org/cd?linalg5 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?linalg5 http://www.openmath.org/cd?linalg5?zero
+constant: http://www.openmath.org/cd?linalg5?zero
+Declares http://www.openmath.org/cd?linalg5 http://www.openmath.org/cd?linalg5?identity
+constant: http://www.openmath.org/cd?linalg5?identity
+Declares http://www.openmath.org/cd?linalg5 http://www.openmath.org/cd?linalg5?diagonal_matrix
+constant: http://www.openmath.org/cd?linalg5?diagonal_matrix
+Declares http://www.openmath.org/cd?linalg5 http://www.openmath.org/cd?linalg5?scalar
+constant: http://www.openmath.org/cd?linalg5?scalar
+Declares http://www.openmath.org/cd?linalg5 http://www.openmath.org/cd?linalg5?const
+constant: http://www.openmath.org/cd?linalg5?const
+Declares http://www.openmath.org/cd?linalg5 http://www.openmath.org/cd?linalg5?banded
+constant: http://www.openmath.org/cd?linalg5?banded
+Declares http://www.openmath.org/cd?linalg5 http://www.openmath.org/cd?linalg5?symmetric
+constant: http://www.openmath.org/cd?linalg5?symmetric
+Declares http://www.openmath.org/cd?linalg5 http://www.openmath.org/cd?linalg5?skew_symmetric
+constant: http://www.openmath.org/cd?linalg5?skew_symmetric
+Declares http://www.openmath.org/cd?linalg5 http://www.openmath.org/cd?linalg5?Hermitian
+constant: http://www.openmath.org/cd?linalg5?Hermitian
+Declares http://www.openmath.org/cd?linalg5 http://www.openmath.org/cd?linalg5?anti_Hermitian
+constant: http://www.openmath.org/cd?linalg5?anti_Hermitian
+Declares http://www.openmath.org/cd?linalg5 http://www.openmath.org/cd?linalg5?lower_triangular
+constant: http://www.openmath.org/cd?linalg5?lower_triangular
+Declares http://www.openmath.org/cd?linalg5 http://www.openmath.org/cd?linalg5?upper_triangular
+constant: http://www.openmath.org/cd?linalg5?upper_triangular
+Declares http://www.openmath.org/cd?linalg5 http://www.openmath.org/cd?linalg5?tridiagonal
+constant: http://www.openmath.org/cd?linalg5?tridiagonal
+Declares http://www.openmath.org/cd?linalg5 http://www.openmath.org/cd?linalg5?lower_Hessenberg
+constant: http://www.openmath.org/cd?linalg5?lower_Hessenberg
+Declares http://www.openmath.org/cd?linalg5 http://www.openmath.org/cd?linalg5?upper_Hessenberg
+constant: http://www.openmath.org/cd?linalg5?upper_Hessenberg

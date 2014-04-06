@@ -1,0 +1,31 @@
+namespace http://oaff.kwarc.info/openmath/test
+
+import cd http://www.openmath.org/cd
+
+theory Set =
+  include cd:?arith1
+  include cd:?relation1
+  include cd:?logic1
+  include cd:?set1
+  size_test : FMP = card {1,2,3} = 3 
+  intersect_test : FMP = {1,2,3} ⋂  {2,3,4,5} ⋂  {7,5,2,8,3,1} = {2,3}
+  union_test : FMP = {1,2,3} ⋃  {2,3,4} ⋃ {3,4,5} = {1,2,3,4,5}
+  setdiff_test1 : FMP = {1,2,3} ∖ {2,3,4} = {1}
+  setdiff_test2 : FMP = {1,2,3} ∖ {1,2,3,5} = ∅
+  subset_test1 : FMP = {1,2,3} ⊆ {3,1,2,4} = true
+  subset_test2 : FMP = {1,2,3} ⊆ {3,1,4} = false
+  prsubset_test1 : FMP = {1,2,3} ⊂ {1,2,3,4} = true
+  prsubset_test2 : FMP = {1,2,3} ⊂ {1,2,3} = false
+  notsubset_test : FMP = {1,2,3} ⊈ {2,3,4} = true
+  notprsubset_test : FMP = {1,2,3} ⊄ {1,2,3} = true
+  in_test : FMP = 1 ∈ {1,2,3} = true
+  notin_test : FMP = 1 ∉ {1,2,3} = false
+
+
+view SetTest : ?Set -> http://cds.omdoc.org/urtheories?ScalaOM =
+  include cd:?OpenMath  = http://cds.omdoc.org/urtheories?Syntactic
+  include cd:?arith1    = uom?Arith1
+  include cd:?relation1 = uom?Relation1
+  include cd:?logic1 = uom?Logic1
+  include cd:?set1 = uom?Set1
+

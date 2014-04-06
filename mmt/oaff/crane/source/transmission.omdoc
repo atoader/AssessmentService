@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--This OMDoc document is generated from an sTeX-encoded one via LaTeXML, you may want to reconsider editing it.-->
+<omdoc xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX" xml:base="https://tnt.kwarc.info/repos/stc/fcad/crane/cds/transmission" xml:id="Document">
+  <metadata/>
+  <theory xml:id="transmission" about="#transmission" stex:srcref="../../../../../stc/fcad/crane/cds/transmission.tex#textrange(from=1;0,to=6;12)">
+    <omdoc:symbol name="transmission" xml:id="transmission.def.sym" about="#transmission.def.sym" stex:srcref="../../../../../stc/fcad/crane/cds/transmission.tex#textrange(from=2;1,to=5;18)"/>
+    <omdoc:definition for="transmission" xml:id="transmission.definition2" about="#transmission.definition2" stex:srcref="../../../../../stc/fcad/crane/cds/transmission.tex#textrange(from=2;1,to=5;18)">
+      <omdoc:CMP xml:id="transmission.definition2.CMP1" about="#transmission.definition2.CMP1" stex:srcref="../../../../../stc/fcad/crane/cds/transmission.tex#textrange(from=2;1,to=5;18)">
+<p xmlns="http://www.w3.org/1999/xhtml" id="transmission.definition2.CMP1.p1" class="ltx_p" about="#transmission.definition2.CMP1.p1">A <omdoc:idx xml:id="transmission.definition2.CMP1.p1.idx1" about="#transmission.definition2.CMP1.p1.idx1" stex:srcref="../../../../../stc/fcad/crane/cds/transmission.tex#textrange(from=2;63,to=3;25)"><omdoc:idt xml:id="transmission.definition2.CMP1.p1.idx1.idt1" about="#transmission.definition2.CMP1.p1.idx1.idt1" stex:srcref="../../../../../stc/fcad/crane/cds/transmission.tex#textrange(from=2;63,to=3;25)"><omdoc:term cd="transmission" name="transmission" role="definiendum" xml:id="transmission.definition2.CMP1.p1.idx1.idt1.term1" about="#transmission.definition2.CMP1.p1.idx1.idt1.term1" stex:srcref="../../../../../stc/fcad/crane/cds/transmission.tex#textrange(from=2;63,to=3;25)">transmission</omdoc:term></omdoc:idt><omdoc:ide index="default" xml:id="transmission.definition2.CMP1.p1.idx1.ide2" about="#transmission.definition2.CMP1.p1.idx1.ide2" stex:srcref="../../../../../stc/fcad/crane/cds/transmission.tex#textrange(from=2;63,to=3;25)"><omdoc:idp>transmission</omdoc:idp></omdoc:ide></omdoc:idx> is a machine that provides speed and torque conversions from a
+rotating power source to another device.</p></omdoc:CMP>
+    </omdoc:definition>
+  </theory>
+</omdoc>

@@ -1,0 +1,29 @@
+namespace http://oaff.kwarc.info/openmath/test
+
+import cd http://www.openmath.org/cd
+
+theory Arith : cd:?OpenMath =
+  include cd:?arith1
+  include cd:?nums1
+  include cd:?relation1
+  include cd:?logic1
+  plusTest : FMP = 2 + 3 + 4 = 9
+  minusTest : FMP = 5 - 2 = 3
+  timesTest : FMP = 3 * 4 = 12
+  divideTest : FMP = 4 / 2 = 2
+  powerTest : FMP = 4 ^ 2 = 16
+  rootTest : FMP = √ 3 27 = 3
+  absTest : FMP = |-2| = 2
+  unary_minusTest : FMP = -(-2) = 2
+  gcdTest : FMP = gcd 12, 18, 24 = 6
+  lcmTest : FMP = lcm 12, 18, 24 = 72
+  
+
+
+view ArithTest : ?Arith -> http://cds.omdoc.org/urtheories?ScalaOM =
+  include cd:?OpenMath  = http://cds.omdoc.org/urtheories?Syntactic
+  include cd:?arith1    = uom?Arith1
+  include cd:?relation1 = uom?Relation1
+  include cd:?logic1 = uom?Logic1
+  include cd:?nums1 = uom?Nums1
+

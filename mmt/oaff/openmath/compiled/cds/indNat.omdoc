@@ -1,0 +1,16 @@
+<omdoc base="http://www.openmath.org/cds/indNat.mmt">
+        <theory name="indNat" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/indNat.mmt#39.2.0-94.5.1"/></metadata>
+        <constant name="zero">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/indNat.mmt#69.3.2-74.3.7"/></metadata>
+       
+       
+       
+     </constant><constant name="succ">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/indNat.mmt#77.4.2-92.4.17"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?indNat?succ" precedence="0" fixity="mixfix" arguments="succ 50"/></notation>
+     </constant>
+      </theory>
+     </omdoc>

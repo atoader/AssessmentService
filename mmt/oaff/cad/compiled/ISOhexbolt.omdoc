@@ -1,0 +1,760 @@
+<omdoc base="http://docs.omdoc.org/cad/ISOhexbolt.omdoc">
+  <theory name="ISOhexbolt" base="http://docs.omdoc.org/cad/ISOhexbolt.omdoc">
+    <import from="../../../fcad/flange/cds/ISOmetricthread?ISOmetricthread"> </import>
+    <import from="../../../fcad/flange/cds/nutbolt?nutbolt"> </import>
+    <constant name="size"> </constant>
+    <constant name="ISO-hex-bolt"> </constant>
+  </theory>
+  <definition 
+  for="http://docs.omdoc.org/cad/ISOhexbolt.omdoc?ISOhexbolt?ISO-hex-bolt http://docs.omdoc.org/cad/ISOhexbolt.omdoc?ISOhexbolt?size">
+    <omdoc:CMP 
+    stex:srcref="../../../fcad/flange/cds/ISOhexbolt.tex#textrange(from=5;1,to=31;16)" about="#ISOhexbolt.definition5.CMP1" xml:id="ISOhexbolt.definition5.CMP1" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#ISOhexbolt.definition5.CMP1.p1" class="ltx_p" id="ISOhexbolt.definition5.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        The
+        <omdoc:ref target="http://docs.omdoc.org/cad/ISOhexbolt.omdoc?ISOhexbolt?size"> size </omdoc:ref>
+        s of
+        <omdoc:ref target="http://docs.omdoc.org/cad/ISOhexbolt.omdoc?ISOhexbolt?ISO-hex-bolt">
+          ISO hex bolt
+        </omdoc:ref>
+        s are standardized by their internal
+        <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?thread"> thread </omdoc:ref>
+        (irrespective of the
+        <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?pitch"> pitch </omdoc:ref>
+        ) by the ISO.
+</p>
+      <table 
+      about="#ISOhexbolt.definition5.CMP1.tabular2" class="ltx_tabular ltx_centering" id="ISOhexbolt.definition5.CMP1.tabular2" xmlns="http://www.w3.org/1999/xhtml">
+        <thead class="ltx_thead">
+          <tr 
+          about="#ISOhexbolt.definition5.CMP1.tabular2.tr1" class="ltx_tr" id="ISOhexbolt.definition5.CMP1.tabular2.tr1">
+            <th 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr1.td1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r ltx_border_t" id="ISOhexbolt.definition5.CMP1.tabular2.tr1.td1">
+              <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?thread"> thread </omdoc:ref>
+</th>
+            <th 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr1.td2" class="ltx_td ltx_align_left ltx_border_r ltx_border_t" id="ISOhexbolt.definition5.CMP1.tabular2.tr1.td2">
+              <omdoc:ref target="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?flat-size">
+                flat size
+              </omdoc:ref>
+</th>
+            <th 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr1.td3" class="ltx_td ltx_align_left ltx_border_r ltx_border_t" id="ISOhexbolt.definition5.CMP1.tabular2.tr1.td3">
+              diameter
+</th>
+            <th 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr1.td4" class="ltx_td ltx_align_left ltx_border_r ltx_border_t" id="ISOhexbolt.definition5.CMP1.tabular2.tr1.td4">
+              <omdoc:ref target="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?height"> height </omdoc:ref>
+</th>
+</tr>
+        </thead>
+        <tbody class="ltx_tbody">
+          <tr 
+          about="#ISOhexbolt.definition5.CMP1.tabular2.tr2" class="ltx_tr" id="ISOhexbolt.definition5.CMP1.tabular2.tr2">
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr2.td1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r ltx_border_t" id="ISOhexbolt.definition5.CMP1.tabular2.tr2.td1">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS 
+                  base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="sISOmetricthread">
+</om:OMS>
+                  <om:OMI>1</om:OMI>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr2.td2" class="ltx_td ltx_border_r ltx_border_t" id="ISOhexbolt.definition5.CMP1.tabular2.tr2.td2">
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr2.td3" class="ltx_td ltx_align_left ltx_border_r ltx_border_t" id="ISOhexbolt.definition5.CMP1.tabular2.tr2.td3">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMF dec="2.5"/>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr2.td4" class="ltx_td ltx_border_r ltx_border_t" id="ISOhexbolt.definition5.CMP1.tabular2.tr2.td4">
+</td>
+</tr>
+          <tr 
+          about="#ISOhexbolt.definition5.CMP1.tabular2.tr3" class="ltx_tr" id="ISOhexbolt.definition5.CMP1.tabular2.tr3">
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr3.td1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr3.td1">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS 
+                  base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="sISOmetricthread">
+</om:OMS>
+                  <om:OMF dec="1.6"/>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr3.td2" class="ltx_td ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr3.td2">
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr3.td3" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr3.td3">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMF dec="3.2"/>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr3.td4" class="ltx_td ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr3.td4">
+</td>
+</tr>
+          <tr 
+          about="#ISOhexbolt.definition5.CMP1.tabular2.tr4" class="ltx_tr" id="ISOhexbolt.definition5.CMP1.tabular2.tr4">
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr4.td1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr4.td1">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS 
+                  base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="sISOmetricthread">
+</om:OMS>
+                  <om:OMI>2</om:OMI>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr4.td2" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr4.td2">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>4</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr4.td3" class="ltx_td ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr4.td3">
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr4.td4" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr4.td4">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMF dec="1.6"/>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+</tr>
+          <tr 
+          about="#ISOhexbolt.definition5.CMP1.tabular2.tr5" class="ltx_tr" id="ISOhexbolt.definition5.CMP1.tabular2.tr5">
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr5.td1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr5.td1">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS 
+                  base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="sISOmetricthread">
+</om:OMS>
+                  <om:OMF dec="2.5"/>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr5.td2" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr5.td2">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>5</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr5.td3" class="ltx_td ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr5.td3">
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr5.td4" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr5.td4">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>2</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+</tr>
+          <tr 
+          about="#ISOhexbolt.definition5.CMP1.tabular2.tr6" class="ltx_tr" id="ISOhexbolt.definition5.CMP1.tabular2.tr6">
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr6.td1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr6.td1">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS 
+                  base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="sISOmetricthread">
+</om:OMS>
+                  <om:OMI>3</om:OMI>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr6.td2" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr6.td2">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMF dec="5.5"/>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr6.td3" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr6.td3">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMF dec="6.4"/>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr6.td4" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr6.td4">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMF dec="2.4"/>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+</tr>
+          <tr 
+          about="#ISOhexbolt.definition5.CMP1.tabular2.tr7" class="ltx_tr" id="ISOhexbolt.definition5.CMP1.tabular2.tr7">
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr7.td1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr7.td1">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS 
+                  base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="sISOmetricthread">
+</om:OMS>
+                  <om:OMI>4</om:OMI>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr7.td2" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr7.td2">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>7</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr7.td3" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr7.td3">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMF dec="8.1"/>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr7.td4" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr7.td4">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMF dec="2.4"/>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+</tr>
+          <tr 
+          about="#ISOhexbolt.definition5.CMP1.tabular2.tr8" class="ltx_tr" id="ISOhexbolt.definition5.CMP1.tabular2.tr8">
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr8.td1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr8.td1">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS 
+                  base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="sISOmetricthread">
+</om:OMS>
+                  <om:OMI>5</om:OMI>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr8.td2" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr8.td2">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>8</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr8.td3" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr8.td3">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMF dec="9.2"/>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr8.td4" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr8.td4">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>4</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+</tr>
+          <tr 
+          about="#ISOhexbolt.definition5.CMP1.tabular2.tr9" class="ltx_tr" id="ISOhexbolt.definition5.CMP1.tabular2.tr9">
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr9.td1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr9.td1">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS 
+                  base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="sISOmetricthread">
+</om:OMS>
+                  <om:OMI>6</om:OMI>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr9.td2" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr9.td2">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>10</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr9.td3" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr9.td3">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMF dec="11.5"/>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr9.td4" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr9.td4">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>5</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+</tr>
+          <tr 
+          about="#ISOhexbolt.definition5.CMP1.tabular2.tr10" class="ltx_tr" id="ISOhexbolt.definition5.CMP1.tabular2.tr10">
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr10.td1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr10.td1">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS 
+                  base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="sISOmetricthread">
+</om:OMS>
+                  <om:OMI>8</om:OMI>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr10.td2" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr10.td2">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>13</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr10.td3" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr10.td3">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>15</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr10.td4" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr10.td4">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMF dec="6.5"/>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+</tr>
+          <tr 
+          about="#ISOhexbolt.definition5.CMP1.tabular2.tr11" class="ltx_tr" id="ISOhexbolt.definition5.CMP1.tabular2.tr11">
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr11.td1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr11.td1">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS 
+                  base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="sISOmetricthread">
+</om:OMS>
+                  <om:OMI>10</om:OMI>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr11.td2" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr11.td2">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>16</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr11.td3" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr11.td3">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMF dec="19.6"/>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr11.td4" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr11.td4">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>8</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+</tr>
+          <tr 
+          about="#ISOhexbolt.definition5.CMP1.tabular2.tr12" class="ltx_tr" id="ISOhexbolt.definition5.CMP1.tabular2.tr12">
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr12.td1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr12.td1">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS 
+                  base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="sISOmetricthread">
+</om:OMS>
+                  <om:OMI>12</om:OMI>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr12.td2" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr12.td2">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>17</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr12.td3" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr12.td3">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMF dec="22.1"/>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr12.td4" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr12.td4">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>10</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+</tr>
+          <tr 
+          about="#ISOhexbolt.definition5.CMP1.tabular2.tr13" class="ltx_tr" id="ISOhexbolt.definition5.CMP1.tabular2.tr13">
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr13.td1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr13.td1">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS 
+                  base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="sISOmetricthread">
+</om:OMS>
+                  <om:OMI>16</om:OMI>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr13.td2" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr13.td2">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>24</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr13.td3" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr13.td3">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMF dec="27.7"/>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr13.td4" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr13.td4">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>13</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+</tr>
+          <tr 
+          about="#ISOhexbolt.definition5.CMP1.tabular2.tr14" class="ltx_tr" id="ISOhexbolt.definition5.CMP1.tabular2.tr14">
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr14.td1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr14.td1">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS 
+                  base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="sISOmetricthread">
+</om:OMS>
+                  <om:OMI>20</om:OMI>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr14.td2" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr14.td2">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>30</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr14.td3" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr14.td3">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMF dec="34.6"/>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr14.td4" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr14.td4">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>16</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+</tr>
+          <tr 
+          about="#ISOhexbolt.definition5.CMP1.tabular2.tr15" class="ltx_tr" id="ISOhexbolt.definition5.CMP1.tabular2.tr15">
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr15.td1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr15.td1">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS 
+                  base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="sISOmetricthread">
+</om:OMS>
+                  <om:OMI>24</om:OMI>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr15.td2" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr15.td2">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>36</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr15.td3" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr15.td3">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMF dec="41.6"/>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr15.td4" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr15.td4">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>19</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+</tr>
+          <tr 
+          about="#ISOhexbolt.definition5.CMP1.tabular2.tr16" class="ltx_tr" id="ISOhexbolt.definition5.CMP1.tabular2.tr16">
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr16.td1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr16.td1">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS 
+                  base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="sISOmetricthread">
+</om:OMS>
+                  <om:OMI>30</om:OMI>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr16.td2" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr16.td2">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>46</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr16.td3" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr16.td3">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMF dec="53.1"/>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr16.td4" class="ltx_td ltx_align_left ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr16.td4">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>24</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+</tr>
+          <tr 
+          about="#ISOhexbolt.definition5.CMP1.tabular2.tr17" class="ltx_tr" id="ISOhexbolt.definition5.CMP1.tabular2.tr17">
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr17.td1" class="ltx_td ltx_align_left ltx_border_b ltx_border_l ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr17.td1">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS 
+                  base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="sISOmetricthread">
+</om:OMS>
+                  <om:OMI>36</om:OMI>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr17.td2" class="ltx_td ltx_align_left ltx_border_b ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr17.td2">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>55</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr17.td3" class="ltx_td ltx_align_left ltx_border_b ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr17.td3">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMF dec="63.5"/>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+            <td 
+            about="#ISOhexbolt.definition5.CMP1.tabular2.tr17.td4" class="ltx_td ltx_align_left ltx_border_b ltx_border_r" id="ISOhexbolt.definition5.CMP1.tabular2.tr17.td4">
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>29</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/cad/length.omdoc" module="length" name="SImillimetre"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+</td>
+</tr>
+        </tbody>
+</table>
+</omdoc:CMP>
+</definition>
+</omdoc>

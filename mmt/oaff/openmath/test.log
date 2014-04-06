@@ -1,0 +1,218 @@
+13:05:39.7	user: log file /home/mihnea/kwarc/oaff/openmath/test.log finished
+13:05:39.8	user: log+ archive
+13:05:39.8	user: log+ archive finished
+13:05:39.13	user: archive add /home/mihnea/kwarc/oaff/urtheories
+13:05:39.29	user: archive add /home/mihnea/kwarc/oaff/urtheories finished
+13:05:39.30	user: archive add /home/mihnea/kwarc/oaff/openmath
+13:05:39.31	user: archive add /home/mihnea/kwarc/oaff/openmath finished
+13:05:39.51	user: base http://www.openmath.org/cd?all
+13:05:39.52	user: base http://www.openmath.org/cd?all finished
+13:05:39.73	user: archive openmath register  info.kwarc.oaff.openmath.uom
+13:05:39.310	user: archive openmath register  info.kwarc.oaff.openmath.uom finished
+13:05:39.316	user: archive openmath test  info.kwarc.oaff.openmath.test
+13:05:39.394	archive: test case Relation_qeqTest
+13:05:39.406	archive: PASSED
+
+13:05:39.406	archive: test case Relation_leqTest
+13:05:39.408	archive: PASSED
+
+13:05:39.408	archive: test case Relation_neqTest
+13:05:39.408	archive: PASSED
+
+13:05:39.409	archive: test case Relation_gtTest
+13:05:39.409	archive: PASSED
+
+13:05:39.409	archive: test case Relation_ltTest
+13:05:39.410	archive: PASSED
+
+13:05:39.410	archive: test case Relation_eqTest
+13:05:39.412	archive: PASSED
+
+13:05:39.412	archive: test case Minmax_maxTest
+13:05:39.413	archive: PASSED
+
+13:05:39.413	archive: test case Minmax_minTest
+13:05:39.413	archive: PASSED
+
+13:05:39.413	archive: test case Set_notin_test
+13:05:39.422	archive: PASSED
+
+13:05:39.422	archive: test case Set_in_test
+13:05:39.425	archive: PASSED
+
+13:05:39.425	archive: test case Set_notprsubset_test
+13:05:39.433	archive: PASSED
+
+13:05:39.433	archive: test case Set_notsubset_test
+13:05:39.436	archive: PASSED
+
+13:05:39.436	archive: test case Set_prsubset_test2
+13:05:39.441	archive: PASSED
+
+13:05:39.441	archive: test case Set_prsubset_test1
+13:05:39.447	archive: PASSED
+
+13:05:39.447	archive: test case Set_subset_test2
+13:05:39.448	archive: PASSED
+
+13:05:39.448	archive: test case Set_subset_test1
+13:05:39.449	archive: PASSED
+
+13:05:39.449	archive: test case Set_setdiff_test2
+13:05:39.451	archive: PASSED
+
+13:05:39.451	archive: test case Set_setdiff_test1
+13:05:39.452	archive: PASSED
+
+13:05:39.453	archive: test case Set_union_test
+13:05:39.462	archive: PASSED
+
+13:05:39.462	archive: test case Set_intersect_test
+13:05:39.466	archive: PASSED
+
+13:05:39.466	archive: test case Set_size_test
+13:05:39.467	archive: PASSED
+
+13:05:39.467	archive: test case List_reverse_test
+13:05:39.467	archive: PASSED
+
+13:05:39.468	archive: test case List_cons_test
+13:05:39.468	archive: PASSED
+
+13:05:39.468	archive: test case List_append_test
+13:05:39.469	archive: PASSED
+
+13:05:39.469	archive: test case List_rest_test
+13:05:39.470	archive: PASSED
+
+13:05:39.470	archive: test case List_first_test
+13:05:39.470	archive: PASSED
+
+13:05:39.470	archive: test case List_list_selector_test
+13:05:39.471	archive: PASSED
+
+13:05:39.471	archive: test case List_in_test
+13:05:39.475	archive: PASSED
+
+13:05:39.475	archive: test case Integer_remainderTest
+13:05:39.476	archive: PASSED
+
+13:05:39.476	archive: test case Integer_quotientTest
+13:05:39.476	archive: PASSED
+
+13:05:39.476	archive: test case Integer_factorofTest
+13:05:39.477	archive: PASSED
+
+13:05:39.477	archive: test case Integer_factorialTest
+13:05:39.477	archive: PASSED
+
+13:05:39.477	archive: test case Linalg_times_mat_test
+13:05:39.502	archive: PASSED
+
+13:05:39.502	archive: test case Linalg_plus_mat_test
+13:05:39.515	archive: PASSED
+
+13:05:39.515	archive: test case Linalg_plus_vec_test
+13:05:39.519	archive: PASSED
+
+13:05:39.519	archive: test case Linalg_columncount_test
+13:05:39.520	archive: PASSED
+
+13:05:39.520	archive: test case Linalg_rowcount_test
+13:05:39.520	archive: PASSED
+
+13:05:39.520	archive: test case Linalg_size_test
+13:05:39.521	archive: PASSED
+
+13:05:39.521	archive: test case Linalg_transpose_test
+13:05:39.521	archive: PASSED
+
+13:05:39.522	archive: test case Linalg_matrix_selector_test
+13:05:39.523	archive: PASSED
+
+13:05:39.523	archive: test case Linalg_vector_selector_test
+13:05:39.523	archive: PASSED
+
+13:05:39.523	archive: test case Linalg_vectorproduct_test
+13:05:39.529	archive: PASSED
+
+13:05:39.529	archive: test case Linalg_scalaproduct_test
+13:05:39.531	archive: PASSED
+
+13:05:39.531	archive: test case Linalg_outerproduct_test
+13:05:39.545	archive: PASSED
+
+13:05:39.545	archive: test case Logic_xorTest
+13:05:39.546	archive: PASSED
+
+13:05:39.546	archive: test case Logic_orTest
+13:05:39.547	archive: PASSED
+
+13:05:39.547	archive: test case Logic_andTest
+13:05:39.547	archive: PASSED
+
+13:05:39.547	archive: test case Logic_notTest
+13:05:39.547	archive: PASSED
+
+13:05:39.547	archive: test case Logic_impliesTest
+13:05:39.548	archive: PASSED
+
+13:05:39.548	archive: test case Logic_equivalentTest
+13:05:39.548	archive: PASSED
+
+13:05:39.548	archive: test case Complex_conjugate
+13:05:39.549	archive: PASSED
+
+13:05:39.549	archive: test case Complex_argument
+13:05:39.550	archive: PASSED
+
+13:05:39.550	archive: test case Complex_imaginaryTest
+13:05:39.550	archive: PASSED
+
+13:05:39.550	archive: test case Complex_realTest1
+13:05:39.550	archive: PASSED
+
+13:05:39.550	archive: test case Rounding_truncTest
+13:05:39.552	archive: PASSED
+
+13:05:39.552	archive: test case Rounding_roundTest
+13:05:39.552	archive: PASSED
+
+13:05:39.553	archive: test case Rounding_ceilingTest
+13:05:39.553	archive: PASSED
+
+13:05:39.553	archive: test case Rounding_floorTest
+13:05:39.554	archive: PASSED
+
+13:05:39.554	archive: test case Arith_lcmTest
+13:05:39.555	archive: PASSED
+
+13:05:39.555	archive: test case Arith_gcdTest
+13:05:39.556	archive: PASSED
+
+13:05:39.556	archive: test case Arith_unary_minusTest
+13:05:39.557	archive: PASSED
+
+13:05:39.557	archive: test case Arith_absTest
+13:05:39.557	archive: PASSED
+
+13:05:39.557	archive: test case Arith_rootTest
+13:05:39.559	archive: PASSED
+
+13:05:39.559	archive: test case Arith_powerTest
+13:05:39.559	archive: PASSED
+
+13:05:39.560	archive: test case Arith_divideTest
+13:05:39.561	archive: PASSED
+
+13:05:39.561	archive: test case Arith_timesTest
+13:05:39.562	archive: PASSED
+
+13:05:39.562	archive: test case Arith_minusTest
+13:05:39.563	archive: PASSED
+
+13:05:39.563	archive: test case Arith_plusTest
+13:05:39.563	archive: PASSED
+
+13:05:39.564	user: archive openmath test  info.kwarc.oaff.openmath.test finished
+13:05:39.569	user: scala

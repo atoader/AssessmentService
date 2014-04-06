@@ -1,0 +1,3 @@
+\begin{module}[id=castor]%
+  \importmodule[load=\KWARCslides{units/en/angles}]{angles}%
+\end{module}%

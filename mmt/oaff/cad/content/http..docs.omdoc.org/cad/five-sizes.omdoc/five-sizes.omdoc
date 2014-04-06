@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="five-sizes" base="http://docs.omdoc.org/cad/five-sizes.omdoc">
+    <constant name="five-point-size-scale"> </constant>
+    <constant name="XS"> </constant>
+    <constant name="S"> </constant>
+    <constant name="M"> </constant>
+    <constant name="L"> </constant>
+    <constant name="XL"> </constant>
+  </theory>
+</omdoc>

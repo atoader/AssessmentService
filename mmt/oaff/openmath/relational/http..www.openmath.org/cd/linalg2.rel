@@ -1,0 +1,8 @@
+theory http://www.openmath.org/cd?linalg2
+HasMeta http://www.openmath.org/cd?linalg2 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?linalg2 http://www.openmath.org/cd?linalg2?vector
+constant: http://www.openmath.org/cd?linalg2?vector
+Declares http://www.openmath.org/cd?linalg2 http://www.openmath.org/cd?linalg2?matrixrow
+constant: http://www.openmath.org/cd?linalg2?matrixrow
+Declares http://www.openmath.org/cd?linalg2 http://www.openmath.org/cd?linalg2?matrix
+constant: http://www.openmath.org/cd?linalg2?matrix

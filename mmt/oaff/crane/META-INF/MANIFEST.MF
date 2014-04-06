@@ -1,0 +1,4 @@
+id: crane
+source-base: http://cds.omdoc.org/crane
+narration-base: http://docs.omdoc.org/crane
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc base="http://www.openmath.org/assessment/assessment.omdoc">
+  <mref target="http://cds.omdoc.org/assessment?Lists"/>
+  <mref target="http://cds.omdoc.org/assessment?Comparation"/>
+  <mref target="http://cds.omdoc.org/assessment?ValuationFunction"/>
+  <mref target="http://cds.omdoc.org/assessment?Profit"/>
+  <mref target="http://cds.omdoc.org/assessment?Assessment"/>
+</omdoc>

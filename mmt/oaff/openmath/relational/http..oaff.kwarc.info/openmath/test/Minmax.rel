@@ -1,0 +1,9 @@
+theory http://oaff.kwarc.info/openmath/test?Minmax
+Includes http://oaff.kwarc.info/openmath/test?Minmax http://www.openmath.org/cd?relation1
+Includes http://oaff.kwarc.info/openmath/test?Minmax http://www.openmath.org/cd?logic1
+Includes http://oaff.kwarc.info/openmath/test?Minmax http://www.openmath.org/cd?minmax1
+Includes http://oaff.kwarc.info/openmath/test?Minmax http://www.openmath.org/cd?list1
+Declares http://oaff.kwarc.info/openmath/test?Minmax http://oaff.kwarc.info/openmath/test?Minmax?minTest
+constant: http://oaff.kwarc.info/openmath/test?Minmax?minTest
+Declares http://oaff.kwarc.info/openmath/test?Minmax http://oaff.kwarc.info/openmath/test?Minmax?maxTest
+constant: http://oaff.kwarc.info/openmath/test?Minmax?maxTest

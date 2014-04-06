@@ -1,0 +1,87 @@
+\begin{module}[id=price-function]
+  \importmodule[load=\FCAD{flange/cds/financial-transaction}]{financial-transaction}
+  \gimport{functions}
+
+The \trefi[financial-transaction]{price} of an \trefi[financial-transaction]{offer} or a
+\trefi[financial-transaction]{bid} may vary with the amount of the asset. Therefore it
+is usually given as a function from quantities of goods to payments. 
+
+\symtype{price-function}{\fntype\quantity\quantity}
+
+\begin{definition}[functions=v]
+  A \defii{price}{function} is a function $\fun{v}\quantity\quantity$, which assigns a
+  \trefi[financial-transaction]{price} $v(q)$ of a quantity $q$ of an
+  \trefi[financial-transaction]{asset}.
+\end{definition}
+
+The simplest \trefii{price}{function} is the following:
+
+\symdef[name=unitprice]{unitpriceOp}{u_1}
+\symdef{unitprice}[1]{\unitpriceOp}
+\symdef[name=unitpricefunction]{unitpricefunctionOp}{p}
+\symdef{unitpricefunction}[1]{\prefix\unitpricefunctionOp{#1}}
+\begin{definition}
+  The \defiii{unit-based}{price}{function} $\fun\unitpricefunctionOp\quantity\quantity$ with \defii{unit}{price} $\unitprice{\livar{q}1}$ for \defii{unit}{quantity}
+  $\livar{q}1$ is given as
+  $\defeq{\unitpricefunction{\livar{q}1}}{\scalarqmul{\scalarqdiv{q}{\livar{q}1}}{\unitprice{\livar{q}1}}}$
+\end{definition}
+
+Often a \trefii{price}{function} comes in the form of a unit-based price function with a
+discount, which is given on a unit price for any purchase of a quantity that is above a
+given threshold.
+
+\symdef{discountedprice}[3]{\prefix{{#1}_{#2}}{#3}}
+\begin{definition}[functions={d,p}]
+  A \defi{discount} is a function $\fun{d}\quantity\RealNumbers$ from (asset) quantities
+  to real numbers. Given a \trefii{price}{function} $p$, it induces the
+  \defiii{discounted}{price}{function}
+  $\defeq{\discountedprice{p}dq}{\scalarqmul{d(q)}{p(q)}}$.
+\end{definition}
+
+Instead of discounting a whole price function, we can discount the unit price. 
+
+\symdef[name=discountedunitprice]{discountedunitpriceOp}[2]{u_{#1}^{#2}}
+\symdef{discountedunitprice}[3]{\prefix{\discountedunitpriceOp{#1}{#2}}{#3}}
+\begin{definition}[id=discounted-unit-price.def,functions=d]
+  Given a \trefi{discount} $d$ and a unit price $\unitprice{q}$, the
+  \defiii{discounted}{unit}{price} is the function
+  $\funsuchthat{\discountedunitpriceOp{d}{\unitprice{q}}}\quantity\quantity{q}{\scalarqmul{d(q)}{\unitprice{q}}}$.
+\end{definition}
+
+\begin{assertion}[type=observation]
+  Given a \trefi{discount} $d$ and a unit price $\unitprice{q}$, the
+  \trefiii{discounted}{price}{function} induced by the
+  \trefiii{unit-based}{price}{function} is (the same as) the
+  \trefiii{unit-based}{price}{function} given by the \trefiii{discounted}{unit}{price}.
+\end{assertion}
+
+ Usually, a discount comes as a step function.
+
+\begin{definition}[functions=d]
+  If a \trefi{discount} $d$ is a left step function, i.e.  $d(q)=c$ for all
+  $\qbetween{q}{\livar{q}0}{\livar{q}1}$ where $\livar{q}0$ and $\livar{q}1$ are adjacent
+  step points. Then we call $\livar{q}0$ the \defii{minimum}{purchase} for the price $c$.
+\end{definition}
+
+In cases where a potential buyer has more than one \trefi[financial-transaction]{offer} (e.g. by multiple vendors) we use
+a \trefiii{price}{comparison}{function}:
+
+\begin{definition}[functions={c,p}]
+  A \defiii{price}{comparison}{function} is a function
+  $\fun{c}{\legalperson,\quantity}\quantity$ such that $c(l,q)=p(q)$, where $p$ is the
+  \trefii{price}{function} of the current \trefi[financial-transaction]{offer} from vendor $l$.
+\end{definition}
+
+
+\end{module}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "all"
+%%% End: 
+
+% LocalWords:  winograd legalentities defii trefii defi defiii ednote dmath dq
+% LocalWords:  KWARCslides trefi trefi symdef unitpricefunction symtype fntype
+% LocalWords:  unitpricefunctionOp defeq scalarqmul scalarqdiv unitprice
+% LocalWords:  unitpriceOp discountedprice discountedunitprice funsuchthat
+% LocalWords:  discountedunitpriceOp trefiii qbetween legalperson

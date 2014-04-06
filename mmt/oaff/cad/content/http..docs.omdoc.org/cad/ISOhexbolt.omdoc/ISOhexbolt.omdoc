@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="ISOhexbolt" base="http://docs.omdoc.org/cad/ISOhexbolt.omdoc">
+    <constant name="size"> </constant>
+    <constant name="ISO-hex-bolt"> </constant>
+    <import from="http://docs.omdoc.org/../../fcad/flange/cds/ISOmetricthread?ISOmetricthread"> </import>
+    <import from="http://docs.omdoc.org/../../fcad/flange/cds/nutbolt?nutbolt"> </import>
+  </theory>
+</omdoc>

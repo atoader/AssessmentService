@@ -1,0 +1,21 @@
+\begin{module}[id=partnumber]
+\importmodule[load=\FCAD{flange/cds/nutbolt}]{nutbolt}
+\importmodule[load=\FCAD{flange/cds/color}]{color}
+%\symtype{part-number}{}
+
+\begin{definition}[id=part-number.def]
+  An (inventory) \defii{part}{number} is an identifier of a
+  \trefii[solidobj]{solid}{object} for the purposes of inventory and pricing. The part
+  number is determined by the type of the object and its characteristic properties, such
+  as the thread (for \atrefi[nutbolt]{nuts}{nut} and \atrefi[nutbolt]{bolts}{bolt}), the
+  head type (for and \atrefi[nutbolt]{bolts}{bolt}), \trefii[color]{color}.
+\end{definition}
+\end{module}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "all"
+%%% End: 
+
+% LocalWords:  nutbolt defii defi trefi trefii atrefi partnumber symtype
+% LocalWords:  solidobj

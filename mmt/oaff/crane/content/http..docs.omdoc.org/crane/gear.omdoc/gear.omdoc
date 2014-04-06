@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="gear" base="http://docs.omdoc.org/crane/gear.omdoc">
+    <constant name="gear"> </constant>
+    <constant name="tooth"> </constant>
+  </theory>
+</omdoc>

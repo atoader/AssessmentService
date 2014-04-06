@@ -1,0 +1,8 @@
+theory http://www.openmath.org/cd?string
+HasMeta http://www.openmath.org/cd?string http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?string http://www.openmath.org/cd?string?strlen
+constant: http://www.openmath.org/cd?string?strlen
+Declares http://www.openmath.org/cd?string http://www.openmath.org/cd?string?strcat
+constant: http://www.openmath.org/cd?string?strcat
+Declares http://www.openmath.org/cd?string http://www.openmath.org/cd?string?substr
+constant: http://www.openmath.org/cd?string?substr

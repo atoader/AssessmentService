@@ -1,0 +1,4 @@
+\begin{module}[id=worm-drive]%
+\importmodule[load=\FCAD{crane/cds/transmission}]{transmission}%
+\importmodule[load=\FCAD{crane/cds/gear}]{gear}%
+\end{module}%

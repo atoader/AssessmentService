@@ -1,0 +1,4 @@
+\begin{module}[id=partnumber]%
+\importmodule[load=\FCAD{flange/cds/nutbolt}]{nutbolt}%
+\importmodule[load=\FCAD{flange/cds/color}]{color}%
+\end{module}%

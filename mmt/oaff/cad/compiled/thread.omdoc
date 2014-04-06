@@ -1,0 +1,107 @@
+<omdoc base="http://docs.omdoc.org/cad/thread.omdoc">
+  <theory name="thread" base="http://docs.omdoc.org/cad/thread.omdoc">
+    <constant name="screw-thread"> </constant>
+    <constant name="straight-thread"> </constant>
+    <constant name="external-thread"> </constant>
+    <constant name="internal-thread"> </constant>
+    <constant name="tapered-thread"> </constant>
+    <constant name="major-diameter"> </constant>
+    <constant name="minor-diameter"> </constant>
+    <constant name="angle"> </constant>
+    <constant name="pitch"> </constant>
+    <constant name="start"> </constant>
+    <constant name="lead"> </constant>
+  </theory>
+  <definition 
+  for="http://docs.omdoc.org/cad/thread.omdoc?thread?lead http://docs.omdoc.org/cad/thread.omdoc?thread?internal-thread http://docs.omdoc.org/cad/thread.omdoc?thread?minor-diameter http://docs.omdoc.org/cad/thread.omdoc?thread?angle http://docs.omdoc.org/cad/thread.omdoc?thread?type http://docs.omdoc.org/cad/thread.omdoc?thread?solid-object http://docs.omdoc.org/cad/thread.omdoc?thread?shape http://docs.omdoc.org/cad/thread.omdoc?thread?external-thread http://docs.omdoc.org/cad/thread.omdoc?thread?tapered-thread http://docs.omdoc.org/cad/thread.omdoc?thread?major-diameter http://docs.omdoc.org/cad/thread.omdoc?thread?pitch http://docs.omdoc.org/cad/thread.omdoc?thread?screw-thread http://docs.omdoc.org/cad/thread.omdoc?thread?straight-thread http://docs.omdoc.org/cad/thread.omdoc?thread?start">
+    <omdoc:CMP 
+    stex:srcref="../../../fcad/flange/cds/thread.tex#textrange(from=2;1,to=18;16)" about="#thread.definition12.CMP1" xml:id="thread.definition12.CMP1" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#thread.definition12.CMP1.p1" class="ltx_p" id="thread.definition12.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?screw-thread">
+          screw thread
+        </omdoc:ref>
+        , is a helical ridge wrapped around (the inside or outside of a) cylinder or cone in the form of a helix, with the former being called a
+        <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?straight-thread">
+          straight thread
+        </omdoc:ref>
+        (
+        <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?external-thread">
+          external thread
+        </omdoc:ref>
+        or
+        <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?internal-thread">
+          internal thread
+        </omdoc:ref>
+        ) and the latter called a
+        <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?tapered-thread">
+          tapered thread
+        </omdoc:ref>
+        .
+</p>
+      <p 
+      about="#thread.definition12.CMP1.p2" class="ltx_p" id="thread.definition12.CMP1.p2" xmlns="http://www.w3.org/1999/xhtml">
+        A straight thread is characterized by its
+</p>
+      <ol class="ltx_enumerate" id="I1" xmlns="http://www.w3.org/1999/xhtml">
+        <li style="list-style-type:none;" class="ltx_item" id="I1.i1">
+          <span class=" ltx_tag_enumerate">1.</span>
+          <div class="ltx_para" id="I1.i1.p1">
+            <p about="#I1.i1.p1.p1" class="ltx_p" id="I1.i1.p1.p1">
+              <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?major-diameter">
+                major diameter
+              </omdoc:ref>
+              , i.e. the largest diameter of the thread,
+            </p>
+          </div>
+        </li>
+        <li style="list-style-type:none;" class="ltx_item" id="I1.i2">
+          <span class=" ltx_tag_enumerate">2.</span>
+          <div class="ltx_para" id="I1.i2.p1">
+            <p about="#I1.i2.p1.p1" class="ltx_p" id="I1.i2.p1.p1">
+              <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?minor-diameter">
+                minor diameter
+              </omdoc:ref>
+              , i.e. the largest diameter of the thread,
+            </p>
+          </div>
+        </li>
+        <li style="list-style-type:none;" class="ltx_item" id="I1.i3">
+          <span class=" ltx_tag_enumerate">3.</span>
+          <div class="ltx_para" id="I1.i3.p1">
+            <p about="#I1.i3.p1.p1" class="ltx_p" id="I1.i3.p1.p1">
+              <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?angle"> angle </omdoc:ref>
+              , i.e. the angle of the side of the ridge that makes up the thread,
+            </p>
+          </div>
+        </li>
+        <li style="list-style-type:none;" class="ltx_item" id="I1.i4">
+          <span class=" ltx_tag_enumerate">4.</span>
+          <div class="ltx_para" id="I1.i4.p1">
+            <p about="#I1.i4.p1.p1" class="ltx_p" id="I1.i4.p1.p1">
+              <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?pitch"> pitch </omdoc:ref>
+              , i.e. the distance from one crest of the ridge to the next, and by
+            </p>
+          </div>
+        </li>
+        <li style="list-style-type:none;" class="ltx_item" id="I1.i5">
+          <span class=" ltx_tag_enumerate">5.</span>
+          <div class="ltx_para" id="I1.i5.p1">
+            <p about="#I1.i5.p1.p1" class="ltx_p" id="I1.i5.p1.p1">
+              the number of
+              <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?start"> starts </omdoc:ref>
+              , i.e. the number of ridges wrapped around the cylinder.
+            </p>
+          </div>
+        </li>
+      </ol>
+      <p 
+      about="#thread.definition12.CMP1.p4" class="ltx_p" id="thread.definition12.CMP1.p4" xmlns="http://www.w3.org/1999/xhtml">
+        The
+        <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?lead"> lead </omdoc:ref>
+        of a thread is just its pitch times the starts.
+</p>
+</omdoc:CMP>
+</definition>
+</omdoc>

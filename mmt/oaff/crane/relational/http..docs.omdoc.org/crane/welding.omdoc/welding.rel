@@ -1,0 +1,3 @@
+theory http://docs.omdoc.org/crane/welding.omdoc?welding
+Declares http://docs.omdoc.org/crane/welding.omdoc?welding http://docs.omdoc.org/crane/welding.omdoc?welding?weldment-design
+constant: http://docs.omdoc.org/crane/welding.omdoc?welding?weldment-design

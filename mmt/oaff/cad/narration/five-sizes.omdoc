@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc base="http://docs.omdoc.org/cad/five-sizes.omdoc">
+  <mref target="http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes"/>
+  <definition 
+  for="http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?S http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?M http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?XS http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?XL http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?five-point-size-scale http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?L">
+    <omdoc:CMP 
+    xml:id="five-sizes.definition7.CMP1" about="#five-sizes.definition7.CMP1" stex:srcref="../../../fcad/flange/cds/five-sizes.tex#textrange(from=2;1,to=5;18)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="five-sizes.definition7.CMP1.p1" class="ltx_p" about="#five-sizes.definition7.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        The
+        <omdoc:ref target="http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?five-point-size-scale"> five-point size scale </omdoc:ref>
+        has the size constants
+        <omdoc:ref target="http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?XS"> XS </omdoc:ref>
+        (extra small),
+        <omdoc:ref target="http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?S"> S </omdoc:ref>
+        (small),
+        <omdoc:ref target="http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?M"> M </omdoc:ref>
+        (medium),
+        <omdoc:ref target="http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?L"> L </omdoc:ref>
+        , (large), and
+        <omdoc:ref target="http://docs.omdoc.org/cad/five-sizes.omdoc?five-sizes?XL"> XL </omdoc:ref>
+        (extra large).
+      </p>
+</omdoc:CMP>
+</definition>
+</omdoc>

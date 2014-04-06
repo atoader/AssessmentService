@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc base="http://www.openmath.org/frameit/frameIT.omdoc">
+  <mref target="http://cds.omdoc.org/frameit?Ratios"/>
+  <mref target="http://cds.omdoc.org/frameit?RatiosSol"/>
+  <mref target="http://cds.omdoc.org/frameit?BasicTrig"/>
+  <mref target="http://cds.omdoc.org/frameit?BasicTrigSol"/>
+  <mref target="http://cds.omdoc.org/frameit?LawOfCosines"/>
+  <mref target="http://cds.omdoc.org/frameit?LawOfCosinesSol"/>
+  <mref target="http://cds.omdoc.org/frameit?Volume"/>
+  <mref target="http://cds.omdoc.org/frameit?VolumeSol"/>
+  <mref target="http://cds.omdoc.org/frameit?Concrete"/>
+  <mref target="http://cds.omdoc.org/frameit?ConcreteSol"/>
+  <mref target="http://cds.omdoc.org/frameit?FreeSpace"/>
+</omdoc>

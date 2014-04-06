@@ -1,0 +1,10 @@
+theory http://cds.omdoc.org/urtheories/reflection?Terms
+Includes http://cds.omdoc.org/urtheories/reflection?Terms http://cds.omdoc.org/urtheories?Typed
+Declares http://cds.omdoc.org/urtheories/reflection?Terms http://cds.omdoc.org/urtheories/reflection?Terms?formation
+constant: http://cds.omdoc.org/urtheories/reflection?Terms?formation
+Declares http://cds.omdoc.org/urtheories/reflection?Terms http://cds.omdoc.org/urtheories/reflection?Terms?quote
+constant: http://cds.omdoc.org/urtheories/reflection?Terms?quote
+Declares http://cds.omdoc.org/urtheories/reflection?Terms http://cds.omdoc.org/urtheories/reflection?Terms?eval
+constant: http://cds.omdoc.org/urtheories/reflection?Terms?eval
+Declares http://cds.omdoc.org/urtheories/reflection?Terms http://cds.omdoc.org/urtheories/reflection?Terms?elim
+constant: http://cds.omdoc.org/urtheories/reflection?Terms?elim

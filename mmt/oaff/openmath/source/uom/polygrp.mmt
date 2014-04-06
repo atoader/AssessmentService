@@ -1,0 +1,30 @@
+namespace http://oaff.kwarc.info/openmath/uom
+
+view Polyu : http://www.openmath.org/cd?polyu -> http://cds.omdoc.org/urtheories?ScalaOM =
+
+
+
+view PolyuArith : http://www.openmath.org/cd?arith1 -> http://cds.omdoc.org/urtheories?ScalaOM =
+
+  plus = (args: List[Term])  scala
+    var polys: List[Term] = Nil
+    var restArgs: List[Term] = Nil
+    
+    args foreach {
+      case polyu.polynomial_u(p, _) => polys ::= p
+      case p@polyu.poly_u_rep(_) => polys :: p
+      case a => restArgs ::= a
+    }
+    if (polys == Nil) {
+      plus(restArgs)
+    } else {
+      var sum = Polys.addPolys(polys)
+      if (restArgs == Nil) {
+        sum
+      } else {
+        plus(sum :: restArgs)
+      }
+    }
+  
+
+

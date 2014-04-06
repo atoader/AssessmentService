@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc base="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc">
+  <mref target="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system"/>
+  <definition for="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?heat-exchanger">
+    <omdoc:CMP 
+    xml:id="enclosed-cooling-system.definition3.CMP2" about="#enclosed-cooling-system.definition3.CMP2" stex:srcref="../../../fcad/flange/cds/enclosed-cooling-system.tex#textrange(from=4;0,to=8;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <p id="enclosed-cooling-system.definition3.CMP2.p1" class="ltx_p" about="#enclosed-cooling-system.definition3.CMP2.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?heat-exchanger"> heat exchanger </omdoc:ref>
+        is a piece of equipment built for efficient heat transfer from one medium to another. The heat exchanger separates the media by a solid wall to prevent mixing.
+      </p>
+</omdoc:CMP>
+  </definition>
+  <definition 
+  for="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?enclosed-cooling-system http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?engine-coolant http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?fresh-water http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?raw-water">
+    <omdoc:CMP 
+    xml:id="enclosed-cooling-system.definition8.CMP2" about="#enclosed-cooling-system.definition8.CMP2" stex:srcref="../../../fcad/flange/cds/enclosed-cooling-system.tex#textrange(from=10;0,to=21;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <p id="enclosed-cooling-system.definition8.CMP2.p1" class="ltx_p" about="#enclosed-cooling-system.definition8.CMP2.p1" xmlns="http://www.w3.org/1999/xhtml">
+        An
+        <omdoc:ref target="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?enclosed-cooling-system">
+          enclosed cooling system
+        </omdoc:ref>
+        is a two-stage marine cooling system which uses a
+        <omdoc:ref target="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?heat"> heat </omdoc:ref>
+        exchanger to separate the
+        <omdoc:ref target="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?raw-water"> raw water </omdoc:ref>
+        from the
+        <omdoc:ref target="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?fresh-water"> fresh water </omdoc:ref>
+        (the
+        <omdoc:ref target="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?engine-coolant"> engine coolant </omdoc:ref>
+        ).
+      </p>
+      <object 
+      data="x1.jpg" id="enclosed-cooling-system.definition8.CMP2.g1" class="ltx_graphics ltx_centering" width="362" height="237" alt="" xmlns="http://www.w3.org/1999/xhtml">
+</object>
+      <p id="enclosed-cooling-system.definition8.CMP2.p3" class="ltx_p" about="#enclosed-cooling-system.definition8.CMP2.p3" xmlns="http://www.w3.org/1999/xhtml">
+        The
+        <omdoc:ref target="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?fresh-water"> coolant </omdoc:ref>
+        is circulated through the engine and a
+        <omdoc:ref target="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?heat"> heat </omdoc:ref>
+        exchanger in a
+        <omdoc:ref target="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?piping"> piping </omdoc:ref>
+        system and absorbs the heat of the engine. Raw water is still drawn up through a
+        <omdoc:ref target="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?seacock"> seacock </omdoc:ref>
+        but only flows through the
+        <omdoc:ref target="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?heat"> heat </omdoc:ref>
+        exchanger. This cooler
+        <omdoc:ref target="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?raw-water"> raw water </omdoc:ref>
+        absorbs the heat from the
+        <omdoc:ref target="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?engine-coolant"> engine coolant </omdoc:ref>
+        through the heat exchanger and is then pumped out.
+      </p>
+</omdoc:CMP>
+</definition>
+  <definition for="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?pump">
+    <omdoc:CMP 
+    xml:id="enclosed-cooling-system.definition10.CMP2" about="#enclosed-cooling-system.definition10.CMP2" stex:srcref="../../../fcad/flange/cds/enclosed-cooling-system.tex#textrange(from=23;0,to=25;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <p id="enclosed-cooling-system.definition10.CMP2.p1" class="ltx_p" about="#enclosed-cooling-system.definition10.CMP2.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?pump"> pump </omdoc:ref>
+        is a device that moves fluids (liquids or gases) by mechanical action.
+      </p>
+</omdoc:CMP>
+  </definition>
+  <definition for="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?water-pump">
+    <omdoc:CMP 
+    xml:id="enclosed-cooling-system.definition12.CMP2" about="#enclosed-cooling-system.definition12.CMP2" stex:srcref="../../../fcad/flange/cds/enclosed-cooling-system.tex#textrange(from=27;0,to=29;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <p id="enclosed-cooling-system.definition12.CMP2.p1" class="ltx_p" about="#enclosed-cooling-system.definition12.CMP2.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?water-pump"> water pump </omdoc:ref>
+        is a
+        <omdoc:ref target="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?pump"> pump </omdoc:ref>
+        that moves water.
+      </p>
+</omdoc:CMP>
+  </definition>
+  <definition for="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?seacock">
+    <omdoc:CMP 
+    xml:id="enclosed-cooling-system.definition14.CMP2" about="#enclosed-cooling-system.definition14.CMP2" stex:srcref="../../../fcad/flange/cds/enclosed-cooling-system.tex#textrange(from=31;0,to=36;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <p id="enclosed-cooling-system.definition14.CMP2.p1" class="ltx_p" about="#enclosed-cooling-system.definition14.CMP2.p1" xmlns="http://www.w3.org/1999/xhtml">
+        The
+        <omdoc:ref target="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?seacock"> seacock </omdoc:ref>
+        (also called
+        <omdoc:ref target="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?seacock"> through hull fitting </omdoc:ref>
+        ) is a through-hull device that allows water to enter the hull from the outside. This device has a valve that allows you to shut off the water flow e.g. if you have a leak in the
+        <omdoc:ref target="http://docs.omdoc.org/cad/piping.omdoc?piping?piping"> piping </omdoc:ref>
+        .
+      </p>
+</omdoc:CMP>
+  </definition>
+  <definition for="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?sea-strainer">
+    <omdoc:CMP 
+    xml:id="enclosed-cooling-system.definition16.CMP2" about="#enclosed-cooling-system.definition16.CMP2" stex:srcref="../../../fcad/flange/cds/enclosed-cooling-system.tex#textrange(from=38;0,to=42;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <p id="enclosed-cooling-system.definition16.CMP2.p1" class="ltx_p" about="#enclosed-cooling-system.definition16.CMP2.p1" xmlns="http://www.w3.org/1999/xhtml">
+        The
+        <omdoc:ref target="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?sea-strainer"> sea strainer </omdoc:ref>
+        is a device through which the
+        <omdoc:ref target="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc?enclosed-cooling-system?raw-water"> raw water </omdoc:ref>
+        flows and is designed to filter out debris, sand, leaves, etc. before it gets to the engine. This device works much like a swimming pool skimmer.
+      </p>
+</omdoc:CMP>
+  </definition>
+</omdoc>

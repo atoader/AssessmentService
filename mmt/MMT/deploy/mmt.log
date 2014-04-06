@@ -1,0 +1,188 @@
+14:19:18.55	user: log file /home/alex/projects/thesis/mmt/MMT/deploy/mmt.log finished
+14:19:18.57	user: log+ controller
+14:19:18.58	user: log+ controller finished
+14:19:18.58	user: log+ archive
+14:19:18.59	user: log+ archive finished
+14:19:18.60	user: log+ frameit
+14:19:18.60	user: log+ frameit finished
+14:19:18.61	user: log+ uom
+14:19:18.61	user: log+ uom finished
+14:19:18.62	user: log+ server
+14:19:18.62	user: log+ server finished
+14:19:18.63	user: log+ library
+14:19:18.63	user: log+ library finished
+14:19:18.73	user: extension info.kwarc.mmt.lf.Plugin 
+14:19:18.134	user: extension info.kwarc.mmt.lf.Plugin  finished
+14:19:18.136	user: extension info.kwarc.mmt.frameit.FrameitPlugin 
+14:19:18.143	user: extension info.kwarc.mmt.frameit.FrameitPlugin  finished
+14:19:18.149	user: archive add /home/alex/projects/thesis/mmt/oaff/urtheories
+14:19:18.187	user: archive add /home/alex/projects/thesis/mmt/oaff/urtheories finished
+14:19:18.191	user: archive urtheories mmt-omdoc  
+14:19:18.225	archive: entering /home/alex/projects/thesis/mmt/oaff/urtheories/source
+14:19:18.361	    controller: retrieving http://cds.omdoc.org/urtheories?ScalaOM
+14:19:18.538	    controller: retrieved http://cds.omdoc.org/urtheories?ScalaOM
+14:19:18.543	    controller: retrieving http://cds.omdoc.org/urtheories?Scala
+14:19:18.685	    controller: retrieved http://cds.omdoc.org/urtheories?Scala
+14:19:18.988	controller: retrieving http://www.openmath.org/cd?OpenMath
+14:19:19.9	controller: retrieved http://www.openmath.org/cd?OpenMath
+14:19:19.97	controller: retrieving http://cds.omdoc.org/urtheories?Typed
+14:19:19.116	controller: retrieved http://cds.omdoc.org/urtheories?Typed
+14:19:19.223	controller: retrieving http://cds.omdoc.org/urtheories?LF
+14:19:19.258	controller: retrieved http://cds.omdoc.org/urtheories?LF
+14:19:19.402	archive: leaving  /home/alex/projects/thesis/mmt/oaff/urtheories/source
+14:19:19.402	user: archive urtheories mmt-omdoc   finished
+14:19:19.403	user: archive urtheories index  
+14:19:19.406	archive: entering /home/alex/projects/thesis/mmt/oaff/urtheories/compiled
+14:19:19.991	archive: leaving  /home/alex/projects/thesis/mmt/oaff/urtheories/compiled
+14:19:19.992	user: archive urtheories index   finished
+14:19:19.998	user: archive add /home/alex/projects/thesis/mmt/oaff/openmath
+14:19:20.0	user: archive add /home/alex/projects/thesis/mmt/oaff/openmath finished
+14:19:20.9	user: archive openmath mmt-omdoc  
+14:19:20.14	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/source
+14:19:20.16	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/source/test
+14:19:20.35	    controller: retrieving http://www.openmath.org/cd?relation1
+14:19:20.69	    controller: retrieved http://www.openmath.org/cd?relation1
+14:19:20.70	    controller: retrieving http://www.openmath.org/cd?logic1
+14:19:20.84	    controller: retrieved http://www.openmath.org/cd?logic1
+14:19:20.90	    controller: retrieving http://www.openmath.org/cd?complex1
+14:19:20.103	    controller: retrieved http://www.openmath.org/cd?complex1
+14:19:20.298	    controller: retrieving http://www.openmath.org/cd?integer1
+14:19:20.309	    controller: retrieved http://www.openmath.org/cd?integer1
+14:19:20.310	    controller: retrieving http://www.openmath.org/cd?nums1
+14:19:20.327	    controller: retrieved http://www.openmath.org/cd?nums1
+14:19:20.441	    controller: retrieving http://www.openmath.org/cd?arith1
+14:19:20.462	    controller: retrieved http://www.openmath.org/cd?arith1
+14:19:20.464	    controller: retrieving http://www.openmath.org/cd?list1
+14:19:20.481	    controller: retrieved http://www.openmath.org/cd?list1
+14:19:20.481	    controller: retrieving http://www.openmath.org/cd?list2
+14:19:20.495	    controller: retrieved http://www.openmath.org/cd?list2
+14:19:20.792	    controller: retrieving http://www.openmath.org/cd?rounding1
+14:19:20.801	    controller: retrieved http://www.openmath.org/cd?rounding1
+14:19:20.875	    controller: retrieving http://www.openmath.org/cd?linalg1
+14:19:20.890	    controller: retrieved http://www.openmath.org/cd?linalg1
+14:19:20.890	    controller: retrieving http://www.openmath.org/cd?linalg2
+14:19:20.897	    controller: retrieved http://www.openmath.org/cd?linalg2
+14:19:20.898	    controller: retrieving http://www.openmath.org/cd?linalg4
+14:19:20.916	    controller: retrieved http://www.openmath.org/cd?linalg4
+14:19:21.192	    controller: retrieving http://www.openmath.org/cd?minmax1
+14:19:21.198	    controller: retrieved http://www.openmath.org/cd?minmax1
+14:19:21.304	    controller: retrieving http://www.openmath.org/cd?set1
+14:19:21.323	    controller: retrieved http://www.openmath.org/cd?set1
+14:19:21.719	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/source/test
+14:19:21.728	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/source/uom
+14:19:21.736	controller: retrieving http://www.openmath.org/cd?polyu
+14:19:21.760	controller: retrieved http://www.openmath.org/cd?polyu
+14:19:21.777	controller: retrieving http://www.openmath.org/cd?indNat
+14:19:21.782	controller: retrieved http://www.openmath.org/cd?indNat
+14:19:22.171	controller: retrieving http://www.openmath.org/cd?tensor1
+14:19:22.177	controller: retrieved http://www.openmath.org/cd?tensor1
+14:19:22.223	controller: retrieving http://www.openmath.org/cd?string
+14:19:22.267	controller: retrieved http://www.openmath.org/cd?string
+14:19:22.381	controller: retrieving http://www.openmath.org/cd?transc1
+14:19:22.426	controller: retrieved http://www.openmath.org/cd?transc1
+14:19:22.488	controller: retrieving http://www.openmath.org/cd?set2
+14:19:22.492	controller: retrieved http://www.openmath.org/cd?set2
+14:19:22.535	controller: retrieving http://www.openmath.org/cd?combinat1
+14:19:22.543	controller: retrieved http://www.openmath.org/cd?combinat1
+14:19:22.543	controller: retrieving http://www.openmath.org/cd?permut1
+14:19:22.546	controller: retrieved http://www.openmath.org/cd?permut1
+14:19:22.548	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/source/uom
+14:19:22.549	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/source/frameit
+14:19:22.597	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/source/frameit
+14:19:22.597	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/source/cds
+14:19:22.810	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/source/cds
+14:19:22.811	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/source
+14:19:22.811	user: archive openmath mmt-omdoc   finished
+14:19:22.812	user: archive openmath index  
+14:19:22.812	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/compiled
+14:19:22.813	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/compiled/test
+14:19:23.797	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/compiled/test
+14:19:23.798	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/compiled/uom
+14:19:24.273	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/compiled/uom
+14:19:24.276	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/compiled/frameit
+14:19:24.460	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/compiled/frameit
+14:19:24.469	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/compiled/cds
+14:19:25.360	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/compiled/cds
+14:19:25.361	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/compiled
+14:19:25.362	user: archive openmath index   finished
+14:19:25.381	user: archive openmath extract  http..www.openmath.org
+14:19:25.384	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/content/http..www.openmath.org
+14:19:25.384	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/content/http..www.openmath.org/cd
+14:19:25.570	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/content/http..www.openmath.org/cd
+14:19:25.571	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/content/http..www.openmath.org
+14:19:25.571	user: archive openmath extract  http..www.openmath.org finished
+14:19:25.572	user: archive openmath extract  http..oaff.kwarc.info
+14:19:25.572	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/content/http..oaff.kwarc.info
+14:19:25.573	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/content/http..oaff.kwarc.info/openmath
+14:19:25.573	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/content/http..oaff.kwarc.info/openmath/test
+14:19:25.626	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/content/http..oaff.kwarc.info/openmath/test
+14:19:25.628	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/content/http..oaff.kwarc.info/openmath/uom
+14:19:25.701	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/content/http..oaff.kwarc.info/openmath/uom
+14:19:25.701	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/content/http..oaff.kwarc.info/openmath
+14:19:25.702	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/content/http..oaff.kwarc.info
+14:19:25.702	user: archive openmath extract  http..oaff.kwarc.info finished
+14:19:25.703	user: archive openmath register  info.kwarc.oaff.openmath.uom
+14:19:26.198	user: archive openmath register  info.kwarc.oaff.openmath.uom finished
+14:19:26.202	user: archive add /home/alex/projects/thesis/mmt/oaff/assessment
+14:19:26.202	user: archive add /home/alex/projects/thesis/mmt/oaff/assessment finished
+14:19:26.203	user: archive assessment mmt-omdoc  
+14:19:26.204	archive: entering /home/alex/projects/thesis/mmt/oaff/assessment/source
+14:19:26.204	archive: entering /home/alex/projects/thesis/mmt/oaff/assessment/source/assessment
+14:19:26.216	archive: leaving  /home/alex/projects/thesis/mmt/oaff/assessment/source/assessment
+14:19:26.217	archive: leaving  /home/alex/projects/thesis/mmt/oaff/assessment/source
+14:19:26.217	user: archive assessment mmt-omdoc   finished
+14:19:26.217	user: archive assessment index  
+14:19:26.218	archive: entering /home/alex/projects/thesis/mmt/oaff/assessment/compiled
+14:19:26.218	archive: entering /home/alex/projects/thesis/mmt/oaff/assessment/compiled/assessment
+14:19:26.247	archive: leaving  /home/alex/projects/thesis/mmt/oaff/assessment/compiled/assessment
+14:19:26.248	archive: leaving  /home/alex/projects/thesis/mmt/oaff/assessment/compiled
+14:19:26.248	user: archive assessment index   finished
+14:19:26.254	user: server on 8080
+14:19:26.331	controller: Server started at http://localhost:8080
+14:19:26.331	user: server on 8080 finished
+14:19:26.332	user: base http://docs.omdoc.org/mmt
+14:19:26.335	user: base http://docs.omdoc.org/mmt finished
+14:19:26.335	user: file /home/alex/projects/thesis/mmt/MMT/deploy/assessment.msl finished
+14:19:38.384	server: request: /:post ?
+14:19:38.423	server: Received content : namespace http://cds.omdoc.org/assessment
+view ComparationInst : ?Comparation -> ?Lists = 
+base = 0
+comp = gt
+
+14:19:38.485	server: request: /:post ?
+14:19:38.485	server: Received content : namespace http://cds.omdoc.org/assessment
+view ProfitInst : ?ValuationFunction -> ?Profit = 
+function = pi
+value = x
+
+14:19:38.521	server: request: /:post ?
+14:19:38.523	server: Received content : namespace http://cds.omdoc.org/assessment
+view ConcreteProfit : ?Profit -> ?Lists = 
+ include ?Comparation = ?ComparationInst
+pi = [8,10,12]
+x = 2
+
+14:19:38.566	server: request: /:frameit/get ?
+14:19:38.579	frameit: (Comparation?comp (list2?list_selector ValuationFunction?value ValuationFunction?function) Comparation?base)
+14:19:38.605	frameit: Rules: List(Map(http://cds.omdoc.org/assessment?ValuationFunction?function -> Profit?pi, http://cds.omdoc.org/assessment?ValuationFunction?value -> Profit?x), Map(http://cds.omdoc.org/assessment?Comparation?base -> 0, http://cds.omdoc.org/assessment?Comparation?comp -> relation1?gt, http://cds.omdoc.org/assessment?Profit?pi -> (list1?list 8 10 12), http://cds.omdoc.org/assessment?Profit?x -> 2))
+14:19:38.609	frameit: Before: (relation1?gt (list2?list_selector 2 (list1?list 8 10 12)) 0)
+14:19:38.610	uom: simplifying (relation1?gt (list2?list_selector 2 (list1?list 8 10 12)) 0)
+14:19:38.612	  uom: applying depth rules to   (relation1?gt (list2?list_selector 2 (list1?list 8 10 12)) 0)
+14:19:38.618	  uom: simplifying (list2?list_selector 2 (list1?list 8 10 12))
+14:19:38.618	    uom: applying depth rules to   (list2?list_selector 2 (list1?list 8 10 12))
+14:19:38.619	    uom: simplifying (list1?list 8 10 12)
+14:19:38.619	      uom: applying depth rules to   (list1?list 8 10 12)
+14:19:38.623	      uom: applying breadth rules to (list1?list 8 10 12)
+14:19:38.626	      uom: rule http://www.openmath.org/cd?list1?list                        of class info.kwarc.mmt.api.uom.Implementation: NoChange
+14:19:38.628	    uom: simplified  (list1?list 8 10 12)
+14:19:38.628	    uom: applying breadth rules to (list2?list_selector 2 (list1?list 8 10 12))
+14:19:38.629	    uom: rule http://www.openmath.org/cd?list2?list_selector               of class info.kwarc.mmt.api.uom.Implementation: GlobalChange(10)
+14:19:38.632	  uom: simplified  10
+14:19:38.632	  uom: applying depth rules to   (relation1?gt 10 0)
+14:19:38.632	  uom: applying breadth rules to (relation1?gt 10 0)
+14:19:38.633	  uom: rule http://www.openmath.org/cd?relation1?gt                      of class info.kwarc.mmt.api.uom.Implementation: GlobalChange((relation1?lt 0 10))
+14:19:38.633	  uom: applying depth rules to   (relation1?lt 0 10)
+14:19:38.633	  uom: applying breadth rules to (relation1?lt 0 10)
+14:19:38.644	  uom: rule http://www.openmath.org/cd?relation1?lt                      of class info.kwarc.mmt.api.uom.Implementation: GlobalChange(logic1?true)
+14:19:38.645	uom: simplified  logic1?true
+14:19:38.646	frameit: After: logic1?true

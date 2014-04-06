@@ -1,0 +1,4 @@
+theory http://cds.omdoc.org/frameit?VolumeSol
+Includes http://cds.omdoc.org/frameit?VolumeSol http://cds.omdoc.org/frameit?Volume
+Declares http://cds.omdoc.org/frameit?VolumeSol http://cds.omdoc.org/frameit?VolumeSol?v
+constant: http://cds.omdoc.org/frameit?VolumeSol?v

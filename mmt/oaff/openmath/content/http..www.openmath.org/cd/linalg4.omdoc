@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="linalg4" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#404.18.0-572.26.1"/>
+    </metadata>
+    <constant name="characteristic_eqn">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#435.19.2-454.19.21"/>
+      </metadata>
+    </constant>
+    <constant name="columncount">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#457.20.2-485.20.30"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg4?columncount" precedence="0" fixity="mixfix" arguments="columncount 1"/>
+      </notation>
+    </constant>
+    <constant name="eigenvalue">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#489.21.2-500.21.13"/>
+      </metadata>
+    </constant>
+    <constant name="eigenvector">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#504.22.2-516.22.14"/>
+      </metadata>
+    </constant>
+    <constant name="rank">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#520.23.2-525.23.7"/>
+      </metadata>
+    </constant>
+    <constant name="rowcount">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#529.24.2-551.24.24"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg4?rowcount" precedence="0" fixity="mixfix" arguments="rowcount 1"/>
+      </notation>
+    </constant>
+    <constant name="size">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#555.25.2-570.25.17"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg4?size" precedence="0" fixity="mixfix" arguments="vsize 1"/>
+      </notation>
+    </constant>
+  </theory>
+</omdoc>

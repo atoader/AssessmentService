@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc base="http://docs.omdoc.org/cad/piping.omdoc">
+  <mref target="http://docs.omdoc.org/cad/piping.omdoc?piping"/>
+  <definition 
+  for="http://docs.omdoc.org/cad/piping.omdoc?piping?pipe http://docs.omdoc.org/cad/piping.omdoc?piping?thread http://docs.omdoc.org/cad/piping.omdoc?piping?head http://docs.omdoc.org/cad/piping.omdoc?piping?length http://docs.omdoc.org/cad/piping.omdoc?piping?wing-nut http://docs.omdoc.org/cad/piping.omdoc?piping?hex-nut http://docs.omdoc.org/cad/piping.omdoc?piping?acorn-nut http://docs.omdoc.org/cad/piping.omdoc?piping?thread http://docs.omdoc.org/cad/piping.omdoc?piping?nut http://docs.omdoc.org/cad/piping.omdoc?piping?bolt http://docs.omdoc.org/cad/piping.omdoc?piping?flat-size http://docs.omdoc.org/cad/piping.omdoc?piping?height">
+    <omdoc:CMP 
+    xml:id="piping.definition3.CMP1" about="#piping.definition3.CMP1" stex:srcref="../../../fcad/flange/cds/piping.tex#textrange(from=4;1,to=7;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="piping.definition3.CMP1.p1" class="ltx_p" about="#piping.definition3.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/cad/piping.omdoc?piping?pipe"> pipe </omdoc:ref>
+        is a tubular section or hollow cylinder, usually but not necessarily of circular cross-section, used mainly to convey
+        <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?fluid"> fluid </omdoc:ref>
+        s.
+      </p>
+</omdoc:CMP>
+</definition>
+  <definition 
+  for="http://docs.omdoc.org/cad/piping.omdoc?piping?piping http://docs.omdoc.org/cad/piping.omdoc?piping?pipe http://docs.omdoc.org/cad/piping.omdoc?piping?thread http://docs.omdoc.org/cad/piping.omdoc?piping?head http://docs.omdoc.org/cad/piping.omdoc?piping?length http://docs.omdoc.org/cad/piping.omdoc?piping?wing-nut http://docs.omdoc.org/cad/piping.omdoc?piping?hex-nut http://docs.omdoc.org/cad/piping.omdoc?piping?acorn-nut http://docs.omdoc.org/cad/piping.omdoc?piping?thread http://docs.omdoc.org/cad/piping.omdoc?piping?nut http://docs.omdoc.org/cad/piping.omdoc?piping?bolt http://docs.omdoc.org/cad/piping.omdoc?piping?flat-size http://docs.omdoc.org/cad/piping.omdoc?piping?height">
+    <omdoc:CMP 
+    xml:id="piping.definition5.CMP1" about="#piping.definition5.CMP1" stex:srcref="../../../fcad/flange/cds/piping.tex#textrange(from=9;1,to=14;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="piping.definition5.CMP1.p1" class="ltx_p" about="#piping.definition5.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/cad/piping.omdoc?piping?piping"> piping </omdoc:ref>
+        (or
+        <omdoc:ref target="http://docs.omdoc.org/cad/piping.omdoc?piping?piping"> piping system </omdoc:ref>
+        ) is a system of
+        <omdoc:ref target="http://docs.omdoc.org/cad/piping.omdoc?piping?pipe"> pipe </omdoc:ref>
+        s joined by welding, soldering, brazing, or via
+        <omdoc:ref target="http://docs.omdoc.org/cad/piping.omdoc?piping?fitting"> fitting </omdoc:ref>
+        s. Pipings are used to convey
+        <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?fluid"> fluid </omdoc:ref>
+        s (
+        <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?liquid"> liquid </omdoc:ref>
+        s and
+        <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?gaseous"> gases </omdoc:ref>
+        ) from one location to another.
+      </p>
+</omdoc:CMP>
+</definition>
+  <definition 
+  for="http://docs.omdoc.org/cad/piping.omdoc?piping?piping http://docs.omdoc.org/cad/piping.omdoc?piping?pipe http://docs.omdoc.org/cad/piping.omdoc?piping?thread http://docs.omdoc.org/cad/piping.omdoc?piping?head http://docs.omdoc.org/cad/piping.omdoc?piping?length http://docs.omdoc.org/cad/piping.omdoc?piping?wing-nut http://docs.omdoc.org/cad/piping.omdoc?piping?hex-nut http://docs.omdoc.org/cad/piping.omdoc?piping?acorn-nut http://docs.omdoc.org/cad/piping.omdoc?piping?thread http://docs.omdoc.org/cad/piping.omdoc?piping?nut http://docs.omdoc.org/cad/piping.omdoc?piping?bolt http://docs.omdoc.org/cad/piping.omdoc?piping?flat-size http://docs.omdoc.org/cad/piping.omdoc?piping?height http://docs.omdoc.org/cad/piping.omdoc?piping?fitting">
+    <omdoc:CMP 
+    xml:id="piping.definition7.CMP1" about="#piping.definition7.CMP1" stex:srcref="../../../fcad/flange/cds/piping.tex#textrange(from=16;1,to=20;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="piping.definition7.CMP1.p1" class="ltx_p" about="#piping.definition7.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/cad/piping.omdoc?piping?fitting"> fitting </omdoc:ref>
+        is used in pipings to connect straight pipe sections, to adapt to different sizes or shapes, and for other purposes, such as regulating or measuring
+        <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?fluid"> fluid </omdoc:ref>
+        flow.
+      </p>
+</omdoc:CMP>
+</definition>
+  <definition 
+  for="http://docs.omdoc.org/cad/piping.omdoc?piping?clean-out http://docs.omdoc.org/cad/piping.omdoc?piping?piping http://docs.omdoc.org/cad/piping.omdoc?piping?pipe http://docs.omdoc.org/cad/piping.omdoc?piping?thread http://docs.omdoc.org/cad/piping.omdoc?piping?head http://docs.omdoc.org/cad/piping.omdoc?piping?length http://docs.omdoc.org/cad/piping.omdoc?piping?wing-nut http://docs.omdoc.org/cad/piping.omdoc?piping?hex-nut http://docs.omdoc.org/cad/piping.omdoc?piping?acorn-nut http://docs.omdoc.org/cad/piping.omdoc?piping?thread http://docs.omdoc.org/cad/piping.omdoc?piping?nut http://docs.omdoc.org/cad/piping.omdoc?piping?bolt http://docs.omdoc.org/cad/piping.omdoc?piping?flat-size http://docs.omdoc.org/cad/piping.omdoc?piping?height http://docs.omdoc.org/cad/piping.omdoc?piping?fitting">
+    <omdoc:CMP 
+    xml:id="piping.definition9.CMP1" about="#piping.definition9.CMP1" stex:srcref="../../../fcad/flange/cds/piping.tex#textrange(from=22;1,to=28;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="piping.definition9.CMP1.p1" class="ltx_p" about="#piping.definition9.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/cad/piping.omdoc?piping?clean-out"> clean-out </omdoc:ref>
+        (also called a
+        <omdoc:ref target="http://docs.omdoc.org/cad/piping.omdoc?piping?clean-out"> pipe end </omdoc:ref>
+        ) is a particular fitting that allows access to the piping system for revision and cleaning. Clean-outs should be placed in accessible locations at regular intervals throughout a piping system. The minimum requirement is typically at the end of each branch in piping and at the base of each vertical stack.
+      </p>
+</omdoc:CMP>
+</definition>
+</omdoc>

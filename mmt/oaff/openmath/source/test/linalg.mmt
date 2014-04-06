@@ -1,0 +1,34 @@
+namespace http://oaff.kwarc.info/openmath/test
+
+import cd http://www.openmath.org/cd
+
+theory Linalg =
+  include cd:?arith1
+  include cd:?relation1
+  include cd:?logic1
+  include cd:?linalg1
+  include cd:?linalg2
+  include cd:?linalg4
+  outerproduct_test : FMP = ⟨1, 2, 3⟩ ⊗ ⟨1, 2, 3⟩ = ⟪ ⟨1, 2, 3⟩, ⟨2, 4, 6⟩, ⟨3, 6, 9⟩ ⟫
+  scalaproduct_test :  FMP = ⟨1, 2, 3⟩ ⋅ ⟨1, 2, 3⟩ = 14
+  vectorproduct_test : FMP = ⟨1, 2, 3⟩ × ⟨2, 3, 4⟩ =  ⟨-1, 2, -1⟩
+  vector_selector_test : FMP = ⟨1, 2, 3⟩ . 2 = 2
+  matrix_selector_test : FMP = ⟪ ⟨1, 2, 3⟩, ⟨2, 4, 6⟩, ⟨3, 6, 9⟩ ⟫ . 2 . 3 = 6
+  transpose_test : FMP = ⟪ ⟨1, 2, 3⟩, ⟨1, 2, 3⟩, ⟨2, 4, 6⟩ ⟫ T = ⟪ ⟨1, 1, 2⟩, ⟨2, 2, 4⟩, ⟨3, 3, 6⟩ ⟫ 
+  size_test : FMP = vsize ⟨1, 2, 3⟩ = 3
+  rowcount_test : FMP = rowcount  ⟪ ⟨1, 2, 3⟩, ⟨2, 4, 6⟩ ⟫  = 2
+  columncount_test : FMP = columncount  ⟪ ⟨1, 2, 3⟩, ⟨2, 4, 6⟩, ⟨3, 6, 9⟩ ⟫  = 3
+  plus_vec_test : FMP = ⟨2, 3, 4⟩ = ⟨1, 2, 3⟩ + ⟨1, 0, 1⟩ + ⟨0, 1, 0⟩
+  plus_mat_test : FMP = ⟪ ⟨2, 2, 3⟩, ⟨3, 5, 7⟩ ⟫  = ⟪ ⟨1, 2, 3⟩, ⟨2, 4, 6⟩ ⟫  + ⟪ ⟨1, 0, 0⟩, ⟨1, 1, 1⟩ ⟫  
+  times_mat_test : FMP = ⟪ ⟨1, 2, 3⟩, ⟨4, 5, 6⟩ ⟫ * ⟪ ⟨10, 11⟩, ⟨12, 13⟩, ⟨14, 15⟩⟫  = ⟪⟨76, 82⟩, ⟨184, 199⟩⟫ 
+
+
+view LinalgTest : ?Linalg -> http://cds.omdoc.org/urtheories?ScalaOM =
+  include cd:?OpenMath  = http://cds.omdoc.org/urtheories?Syntactic
+  include cd:?arith1    = uom?Arith1
+  include cd:?relation1 = uom?Relation1
+  include cd:?logic1 = uom?Logic1
+  include cd:?linalg1 = uom?Linalg1
+  include cd:?linalg2 = uom?Linalg2
+  include cd:?linalg4 = uom?Linalg4
+

@@ -1,0 +1,52 @@
+namespace http://oaff.kwarc.info/openmath/uom
+
+view Complex1 : http://www.openmath.org/cd?complex1 -> http://cds.omdoc.org/urtheories?ScalaOM =
+
+  complex_cartesian = (re: Term, im: Term) scala
+	  Numbers.isRealZero(im) match {
+      case Some(true) => re
+		  case _ => complex_cartesian(re, im)
+	  }
+	
+	
+	complex_polar = (r: Term, phi: Term) scala
+	  (Numbers.isRealZero(r), Numbers.isRealZero(phi)) match {
+	    case (Some(true), _) => OMI(0)
+	    case (_, Some(true)) => r
+	    case _ => complex_polar(r, phi) 
+	  }
+	
+	
+	real = (z: Term) scala
+	  z match {
+	    case complex_cartesian(re, _) => re
+	    case complex_polar(r, phi) => arith1.times(r, transc1.cos(phi))
+	    case _ => real(z)
+	  }
+	
+	
+	imaginary = (z: Term) scala
+	  z match {
+	    case complex_cartesian(_, im) => im
+	    case complex_polar(r, phi) => arith1.times(r, transc1.sin(phi))
+	    case _ => imaginary(z)
+	  }
+	
+	
+	argument = (z: Term) scala
+	  z match {
+	    case complex_cartesian(re, im) => Numbers.atan2(im, re)
+	    case complex_polar(r, phi) => phi
+	    case _ => argument(z)
+	  }
+	
+	
+	conjugate = (z: Term) scala
+	  z match {
+	    case complex_cartesian(re, im) => complex_cartesian(re, arith1.unary_minus(im))
+	    case complex_polar(r, phi) => complex_polar(r, arith1.unary_minus(phi))
+	    case _ => argument(z)
+	  }
+	
+
+

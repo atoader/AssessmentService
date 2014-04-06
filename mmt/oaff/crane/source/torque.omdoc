@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!--This OMDoc document is generated from an sTeX-encoded one via LaTeXML, you may want to reconsider editing it.-->
+<omdoc xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns:om="http://www.openmath.org/OpenMath" xmlns:m="http://www.w3.org/1998/Math/MathML" xml:base="https://tnt.kwarc.info/repos/stc/fcad/crane/cds/torque" xml:id="Document">
+  <metadata/>
+  <theory xml:id="torque" about="#torque" stex:srcref="../../../../../stc/fcad/crane/cds/torque.tex#textrange(from=1;0,to=26;12)">
+    <imports from="../../../slides/extcds/omstd/relation1.omdoc#relation1"/>
+    <omdoc:imports from="../../smglo/sTeX/crossproduct#crossproduct" xml:id="torque.imports1" about="#torque.imports1" stex:srcref="../../../../../stc/fcad/crane/cds/torque.tex#textrange(from=2;0,to=2;24)"/>
+    <omdoc:imports from="../../smglo/sTeX/norm#norm" xml:id="torque.imports2" about="#torque.imports2" stex:srcref="../../../../../stc/fcad/crane/cds/torque.tex#textrange(from=3;0,to=3;16)"/>
+    <omdoc:imports from="../../../slides/missing/en/arithmetics#arithmetics" xml:id="torque.imports3" about="#torque.imports3" stex:srcref="../../../../../stc/fcad/crane/cds/torque.tex#textrange(from=4;0,to=4;71)"/>
+    <omdoc:symbol name="torque" xml:id="torque.sym" about="#torque.sym" stex:srcref="../../../../../stc/fcad/crane/cds/torque.tex#textrange(from=5;0,to=5;23)"/>
+    <omdoc:notation cd="torque" name="torque">
+      <omdoc:prototype>
+        <om:OMS cd="torque" name="torque"/>
+      </omdoc:prototype>
+      <omdoc:rendering>
+        <m:mi>&#x3C4;</m:mi>
+      </omdoc:rendering>
+      <omdoc:rendering ic="variant:moment">
+        <m:mi>M</m:mi>
+      </omdoc:rendering>
+    </omdoc:notation>
+    <omdoc:symbol name="torque" xml:id="torque.def.sym" about="#torque.def.sym" stex:srcref="../../../../../stc/fcad/crane/cds/torque.tex#textrange(from=7;1,to=12;18)"/>
+    <omdoc:definition for="torque" xml:id="torque.definition6" about="#torque.definition6" stex:srcref="../../../../../stc/fcad/crane/cds/torque.tex#textrange(from=7;1,to=12;18)">
+      <omdoc:CMP xml:id="torque.definition6.CMP1" about="#torque.definition6.CMP1" stex:srcref="../../../../../stc/fcad/crane/cds/torque.tex#textrange(from=7;1,to=12;18)">
+<p xmlns="http://www.w3.org/1999/xhtml" id="torque.definition6.CMP1.p1" class="ltx_p" about="#torque.definition6.CMP1.p1">The <omdoc:idx xml:id="torque.definition6.CMP1.p1.idx1" about="#torque.definition6.CMP1.p1.idx1" stex:srcref="../../../../../stc/fcad/crane/cds/torque.tex#textrange(from=7;58,to=8;21)"><omdoc:idt xml:id="torque.definition6.CMP1.p1.idx1.idt1" about="#torque.definition6.CMP1.p1.idx1.idt1" stex:srcref="../../../../../stc/fcad/crane/cds/torque.tex#textrange(from=7;58,to=8;21)"><omdoc:term cd="torque" name="torque" role="definiendum" xml:id="torque.definition6.CMP1.p1.idx1.idt1.term1" about="#torque.definition6.CMP1.p1.idx1.idt1.term1" stex:srcref="../../../../../stc/fcad/crane/cds/torque.tex#textrange(from=7;58,to=8;21)">torque</omdoc:term></omdoc:idt><omdoc:ide index="default" xml:id="torque.definition6.CMP1.p1.idx1.ide2" about="#torque.definition6.CMP1.p1.idx1.ide2" stex:srcref="../../../../../stc/fcad/crane/cds/torque.tex#textrange(from=7;58,to=8;21)"><omdoc:idp>torque</omdoc:idp></omdoc:ide></omdoc:idx><om:OMOBJ><om:OMS cd="torque" name="torque"/></om:OMOBJ>, <omdoc:idx xml:id="torque.definition6.CMP1.p1.idx3" about="#torque.definition6.CMP1.p1.idx3" stex:srcref="../../../../../stc/fcad/crane/cds/torque.tex#textrange(from=7;25,to=8;54)"><omdoc:idt xml:id="torque.definition6.CMP1.p1.idx3.idt1" about="#torque.definition6.CMP1.p1.idx3.idt1" stex:srcref="../../../../../stc/fcad/crane/cds/torque.tex#textrange(from=7;25,to=8;54)"><omdoc:term cd="torque" name="torque" role="definiendum" xml:id="torque.definition6.CMP1.p1.idx3.idt1.term1" about="#torque.definition6.CMP1.p1.idx3.idt1.term1" stex:srcref="../../../../../stc/fcad/crane/cds/torque.tex#textrange(from=7;25,to=8;54)">moment</omdoc:term></omdoc:idt><omdoc:ide index="default" xml:id="torque.definition6.CMP1.p1.idx3.ide2" about="#torque.definition6.CMP1.p1.idx3.ide2" stex:srcref="../../../../../stc/fcad/crane/cds/torque.tex#textrange(from=7;25,to=8;54)"><omdoc:idp>moment</omdoc:idp></omdoc:ide></omdoc:idx> or <omdoc:idx xml:id="torque.definition6.CMP1.p1.idx4" about="#torque.definition6.CMP1.p1.idx4" stex:srcref="../../../../../stc/fcad/crane/cds/torque.tex#textrange(from=8;63,to=9;16)"><omdoc:idt xml:id="torque.definition6.CMP1.p1.idx4.idt1" about="#torque.definition6.CMP1.p1.idx4.idt1" stex:srcref="../../../../../stc/fcad/crane/cds/torque.tex#textrange(from=8;63,to=9;16)"><omdoc:term cd="torque" name="torque" role="definiendum" xml:id="torque.definition6.CMP1.p1.idx4.idt1.term1" about="#torque.definition6.CMP1.p1.idx4.idt1.term1" stex:srcref="../../../../../stc/fcad/crane/cds/torque.tex#textrange(from=8;63,to=9;16)">moment
+of force</omdoc:term></omdoc:idt><omdoc:ide index="default" xml:id="torque.definition6.CMP1.p1.idx4.ide2" about="#torque.definition6.CMP1.p1.idx4.ide2" stex:srcref="../../../../../stc/fcad/crane/cds/torque.tex#textrange(from=8;63,to=9;16)"><omdoc:idp>moment
+of</omdoc:idp><omdoc:idp>force</omdoc:idp></omdoc:ide></omdoc:idx>, is defined to be the rate of change of angular momentum of an
+object. When it is called moment, it is commonly denoted as
+<span class="ltx_text notatiendum"><om:OMOBJ><om:OMS cd="torque" name="torque"/></om:OMOBJ></span>.</p></omdoc:CMP>
+    </omdoc:definition>
+    <omdoc:omtext xml:id="torque.omtext7" about="#torque.omtext7" stex:srcref="../../../../../stc/fcad/crane/cds/torque.tex#textrange(from=14;1,to=25;14)">
+      <omdoc:CMP xml:id="torque.omtext7.CMP1" about="#torque.omtext7.CMP1" stex:srcref="../../../../../stc/fcad/crane/cds/torque.tex#textrange(from=14;1,to=14;17)">
+<p xmlns="http://www.w3.org/1999/xhtml" id="torque.omtext7.CMP1.p1" class="ltx_p" about="#torque.omtext7.CMP1.p1">The magnitude of torque depends on three quantities: the force applied, the length of
+the lever arm connecting the axis to the point of force application, and the angle
+between the force vector and the lever arm</p>
+<table xmlns="http://www.w3.org/1999/xhtml" id="S0.Ex1" class="ltx_equation">
+
+<tr class="ltx_equation ltx_align_baseline">
+<td class="ltx_eqn_pad"/>
+<td class="ltx_align_center"><om:OMOBJ><om:OMA><om:OMS cd="latexml" name="formulae"/><om:OMA><om:OMS cd="relation1" name="eq"/><om:OMS cd="torque" name="torque"/><om:OMA><om:OMS cd="crossproduct" name="crossproduct"/><om:OMV name="r"/><om:OMV name="F"/></om:OMA><om:OMSTR>or</om:OMSTR></om:OMA><om:OMA><om:OMS cd="relation1" name="eq"/><om:OMA><om:OMS cd="norm" name="norm"/><om:OMS cd="torque" name="torque"/></om:OMA><om:OMA><om:OMS cd="arithmetics" name="times"/><om:OMA><om:OMS cd="norm" name="norm"/><om:OMV name="r"/></om:OMA><om:OMA><om:OMS cd="norm" name="norm"/><om:OMV name="F"/></om:OMA><om:OMA><om:OMS cd="latexml" name="sine"/><om:OMV name="&#x3B8;"/></om:OMA></om:OMA></om:OMA></om:OMA></om:OMOBJ></td>
+<td class="ltx_eqn_pad"/></tr>
+</table>
+<p xmlns="http://www.w3.org/1999/xhtml" id="torque.omtext7.CMP1.p3" class="ltx_p" about="#torque.omtext7.CMP1.p3">where <om:OMOBJ><om:OMS cd="torque" name="torque"/></om:OMOBJ> is is the torque vector and <om:OMOBJ><om:OMA><om:OMS cd="norm" name="norm"/><om:OMS cd="torque" name="torque"/></om:OMA></om:OMOBJ> is the magnitude of the
+torque, <om:OMOBJ><om:OMV name="r"/></om:OMOBJ> is the displacement vector (a vector from the point from which torque is
+measured to the point where force is applied), <om:OMOBJ><om:OMV name="F"/></om:OMOBJ> is the force vector, and <om:OMOBJ><om:OMV name="&#x3B8;"/></om:OMOBJ>
+is the angle between the force vector and the lever arm vector.
+</p></omdoc:CMP>
+    </omdoc:omtext>
+  </theory>
+</omdoc>

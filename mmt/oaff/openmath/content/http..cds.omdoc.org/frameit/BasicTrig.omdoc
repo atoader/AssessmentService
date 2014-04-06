@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="BasicTrig" base="http://cds.omdoc.org/frameit">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#272.14.0-399.19.1"/>
+    </metadata>
+    <import from="http://www.openmath.org/cd?arith1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#293.15.2-335.15.44"/>
+      </metadata>
+    </import>
+    <import from="http://www.openmath.org/cd?transc1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#338.16.2-381.16.45"/>
+      </metadata>
+    </import>
+    <constant name="d">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#384.17.2-387.17.5"/>
+      </metadata>
+    </constant>
+    <constant name="alpha">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#390.18.2-397.18.9"/>
+      </metadata>
+    </constant>
+  </theory>
+</omdoc>

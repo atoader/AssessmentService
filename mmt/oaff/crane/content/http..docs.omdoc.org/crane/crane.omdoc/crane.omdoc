@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="crane" base="http://docs.omdoc.org/crane/crane.omdoc">
+    <constant name="crane"> </constant>
+    <import from="http://docs.omdoc.org/../../fcad/crane/cds/sheave?sheave"> </import>
+    <import from="http://docs.omdoc.org/../../fcad/crane/cds/winch?winch"> </import>
+    <import from="http://docs.omdoc.org/../../fcad/crane/cds/hoist?hoist"> </import>
+  </theory>
+</omdoc>

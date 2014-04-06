@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="Profit" base="http://cds.omdoc.org/assessment">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/assessment/assessment.mmt#403.21.0-458.25.1"/>
+    </metadata>
+    <import from="http://cds.omdoc.org/assessment?Comparation">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/assessment/assessment.mmt#422.22.2-443.22.23"/>
+      </metadata>
+    </import>
+    <constant name="pi">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/assessment/assessment.mmt#446.23.2-449.23.5"/>
+      </metadata>
+    </constant>
+    <constant name="x">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/assessment/assessment.mmt#453.24.2-455.24.4"/>
+      </metadata>
+    </constant>
+  </theory>
+</omdoc>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <view 
+  name="LogicTest" base="http://oaff.kwarc.info/openmath/test" from="http://oaff.kwarc.info/openmath/test?Logic" to="http://cds.omdoc.org/urtheories?ScalaOM">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/logic.mmt#386.15.0-604.19.1"/>
+    </metadata>
+    <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3FOpenMath]" domain="http://www.openmath.org/cd?OpenMath">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/logic.mmt#457.16.2-524.16.69"/>
+      </metadata>
+      <value>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://cds.omdoc.org/urtheories" module="Syntactic"/>
+        </om:OMOBJ>
+      </value>
+    </import>
+    <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Frelation1]" domain="http://www.openmath.org/cd?relation1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/logic.mmt#527.17.2-566.17.41"/>
+      </metadata>
+      <value>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Relation1"/>
+        </om:OMOBJ>
+      </value>
+    </import>
+    <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Flogic1]" domain="http://www.openmath.org/cd?logic1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/logic.mmt#569.18.2-602.18.35"/>
+      </metadata>
+      <value>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Logic1"/>
+        </om:OMOBJ>
+      </value>
+    </import>
+</view>
+</omdoc>

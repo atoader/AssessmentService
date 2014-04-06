@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="nums1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/nums.mmt#39.2.0-130.10.0"/>
+    </metadata>
+    <constant name="NaN">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/nums.mmt#68.3.2-72.3.6"/>
+      </metadata>
+    </constant>
+    <constant name="infinity">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/nums.mmt#75.4.2-84.4.11"/>
+      </metadata>
+    </constant>
+    <constant name="pi">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/nums.mmt#87.5.2-90.5.5"/>
+      </metadata>
+    </constant>
+    <constant name="e">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/nums.mmt#93.6.2-95.6.4"/>
+      </metadata>
+    </constant>
+    <constant name="i">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/nums.mmt#98.7.2-100.7.4"/>
+      </metadata>
+    </constant>
+    <constant name="gamma">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/nums.mmt#103.8.2-109.8.8"/>
+      </metadata>
+    </constant>
+    <constant name="rational">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/nums.mmt#112.9.2-129.9.19"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?nums1?rational" precedence="0" fixity="mixfix" arguments="Q 1 2"/>
+      </notation>
+    </constant>
+  </theory>
+</omdoc>

@@ -1,0 +1,9 @@
+theory http://cds.omdoc.org/frameit?LawOfCosines
+Includes http://cds.omdoc.org/frameit?LawOfCosines http://www.openmath.org/cd?arith1
+Includes http://cds.omdoc.org/frameit?LawOfCosines http://www.openmath.org/cd?transc1
+Declares http://cds.omdoc.org/frameit?LawOfCosines http://cds.omdoc.org/frameit?LawOfCosines?d
+constant: http://cds.omdoc.org/frameit?LawOfCosines?d
+Declares http://cds.omdoc.org/frameit?LawOfCosines http://cds.omdoc.org/frameit?LawOfCosines?alpha
+constant: http://cds.omdoc.org/frameit?LawOfCosines?alpha
+Declares http://cds.omdoc.org/frameit?LawOfCosines http://cds.omdoc.org/frameit?LawOfCosines?base
+constant: http://cds.omdoc.org/frameit?LawOfCosines?base

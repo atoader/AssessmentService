@@ -1,0 +1,70 @@
+<omdoc base="http://www.openmath.org/test/relation.mmt">
+        <theory name="Relation" base="http://oaff.kwarc.info/openmath/test">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/relation.mmt#88.4.0-341.14.1"/></metadata>
+        <import from="http://www.openmath.org/cd?relation1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/relation.mmt#108.5.2-130.5.24"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?logic1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/relation.mmt#133.6.2-152.6.21"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?complex1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/relation.mmt#155.7.2-176.7.23"/></metadata>
+            
+          </import><constant name="eqTest">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/relation.mmt#179.8.2-211.8.34"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMSF><om:text format="http://oaff.kwarc.info/openmath/test?Relation"><![CDATA[CC 1 2 = CC 1 2]]></om:text></om:OMSF></om:OMOBJ></definition>
+       
+     </constant><constant name="ltTest">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/relation.mmt#214.9.2-236.9.24"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="relation1" name="lt"/>
+              <om:OMI position="1">3</om:OMI><om:OMI position="2">4</om:OMI>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant><constant name="gtTest">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/relation.mmt#239.10.2-261.10.24"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="relation1" name="gt"/>
+              <om:OMI position="1">4</om:OMI><om:OMI position="2">3</om:OMI>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant><constant name="neqTest">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/relation.mmt#264.11.2-287.11.25"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="relation1" name="neq"/>
+              <om:OMI position="1">4</om:OMI><om:OMI position="2">5</om:OMI>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant><constant name="leqTest">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/relation.mmt#290.12.2-313.12.25"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="relation1" name="leq"/>
+              <om:OMI position="1">4</om:OMI><om:OMI position="2">5</om:OMI>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant><constant name="qeqTest">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/relation.mmt#316.13.2-339.13.25"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="relation1" name="geq"/>
+              <om:OMI position="1">4</om:OMI><om:OMI position="2">3</om:OMI>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant>
+      </theory><view name="RelationTest" base="http://oaff.kwarc.info/openmath/test" from="http://oaff.kwarc.info/openmath/test?Relation" to="http://cds.omdoc.org/urtheories?ScalaOM">
+           <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/relation.mmt#343.16.0-607.21.1"/></metadata>
+           <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3FOpenMath]" domain="http://www.openmath.org/cd?OpenMath">
+                     <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/relation.mmt#420.17.2-487.17.69"/></metadata>
+                     <value><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://cds.omdoc.org/urtheories" module="Syntactic"/></om:OMOBJ></value>
+                </import><import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Frelation1]" domain="http://www.openmath.org/cd?relation1">
+                     <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/relation.mmt#490.18.2-529.18.41"/></metadata>
+                     <value><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Relation1"/></om:OMOBJ></value>
+                </import><import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Flogic1]" domain="http://www.openmath.org/cd?logic1">
+                     <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/relation.mmt#532.19.2-565.19.35"/></metadata>
+                     <value><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Logic1"/></om:OMOBJ></value>
+                </import><import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Fcomplex1]" domain="http://www.openmath.org/cd?complex1">
+                     <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/relation.mmt#568.20.2-605.20.39"/></metadata>
+                     <value><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Complex1"/></om:OMOBJ></value>
+                </import>
+         </view>
+     </omdoc>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="linalg1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#39.2.0-291.10.1"/>
+    </metadata>
+    <constant name="determinant">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#70.3.2-90.3.22"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg1?determinant" precedence="0" fixity="mixfix" arguments="det 1"/>
+      </notation>
+    </constant>
+    <constant name="matrix_selector">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#93.4.2-129.4.38"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg1?matrix_selector" precedence="49" fixity="mixfix" arguments="3 . 1 . 2"/>
+      </notation>
+    </constant>
+    <constant name="outerproduct">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#132.5.2-161.5.31"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg1?outerproduct" precedence="30" fixity="mixfix" arguments="1 ⊗ 2"/>
+      </notation>
+    </constant>
+    <constant name="scalarproduct">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#164.6.2-194.6.32"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg1?scalarproduct" precedence="30" fixity="mixfix" arguments="1 ⋅ 2"/>
+      </notation>
+    </constant>
+    <constant name="transpose">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#197.7.2-221.7.26"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg1?transpose" precedence="50" fixity="mixfix" arguments="1 T"/>
+      </notation>
+    </constant>
+    <constant name="vector_selector">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#224.8.2-256.8.34"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg1?vector_selector" precedence="50" fixity="mixfix" arguments="2 . 1"/>
+      </notation>
+    </constant>
+    <constant name="vectorproduct">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/linalg.mmt#259.9.2-289.9.32"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?linalg1?vectorproduct" precedence="30" fixity="mixfix" arguments="1 × 2"/>
+      </notation>
+    </constant>
+  </theory>
+</omdoc>

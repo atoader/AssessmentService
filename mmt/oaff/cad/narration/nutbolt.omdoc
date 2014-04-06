@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc base="http://docs.omdoc.org/cad/nutbolt.omdoc">
+  <mref target="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt"/>
+  <definition 
+  for="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?thread http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?nut http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?bolt">
+    <omdoc:CMP 
+    xml:id="nutbolt.definition6.CMP1" about="#nutbolt.definition6.CMP1" stex:srcref="../../../fcad/flange/cds/nutbolt.tex#textrange(from=4;1,to=9;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="nutbolt.definition6.CMP1.p1" class="ltx_p" about="#nutbolt.definition6.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?bolt"> bolt </omdoc:ref>
+        is a type of fastener with a
+        <omdoc:ref target="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?thread"> straight </omdoc:ref>
+        ,
+        <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?external-thread"> external thread </omdoc:ref>
+        designed to mate with a complementary
+        <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?thread"> thread </omdoc:ref>
+        in a
+        <omdoc:ref target="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?nut"> nut </omdoc:ref>
+        , a type of fastener with a hole with an
+        <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?internal-thread"> internal thread </omdoc:ref>
+        .
+      </p>
+</omdoc:CMP>
+</definition>
+  <plain-narration>
+    <omdoc:axiom 
+    xml:id="nutbolt.axiom7" about="#nutbolt.axiom7" stex:srcref="../../../fcad/flange/cds/nutbolt.tex#textrange(from=11;1,to=15;11)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <omdoc:CMP xml:id="nutbolt.axiom7.CMP1" about="#nutbolt.axiom7.CMP1" stex:srcref="../../../fcad/flange/cds/nutbolt.tex#textrange(from=11;1,to=15;11)">
+        <p id="nutbolt.axiom7.CMP1.p1" class="ltx_p" about="#nutbolt.axiom7.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+          <omdoc:term 
+          cd="nutbolt" name="nut" xml:id="nutbolt.axiom7.CMP1.p1.term1" about="#nutbolt.axiom7.CMP1.p1.term1" stex:srcref="../../../fcad/flange/cds/nutbolt.tex#textrange(from=11;91,to=12;20)">
+            Nuts
+</omdoc:term>
+          and
+          <omdoc:term 
+          cd="nutbolt" name="bolt" xml:id="nutbolt.axiom7.CMP1.p1.term2" about="#nutbolt.axiom7.CMP1.p1.term2" stex:srcref="../../../fcad/flange/cds/nutbolt.tex#textrange(from=11;74,to=12;37)">
+            bolt
+</omdoc:term>
+          s are almost always used together to fasten a stack of parts together. The two partners are kept together by a combination of their
+          <omdoc:term 
+          cd="thread" name="thread" xml:id="nutbolt.axiom7.CMP1.p1.term3" about="#nutbolt.axiom7.CMP1.p1.term3" stex:srcref="../../../fcad/flange/cds/nutbolt.tex#textrange(from=12;21,to=13;81)">
+            thread
+</omdoc:term>
+          s ’ friction, a slight stretch of the
+          <omdoc:term 
+          cd="nutbolt" name="bolt" xml:id="nutbolt.axiom7.CMP1.p1.term4" about="#nutbolt.axiom7.CMP1.p1.term4" stex:srcref="../../../fcad/flange/cds/nutbolt.tex#textrange(from=13;31,to=14;29)">
+            bolt
+</omdoc:term>
+          , and compression of the parts.
+        </p>
+      </omdoc:CMP>
+</omdoc:axiom>
+  </plain-narration>
+  <definition 
+  for="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?thread http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?nut http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?bolt http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?flat-size http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?height">
+    <omdoc:CMP 
+    xml:id="nutbolt.definition10.CMP1" about="#nutbolt.definition10.CMP1" stex:srcref="../../../fcad/flange/cds/nutbolt.tex#textrange(from=17;1,to=20;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="nutbolt.definition10.CMP1.p1" class="ltx_p" about="#nutbolt.definition10.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        The geometry of a
+        <omdoc:ref target="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?nut"> nut </omdoc:ref>
+        is (largely) determined by its
+        <omdoc:ref target="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?height"> height </omdoc:ref>
+        and the
+        <omdoc:ref target="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?flat-size"> flat size </omdoc:ref>
+        , i.e., the size of the wrench used to tighten it on a
+        <omdoc:ref target="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?bolt"> bolt </omdoc:ref>
+        .
+      </p>
+</omdoc:CMP>
+</definition>
+  <plain-narration>
+    <omdoc:omtext 
+    xml:id="nutbolt.omtext11" about="#nutbolt.omtext11" stex:srcref="../../../fcad/flange/cds/nutbolt.tex#textrange(from=22;1,to=25;12)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <omdoc:CMP xml:id="nutbolt.omtext11.CMP1" about="#nutbolt.omtext11.CMP1" stex:srcref="../../../fcad/flange/cds/nutbolt.tex#textrange(from=22;1,to=22;15)">
+        <p id="nutbolt.omtext11.CMP1.p1" class="ltx_p" about="#nutbolt.omtext11.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+          There are many types of
+          <omdoc:term 
+          cd="nutbolt" name="nut" xml:id="nutbolt.omtext11.CMP1.p1.term1" about="#nutbolt.omtext11.CMP1.p1.term1" stex:srcref="../../../fcad/flange/cds/nutbolt.tex#textrange(from=22;31,to=23;37)">
+            nut
+</omdoc:term>
+          s:
+          <omdoc:term 
+          cd="nutbolt" name="acorn-nut" xml:id="nutbolt.omtext11.CMP1.p1.term2" about="#nutbolt.omtext11.CMP1.p1.term2" stex:srcref="../../../fcad/flange/cds/nutbolt.tex#textrange(from=22;1,to=23;67)">
+            acorn
+</omdoc:term>
+          ,
+          <omdoc:term 
+          cd="nutbolt" name="hex-nut" xml:id="nutbolt.omtext11.CMP1.p1.term3" about="#nutbolt.omtext11.CMP1.p1.term3" stex:srcref="../../../fcad/flange/cds/nutbolt.tex#textrange(from=23;24,to=24;25)">
+            hex
+</omdoc:term>
+          , or
+          <omdoc:term 
+          cd="nutbolt" name="wing-nut" xml:id="nutbolt.omtext11.CMP1.p1.term4" about="#nutbolt.omtext11.CMP1.p1.term4" stex:srcref="../../../fcad/flange/cds/nutbolt.tex#textrange(from=23;1,to=24;48)">
+            wing nut
+</omdoc:term>
+          .
+        </p>
+      </omdoc:CMP>
+</omdoc:omtext>
+  </plain-narration>
+  <definition 
+  for="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?acorn-nut http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?thread http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?nut http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?bolt http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?flat-size http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?height">
+    <omdoc:CMP 
+    xml:id="nutbolt.definition13.CMP1" about="#nutbolt.definition13.CMP1" stex:srcref="../../../fcad/flange/cds/nutbolt.tex#textrange(from=27;1,to=31;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="nutbolt.definition13.CMP1.p1" class="ltx_p" about="#nutbolt.definition13.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        The
+        <omdoc:ref target="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?acorn-nut"> acorn nut </omdoc:ref>
+        is a type of
+        <omdoc:ref target="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?nut"> nut </omdoc:ref>
+        which gets its name from its shape. It is a nut that has a domed top to prevent contact with the
+        <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?external-thread"> external thread </omdoc:ref>
+        of the corresponding
+        <omdoc:ref target="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?bolt"> bolt </omdoc:ref>
+        .
+      </p>
+</omdoc:CMP>
+</definition>
+  <definition 
+  for="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?hex-nut http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?acorn-nut http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?thread http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?nut http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?bolt http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?flat-size http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?height">
+    <omdoc:CMP 
+    xml:id="nutbolt.definition15.CMP1" about="#nutbolt.definition15.CMP1" stex:srcref="../../../fcad/flange/cds/nutbolt.tex#textrange(from=33;1,to=36;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="nutbolt.definition15.CMP1.p1" class="ltx_p" about="#nutbolt.definition15.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        The
+        <omdoc:ref target="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?hex-nut"> hex nut </omdoc:ref>
+        is a type of
+        <omdoc:ref target="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?nut"> nut </omdoc:ref>
+        that has an
+        <omdoc:ref target="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?internal-thread"> internal thread </omdoc:ref>
+        and a hexagonal outer shape.
+      </p>
+</omdoc:CMP>
+</definition>
+  <definition 
+  for="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?wing-nut http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?hex-nut http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?acorn-nut http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?thread http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?nut http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?bolt http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?flat-size http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?height">
+    <omdoc:CMP 
+    xml:id="nutbolt.definition17.CMP1" about="#nutbolt.definition17.CMP1" stex:srcref="../../../fcad/flange/cds/nutbolt.tex#textrange(from=38;1,to=41;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="nutbolt.definition17.CMP1.p1" class="ltx_p" about="#nutbolt.definition17.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?wing-nut"> wing nut </omdoc:ref>
+        is a type of
+        <omdoc:ref target="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?nut"> nut </omdoc:ref>
+        with two large metal ” wings ” , one on each side, so it can be easily tightened and loosened by hand without tools.
+      </p>
+</omdoc:CMP>
+</definition>
+</omdoc>

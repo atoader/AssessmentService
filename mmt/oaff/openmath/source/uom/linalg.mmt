@@ -1,0 +1,146 @@
+namespace http://oaff.kwarc.info/openmath/uom
+
+view Linalg1 : http://www.openmath.org/cd?linalg1 -> http://cds.omdoc.org/urtheories?ScalaOM =
+  
+  vectorproduct = (a: Term, b: Term) scala
+    (a, b) match {
+      case (linalg2.vector(List(a1, a2, a3)), linalg2.vector(List(b1, b2, b3))) =>
+        linalg2.vector(List(arith1.minus(arith1.times(a2,b3), arith1.times(a3,b2)),
+            arith1.minus(arith1.times(a3,b1), arith1.times(a1,b3)),
+            arith1.minus(arith1.times(a1,b2), arith1.times(a2,b1))))
+      case _ => vectorproduct(a, b)
+    }
+  
+  
+  scalarproduct = (a: Term, b: Term) scala
+    (a, b) match {
+      case (linalg2.vector(v1), linalg2.vector(v2)) =>
+        if (v1.length == v2.length)
+          arith1.plus(v1.zip(v2).map(x => arith1.times(x._1, x._2)))
+        else throw UOMException("linalg1.scalarproduct: vectors have unequal lengths")	
+      case _ => scalarproduct(a, b)
+    }
+  
+  
+  outerproduct = (a: Term, b: Term) scala
+    arith1.times(transpose(a), b)
+  
+  
+  vector_selector = (a: Term, b: Term) scala
+    (a, b) match {
+      case (OMI(i), linalg2.vector(v)) => Collections.nth(i.toInt, v) 
+      case _ => vector_selector(a, b)
+    }
+  
+  
+  matrix_selector = (row: Term, col: Term, mat: Term) scala
+    (row, mat) match {
+      case (OMI(r), linalg2.matrix(m)) => vector_selector(col, Collections.nth(r.toInt, m)) 
+      case _ => matrix_selector(row, col, mat)
+    }
+  
+  
+  transpose = (a: Term) scala
+    a match {
+      case linalg2.matrix(_) => Linalgs.transposeMatrix(a)
+      case linalg2.vector(v) => linalg2.matrix(v.map(linalg2.vector(_)))
+      case _ => transpose(a) 
+    }
+  
+  
+
+
+view Linalg2 : http://www.openmath.org/cd?linalg2 -> http://cds.omdoc.org/urtheories?ScalaOM =
+  vector = (ls: List[Term]) scala
+    vector(ls)
+  
+  
+  matrixrow = (ls: List[Term]) scala
+    vector(ls)
+  
+  
+  matrix = (ls: List[Term]) scala
+    if (ls.length == 1) ls(0) else matrix(ls)
+  
+
+
+
+view Linalg4 : http://www.openmath.org/cd?linalg4 -> http://cds.omdoc.org/urtheories?ScalaOM =
+
+  columncount = (a: Term) scala
+    a match {
+      case linalg2.matrix(linalg2.vector(v) :: _) => OMI(v.length)
+      case _ => columncount(a)
+    }
+  
+  
+  rowcount = (a: Term) scala
+    a match {
+      case linalg2.matrix(m) => OMI(m.length)
+      case _ => rowcount(a) 
+    }
+  
+  
+  size = (a: Term) scala
+    a match {
+      case linalg2.vector(v) => OMI(v.length)
+      case _ => size(a)
+    }
+  
+  
+
+
+view LinalgArith : http://www.openmath.org/cd?arith1 -> http://cds.omdoc.org/urtheories?ScalaOM = 
+
+  plus = (args: List[Term]) scala
+      var matrices: List[List[Term]] = Nil
+      var restArgs: List[Term] = Nil
+      args.foreach {
+        case v@linalg2.vector(_) => matrices ::= List(v)
+        case linalg2.matrix(m) => matrices ::= m
+        case a => restArgs ::= a 
+      }
+      
+      matrices.length match {
+        case 0 => plus(restArgs)
+        case 1 => Utils.plusWithRest(linalg2.matrix(matrices(0)), restArgs)
+        case _ => 
+          val rCounts = matrices.map(_.length)
+          val cCounts = matrices.map(m => Linalgs.vectorSize(m(0)))
+          if (rCounts.forall(_ == rCounts(0)) && cCounts.forall(_ == cCounts(0))) {
+            if (rCounts(0) == 1) { // only vectors
+              val vsum = Linalgs.addVectors(matrices)
+              Utils.plusWithRest(vsum, restArgs)
+            } else {
+              Utils.plusWithRest(linalg2.matrix(List.transpose(matrices).map(plus(_))), restArgs)
+            }
+          } else {
+            throw UOMException("matrices cannot be added")
+          }
+      }
+  
+
+  times = (args: List[Term]) scala
+    for (i <- Range(0, args.length - 1)) {
+      val a = args(i)
+      val b = args(i + 1)
+      if (Linalgs.isVecOrMat(args(i)) && Linalgs.isVecOrMat(args(i + 1))) {
+        val a = Linalgs.toMatrix(args(i))
+        val b = Linalgs.toMatrix(args(i + 1))
+        if (Linalgs.dimMatchMult(a, b)) {
+          val prod = Linalgs.binaryMatMult(a, b)
+          if (args.length == 2)
+            return prod
+          else
+            return arith1.times(args.take(i) ::: List(prod) ::: args.takeRight(args.length - i - 2))
+        } else {
+          throw UOMException(s"matrix multiplication(${a}, ${b}: dimensions do not match")
+        }
+      }
+    }
+    return arith1.times(args)
+  
+  
+
+
+

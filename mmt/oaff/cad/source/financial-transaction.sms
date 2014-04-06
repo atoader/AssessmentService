@@ -1,0 +1,4 @@
+\begin{module}[id=financial-transaction]%
+  \importmodule[load=\SiSsI{winograd/cds/legalentities}]{legalentities}%
+  \importmodule[load=\KWARCslides{units/en/quantities}]{quantities}%
+\end{module}%

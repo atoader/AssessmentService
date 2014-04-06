@@ -1,0 +1,258 @@
+<omdoc base="http://docs.omdoc.org/cad/financial-transaction.omdoc">
+  <theory name="financial-transaction" base="http://docs.omdoc.org/cad/financial-transaction.omdoc">
+    <import from="../../../sissi/winograd/cds/legalentities?legalentities"> </import>
+    <import from="../../../slides/units/en/quantities?quantities"> </import>
+    <constant name="financial-transaction"> </constant>
+    <constant name="asset"> </constant>
+    <constant name="payment"> </constant>
+    <constant name="transaction-price"> </constant>
+    <constant name="seller"> </constant>
+    <constant name="buyer"> </constant>
+    <constant name="bid"> </constant>
+    <constant name="bid-price"> </constant>
+    <constant name="offer"> </constant>
+    <constant name="asking-price"> </constant>
+    <constant name="individual-price"> </constant>
+    <constant name="overall-price"> </constant>
+    <constant name="price"> </constant>
+  </theory>
+  <definition 
+  for="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?seller http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?payment http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?financial-transaction http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?buyer http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?asset http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?transaction-price">
+    <omdoc:CMP 
+    stex:srcref="../../../fcad/flange/cds/financial-transaction.tex#textrange(from=4;1,to=12;16)" about="#financial-transaction.definition9.CMP1" xml:id="financial-transaction.definition9.CMP1" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#financial-transaction.definition9.CMP1.p1" class="ltx_p" id="financial-transaction.definition9.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?financial-transaction">
+          financial transaction
+</omdoc:ref>
+        is an agreement, communication, or movement carried out between two
+        <omdoc:ref target="http://docs.omdoc.org/cad/legalentities.omdoc?legalentities?legal-person">
+          legal person
+        </omdoc:ref>
+        s to exchange an
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?asset">
+          asset
+</omdoc:ref>
+        (goods or services) for
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?payment">
+          payment
+</omdoc:ref>
+        (usually a quantity of money called the
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?transaction-price">
+          transaction price
+</omdoc:ref>
+        or
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?transaction-price">
+          traded price
+</omdoc:ref>
+        ). The
+        <omdoc:ref target="http://docs.omdoc.org/cad/legalentities.omdoc?legalentities?legal-person">
+          legal person
+        </omdoc:ref>
+        providing the asset in a transaction is called the
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?seller">
+          seller
+</omdoc:ref>
+        (or
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?seller">
+          vendor
+</omdoc:ref>
+        ) and the
+        <omdoc:ref target="http://docs.omdoc.org/cad/legalentities.omdoc?legalentities?legal-person">
+          legal person
+        </omdoc:ref>
+        providing the payment the
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?buyer">
+          buyer
+</omdoc:ref>
+        .
+</p>
+</omdoc:CMP>
+</definition>
+  <plain-narration>
+    <div 
+    class="ltx_para" id="financial-transaction.p1" xmlns="http://www.w3.org/1999/xhtml" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p about="#financial-transaction.p1.p1" class="ltx_p" id="financial-transaction.p1.p1">
+        A financial transaction is usually initiated by either an
+        <omdoc:term 
+        stex:srcref="../../../fcad/flange/cds/financial-transaction.tex#textrange(from=13;18,to=14;71)" about="#financial-transaction.p1.p1.term1" xml:id="financial-transaction.p1.p1.term1" name="offer" cd="financial-transaction">
+          offer
+</omdoc:term>
+        or a
+        <omdoc:term 
+        stex:srcref="../../../fcad/flange/cds/financial-transaction.tex#textrange(from=13;1,to=14;88)" about="#financial-transaction.p1.p1.term2" xml:id="financial-transaction.p1.p1.term2" name="bid" cd="financial-transaction">
+          bid
+</omdoc:term>
+        , which (after negotiations) leads to a transaction. Therefore we distinguish the
+        <omdoc:term 
+        stex:srcref="../../../fcad/flange/cds/financial-transaction.tex#textrange(from=15;59,to=16;22)" about="#financial-transaction.p1.p1.term3" xml:id="financial-transaction.p1.p1.term3" name="asking-price" cd="financial-transaction">
+          asking price
+</omdoc:term>
+        (the amount asked by the
+        <omdoc:term 
+        stex:srcref="../../../fcad/flange/cds/financial-transaction.tex#textrange(from=15;10,to=16;71)" about="#financial-transaction.p1.p1.term4" xml:id="financial-transaction.p1.p1.term4" name="seller" cd="financial-transaction">
+          vendor
+</omdoc:term>
+        ) from the
+        <omdoc:term 
+        stex:srcref="../../../fcad/flange/cds/financial-transaction.tex#textrange(from=16;71,to=17;19)" about="#financial-transaction.p1.p1.term5" xml:id="financial-transaction.p1.p1.term5" name="bid-price" cd="financial-transaction">
+          bid price
+</omdoc:term>
+        (the quantity of payment offered by a
+        <omdoc:term 
+        stex:srcref="../../../fcad/flange/cds/financial-transaction.tex#textrange(from=16;19,to=17;71)" about="#financial-transaction.p1.p1.term6" xml:id="financial-transaction.p1.p1.term6" name="buyer" cd="financial-transaction">
+          buyer
+</omdoc:term>
+        ), which may differ from the
+        <omdoc:term 
+        stex:srcref="../../../fcad/flange/cds/financial-transaction.tex#textrange(from=17;1,to=18;36)" about="#financial-transaction.p1.p1.term7" xml:id="financial-transaction.p1.p1.term7" name="transaction-price" cd="financial-transaction">
+          transaction price
+</omdoc:term>
+        .
+      </p>
+</div>
+  </plain-narration>
+  <definition 
+  for="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?bid http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?bid-price">
+    <omdoc:CMP 
+    stex:srcref="../../../fcad/flange/cds/financial-transaction.tex#textrange(from=20;0,to=23;16)" about="#bid.def.CMP1" xml:id="bid.def.CMP1" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#bid.def.CMP1.p1" class="ltx_p" id="bid.def.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?bid">
+          bid
+</omdoc:ref>
+        is a communication in which a potential
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?buyer">
+          buyer
+</omdoc:ref>
+        offers to buy a certain
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?asset">
+          asset
+</omdoc:ref>
+        for a given
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?payment">
+          payment
+</omdoc:ref>
+        , the
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?bid-price">
+          bid price
+</omdoc:ref>
+        .
+</p>
+</omdoc:CMP>
+</definition>
+  <definition 
+  for="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?offer http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?asking-price">
+    <omdoc:CMP 
+    stex:srcref="../../../fcad/flange/cds/financial-transaction.tex#textrange(from=25;0,to=28;16)" about="#offer.def.CMP1" xml:id="offer.def.CMP1" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#offer.def.CMP1.p1" class="ltx_p" id="offer.def.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        An
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?offer">
+          offer
+</omdoc:ref>
+        is a communication in which a potential
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?seller">
+          seller
+</omdoc:ref>
+        offers to buy a certain
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?asset">
+          asset
+</omdoc:ref>
+        for a given
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?payment">
+          payment
+</omdoc:ref>
+        , the
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?asking-price">
+          asking price
+</omdoc:ref>
+</p>
+</omdoc:CMP>
+</definition>
+  <definition 
+  for="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?overall-price http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?individual-price">
+    <omdoc:CMP 
+    stex:srcref="../../../fcad/flange/cds/financial-transaction.tex#textrange(from=30;1,to=34;16)" about="#financial-transaction.definition19.CMP1" xml:id="financial-transaction.definition19.CMP1" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#financial-transaction.definition19.CMP1.p1" class="ltx_p" id="financial-transaction.definition19.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        If a
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?financial">
+          financial
+</omdoc:ref>
+        transaction contains more than one position, then we distinguish the
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?individual-price">
+          individual price
+</omdoc:ref>
+        of a position from the
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?overall-price">
+          overall price
+</omdoc:ref>
+        of the transaction, which often the sum of all individual prices.
+</p>
+</omdoc:CMP>
+</definition>
+  <definition 
+  for="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?price http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?overall-price http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?individual-price">
+    <omdoc:CMP 
+    stex:srcref="../../../fcad/flange/cds/financial-transaction.tex#textrange(from=36;1,to=40;16)" about="#financial-transaction.definition21.CMP1" xml:id="financial-transaction.definition21.CMP1" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#financial-transaction.definition21.CMP1.p1" class="ltx_p" id="financial-transaction.definition21.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        If we do not want to distinguish between
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?bid-price">
+          bid price
+</omdoc:ref>
+        ,
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?offer-price">
+          offer price
+</omdoc:ref>
+        ,
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?transaction-price">
+          transaction price
+</omdoc:ref>
+        ,
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?individua-price">
+          individua price
+</omdoc:ref>
+        , and
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?overall-price">
+          overall price
+</omdoc:ref>
+        we simply use the word
+        <omdoc:ref 
+        target="http://docs.omdoc.org/cad/financial-transaction.omdoc?financial-transaction?price">
+          price
+</omdoc:ref>
+        to mean any of them.
+</p>
+</omdoc:CMP>
+</definition>
+</omdoc>

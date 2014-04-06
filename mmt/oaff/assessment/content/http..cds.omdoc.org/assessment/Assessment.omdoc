@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="Assessment" base="http://cds.omdoc.org/assessment">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/assessment/assessment.mmt#460.27.0-571.30.1"/>
+    </metadata>
+    <import from="http://cds.omdoc.org/assessment?ValuationFunction">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/assessment/assessment.mmt#483.28.2-510.28.29"/>
+      </metadata>
+    </import>
+    <constant name="assess_value">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/assessment/assessment.mmt#513.29.2-569.29.58"/>
+      </metadata>
+      <definition>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS position="0" base="http://cds.omdoc.org/assessment" module="Comparation" name="comp"/>
+            <om:OMA position="1">
+              <om:OMS position="1_0" base="http://www.openmath.org/cd" module="list2" name="list_selector"/>
+              <om:OMS position="1_1" base="http://cds.omdoc.org/assessment" module="ValuationFunction" name="value"/>
+              <om:OMS position="1_2" base="http://cds.omdoc.org/assessment" module="ValuationFunction" name="function"/>
+            </om:OMA>
+            <om:OMS position="2" base="http://cds.omdoc.org/assessment" module="Comparation" name="base"/>
+          </om:OMA>
+        </om:OMOBJ>
+      </definition>
+    </constant>
+  </theory>
+</omdoc>

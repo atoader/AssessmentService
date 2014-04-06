@@ -1,0 +1,139 @@
+<omdoc base="http://www.openmath.org/uom/linalg.mmt">
+        <view name="Linalg1" base="http://oaff.kwarc.info/openmath/uom" from="http://www.openmath.org/cd?linalg1" to="http://cds.omdoc.org/urtheories?ScalaOM">
+           <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#48.2.0-1657.50.1"/></metadata>
+           <constant name="vectorproduct"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#148.4.2-559.12.4"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="a"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV><om:OMV position="1" name="b"><type><om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[(a, b) match {
+      case (linalg2.vector(List(a1, a2, a3)), linalg2.vector(List(b1, b2, b3))) =>
+        linalg2.vector(List(arith1.minus(arith1.times(a2,b3), arith1.times(a3,b2)),
+            arith1.minus(arith1.times(a3,b1), arith1.times(a1,b3)),
+            arith1.minus(arith1.times(a1,b2), arith1.times(a2,b1))))
+      case _ => vectorproduct(a, b)
+    }]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="scalarproduct"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#565.14.2-920.22.4"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="a"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV><om:OMV position="1" name="b"><type><om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[(a, b) match {
+      case (linalg2.vector(v1), linalg2.vector(v2)) =>
+        if (v1.length == v2.length)
+          arith1.plus(v1.zip(v2).map(x => arith1.times(x._1, x._2)))
+        else throw UOMException("linalg1.scalarproduct: vectors have unequal lengths")	
+      case _ => scalarproduct(a, b)
+    }]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="outerproduct"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#926.24.2-1005.26.4"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="a"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV><om:OMV position="1" name="b"><type><om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[arith1.times(transpose(a), b)]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="vector_selector"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#1011.28.2-1193.33.4"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="a"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV><om:OMV position="1" name="b"><type><om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[(a, b) match {
+      case (OMI(i), linalg2.vector(v)) => Collections.nth(i.toInt, v) 
+      case _ => vector_selector(a, b)
+    }]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="matrix_selector"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#1199.35.2-1431.40.4"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="row"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV><om:OMV position="1" name="col"><type><om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV><om:OMV position="2" name="mat"><type><om:OMS position="2_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[(row, mat) match {
+      case (OMI(r), linalg2.matrix(m)) => vector_selector(col, Collections.nth(r.toInt, m)) 
+      case _ => matrix_selector(row, col, mat)
+    }]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="transpose"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#1437.42.2-1652.48.4"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="a"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[a match {
+      case linalg2.matrix(_) => Linalgs.transposeMatrix(a)
+      case linalg2.vector(v) => linalg2.matrix(v.map(linalg2.vector(_)))
+      case _ => transpose(a) 
+    }]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant>
+         </view><view name="Linalg2" base="http://oaff.kwarc.info/openmath/uom" from="http://www.openmath.org/cd?linalg2" to="http://cds.omdoc.org/urtheories?ScalaOM">
+           <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#1659.52.0-1961.65.1"/></metadata>
+           <constant name="vector"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#1756.53.2-1808.55.4"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="ls"><type><om:OMA position="0_1"><om:OMS position="0_1_0" base="http://cds.omdoc.org/urtheories" module="Scala" name="List"/>
+              <om:OMS position="0_1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+      </om:OMA></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[vector(ls)]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="matrixrow"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#1814.57.2-1869.59.4"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="ls"><type><om:OMA position="0_1"><om:OMS position="0_1_0" base="http://cds.omdoc.org/urtheories" module="Scala" name="List"/>
+              <om:OMS position="0_1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+      </om:OMA></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[vector(ls)]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="matrix"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#1875.61.2-1958.63.4"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="ls"><type><om:OMA position="0_1"><om:OMS position="0_1_0" base="http://cds.omdoc.org/urtheories" module="Scala" name="List"/>
+              <om:OMS position="0_1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+      </om:OMA></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[if (ls.length == 1) ls(0) else matrix(ls)]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant>
+         </view><view name="Linalg4" base="http://oaff.kwarc.info/openmath/uom" from="http://www.openmath.org/cd?linalg4" to="http://cds.omdoc.org/urtheories?ScalaOM">
+           <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#1963.67.0-2476.90.1"/></metadata>
+           <constant name="columncount"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#2061.69.2-2214.74.4"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="a"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[a match {
+      case linalg2.matrix(linalg2.vector(v) :: _) => OMI(v.length)
+      case _ => columncount(a)
+    }]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="rowcount"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#2220.76.2-2347.81.4"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="a"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[a match {
+      case linalg2.matrix(m) => OMI(m.length)
+      case _ => rowcount(a) 
+    }]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="size"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#2353.83.2-2471.88.4"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="a"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[a match {
+      case linalg2.vector(v) => OMI(v.length)
+      case _ => size(a)
+    }]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant>
+         </view><view name="LinalgArith" base="http://oaff.kwarc.info/openmath/uom" from="http://www.openmath.org/cd?arith1" to="http://cds.omdoc.org/urtheories?ScalaOM">
+           <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#2478.92.0-4342.143.1"/></metadata>
+           <constant name="plus"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#2580.94.2-3615.120.4"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="args"><type><om:OMA position="0_1"><om:OMS position="0_1_0" base="http://cds.omdoc.org/urtheories" module="Scala" name="List"/>
+              <om:OMS position="0_1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+      </om:OMA></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[var matrices: List[List[Term]] = Nil
+      var restArgs: List[Term] = Nil
+      args.foreach {
+        case v@linalg2.vector(_) => matrices ::= List(v)
+        case linalg2.matrix(m) => matrices ::= m
+        case a => restArgs ::= a 
+      }
+      
+      matrices.length match {
+        case 0 => plus(restArgs)
+        case 1 => Utils.plusWithRest(linalg2.matrix(matrices(0)), restArgs)
+        case _ => 
+          val rCounts = matrices.map(_.length)
+          val cCounts = matrices.map(m => Linalgs.vectorSize(m(0)))
+          if (rCounts.forall(_ == rCounts(0)) && cCounts.forall(_ == cCounts(0))) {
+            if (rCounts(0) == 1) { // only vectors
+              val vsum = Linalgs.addVectors(matrices)
+              Utils.plusWithRest(vsum, restArgs)
+            } else {
+              Utils.plusWithRest(linalg2.matrix(List.transpose(matrices).map(plus(_))), restArgs)
+            }
+          } else {
+            throw UOMException("matrices cannot be added")
+          }
+      }]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="times"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/linalg.mmt#3619.122.2-4337.141.4"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="args"><type><om:OMA position="0_1"><om:OMS position="0_1_0" base="http://cds.omdoc.org/urtheories" module="Scala" name="List"/>
+              <om:OMS position="0_1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+      </om:OMA></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[for (i <- Range(0, args.length - 1)) {
+      val a = args(i)
+      val b = args(i + 1)
+      if (Linalgs.isVecOrMat(args(i)) && Linalgs.isVecOrMat(args(i + 1))) {
+        val a = Linalgs.toMatrix(args(i))
+        val b = Linalgs.toMatrix(args(i + 1))
+        if (Linalgs.dimMatchMult(a, b)) {
+          val prod = Linalgs.binaryMatMult(a, b)
+          if (args.length == 2)
+            return prod
+          else
+            return arith1.times(args.take(i) ::: List(prod) ::: args.takeRight(args.length - i - 2))
+        } else {
+          throw UOMException(s"matrix multiplication(${a}, ${b}: dimensions do not match")
+        }
+      }
+    }
+    return arith1.times(args)]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant>
+         </view>
+     </omdoc>

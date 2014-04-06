@@ -1,0 +1,205 @@
+namespace http://oaff.kwarc.info/openmath/uom
+
+view Arith1 : http://www.openmath.org/cd?arith1 -> http://cds.omdoc.org/urtheories?ScalaOM =
+  
+  plus = (args: List[Term]) scala
+    var floatSum: Double = 0
+    var rationalSum = Rational(0, 1)
+    var realTerms: List[Term] = Nil
+    var imaginaryTerms: List[Term] = Nil
+    var partialResult: Term = OMI(0)
+    var restArgs: List[Term] = Nil
+       	
+    args.foreach {
+      case OMI(i) => floatSum += i.toDouble
+      case OMF(f) => floatSum += f
+      case nums1.rational(OMI(a), OMI(b)) => rationalSum += Rational(a, b)
+      case cc@complex1.complex_cartesian(re, im) =>
+        if (Utils.isFullyKnown(cc)) {
+          realTerms ::= re
+          imaginaryTerms ::= im
+        } else {
+          restArgs ::= cc	
+        }
+      case cp@complex1.complex_polar(r, phi) =>
+        if (Utils.isFullyKnown(cp)) {
+          realTerms ::= times(r, transc1.cos(phi))
+          imaginaryTerms ::= times(r, transc1.sin(phi))
+        } else {
+          restArgs ::= cp
+        }
+      case a => restArgs ::= a
+    }
+      
+    var fqSum = (floatSum, rationalSum.toDouble) match {
+      case (0, 0) => List(OMI(0))
+      case (0, _) => List(rationalSum.toTerm)
+      case (_, 0) => List(Numbers.double2Term(floatSum))
+      case _ =>
+        if (rationalSum.isInt)
+          List(Numbers.double2Term(floatSum + rationalSum.toDouble))
+        else {
+          var s = floatSum + rationalSum.toDouble
+          if (Numbers.isInt(s)) 
+            List(OMI(s.toInt))
+          else
+            List(Numbers.double2Term(floatSum), rationalSum.toTerm)
+        } 
+    }
+      
+    if (imaginaryTerms.length == 0)
+      partialResult = if (fqSum.length == 1) fqSum(0) else plus(fqSum(0), fqSum(1))
+    else
+      partialResult = complex1.complex_cartesian(plus(fqSum ::: realTerms.reverse), plus(imaginaryTerms.reverse))
+        
+    restArgs = restArgs.reverse
+    (restArgs, partialResult) match {
+      case (Nil, _) =>  partialResult
+      case (_, OMI(i)) => if (i == 0) plus(restArgs) else plus(partialResult :: restArgs)
+      case (_, OMF(0)) => plus(restArgs)
+      case _ => plus(partialResult :: restArgs)
+    }    
+  
+
+  minus = (a: Term, b: Term)  scala
+    plus(a, unary_minus(b))
+  
+  
+  times = (args: List[Term]) scala
+    var floatProd: Double = 1
+    var rationalProd: Rational = Rational(1, 1)
+    var radii: List[Term] = Nil
+    var angles: List[Term] = Nil
+    var partialResult: Term = OMI(0)
+    var restArgs : List[Term] = Nil
+
+    args foreach {
+      case OMI(i) => floatProd *= i.toDouble
+      case OMF(f) => floatProd *= f
+      case nums1.rational(OMI(a), OMI(b)) => rationalProd *= Rational(a, b)
+      case cc@complex1.complex_cartesian(re, im) =>
+        if (Utils.isFullyKnown(cc)) {
+          radii ::= root(plus(times(re, re), times(im, im)), OMI(2))
+          angles ::= complex1.argument(cc)
+        } else {
+          restArgs ::= cc	
+        }
+      case cp@complex1.complex_polar(r, phi) =>
+        if (Utils.isFullyKnown(cp)) {
+          radii ::= r
+          angles ::= phi
+        } else {
+          restArgs ::= cp
+        }
+      case a => restArgs ::= a
+    }
+    
+    if (floatProd == 0 || rationalProd.toDouble == 0) {
+      OMI(0)
+    } else {
+      var fqProd = (floatProd, rationalProd.toDouble) match {
+        case (0, _) | (_, 0) => List(OMI(0))
+        case (1, _) => List(rationalProd.toTerm)
+        case (_, 1) => List(Numbers.double2Term(floatProd))
+        case _ =>
+          var fq = floatProd * rationalProd.toDouble
+          if (rationalProd.isInt)
+            List(Numbers.double2Term(fq))
+          else
+            if (Numbers.isInt(fq)) List(Numbers.double2Term(fq)) else List(Numbers.double2Term(floatProd), rationalProd.toTerm)
+      }
+      if (angles.length == 0) {
+        partialResult = if (fqProd.length == 1) fqProd(0) else times(fqProd(0), fqProd(1))
+      } else {
+        partialResult = complex1.complex_polar(times(fqProd ::: radii.reverse), plus(angles.reverse))
+      }
+      restArgs = restArgs.reverse
+      (restArgs, partialResult) match {
+        case (Nil, _) =>  partialResult
+        case (_, OMI(i)) => if (i == 1) times(restArgs) else times(partialResult :: restArgs)
+        case (_, OMF(1)) => times(restArgs)
+        case _ => times(partialResult :: restArgs)
+      }
+    }
+  
+      
+  
+    
+  divide = (a: Term, b:Term) scala
+    times(a, power(b, OMI(-1)))
+  
+  
+  power = (a: Term, b:Term) scala
+    a match {
+      case OMI(i) => Numbers.raise(i.toDouble, b)
+      case OMF(f) => Numbers.raise(f, b)
+      case nums1.rational(p, q) => nums1.rational(power(p, b), power(q, b))
+      case complex1.complex_cartesian(re, im) => power(Numbers.cartesianToPolar(re, im), b)
+      case complex1.complex_polar(r, phi) => complex1.complex_polar(power(r, b), times(phi, b))
+      case _ => power(a, b)
+    }
+  
+
+  root = (a: Term, b: Term) scala
+    power(a, power(b, OMI(-1)))
+  
+
+  abs = (a: Term) scala
+    a match {
+      case OMI(i) => OMI(math.abs(i.toInt))
+      case OMF(f) => OMF(math.abs(f))
+      case nums1.rational(a, b) => nums1.rational(abs(a), abs(b))
+      case complex1.complex_cartesian(a, b) => root(plus(times(a,a), times(b,b)), OMI(2))
+      case complex1.complex_polar(r, phi) => r
+      case _ => abs(a)
+    }
+  
+
+  unary_minus = (a: Term) scala
+    a match {
+      case OMI(i) => OMI(-i)
+      case OMF(f) => OMF(-f)
+      case nums1.rational(a, b) => nums1.rational(unary_minus(a), b)
+      case complex1.complex_cartesian(a, b) => complex1.complex_cartesian(unary_minus(a), unary_minus(b))
+      case complex1.complex_polar(r, phi) => complex1.complex_polar(unary_minus(r), phi)
+      case linalg2.vector(ls) => linalg2.vector(ls.map(unary_minus(_)))
+      case linalg2.matrix(ls) => linalg2.matrix(ls.map(unary_minus(_)))
+      case polyu.term(exp, coeff) => polyu.term(exp, unary_minus(coeff))
+      case polyu.poly_u_rep(x, ls) => polyu.poly_u_rep(x, ls.map(unary_minus(_)))
+      case polyu.polynomial_u(p, r) => polyu.polynomial_u(unary_minus(p), r)
+      case _ => unary_minus(a)
+    }
+  
+  
+  gcd = (args: List[Term]) scala
+    var gcdAll: BigInt = 0
+    var restArgs: List[Term] = Nil
+      
+    args.foreach {
+      case OMI(n) => gcdAll = gcdAll.gcd(n)
+      case a => restArgs ::= a
+    }
+    restArgs match {
+      case Nil => OMI(gcdAll)
+      case _ => gcd(OMI(gcdAll) :: restArgs.reverse)
+    }
+  
+  
+  lcm = (args: List[Term]) scala
+    def lcm2(a: BigInt, b: BigInt): BigInt = {
+      return math.abs(a.toInt * b.toInt) / a.gcd(b)
+    }
+    var lcmAll: BigInt = 1
+    var restArgs: List[Term] = Nil
+      
+    args.foreach {
+      case OMI(n) => lcmAll = lcm2(lcmAll, n)
+      case a => restArgs ::= a
+    }
+    restArgs match {
+      case Nil => OMI(lcmAll)
+      case _ => lcm(OMI(lcmAll) :: restArgs.reverse)
+    }
+  
+
+

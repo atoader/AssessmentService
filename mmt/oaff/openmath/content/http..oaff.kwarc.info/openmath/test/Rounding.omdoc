@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="Rounding" base="http://oaff.kwarc.info/openmath/test">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/rounding.mmt#88.4.0-321.12.1"/>
+    </metadata>
+    <import from="http://www.openmath.org/cd?relation1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/rounding.mmt#108.5.2-130.5.24"/>
+      </metadata>
+    </import>
+    <import from="http://www.openmath.org/cd?logic1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/rounding.mmt#133.6.2-152.6.21"/>
+      </metadata>
+    </import>
+    <import from="http://www.openmath.org/cd?rounding1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/rounding.mmt#155.7.2-177.7.24"/>
+      </metadata>
+    </import>
+    <constant name="floorTest">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/rounding.mmt#180.8.2-211.8.33"/>
+      </metadata>
+      <type>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/>
+        </om:OMOBJ>
+      </type>
+      <definition>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS position="0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+            <om:OMA position="1">
+              <om:OMS position="1_0" base="http://www.openmath.org/cd" module="rounding1" name="floor"/>
+              <om:OMF position="1_1" dec="3.4000000953674316"/>
+            </om:OMA>
+            <om:OMI position="2">3</om:OMI>
+          </om:OMA>
+        </om:OMOBJ>
+      </definition>
+    </constant>
+    <constant name="ceilingTest">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/rounding.mmt#214.9.2-247.9.35"/>
+      </metadata>
+      <type>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/>
+        </om:OMOBJ>
+      </type>
+      <definition>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS position="0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+            <om:OMA position="1">
+              <om:OMS position="1_0" base="http://www.openmath.org/cd" module="rounding1" name="ceiling"/>
+              <om:OMF position="1_1" dec="1.2000000476837158"/>
+            </om:OMA>
+            <om:OMI position="2">2</om:OMI>
+          </om:OMA>
+        </om:OMOBJ>
+      </definition>
+    </constant>
+    <constant name="roundTest">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/rounding.mmt#250.10.2-283.10.35"/>
+      </metadata>
+      <type>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/>
+        </om:OMOBJ>
+      </type>
+      <definition>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS position="0" base="http://www.openmath.org/cd" module="rounding1" name="round"/>
+            <om:OMA position="1">
+              <om:OMS position="1_0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMF position="1_1" dec="3.700000047683716"/>
+              <om:OMI position="1_2">4</om:OMI>
+            </om:OMA>
+          </om:OMA>
+        </om:OMOBJ>
+      </definition>
+    </constant>
+    <constant name="truncTest">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/rounding.mmt#286.11.2-319.11.35"/>
+      </metadata>
+      <type>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/>
+        </om:OMOBJ>
+      </type>
+      <definition>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS position="0" base="http://www.openmath.org/cd" module="rounding1" name="trunc"/>
+            <om:OMA position="1">
+              <om:OMS position="1_0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMF position="1_1" dec="3.700000047683716"/>
+              <om:OMI position="1_2">3</om:OMI>
+            </om:OMA>
+          </om:OMA>
+        </om:OMOBJ>
+      </definition>
+    </constant>
+  </theory>
+</omdoc>

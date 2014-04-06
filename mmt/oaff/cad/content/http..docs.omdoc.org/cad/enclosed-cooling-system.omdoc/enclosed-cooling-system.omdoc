@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="enclosed-cooling-system" base="http://docs.omdoc.org/cad/enclosed-cooling-system.omdoc">
+    <constant name="heat-exchanger"> </constant>
+    <constant name="enclosed-cooling-system"> </constant>
+    <constant name="raw-water"> </constant>
+    <constant name="fresh-water"> </constant>
+    <constant name="engine-coolant"> </constant>
+    <constant name="pump"> </constant>
+    <constant name="water-pump"> </constant>
+    <constant name="seacock"> </constant>
+    <constant name="sea-strainer"> </constant>
+    <import from="http://docs.omdoc.org/../../fcad/flange/cds/piping?piping"> </import>
+  </theory>
+</omdoc>

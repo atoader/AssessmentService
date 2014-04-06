@@ -1,0 +1,27 @@
+namespace http://oaff.kwarc.info/openmath/test
+
+import cd http://www.openmath.org/cd
+
+theory List =
+  include cd:?arith1
+  include cd:?relation1
+  include cd:?logic1
+  include cd:?list1
+  include cd:?list2
+  in_test : FMP = member 1 [1,2,3] = true
+  list_selector_test : FMP = list_selector 2 [1,2,3] = 2
+  first_test : FMP = hd [1,2,3] = 1
+  rest_test : FMP = tl [1,2,3] = [2,3]
+  append_test : FMP = [1,2,3] ::: [4,5] = [1,2,3,4,5]
+  cons_test : FMP = 1 :: [2,3] = [1,2,3]
+  reverse_test : FMP = rev [1,2,3] = [3,2,1]
+
+
+view ListTest : ?List -> http://cds.omdoc.org/urtheories?ScalaOM =
+  include cd:?OpenMath  = http://cds.omdoc.org/urtheories?Syntactic
+  include cd:?arith1    = uom?Arith1
+  include cd:?relation1 = uom?Relation1
+  include cd:?logic1 = uom?Logic1
+  include cd:?list1 = uom?List1
+  include cd:?list2 = uom?List2
+

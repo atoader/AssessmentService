@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="units_us1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1277.99.0-1420.106.1"/>
+    </metadata>
+    <constant name="acre_us_survey">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1311.100.2-1326.100.17"/>
+      </metadata>
+    </constant>
+    <constant name="foot_us_survey">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1330.101.2-1345.101.17"/>
+      </metadata>
+    </constant>
+    <constant name="mile_us_survey">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1349.102.2-1364.102.17"/>
+      </metadata>
+    </constant>
+    <constant name="pint_us_dry">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1368.103.2-1380.103.14"/>
+      </metadata>
+    </constant>
+    <constant name="pint_us_liquid">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1384.104.2-1399.104.17"/>
+      </metadata>
+    </constant>
+    <constant name="yard_us_survey">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#1403.105.2-1418.105.17"/>
+      </metadata>
+    </constant>
+  </theory>
+</omdoc>

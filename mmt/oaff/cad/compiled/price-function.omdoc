@@ -1,0 +1,30 @@
+<omdoc base="http://docs.omdoc.org/cad/price-function.omdoc">
+  <theory name="price-function" base="http://docs.omdoc.org/cad/price-function.omdoc">
+    <import from="http://docs.omdoc.org/smglo/sTeX/relation.omdoc?relation"> </import>
+    <import from="../../../fcad/flange/cds/financial-transaction?financial-transaction"> </import>
+    <import from="../../smglo/sTeX/functions?functions"> </import>
+  </theory>
+  <plain-narration>
+    <div 
+    class="ltx_para" id="price-function.p1" xmlns="http://www.w3.org/1999/xhtml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p about="#price-function.p1.p1" class="ltx_p" id="price-function.p1.p1">
+        The
+        <omdoc:term 
+        stex:srcref="../../../fcad/flange/cds/price-function.tex#textrange(from=4;48,to=5;40)" about="#price-function.p1.p1.term1" xml:id="price-function.p1.p1.term1" name="price" cd="financial-transaction">
+          price
+</omdoc:term>
+        of an
+        <omdoc:term 
+        stex:srcref="../../../fcad/flange/cds/price-function.tex#textrange(from=4;5,to=5;83)" about="#price-function.p1.p1.term2" xml:id="price-function.p1.p1.term2" name="offer" cd="financial-transaction">
+          offer
+</omdoc:term>
+        or a
+        <omdoc:term 
+        stex:srcref="../../../fcad/flange/cds/price-function.tex#textrange(from=5;52,to=6;34)" about="#price-function.p1.p1.term3" xml:id="price-function.p1.p1.term3" name="bid" cd="financial-transaction">
+          bid
+</omdoc:term>
+        may vary with the amount of the asset. Therefore it is usually given as a function from quantities of goods to payments.
+      </p>
+</div>
+  </plain-narration>
+</omdoc>

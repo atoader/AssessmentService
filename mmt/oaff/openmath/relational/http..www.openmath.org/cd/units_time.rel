@@ -1,0 +1,16 @@
+theory http://www.openmath.org/cd?units_time
+HasMeta http://www.openmath.org/cd?units_time http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?units_time http://www.openmath.org/cd?units_time?calendar_month
+constant: http://www.openmath.org/cd?units_time?calendar_month
+Declares http://www.openmath.org/cd?units_time http://www.openmath.org/cd?units_time?calendar_year
+constant: http://www.openmath.org/cd?units_time?calendar_year
+Declares http://www.openmath.org/cd?units_time http://www.openmath.org/cd?units_time?day
+constant: http://www.openmath.org/cd?units_time?day
+Declares http://www.openmath.org/cd?units_time http://www.openmath.org/cd?units_time?hour
+constant: http://www.openmath.org/cd?units_time?hour
+Declares http://www.openmath.org/cd?units_time http://www.openmath.org/cd?units_time?minute
+constant: http://www.openmath.org/cd?units_time?minute
+Declares http://www.openmath.org/cd?units_time http://www.openmath.org/cd?units_time?second
+constant: http://www.openmath.org/cd?units_time?second
+Declares http://www.openmath.org/cd?units_time http://www.openmath.org/cd?units_time?week
+constant: http://www.openmath.org/cd?units_time?week

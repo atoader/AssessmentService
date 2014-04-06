@@ -1,0 +1,6 @@
+<omdoc base="http://www.openmath.org/uom/indNat.mmt">
+        <view name="IndNat" base="http://oaff.kwarc.info/openmath/uom" from="http://www.openmath.org/cd?indNat" to="http://cds.omdoc.org/urtheories?ScalaOM">
+           <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/indNat.mmt#48.2.0-143.4.1"/></metadata>
+           
+         </view>
+     </omdoc>

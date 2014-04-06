@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc base="http://www.openmath.org/uom/polygrp.omdoc">
+  <mref target="http://oaff.kwarc.info/openmath/uom?Polyu"/>
+  <mref target="http://oaff.kwarc.info/openmath/uom?PolyuArith"/>
+</omdoc>

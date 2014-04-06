@@ -1,0 +1,4 @@
+theory http://www.openmath.org/cd?tensor1
+HasMeta http://www.openmath.org/cd?tensor1 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?tensor1 http://www.openmath.org/cd?tensor1?tuple
+constant: http://www.openmath.org/cd?tensor1?tuple

@@ -1,0 +1,3 @@
+\begin{module}[id=assembly-crane]%
+  \importmodule[load=\FCAD{crane/cds/crane}]{crane}%
+\end{module}%

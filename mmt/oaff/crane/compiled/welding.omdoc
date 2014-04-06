@@ -1,0 +1,31 @@
+<omdoc base="http://docs.omdoc.org/crane/welding.omdoc">
+  <theory name="welding" base="http://docs.omdoc.org/crane/welding.omdoc">
+    <constant name="weldment-design"> </constant>
+  </theory>
+  <definition for="http://docs.omdoc.org/crane/welding.omdoc?welding?">
+    <omdoc:CMP 
+    stex:srcref="../../../../../stc/fcad/crane/cds/welding.tex#textrange(from=2;1,to=8;16)" about="#welding.definition1.CMP1" xml:id="welding.definition1.CMP1" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#welding.definition1.CMP1.p1" class="ltx_p" id="welding.definition1.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        Welding is a fabrication or sculptural process that joins materials, usually metals or thermoplastics, by causing coalescence. This is often done by melting the workpieces and adding a filler material to form a pool of molten material (the weld pool) that cools to become a strong joint, with pressure sometimes used in conjunction with heat, or by itself, to produce the weld.
+</p>
+</omdoc:CMP>
+  </definition>
+  <definition for="http://docs.omdoc.org/crane/welding.omdoc?welding?weldment-design">
+    <omdoc:CMP 
+    stex:srcref="../../../../../stc/fcad/crane/cds/welding.tex#textrange(from=10;1,to=13;16)" about="#welding.definition3.CMP1" xml:id="welding.definition3.CMP1" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#welding.definition3.CMP1.p1" class="ltx_p" id="welding.definition3.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/crane/welding.omdoc?welding?weldment-design">
+          weldment design
+        </omdoc:ref>
+        is a
+        <omdoc:ref target="http://docs.omdoc.org/crane/design.omdoc?design?design"> design </omdoc:ref>
+        of an artefact whose components are mainly joined by
+        <omdoc:ref target="http://docs.omdoc.org/crane/welding.omdoc?welding?welding"> welding </omdoc:ref>
+        .
+</p>
+</omdoc:CMP>
+  </definition>
+</omdoc>

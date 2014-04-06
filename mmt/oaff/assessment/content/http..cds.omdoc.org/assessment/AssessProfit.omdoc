@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="AssessProfit" base="http://cds.omdoc.org/assessment">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/assessment/assessment.mmt#573.32.0-664.35.1"/>
+    </metadata>
+    <import from="http://cds.omdoc.org/assessment?Profit">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/assessment/assessment.mmt#597.33.2-613.33.18"/>
+      </metadata>
+    </import>
+    <constant name="assess_value">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/assessment/assessment.mmt#616.34.2-662.34.48"/>
+      </metadata>
+      <definition>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS position="0" base="http://cds.omdoc.org/assessment" module="Comparation" name="comp"/>
+            <om:OMA position="1">
+              <om:OMS position="1_0" base="http://www.openmath.org/cd" module="list2" name="list_selector"/>
+              <om:OMS position="1_1" base="http://cds.omdoc.org/assessment" module="Profit" name="x"/>
+              <om:OMS position="1_2" base="http://cds.omdoc.org/assessment" module="Profit" name="pi"/>
+            </om:OMA>
+            <om:OMS position="2" base="http://cds.omdoc.org/assessment" module="Comparation" name="base"/>
+          </om:OMA>
+        </om:OMOBJ>
+      </definition>
+    </constant>
+  </theory>
+</omdoc>

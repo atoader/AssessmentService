@@ -1,0 +1,7 @@
+theory http://cds.omdoc.org/frameit?BasicTrig
+Includes http://cds.omdoc.org/frameit?BasicTrig http://www.openmath.org/cd?arith1
+Includes http://cds.omdoc.org/frameit?BasicTrig http://www.openmath.org/cd?transc1
+Declares http://cds.omdoc.org/frameit?BasicTrig http://cds.omdoc.org/frameit?BasicTrig?d
+constant: http://cds.omdoc.org/frameit?BasicTrig?d
+Declares http://cds.omdoc.org/frameit?BasicTrig http://cds.omdoc.org/frameit?BasicTrig?alpha
+constant: http://cds.omdoc.org/frameit?BasicTrig?alpha

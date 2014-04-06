@@ -1,0 +1,4 @@
+id: urtheories
+source-base: http://cds.omdoc.org/urtheories
+narration-base: http://docs.omdoc.org/urtheories
+

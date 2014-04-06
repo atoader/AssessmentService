@@ -1,0 +1,3 @@
+\begin{module}[id=piping]%
+  \importmodule[load=\FCAD{flange/cds/physobj}]{physobj}%
+\end{module}%

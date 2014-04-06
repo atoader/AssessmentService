@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc base="http://docs.omdoc.org/crane/rope.omdoc">
+  <mref target="http://docs.omdoc.org/crane/rope.omdoc?rope"/>
+  <definition for="http://docs.omdoc.org/crane/rope.omdoc?rope?rope">
+    <omdoc:CMP 
+    xml:id="rope.definition2.CMP1" about="#rope.definition2.CMP1" stex:srcref="../../../../../stc/fcad/crane/cds/rope.tex#textrange(from=2;1,to=6;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="rope.definition2.CMP1.p1" class="ltx_p" about="#rope.definition2.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/crane/rope.omdoc?rope?rope"> rope </omdoc:ref>
+        is a linear collection of plies, yarns or strands which are twisted or braided together in order to combine them into a larger and stronger form. Rope is thicker and stronger than similarly constructed cord, line, string, and twine.
+      </p>
+</omdoc:CMP>
+  </definition>
+  <plain-narration>
+    <omdoc:assertion 
+    type="observation" xml:id="rope.assertion3" about="#rope.assertion3" stex:srcref="../../../../../stc/fcad/crane/cds/rope.tex#textrange(from=8;0,to=12;15)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <omdoc:CMP xml:id="rope.assertion3.CMP1" about="#rope.assertion3.CMP1" stex:srcref="../../../../../stc/fcad/crane/cds/rope.tex#textrange(from=8;0,to=12;15)">
+        <p id="rope.assertion3.CMP1.p1" class="ltx_p" about="#rope.assertion3.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+          Ropes have tensile strength and so can be used for dragging and lifting, but are far too flexible to provide compressive strength. As a result, they cannot be used for pushing or similar compressive applications.
+        </p>
+      </omdoc:CMP>
+</omdoc:assertion>
+  </plain-narration>
+</omdoc>

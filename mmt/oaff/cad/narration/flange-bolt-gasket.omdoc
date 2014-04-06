@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc base="http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc">
+  <mref target="http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket"/>
+  <definition 
+  for="http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?price http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?flange">
+    <omdoc:CMP 
+    xml:id="flange-bolt-gasket.definition3.CMP1" about="#flange-bolt-gasket.definition3.CMP1" stex:srcref="../../../fcad/flange/cds/flange-bolt-gasket.tex#textrange(from=3;1,to=6;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="flange-bolt-gasket.definition3.CMP1.p1" class="ltx_p" about="#flange-bolt-gasket.definition3.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?flange"> flange </omdoc:ref>
+        is an external or internal edge or rim on an object, e.g. a flange on a pipe as a connector.
+      </p>
+</omdoc:CMP>
+</definition>
+  <definition 
+  for="http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?blind-flange http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?price http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?flange">
+    <omdoc:CMP 
+    xml:id="flange-bolt-gasket.definition5.CMP1" about="#flange-bolt-gasket.definition5.CMP1" stex:srcref="../../../fcad/flange/cds/flange-bolt-gasket.tex#textrange(from=8;1,to=11;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="flange-bolt-gasket.definition5.CMP1.p1" class="ltx_p" about="#flange-bolt-gasket.definition5.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?blind-flange"> blind flange </omdoc:ref>
+        is a plate for covering or closing the end of a pipe, with a diameter larger than the pipe ’ s.
+      </p>
+</omdoc:CMP>
+</definition>
+  <definition 
+  for="http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?gasket http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?blind-flange http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?price http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?flange">
+    <omdoc:CMP 
+    xml:id="flange-bolt-gasket.definition7.CMP1" about="#flange-bolt-gasket.definition7.CMP1" stex:srcref="../../../fcad/flange/cds/flange-bolt-gasket.tex#textrange(from=13;1,to=17;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="flange-bolt-gasket.definition7.CMP1.p1" class="ltx_p" about="#flange-bolt-gasket.definition7.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?gasket"> gasket </omdoc:ref>
+        is a mechanical seal which fills the space between two or more mating surfaces, generally to prevent leakage from or into the joined objects while under compression.
+      </p>
+</omdoc:CMP>
+</definition>
+  <definition 
+  for="http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?gasket http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?blind-flange http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?price http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?flange http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?flange-gasket">
+    <omdoc:CMP 
+    xml:id="flange-bolt-gasket.definition9.CMP1" about="#flange-bolt-gasket.definition9.CMP1" stex:srcref="../../../fcad/flange/cds/flange-bolt-gasket.tex#textrange(from=19;1,to=23;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="flange-bolt-gasket.definition9.CMP1.p1" class="ltx_p" about="#flange-bolt-gasket.definition9.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?flange-gasket"> flange gasket </omdoc:ref>
+        is a type of
+        <omdoc:ref target="http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?gasket"> gasket </omdoc:ref>
+        made to fit between two sections of pipe that are flared to provide higher surface area, or between a pipe section and a
+        <omdoc:ref target="http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?blind-flange"> blind flange </omdoc:ref>
+        .
+      </p>
+</omdoc:CMP>
+</definition>
+  <definition 
+  for="http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?gasket http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?blind-flange http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?price http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?flange http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?flange-gasket http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?flange-bolt-gasket">
+    <omdoc:CMP 
+    xml:id="flange-bolt-gasket.definition11.CMP1" about="#flange-bolt-gasket.definition11.CMP1" stex:srcref="../../../fcad/flange/cds/flange-bolt-gasket.tex#textrange(from=25;1,to=30;16)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="flange-bolt-gasket.definition11.CMP1.p1" class="ltx_p" about="#flange-bolt-gasket.definition11.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?flange-bolt-gasket"> flange-bolt-gasket </omdoc:ref>
+        system is an assembly that covers or closes the flared end of a pipe, consisting of a
+        <omdoc:ref target="http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?blind-flange"> blind flange </omdoc:ref>
+        , a
+        <omdoc:ref target="http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?gasket"> gasket </omdoc:ref>
+        that seals the space between the flange and the pipe, and a number of
+        <omdoc:ref target="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?bolt"> bolts </omdoc:ref>
+        that hold together the flange, gasket and pipe end.
+      </p>
+</omdoc:CMP>
+</definition>
+</omdoc>

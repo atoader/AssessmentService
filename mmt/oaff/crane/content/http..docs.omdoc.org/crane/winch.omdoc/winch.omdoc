@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="winch" base="http://docs.omdoc.org/crane/winch.omdoc">
+    <constant name="winch"> </constant>
+    <constant name="spool"> </constant>
+    <constant name="crank"> </constant>
+    <import from="http://docs.omdoc.org/../../fcad/crane/cds/cable?cable"> </import>
+  </theory>
+</omdoc>

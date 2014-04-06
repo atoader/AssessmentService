@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="physobj" base="http://docs.omdoc.org/cad/physobj.omdoc">
+    <constant name="matter"> </constant>
+    <constant name="state"> </constant>
+    <constant name="solid"> </constant>
+    <constant name="liquid"> </constant>
+    <constant name="gaseous"> </constant>
+    <constant name="fluid"> </constant>
+    <constant name="substance"> </constant>
+    <constant name="physical-object"> </constant>
+    <constant name="particle"> </constant>
+    <constant name="extent"> </constant>
+    <constant name="geometry"> </constant>
+  </theory>
+</omdoc>

@@ -1,0 +1,22 @@
+namespace http://oaff.kwarc.info/openmath/test
+
+import cd http://www.openmath.org/cd
+
+theory Relation =
+  include cd:?relation1
+  include cd:?logic1
+  include cd:?complex1
+  eqTest : FMP = CC 1 2 = CC 1 2
+  ltTest : FMP = 3 < 4
+  gtTest : FMP = 4 > 3
+  neqTest : FMP = 4 ≠ 5
+  leqTest : FMP = 4 ≤ 5
+  qeqTest : FMP = 4 ≥ 3
+
+
+view RelationTest : ?Relation -> http://cds.omdoc.org/urtheories?ScalaOM =
+  include cd:?OpenMath  = http://cds.omdoc.org/urtheories?Syntactic
+  include cd:?relation1 = uom?Relation1
+  include cd:?logic1 = uom?Logic1
+  include cd:?complex1 = uom?Complex1
+

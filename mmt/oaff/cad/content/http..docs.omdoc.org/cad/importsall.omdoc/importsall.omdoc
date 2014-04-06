@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="importsall" base="http://docs.omdoc.org/cad/importsall.omdoc">
+    <import from="http://docs.omdoc.org/../../fcad/flange/cds/ISOhexnut?ISOhexnut"> </import>
+    <import from="http://docs.omdoc.org/../../fcad/flange/cds/flange-bolt-gasket?flange-bolt-gasket"> </import>
+    <import from="http://docs.omdoc.org/../../fcad/flange/cds/solidobj?solidobj"> </import>
+    <import from="http://docs.omdoc.org/../../fcad/flange/cds/price-function?price-function"> </import>
+  </theory>
+</omdoc>

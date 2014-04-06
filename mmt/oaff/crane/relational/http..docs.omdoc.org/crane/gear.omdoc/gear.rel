@@ -1,0 +1,5 @@
+theory http://docs.omdoc.org/crane/gear.omdoc?gear
+Declares http://docs.omdoc.org/crane/gear.omdoc?gear http://docs.omdoc.org/crane/gear.omdoc?gear?gear
+constant: http://docs.omdoc.org/crane/gear.omdoc?gear?gear
+Declares http://docs.omdoc.org/crane/gear.omdoc?gear http://docs.omdoc.org/crane/gear.omdoc?gear?tooth
+constant: http://docs.omdoc.org/crane/gear.omdoc?gear?tooth

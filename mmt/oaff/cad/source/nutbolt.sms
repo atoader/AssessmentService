@@ -1,0 +1,4 @@
+\begin{module}[id=nutbolt]%
+\importmodule[load=\FCAD{flange/cds/thread}]{thread}%
+\importmodule[load=\FCAD{flange/cds/solidobj}]{solidobj}%
+\end{module}%

@@ -1,0 +1,9 @@
+HasDomain http://oaff.kwarc.info/openmath/uom?Complex1 http://www.openmath.org/cd?complex1
+HasCodomain http://oaff.kwarc.info/openmath/uom?Complex1 http://cds.omdoc.org/urtheories?ScalaOM
+view http://oaff.kwarc.info/openmath/uom?Complex1
+Declares http://oaff.kwarc.info/openmath/uom?Complex1 http://oaff.kwarc.info/openmath/uom?Complex1?complex_cartesian
+Declares http://oaff.kwarc.info/openmath/uom?Complex1 http://oaff.kwarc.info/openmath/uom?Complex1?complex_polar
+Declares http://oaff.kwarc.info/openmath/uom?Complex1 http://oaff.kwarc.info/openmath/uom?Complex1?real
+Declares http://oaff.kwarc.info/openmath/uom?Complex1 http://oaff.kwarc.info/openmath/uom?Complex1?imaginary
+Declares http://oaff.kwarc.info/openmath/uom?Complex1 http://oaff.kwarc.info/openmath/uom?Complex1?argument
+Declares http://oaff.kwarc.info/openmath/uom?Complex1 http://oaff.kwarc.info/openmath/uom?Complex1?conjugate

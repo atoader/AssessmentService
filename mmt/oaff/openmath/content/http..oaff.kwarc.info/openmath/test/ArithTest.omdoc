@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <view 
+  name="ArithTest" base="http://oaff.kwarc.info/openmath/test" from="http://oaff.kwarc.info/openmath/test?Arith" to="http://cds.omdoc.org/urtheories?ScalaOM">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/arith.mmt#558.22.0-849.28.1"/>
+    </metadata>
+    <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3FOpenMath]" domain="http://www.openmath.org/cd?OpenMath">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/arith.mmt#629.23.2-696.23.69"/>
+      </metadata>
+      <value>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://cds.omdoc.org/urtheories" module="Syntactic"/>
+        </om:OMOBJ>
+      </value>
+    </import>
+    <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Farith1]" domain="http://www.openmath.org/cd?arith1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/arith.mmt#699.24.2-735.24.38"/>
+      </metadata>
+      <value>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Arith1"/>
+        </om:OMOBJ>
+      </value>
+    </import>
+    <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Frelation1]" domain="http://www.openmath.org/cd?relation1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/arith.mmt#738.25.2-777.25.41"/>
+      </metadata>
+      <value>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Relation1"/>
+        </om:OMOBJ>
+      </value>
+    </import>
+    <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Flogic1]" domain="http://www.openmath.org/cd?logic1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/arith.mmt#780.26.2-813.26.35"/>
+      </metadata>
+      <value>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Logic1"/>
+        </om:OMOBJ>
+      </value>
+    </import>
+    <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Fnums1]" domain="http://www.openmath.org/cd?nums1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/arith.mmt#816.27.2-847.27.33"/>
+      </metadata>
+      <value>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Nums1"/>
+        </om:OMOBJ>
+      </value>
+    </import>
+</view>
+</omdoc>

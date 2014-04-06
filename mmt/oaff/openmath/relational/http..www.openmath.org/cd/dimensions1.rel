@@ -1,0 +1,42 @@
+theory http://www.openmath.org/cd?dimensions1
+HasMeta http://www.openmath.org/cd?dimensions1 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?dimensions1 http://www.openmath.org/cd?dimensions1?acceleration
+constant: http://www.openmath.org/cd?dimensions1?acceleration
+Declares http://www.openmath.org/cd?dimensions1 http://www.openmath.org/cd?dimensions1?area
+constant: http://www.openmath.org/cd?dimensions1?area
+Declares http://www.openmath.org/cd?dimensions1 http://www.openmath.org/cd?dimensions1?charge
+constant: http://www.openmath.org/cd?dimensions1?charge
+Declares http://www.openmath.org/cd?dimensions1 http://www.openmath.org/cd?dimensions1?concentration
+constant: http://www.openmath.org/cd?dimensions1?concentration
+Declares http://www.openmath.org/cd?dimensions1 http://www.openmath.org/cd?dimensions1?current
+constant: http://www.openmath.org/cd?dimensions1?current
+Declares http://www.openmath.org/cd?dimensions1 http://www.openmath.org/cd?dimensions1?density
+constant: http://www.openmath.org/cd?dimensions1?density
+Declares http://www.openmath.org/cd?dimensions1 http://www.openmath.org/cd?dimensions1?displacement
+constant: http://www.openmath.org/cd?dimensions1?displacement
+Declares http://www.openmath.org/cd?dimensions1 http://www.openmath.org/cd?dimensions1?energy
+constant: http://www.openmath.org/cd?dimensions1?energy
+Declares http://www.openmath.org/cd?dimensions1 http://www.openmath.org/cd?dimensions1?force
+constant: http://www.openmath.org/cd?dimensions1?force
+Declares http://www.openmath.org/cd?dimensions1 http://www.openmath.org/cd?dimensions1?length
+constant: http://www.openmath.org/cd?dimensions1?length
+Declares http://www.openmath.org/cd?dimensions1 http://www.openmath.org/cd?dimensions1?mass
+constant: http://www.openmath.org/cd?dimensions1?mass
+Declares http://www.openmath.org/cd?dimensions1 http://www.openmath.org/cd?dimensions1?momentum
+constant: http://www.openmath.org/cd?dimensions1?momentum
+Declares http://www.openmath.org/cd?dimensions1 http://www.openmath.org/cd?dimensions1?pressure
+constant: http://www.openmath.org/cd?dimensions1?pressure
+Declares http://www.openmath.org/cd?dimensions1 http://www.openmath.org/cd?dimensions1?resistance
+constant: http://www.openmath.org/cd?dimensions1?resistance
+Declares http://www.openmath.org/cd?dimensions1 http://www.openmath.org/cd?dimensions1?speed
+constant: http://www.openmath.org/cd?dimensions1?speed
+Declares http://www.openmath.org/cd?dimensions1 http://www.openmath.org/cd?dimensions1?temperature
+constant: http://www.openmath.org/cd?dimensions1?temperature
+Declares http://www.openmath.org/cd?dimensions1 http://www.openmath.org/cd?dimensions1?time
+constant: http://www.openmath.org/cd?dimensions1?time
+Declares http://www.openmath.org/cd?dimensions1 http://www.openmath.org/cd?dimensions1?velocity
+constant: http://www.openmath.org/cd?dimensions1?velocity
+Declares http://www.openmath.org/cd?dimensions1 http://www.openmath.org/cd?dimensions1?voltage
+constant: http://www.openmath.org/cd?dimensions1?voltage
+Declares http://www.openmath.org/cd?dimensions1 http://www.openmath.org/cd?dimensions1?volume
+constant: http://www.openmath.org/cd?dimensions1?volume

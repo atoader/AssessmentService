@@ -1,0 +1,9 @@
+HasDomain http://oaff.kwarc.info/openmath/uom?Logic1 http://www.openmath.org/cd?logic1
+HasCodomain http://oaff.kwarc.info/openmath/uom?Logic1 http://cds.omdoc.org/urtheories?ScalaOM
+view http://oaff.kwarc.info/openmath/uom?Logic1
+Declares http://oaff.kwarc.info/openmath/uom?Logic1 http://oaff.kwarc.info/openmath/uom?Logic1?equivalent
+Declares http://oaff.kwarc.info/openmath/uom?Logic1 http://oaff.kwarc.info/openmath/uom?Logic1?implies
+Declares http://oaff.kwarc.info/openmath/uom?Logic1 http://oaff.kwarc.info/openmath/uom?Logic1?not
+Declares http://oaff.kwarc.info/openmath/uom?Logic1 http://oaff.kwarc.info/openmath/uom?Logic1?and
+Declares http://oaff.kwarc.info/openmath/uom?Logic1 http://oaff.kwarc.info/openmath/uom?Logic1?or
+Declares http://oaff.kwarc.info/openmath/uom?Logic1 http://oaff.kwarc.info/openmath/uom?Logic1?xor

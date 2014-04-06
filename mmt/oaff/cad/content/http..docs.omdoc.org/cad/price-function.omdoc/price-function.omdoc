@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="price-function" base="http://docs.omdoc.org/cad/price-function.omdoc">
+    <import from="http://docs.omdoc.org/smglo/sTeX/relation.omdoc?relation"> </import>
+    <import from="http://docs.omdoc.org/../../fcad/flange/cds/financial-transaction?financial-transaction"> </import>
+    <import from="http://docs.omdoc.org/../smglo/sTeX/functions?functions"> </import>
+  </theory>
+</omdoc>

@@ -1,0 +1,3 @@
+\begin{module}[id=flange-bolt-gasket]%
+\importmodule[load=\FCAD{flange/cds/nutbolt}]{nutbolt}%
+\end{module}%

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <view name="Arith1" base="http://oaff.kwarc.info/openmath/uom" from="http://www.openmath.org/cd?arith1" to="http://cds.omdoc.org/urtheories?ScalaOM">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/arith.mmt#48.2.0-6827.204.1"/>
+    </metadata>
+    <constant name="plus">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/arith.mmt#146.4.2-2168.61.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="args">
+              <type>
+                <om:OMA position="0_1">
+                  <om:OMS position="0_1_0" base="http://cds.omdoc.org/urtheories" module="Scala" name="List"/>
+                  <om:OMS position="0_1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+                </om:OMA>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala">
+              <![CDATA[var floatSum: Double = 0
+    var rationalSum = Rational(0, 1)
+    var realTerms: List[Term] = Nil
+    var imaginaryTerms: List[Term] = Nil
+    var partialResult: Term = OMI(0)
+    var restArgs: List[Term] = Nil
+       	
+    args.foreach {
+      case OMI(i) => floatSum += i.toDouble
+      case OMF(f) => floatSum += f
+      case nums1.rational(OMI(a), OMI(b)) => rationalSum += Rational(a, b)
+      case cc@complex1.complex_cartesian(re, im) =>
+        if (Utils.isFullyKnown(cc)) {
+          realTerms ::= re
+          imaginaryTerms ::= im
+        } else {
+          restArgs ::= cc	
+        }
+      case cp@complex1.complex_polar(r, phi) =>
+        if (Utils.isFullyKnown(cp)) {
+          realTerms ::= times(r, transc1.cos(phi))
+          imaginaryTerms ::= times(r, transc1.sin(phi))
+        } else {
+          restArgs ::= cp
+        }
+      case a => restArgs ::= a
+    }
+      
+    var fqSum = (floatSum, rationalSum.toDouble) match {
+      case (0, 0) => List(OMI(0))
+      case (0, _) => List(rationalSum.toTerm)
+      case (_, 0) => List(Numbers.double2Term(floatSum))
+      case _ =>
+        if (rationalSum.isInt)
+          List(Numbers.double2Term(floatSum + rationalSum.toDouble))
+        else {
+          var s = floatSum + rationalSum.toDouble
+          if (Numbers.isInt(s)) 
+            List(OMI(s.toInt))
+          else
+            List(Numbers.double2Term(floatSum), rationalSum.toTerm)
+        } 
+    }
+      
+    if (imaginaryTerms.length == 0)
+      partialResult = if (fqSum.length == 1) fqSum(0) else plus(fqSum(0), fqSum(1))
+    else
+      partialResult = complex1.complex_cartesian(plus(fqSum ::: realTerms.reverse), plus(imaginaryTerms.reverse))
+        
+    restArgs = restArgs.reverse
+    (restArgs, partialResult) match {
+      case (Nil, _) =>  partialResult
+      case (_, OMI(i)) => if (i == 0) plus(restArgs) else plus(partialResult :: restArgs)
+      case (_, OMF(0)) => plus(restArgs)
+      case _ => plus(partialResult :: restArgs)
+    }]]>
+            </om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="minus">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/arith.mmt#2172.63.2-2239.65.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="a">
+              <type>
+                <om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+            <om:OMV position="1" name="b">
+              <type>
+                <om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala"><![CDATA[plus(a, unary_minus(b))]]></om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="times">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/arith.mmt#2245.67.2-4331.125.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="args">
+              <type>
+                <om:OMA position="0_1">
+                  <om:OMS position="0_1_0" base="http://cds.omdoc.org/urtheories" module="Scala" name="List"/>
+                  <om:OMS position="0_1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+                </om:OMA>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala">
+              <![CDATA[var floatProd: Double = 1
+    var rationalProd: Rational = Rational(1, 1)
+    var radii: List[Term] = Nil
+    var angles: List[Term] = Nil
+    var partialResult: Term = OMI(0)
+    var restArgs : List[Term] = Nil
+
+    args foreach {
+      case OMI(i) => floatProd *= i.toDouble
+      case OMF(f) => floatProd *= f
+      case nums1.rational(OMI(a), OMI(b)) => rationalProd *= Rational(a, b)
+      case cc@complex1.complex_cartesian(re, im) =>
+        if (Utils.isFullyKnown(cc)) {
+          radii ::= root(plus(times(re, re), times(im, im)), OMI(2))
+          angles ::= complex1.argument(cc)
+        } else {
+          restArgs ::= cc	
+        }
+      case cp@complex1.complex_polar(r, phi) =>
+        if (Utils.isFullyKnown(cp)) {
+          radii ::= r
+          angles ::= phi
+        } else {
+          restArgs ::= cp
+        }
+      case a => restArgs ::= a
+    }
+    
+    if (floatProd == 0 || rationalProd.toDouble == 0) {
+      OMI(0)
+    } else {
+      var fqProd = (floatProd, rationalProd.toDouble) match {
+        case (0, _) | (_, 0) => List(OMI(0))
+        case (1, _) => List(rationalProd.toTerm)
+        case (_, 1) => List(Numbers.double2Term(floatProd))
+        case _ =>
+          var fq = floatProd * rationalProd.toDouble
+          if (rationalProd.isInt)
+            List(Numbers.double2Term(fq))
+          else
+            if (Numbers.isInt(fq)) List(Numbers.double2Term(fq)) else List(Numbers.double2Term(floatProd), rationalProd.toTerm)
+      }
+      if (angles.length == 0) {
+        partialResult = if (fqProd.length == 1) fqProd(0) else times(fqProd(0), fqProd(1))
+      } else {
+        partialResult = complex1.complex_polar(times(fqProd ::: radii.reverse), plus(angles.reverse))
+      }
+      restArgs = restArgs.reverse
+      (restArgs, partialResult) match {
+        case (Nil, _) =>  partialResult
+        case (_, OMI(i)) => if (i == 1) times(restArgs) else times(partialResult :: restArgs)
+        case (_, OMF(1)) => times(restArgs)
+        case _ => times(partialResult :: restArgs)
+      }
+    }]]>
+            </om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="divide">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/arith.mmt#4339.127.2-4409.129.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="a">
+              <type>
+                <om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+            <om:OMV position="1" name="b">
+              <type>
+                <om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala"><![CDATA[times(a, power(b, OMI(-1)))]]></om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="power">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/arith.mmt#4415.131.2-4855.140.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="a">
+              <type>
+                <om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+            <om:OMV position="1" name="b">
+              <type>
+                <om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala">
+              <![CDATA[a match {
+      case OMI(i) => Numbers.raise(i.toDouble, b)
+      case OMF(f) => Numbers.raise(f, b)
+      case nums1.rational(p, q) => nums1.rational(power(p, b), power(q, b))
+      case complex1.complex_cartesian(re, im) => power(Numbers.cartesianToPolar(re, im), b)
+      case complex1.complex_polar(r, phi) => complex1.complex_polar(power(r, b), times(phi, b))
+      case _ => power(a, b)
+    }]]>
+            </om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="root">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/arith.mmt#4859.142.2-4928.144.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="a">
+              <type>
+                <om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+            <om:OMV position="1" name="b">
+              <type>
+                <om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala"><![CDATA[power(a, power(b, OMI(-1)))]]></om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="abs">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/arith.mmt#4932.146.2-5287.155.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="a">
+              <type>
+                <om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala">
+              <![CDATA[a match {
+      case OMI(i) => OMI(math.abs(i.toInt))
+      case OMF(f) => OMF(math.abs(f))
+      case nums1.rational(a, b) => nums1.rational(abs(a), abs(b))
+      case complex1.complex_cartesian(a, b) => root(plus(times(a,a), times(b,b)), OMI(2))
+      case complex1.complex_polar(r, phi) => r
+      case _ => abs(a)
+    }]]>
+            </om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="unary_minus">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/arith.mmt#5291.157.2-6075.171.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="a">
+              <type>
+                <om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala">
+              <![CDATA[a match {
+      case OMI(i) => OMI(-i)
+      case OMF(f) => OMF(-f)
+      case nums1.rational(a, b) => nums1.rational(unary_minus(a), b)
+      case complex1.complex_cartesian(a, b) => complex1.complex_cartesian(unary_minus(a), unary_minus(b))
+      case complex1.complex_polar(r, phi) => complex1.complex_polar(unary_minus(r), phi)
+      case linalg2.vector(ls) => linalg2.vector(ls.map(unary_minus(_)))
+      case linalg2.matrix(ls) => linalg2.matrix(ls.map(unary_minus(_)))
+      case polyu.term(exp, coeff) => polyu.term(exp, unary_minus(coeff))
+      case polyu.poly_u_rep(x, ls) => polyu.poly_u_rep(x, ls.map(unary_minus(_)))
+      case polyu.polynomial_u(p, r) => polyu.polynomial_u(unary_minus(p), r)
+      case _ => unary_minus(a)
+    }]]>
+            </om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="gcd">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/arith.mmt#6081.173.2-6396.185.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="args">
+              <type>
+                <om:OMA position="0_1">
+                  <om:OMS position="0_1_0" base="http://cds.omdoc.org/urtheories" module="Scala" name="List"/>
+                  <om:OMS position="0_1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+                </om:OMA>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala">
+              <![CDATA[var gcdAll: BigInt = 0
+    var restArgs: List[Term] = Nil
+      
+    args.foreach {
+      case OMI(n) => gcdAll = gcdAll.gcd(n)
+      case a => restArgs ::= a
+    }
+    restArgs match {
+      case Nil => OMI(gcdAll)
+      case _ => gcd(OMI(gcdAll) :: restArgs.reverse)
+    }]]>
+            </om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+    <constant name="lcm">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/arith.mmt#6402.187.2-6824.202.4"/>
+      </metadata>
+      <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+        <om:OMBIND>
+          <om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+          <om:OMBVAR>
+            <om:OMV position="0" name="args">
+              <type>
+                <om:OMA position="0_1">
+                  <om:OMS position="0_1_0" base="http://cds.omdoc.org/urtheories" module="Scala" name="List"/>
+                  <om:OMS position="0_1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/>
+                </om:OMA>
+              </type>
+            </om:OMV>
+          </om:OMBVAR>
+          <om:OMSF>
+            <om:text format="scala">
+              <![CDATA[def lcm2(a: BigInt, b: BigInt): BigInt = {
+      return math.abs(a.toInt * b.toInt) / a.gcd(b)
+    }
+    var lcmAll: BigInt = 1
+    var restArgs: List[Term] = Nil
+      
+    args.foreach {
+      case OMI(n) => lcmAll = lcm2(lcmAll, n)
+      case a => restArgs ::= a
+    }
+    restArgs match {
+      case Nil => OMI(lcmAll)
+      case _ => lcm(OMI(lcmAll) :: restArgs.reverse)
+    }]]>
+            </om:text>
+          </om:OMSF>
+        </om:OMBIND>
+      </om:OMOBJ>
+    </constant>
+  </view>
+</omdoc>

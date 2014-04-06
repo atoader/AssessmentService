@@ -1,0 +1,214 @@
+\documentclass[a4paper]{omdoc}
+\usepackage{stex,stc-smglom}
+\usepackage{ngerman}
+\usepackage{amstext}
+\usepackage{hyperref}
+\usepackage{ed}
+\input{../../../lib/paths}
+\title{Construction Assignment 1}
+\author{Prof. Dr.-Ing. Sandro Wartzack}
+
+\begin{document}
+\maketitle
+\usemodule[load=\KWARCslides{units/en/time}]{time}
+\usemodule[load=\KWARCslides{units/en/length}]{length}
+\usemodule[load=\KWARCslides{missing/en/arithmetics}]{arithmetics}
+\usemodule[load=\FCAD{crane/cds/crane}]{crane}
+\usemodule[load=\FCAD{crane/cds/welding}]{welding}
+\begin{omgroup}{Task Description}
+\begin{omtext}
+  The aim of this assisgnment is to contruct an \trefii[crane]{assembly}{crane} for lifting
+  heavy building elements and machine components in workshops. \textbf{The principle
+    sketch below is solely intended for orientation and clarification of the boundary
+    conditions of the construction assignments!}
+\end{omtext}
+
+\begin{figure}[ht]
+\mycgraphics[width=8cm]{\FCAD{crane/spec/PIC/principle-solution-crane}}
+\caption{Concept of an Assembly Crane}\label{fig:principle-solution-crane}
+\end{figure}
+
+\begin{omtext}
+  The \trefii[crane]{assembly}{crane} to be constructed can be divided into two principal
+  groups: The \trefii[foo]{base}{frame} (1) and the \atrefii[winch]{winch unit}{winch}
+  (2).
+\end{omtext}
+
+
+\begin{omtext}
+  The \trefi[crane]{base}{frame} (1) supports all components of the
+  \trefi[crane]{assembly}{crane} and transfers forces induced by the the load to be
+  floor. To reduce costs and simplify provisioning, the assembly crane should be realized
+  as a \trefii[welding]{weldment}{design}, ideally from normed
+  \trefi[foo]{steel}{profile}s. The design should take the intended load into account
+  appropriately. The \trefi[crane]{base}{frame} should be designed to ensure a
+  sufficiently high strength and rigidity under maximal load $F_{max}$. Moreover the
+  \trefi[crane]{base}{frame} must provide convenient interfaces for the additional
+  components of the \trefi[crane]{crane}. To ensure the centered positioning of
+  construction elements, the lower part of the \trefi[crane]{base}{frame} should be
+  realized from two parallel \trefi[foo]{profiles}. The \trefi[foo]{clearance} between the
+  two legs of the base frame should not fall below $b_{min}$ and the overall width should
+  not exceed $b_{max}$. To enable transport of loads, the \trefi[crane]{base}{frame} is to
+  be equipped with sufficiently strong \trefi[castor]{castors}:
+  \trefii[castor]{rigid}{castor}s on the front and \trefii[castor]{swivel}{castor}s on the
+  back of the \trefii[crane]{base}{frame}. To ease handling, the frame should contain a
+  subtable handle bar.
+\end{omtext}
+
+\begin{omtext}
+  The \trefi[hoist]{hoist} consists of a (also to be constructed) electically powered
+  \trefi[winch]{winch} (2), that is connected to a \trefi[hoist]{lifting}{hook} (4) via a
+  \trefi[cable]{cable} that is passed through some \trefi[sheave]{scheave}s. This enables
+  continuous lifting, lowering, and holding of loads.
+\end{omtext}
+
+\begin{figure}[ht]
+\mycgraphics[width=7cm]{\FCAD{crane/spec/PIC/principle-solution-winch}}
+\caption{Prinzipdarstellung der Windeneinheit (2)}\label{fig:principle-solution-winch}
+\end{figure}
+
+\begin{omtext}
+  The \trefi[winch]{winch} unit (2) itself (see
+  Figure~\ref{fig:principle-solutions-winch}) consists of a drive motor with
+  \atrefi[worm-drive]{worm geared}{worm}{drive} (5)\ednote{MK: translate ``in
+    Flanschausf"uhrung''}, a \trefi[winch]{spool} (6), and an electrically driven disc
+  brake (9). To make moving the \trefi[crane]{assembly}{crane} easy, the frame of the
+  winch unit and the \trefi[winch]{spool} are to be realizeed as light-weight sheet metal
+  \trefi[welding]{weldment}{design}s. The \trefi[winch]{spool} consists of wound-up and
+  lenghwise \trefi[welding]{welded} sheet metal drum (6a) together with the two rigid drum
+  sides (6b). The \trefi[torque]{torque} of the \trefi[motor]{motor} is transferred to the
+  axis of the \trefi[winch]{spool} via a \trefiii[keyed-joint]{feather}{key}{joint}. The
+  axis is rigidly welded to the drum sides and is itself mounted in
+  \begin{oldpart}{MK: still needs to be translated} a Fest-Los-Lageranordnung (8)
+    w"alzgelagert. Die als Halte- und Sicherheitsbremse ausgelegte Lamellenbremse (9) ist
+    mittels eines Kegelpressverbands (10) fliegend auf der Seiltrommelwelle befestigt.
+  \end{oldpart}
+\end{omtext}
+
+\begin{omtext}
+  The whole \trefi[winch]{winch} unit is mounted on a frame construction (11) that is
+  fastened to the crane frame with a through-bold connection. The design of the winch
+  mount, has to allow that components can be mounted.
+\end{omtext}
+
+\begin{omtext}
+  Werkstoffauswahl, Oberfl"acheng"ute und Ausf"uhrung aller bearbeiteten Fl"achen richten
+  sich nach Funktion und Beanspruchung der jeweiligen Bauteile bzw. Kontaktfl"achen und
+  sind unter Ber"ucksichtigung einer m"oglichst kosteng"unstigen Herstellung sinnvoll
+  festzulegen.
+\end{omtext}
+
+\begin{omtext}
+  Gegeben sind die folgenden Kenndaten und Hauptabmessungen:
+\end{omtext}
+
+\begin{omtext}[title=Abmessungen / Lasten]\strut\\
+\begin{tabular}{ll}
+Maximal load	 & $F_{max} = 15 kN$\\
+Maximal height between floor and lower fib edge& 	$h_{max} = \quantityof{1900}\SImillimetre$\\
+wheel displacement& $l_{Rad} = \quantityof{1800}\SImillimetre$\\
+Fib length  & 	$l_{Ausleger} = \quantityof{1300}\SImillimetre$\\
+Minimal clearance between base frame legs & 	$b_{min} = \quantityof{700}\SImillimetre$\\
+Maximal width & $b_{max} = \quantityof{900}\SImillimetre$
+\end{tabular}
+\end{omtext}
+
+\begin{omtext}[title=Werkstoffkennwerte]\strut\\
+\begin{tabular}{ll}
+Material Motor Axis& 	C22E\\
+Material Brake Axis& C45E
+\end{tabular}
+\end{omtext}
+
+\begin{omtext}[title=Beiwerte Seil / Trommel]\strut\\
+\begin{tabular}{ll}
+Beiwert $c$ nach DIN 15020 & $c = 0,08$ \\
+Beiwert $h_1$ nach DIN 15020 & $h_1 = 14$\\
+Beiwert $h_2$ nach DIN 15020 & $h_2 = 1$\\
+Hublastbeiwert  & $\psi = 1,12$
+\end{tabular}
+\end{omtext}
+
+\begin{omtext}[title=Angaben zu Zukaufteilen]\strut\\
+\begin{tabular}{lp{5cm}}
+Getriebemotor & SEW SAF 77R37 DRS 80M4\\
+Ausgangsdrehzahl Getriebemotor & $n_a = \quantityof{6,4}{\power\SIminute{-1}}$\\
+Kranhaken & Gabelkopf- oder "Osenhaken 	nach DIN EN 1677\\
+Bremse	& Elektromagnetische Lamellen-
+		bremse der Fa. Stromag, Typ EMB 160 in Sonderausf"uhrung:
+                vgl. 4 – sonstige Hinweise
+\end{tabular}
+\end{omtext}
+
+\begin{omtext}[title=Gebrauch und Produktion]\strut\\
+\begin{tabular}{ll}
+Einsatzdauer & 15 Jahre\\
+Arbeitsspiele	& 20 H"ube/Arbeitstag\\
+Geplantes Produktionsvolumen& 100 St"uck/Jahr
+\end{tabular}
+\end{omtext}
+\end{omgroup}
+\begin{appendix}
+\begin{omgroup}{Hilfestellungen}
+\begin{omgroup}{Auslegung von Seiltrommeln}
+\begin{omtext}[title=Seiltrommel einlagig bewickelt]
+  Erforderliche Windungszahl zum Aufwickeln der Seill"ange $L_S$ bei einem
+  Wickeldurchmesser $D$:
+
+\[W=2+\frac{L_S}{\atimes[cdot]{D,\pi}}\]
+
+Hiermit l"asst sich f"ur den Seildurchmesser $d$ die erforderliche L"ange $L$ der
+Seiltrommel zur Aufwicklung des Seils absch"atzen, wobei $p$ der Seilsteigung entspricht:
+
+\[L=\atimes[cdot]{W,p}+d\]
+\end{omtext}
+
+\begin{omtext}[title=Hinweis] 
+  F"ur nicht gerillte Seiltrommeln entspricht $p$ dem Durchmesser des Seils.
+\end{omtext}
+
+\begin{omtext}[title=Trommelwanddicke]
+  Beim Aufwickeln des belasteten Seils schn"urt sich der Trommelzylinder ein. Nach
+  \textsc{Ernst} sind die in einem Mantelringsegment tangential wirkende Druckspannung
+  $\sigma_d$ und die durch Einschn"urung des Trommelzylinders in Achsrichtung wirkende
+  Biegespannung $\sigma_b$ f"ur die Bemessung der kleinsten Trommelwanddicke $t_m$ im
+  Bereich der ersten auflaufenden Seilwindung ma"sgebend:
+
+  \[\sigma_d=-\frac{\atimes[cdot]{0.5,F_S,\psi}}{\atimes[cdot]{p,t_m}}
+  \qquad\text{und}\qquad
+  \sigma_b=\pm\frac{\atimes[cdot]{0.96,F_S,\psi}}{\sqrt{\atimes[cdot]{D,\power{t_m}3}}}
+  \]
+
+  mit $F_SS$ Seilzugkraft, $\psi$ Hublastbeiwert, $D$ Trommeldurchmesser, $p$
+  Seilsteigung.
+\end{omtext}
+
+\begin{omtext}
+  Nach Berechnung von $\sigma_d$ und $\sigma_b$ ist nachzuweisen, dass:
+
+\[\sigma_\nu=\sqrt{\power{\sigma_d}2+\power{\sigma_b}2 - \sigma_d\sigma_b}\leq\sigma_{zul}\]
+
+Bei Trommeln l"anger als $1,5D$ ist die Beulsicherheit zu "uberpr"ufen!
+\end{omtext}
+
+\begin{omtext}
+  Die Torsionsschubsspannung $\tau_t$ infolge des zu "ubertragenden Drehmomentes kann auf-
+  grund des verh"altnism"a"sig gro"sen Trommeldurchmessers vernachl"assigt werden, ebenso
+  bei relativ gedrungenen Trommeln die Biegebeanspruchung $\sigma'_b$ durch den Zug des
+  ablaufenden Seils.
+\end{omtext}
+
+\begin{omtext}[title=Quelle]
+  Dubbel, Taschenbuch f"ur den Maschinenbau 19. Auflage
+\end{omtext}
+\end{omgroup}
+\end{omgroup}
+\end{appendix}
+\end{document}
+
+%%% Local Variables: 
+%%% mode: LaTeX
+%%% TeX-master: t
+%%% End: 
+
+

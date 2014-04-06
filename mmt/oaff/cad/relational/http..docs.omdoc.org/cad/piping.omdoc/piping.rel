@@ -1,0 +1,10 @@
+theory http://docs.omdoc.org/cad/piping.omdoc?piping
+Declares http://docs.omdoc.org/cad/piping.omdoc?piping http://docs.omdoc.org/cad/piping.omdoc?piping?pipe
+constant: http://docs.omdoc.org/cad/piping.omdoc?piping?pipe
+Declares http://docs.omdoc.org/cad/piping.omdoc?piping http://docs.omdoc.org/cad/piping.omdoc?piping?piping
+constant: http://docs.omdoc.org/cad/piping.omdoc?piping?piping
+Declares http://docs.omdoc.org/cad/piping.omdoc?piping http://docs.omdoc.org/cad/piping.omdoc?piping?fitting
+constant: http://docs.omdoc.org/cad/piping.omdoc?piping?fitting
+Declares http://docs.omdoc.org/cad/piping.omdoc?piping http://docs.omdoc.org/cad/piping.omdoc?piping?clean-out
+constant: http://docs.omdoc.org/cad/piping.omdoc?piping?clean-out
+Includes http://docs.omdoc.org/cad/piping.omdoc?piping http://docs.omdoc.org/../../fcad/flange/cds/physobj?physobj

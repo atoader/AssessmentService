@@ -1,0 +1,7 @@
+theory http://docs.omdoc.org/crane/torque.omdoc?torque
+Declares http://docs.omdoc.org/crane/torque.omdoc?torque http://docs.omdoc.org/crane/torque.omdoc?torque?torque
+constant: http://docs.omdoc.org/crane/torque.omdoc?torque?torque
+Includes http://docs.omdoc.org/crane/torque.omdoc?torque http://docs.omdoc.org/smglo/sTeX/relation.omdoc?relation
+Includes http://docs.omdoc.org/crane/torque.omdoc?torque http://docs.omdoc.org/../smglo/sTeX/crossproduct?crossproduct
+Includes http://docs.omdoc.org/crane/torque.omdoc?torque http://docs.omdoc.org/../smglo/sTeX/norm?norm
+Includes http://docs.omdoc.org/crane/torque.omdoc?torque http://docs.omdoc.org/../../slides/missing/en/arithmetics?arithmetics

@@ -1,0 +1,85 @@
+namespace http://oaff.kwarc.info/openmath/uom
+
+view Logic1 : http://www.openmath.org/cd?logic1 -> http://cds.omdoc.org/urtheories?ScalaOM =
+  
+  equivalent = (a: Term, b: Term) scala
+    (a,b) match {
+    	case (`false`.term, `false`.term) => `true`
+    	case (`false`.term, `true`.term) => `false`
+    	case (`true`.term, `false`.term) => `false`
+      case (`true`.term, `true`.term) => `true`
+      case _ => equivalent(a,b)  
+    }
+  
+  
+  implies = (a: Term, b: Term) scala
+    (a,b) match {
+    	case (`false`.term, _) => `true`
+    	case (`true`.term, `false`.term) => `false`
+      case (_, `true`.term) => `true`
+      case _ => implies(a,b)  
+    }
+  
+  
+  not = (a: Term) scala
+    a match {
+      case `true`.term => `false`
+      case `false`.term => `true`
+      case _ => not(a)
+    }
+  
+  
+  and = (args: List[Term]) scala
+      var restArgs: List[Term] = Nil
+      var foundFalse = false
+      
+      args.foreach {
+      	case `true`.term =>
+        case `false`.term => foundFalse = true
+        case a => restArgs ::= a
+      }
+      if (foundFalse) {
+        `false`
+      } else {
+        restArgs match {
+          case Nil => `true`
+          case _ => and(restArgs)
+        }
+      }
+  
+  
+  or = (args: List[Term]) scala
+      var restArgs: List[Term] = Nil
+      var foundTrue = false
+      
+      args.foreach {
+      	case `false`.term =>
+        case `true`.term => foundTrue = true
+        case a => restArgs ::= a
+      }
+      if (foundTrue) {
+        `true`
+      } else {
+        restArgs match {
+          case Nil => `false`
+          case _ => or(restArgs)
+        }
+      }
+  
+  
+  xor = (args: List[Term]) scala
+      var restArgs: List[Term] = Nil
+      var countTrue = 0
+      
+      args.foreach {
+      	case `false`.term =>
+        case `true`.term => countTrue += 1
+        case a => restArgs ::= a
+      }
+      restArgs match {
+        case Nil => if (countTrue % 2 == 1) `true` else `false`
+        case _ => if (countTrue % 2 == 1) xor(`true` :: restArgs) else xor(restArgs)
+      }
+  
+
+

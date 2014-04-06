@@ -1,0 +1,196 @@
+<omdoc base="http://www.openmath.org/frameit/frameIT.mmt">
+        <theory name="Ratios" base="http://cds.omdoc.org/frameit">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#41.2.0-157.7.1"/></metadata>
+        <import from="http://www.openmath.org/cd?arith1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#59.3.2-101.3.44"/></metadata>
+            
+          </import><constant name="building_shadow">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#104.4.2-121.4.19"/></metadata>
+       
+       
+       
+     </constant><constant name="human_height">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#124.5.2-138.5.16"/></metadata>
+       
+       
+       
+     </constant><constant name="human_shadow">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#141.6.2-155.6.16"/></metadata>
+       
+       
+       
+     </constant>
+      </theory><theory name="RatiosSol" base="http://cds.omdoc.org/frameit">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#159.9.0-270.12.1"/></metadata>
+        <import from="http://cds.omdoc.org/frameit?Ratios">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#180.10.2-196.10.18"/></metadata>
+            
+          </import><constant name="building_height">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#199.11.2-268.11.71"/></metadata>
+       
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="arith1" name="times"/>
+              <om:OMS position="1" base="http://cds.omdoc.org/frameit" module="Ratios" name="human_height"/><om:OMA position="2"><om:OMS position="2_0" base="http://www.openmath.org/cd" module="arith1" name="divide"/>
+              <om:OMS position="2_1" base="http://cds.omdoc.org/frameit" module="Ratios" name="building_shadow"/><om:OMS position="2_2" base="http://cds.omdoc.org/frameit" module="Ratios" name="human_shadow"/>
+      </om:OMA>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant>
+      </theory><theory name="BasicTrig" base="http://cds.omdoc.org/frameit">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#272.14.0-399.19.1"/></metadata>
+        <import from="http://www.openmath.org/cd?arith1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#293.15.2-335.15.44"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?transc1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#338.16.2-381.16.45"/></metadata>
+            
+          </import><constant name="d">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#384.17.2-387.17.5"/></metadata>
+       
+       
+       
+     </constant><constant name="alpha">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#390.18.2-397.18.9"/></metadata>
+       
+       
+       
+     </constant>
+      </theory><theory name="BasicTrigSol" base="http://cds.omdoc.org/frameit">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#401.21.0-470.24.1"/></metadata>
+        <import from="http://cds.omdoc.org/frameit?BasicTrig">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#426.22.2-445.22.21"/></metadata>
+            
+          </import><constant name="h">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#448.23.2-468.23.22"/></metadata>
+       
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="arith1" name="times"/>
+              <om:OMS position="1" base="http://cds.omdoc.org/frameit" module="BasicTrig" name="d"/><om:OMA position="2"><om:OMS position="2_0" base="http://www.openmath.org/cd" module="transc1" name="tan"/>
+              <om:OMS position="2_1" base="http://cds.omdoc.org/frameit" module="BasicTrig" name="alpha"/>
+      </om:OMA>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant>
+      </theory><theory name="LawOfCosines" base="http://cds.omdoc.org/frameit">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#472.26.0-609.32.1"/></metadata>
+        <import from="http://www.openmath.org/cd?arith1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#496.27.2-538.27.44"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?transc1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#541.28.2-584.28.45"/></metadata>
+            
+          </import><constant name="d">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#587.29.2-590.29.5"/></metadata>
+       
+       
+       
+     </constant><constant name="alpha">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#593.30.2-600.30.9"/></metadata>
+       
+       
+       
+     </constant><constant name="base">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#603.31.2-609.32.1"/></metadata>
+       
+       
+       
+     </constant>
+      </theory><theory name="LawOfCosinesSol" base="http://cds.omdoc.org/frameit">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#611.34.0-739.37.1"/></metadata>
+        <import from="http://cds.omdoc.org/frameit?LawOfCosines">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#639.35.2-661.35.24"/></metadata>
+            
+          </import><constant name="h">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#664.36.2-737.36.75"/></metadata>
+       
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="arith1" name="root"/>
+              <om:OMA position="1"><om:OMS position="1_0" base="http://www.openmath.org/cd" module="arith1" name="minus"/>
+              <om:OMA position="1_1"><om:OMS position="1_1_0" base="http://www.openmath.org/cd" module="arith1" name="plus"/>
+              <om:OMA position="1_1_1"><om:OMS position="1_1_1_0" base="http://www.openmath.org/cd" module="arith1" name="times"/>
+              <om:OMS position="1_1_1_1" base="http://cds.omdoc.org/frameit" module="LawOfCosines" name="d"/><om:OMS position="1_1_1_2" base="http://cds.omdoc.org/frameit" module="LawOfCosines" name="d"/>
+      </om:OMA><om:OMA position="1_1_2"><om:OMS position="1_1_2_0" base="http://www.openmath.org/cd" module="arith1" name="times"/>
+              <om:OMS position="1_1_2_1" base="http://cds.omdoc.org/frameit" module="LawOfCosines" name="base"/><om:OMS position="1_1_2_2" base="http://cds.omdoc.org/frameit" module="LawOfCosines" name="base"/>
+      </om:OMA>
+      </om:OMA><om:OMA position="1_2"><om:OMS position="1_2_0" base="http://www.openmath.org/cd" module="arith1" name="times"/>
+              <om:OMA position="1_2_1"><om:OMS position="1_2_1_0" base="http://www.openmath.org/cd" module="arith1" name="times"/>
+              <om:OMA position="1_2_1_1"><om:OMS position="1_2_1_1_0" base="http://www.openmath.org/cd" module="arith1" name="times"/>
+              <om:OMI position="1_2_1_1_1">2</om:OMI><om:OMS position="1_2_1_1_2" base="http://cds.omdoc.org/frameit" module="LawOfCosines" name="base"/>
+      </om:OMA><om:OMS position="1_2_1_2" base="http://cds.omdoc.org/frameit" module="LawOfCosines" name="d"/>
+      </om:OMA><om:OMA position="1_2_2"><om:OMS position="1_2_2_0" base="http://www.openmath.org/cd" module="transc1" name="cos"/>
+              <om:OMS position="1_2_2_1" base="http://cds.omdoc.org/frameit" module="LawOfCosines" name="alpha"/>
+      </om:OMA>
+      </om:OMA>
+      </om:OMA><om:OMI position="2">2</om:OMI>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant>
+      </theory><theory name="Volume" base="http://cds.omdoc.org/frameit">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#742.40.0-793.44.1"/></metadata>
+        <import from="http://cds.omdoc.org/frameit?RatiosSol">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#760.41.2-779.41.21"/></metadata>
+            
+          </import><constant name="l">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#782.42.2-785.42.5"/></metadata>
+       
+       
+       
+     </constant><constant name="w">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#788.43.2-791.43.5"/></metadata>
+       
+       
+       
+     </constant>
+      </theory><theory name="VolumeSol" base="http://cds.omdoc.org/frameit">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#795.46.0-851.49.1"/></metadata>
+        <import from="http://cds.omdoc.org/frameit?Volume">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#816.47.2-832.47.18"/></metadata>
+            
+          </import><constant name="v">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#835.48.2-849.48.16"/></metadata>
+       
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMSF><om:text format="http://cds.omdoc.org/frameit?VolumeSol"><![CDATA[l * w * h]]></om:text></om:OMSF></om:OMOBJ></definition>
+       
+     </constant>
+      </theory><theory name="Concrete" base="http://cds.omdoc.org/frameit">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#854.52.0-939.56.1"/></metadata>
+        <import from="http://www.openmath.org/cd?arith1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#874.53.2-916.53.44"/></metadata>
+            
+          </import><constant name="mass">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#919.54.2-925.54.8"/></metadata>
+       
+       
+       
+     </constant><constant name="density">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#928.55.2-937.55.11"/></metadata>
+       
+       
+       
+     </constant>
+      </theory><theory name="ConcreteSol" base="http://cds.omdoc.org/frameit">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#941.58.0-1010.61.3"/></metadata>
+        <import from="http://cds.omdoc.org/frameit?Concrete">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#964.59.2-982.59.20"/></metadata>
+            
+          </import><constant name="vol">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#985.60.2-1006.60.23"/></metadata>
+       
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="arith1" name="times"/>
+              <om:OMS position="1" base="http://cds.omdoc.org/frameit" module="Concrete" name="mass"/><om:OMS position="2" base="http://cds.omdoc.org/frameit" module="Concrete" name="density"/>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant>
+      </theory><theory name="FreeSpace" base="http://cds.omdoc.org/frameit">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#1012.63.0-1090.67.1"/></metadata>
+        <import from="http://cds.omdoc.org/frameit?Concrete">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#1033.64.2-1051.64.20"/></metadata>
+            
+          </import><import from="http://cds.omdoc.org/frameit?Volume">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#1054.65.2-1070.65.18"/></metadata>
+            
+          </import><constant name="free">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#1073.66.2-1088.66.17"/></metadata>
+       
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMSF><om:text format="http://cds.omdoc.org/frameit?FreeSpace"><![CDATA[v - vol]]></om:text></om:OMSF></om:OMOBJ></definition>
+       
+     </constant>
+      </theory>
+     </omdoc>

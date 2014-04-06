@@ -1,0 +1,4 @@
+theory http://cds.omdoc.org/frameit?BasicTrigSol
+Includes http://cds.omdoc.org/frameit?BasicTrigSol http://cds.omdoc.org/frameit?BasicTrig
+Declares http://cds.omdoc.org/frameit?BasicTrigSol http://cds.omdoc.org/frameit?BasicTrigSol?h
+constant: http://cds.omdoc.org/frameit?BasicTrigSol?h

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="ConcreteSol" base="http://cds.omdoc.org/frameit">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#941.58.0-1010.61.3"/>
+    </metadata>
+    <import from="http://cds.omdoc.org/frameit?Concrete">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#964.59.2-982.59.20"/>
+      </metadata>
+    </import>
+    <constant name="vol">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#985.60.2-1006.60.23"/>
+      </metadata>
+      <definition>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS position="0" base="http://www.openmath.org/cd" module="arith1" name="times"/>
+            <om:OMS position="1" base="http://cds.omdoc.org/frameit" module="Concrete" name="mass"/>
+            <om:OMS position="2" base="http://cds.omdoc.org/frameit" module="Concrete" name="density"/>
+          </om:OMA>
+        </om:OMOBJ>
+      </definition>
+    </constant>
+  </theory>
+</omdoc>

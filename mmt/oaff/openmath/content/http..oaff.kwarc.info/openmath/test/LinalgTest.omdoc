@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <view 
+  name="LinalgTest" base="http://oaff.kwarc.info/openmath/test" from="http://oaff.kwarc.info/openmath/test?Linalg" to="http://cds.omdoc.org/urtheories?ScalaOM">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#1182.25.0-1555.33.1"/>
+    </metadata>
+    <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3FOpenMath]" domain="http://www.openmath.org/cd?OpenMath">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#1255.26.2-1322.26.69"/>
+      </metadata>
+      <value>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://cds.omdoc.org/urtheories" module="Syntactic"/>
+        </om:OMOBJ>
+      </value>
+    </import>
+    <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Farith1]" domain="http://www.openmath.org/cd?arith1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#1325.27.2-1361.27.38"/>
+      </metadata>
+      <value>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Arith1"/>
+        </om:OMOBJ>
+      </value>
+    </import>
+    <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Frelation1]" domain="http://www.openmath.org/cd?relation1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#1364.28.2-1403.28.41"/>
+      </metadata>
+      <value>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Relation1"/>
+        </om:OMOBJ>
+      </value>
+    </import>
+    <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Flogic1]" domain="http://www.openmath.org/cd?logic1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#1406.29.2-1439.29.35"/>
+      </metadata>
+      <value>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Logic1"/>
+        </om:OMOBJ>
+      </value>
+    </import>
+    <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Flinalg1]" domain="http://www.openmath.org/cd?linalg1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#1442.30.2-1477.30.37"/>
+      </metadata>
+      <value>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Linalg1"/>
+        </om:OMOBJ>
+      </value>
+    </import>
+    <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Flinalg2]" domain="http://www.openmath.org/cd?linalg2">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#1480.31.2-1515.31.37"/>
+      </metadata>
+      <value>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Linalg2"/>
+        </om:OMOBJ>
+      </value>
+    </import>
+    <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Flinalg4]" domain="http://www.openmath.org/cd?linalg4">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/linalg.mmt#1518.32.2-1553.32.37"/>
+      </metadata>
+      <value>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Linalg4"/>
+        </om:OMOBJ>
+      </value>
+    </import>
+</view>
+</omdoc>

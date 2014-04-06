@@ -1,0 +1,82 @@
+<omdoc base="http://docs.omdoc.org/crane/castor.omdoc">
+  <theory name="castor" base="http://docs.omdoc.org/crane/castor.omdoc">
+    <import from="../../../slides/units/en/angles?angles"> </import>
+    <constant name="caster"> </constant>
+    <constant name="fork"> </constant>
+    <constant name="rigid-caster"> </constant>
+    <constant name="swivel-caster"> </constant>
+  </theory>
+  <definition 
+  for="http://docs.omdoc.org/crane/castor.omdoc?castor?fork http://docs.omdoc.org/crane/castor.omdoc?castor?rigid-caster http://docs.omdoc.org/crane/castor.omdoc?castor?swivel-caster http://docs.omdoc.org/crane/castor.omdoc?castor?caster">
+    <omdoc:CMP 
+    stex:srcref="../../../../../stc/fcad/crane/cds/castor.tex#textrange(from=3;1,to=17;16)" about="#castor.definition6.CMP1" xml:id="castor.definition6.CMP1" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#castor.definition6.CMP1.p1" class="ltx_p" id="castor.definition6.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/crane/castor.omdoc?castor?caster"> caster </omdoc:ref>
+        (or
+        <omdoc:ref target="http://docs.omdoc.org/crane/castor.omdoc?castor?caster"> castor </omdoc:ref>
+        ) is an undriven, single, double, or compound
+        <omdoc:ref target="http://docs.omdoc.org/crane/wheel.omdoc?wheel?wheel"> wheel </omdoc:ref>
+        mounted on a
+        <omdoc:ref target="http://docs.omdoc.org/crane/castor.omdoc?castor?fork"> fork </omdoc:ref>
+        that is designed to be mounted to the bottom of a larger object (the
+        “
+        vehicle
+        ”
+        ) so as to enable that object to be easily moved. They are available in various sizes, and are commonly made of rubber, plastic, nylon, aluminum, or stainless steel.
+</p>
+      <p 
+      about="#castor.definition6.CMP1.p2" class="ltx_p" id="castor.definition6.CMP1.p2" xmlns="http://www.w3.org/1999/xhtml">
+        There are two kinds of
+        <omdoc:ref target="http://docs.omdoc.org/crane/castor.omdoc?castor?caster"> caster </omdoc:ref>
+        s:
+</p>
+      <ul class="ltx_itemize" id="I1" xmlns="http://www.w3.org/1999/xhtml">
+        <li style="list-style-type:none;" class="ltx_item" id="I1.i1">
+          <span class=" ltx_tag_itemize">•</span>
+          <div class="ltx_para" id="I1.i1.p1">
+            <p about="#I1.i1.p1.p1" class="ltx_p" id="I1.i1.p1.p1">
+              <omdoc:ref target="http://docs.omdoc.org/crane/castor.omdoc?castor?rigid-caster">
+                rigid caster
+              </omdoc:ref>
+              s whose fork is fixed relative to the vehicle, and
+            </p>
+          </div>
+        </li>
+        <li style="list-style-type:none;" class="ltx_item" id="I1.i2">
+          <span class=" ltx_tag_itemize">•</span>
+          <div class="ltx_para" id="I1.i2.p1">
+            <p about="#I1.i2.p1.p1" class="ltx_p" id="I1.i2.p1.p1">
+              <omdoc:ref target="http://docs.omdoc.org/crane/castor.omdoc?castor?swivel-caster">
+                swivel caster
+              </omdoc:ref>
+              s have an additional swivel joint above the fork allows the fork to freely rotate about
+              <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/crane/quantities.omdoc" module="quantities" name="quantityof">
+                  </om:OMS>
+                  <om:OMI>360</om:OMI>
+                  <om:OMS base="http://docs.omdoc.org/crane/angles.omdoc" module="angles" name="arcdegree"></om:OMS>
+                </om:OMA>
+              </om:OMOBJ>
+              , thus enabling the wheel to roll in any direction.
+            </p>
+          </div>
+        </li>
+      </ul>
+</omdoc:CMP>
+</definition>
+  <plain-narration>
+    <omdoc:omtext 
+    stex:srcref="../../../../../stc/fcad/crane/cds/castor.tex#textrange(from=19;1,to=24;12)" about="#castor.omtext7" xml:id="castor.omtext7" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <omdoc:CMP 
+      stex:srcref="../../../../../stc/fcad/crane/cds/castor.tex#textrange(from=19;1,to=19;15)" about="#castor.omtext7.CMP1" xml:id="castor.omtext7.CMP1">
+        <p 
+        about="#castor.omtext7.CMP1.p1" class="ltx_p" id="castor.omtext7.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+          Castors are found in numerous applications, including shopping carts, office chairs, and material handling equipment. High capacity, heavy duty casters are used in many industrial applications, such as platform trucks, carts, assemblies, and tow lines in plants. Generally, casters operate well on smooth and flat surfaces.
+</p>
+</omdoc:CMP>
+</omdoc:omtext>
+  </plain-narration>
+</omdoc>

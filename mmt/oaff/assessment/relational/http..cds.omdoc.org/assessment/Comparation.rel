@@ -1,0 +1,6 @@
+theory http://cds.omdoc.org/assessment?Comparation
+Includes http://cds.omdoc.org/assessment?Comparation http://cds.omdoc.org/assessment?Lists
+Declares http://cds.omdoc.org/assessment?Comparation http://cds.omdoc.org/assessment?Comparation?base
+constant: http://cds.omdoc.org/assessment?Comparation?base
+Declares http://cds.omdoc.org/assessment?Comparation http://cds.omdoc.org/assessment?Comparation?comp
+constant: http://cds.omdoc.org/assessment?Comparation?comp

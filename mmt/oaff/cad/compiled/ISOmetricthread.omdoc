@@ -1,0 +1,471 @@
+<omdoc base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc">
+  <theory name="ISOmetricthread" base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc">
+    <import from="http://docs.omdoc.org/smglo/sTeX/arith.omdoc?arith"> </import>
+    <import from="../../../slides/units/en/quantities?quantities"> </import>
+    <import from="../../../slides/units/en/angles?angles"> </import>
+    <import from="../../../slides/units/en/length?length"> </import>
+    <import from="../../../fcad/flange/cds/thread?thread"> </import>
+    <constant name="ISOmetricthread">
+      <notation>
+        <text-notation 
+        dimensions="1" name="http://docs.omdoc.org/cad/ISOmetricthread.omdoc?ISOmetricthread?ISOmetricthread" precedence="1" fixity="mixfix" arguments="M ⁢ 1 × 2">
+</text-notation>
+      </notation>
+    </constant>
+    <constant name="sISOmetricthread">
+      <notation>
+        <text-notation 
+        dimensions="1" name="http://docs.omdoc.org/cad/ISOmetricthread.omdoc?ISOmetricthread?sISOmetricthread" precedence="1" fixity="mixfix" arguments="M ⁢ 1">
+</text-notation>
+      </notation>
+    </constant>
+  </theory>
+  <definition 
+  for="http://docs.omdoc.org/cad/ISOmetricthread.omdoc?ISOmetricthread?ISOmetricthread http://docs.omdoc.org/cad/ISOmetricthread.omdoc?ISOmetricthread?sISOmetricthread">
+    <omdoc:CMP 
+    stex:srcref="../../../fcad/flange/cds/ISOmetricthread.tex#textrange(from=8;0,to=30;16)" about="#ISOmetricthread.def.CMP1" xml:id="ISOmetricthread.def.CMP1" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:om="http://www.openmath.org/OpenMath" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#ISOmetricthread.def.CMP1.p1" class="ltx_p" id="ISOmetricthread.def.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        Straight
+        <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?thread"> thread </omdoc:ref>
+        s are standardized by diameter
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMV name="d"></om:OMV>
+        </om:OMOBJ>
+        (in
+        <omdoc:ref target="http://docs.omdoc.org/cad/length.omdoc?length?millimeter">
+          millimeter
+        </omdoc:ref>
+        s) and
+        <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?pitch"> pitch </omdoc:ref>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMV name="p"></om:OMV>
+        </om:OMOBJ>
+        . A
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMV name="d"></om:OMV>
+            <om:OMV name="p"></om:OMV>
+          </om:OMA>
+        </om:OMOBJ>
+        thread has one
+        <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?start"> start </omdoc:ref>
+        , an angle of
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS base="http://docs.omdoc.org/cad/quantities.omdoc" module="quantities" name="quantityof">
+            </om:OMS>
+            <om:OMI>60</om:OMI>
+            <om:OMS base="http://docs.omdoc.org/cad/angles.omdoc" module="angles" name="arcdegree"></om:OMS>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?pitch"> pitch </omdoc:ref>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMV name="p"></om:OMV>
+        </om:OMOBJ>
+        ,
+        <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?major-diameter">
+          major diameter
+        </omdoc:ref>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMV name="d"></om:OMV>
+        </om:OMOBJ>
+        and
+        <omdoc:ref target="http://docs.omdoc.org/cad/thread.omdoc?thread?minor-diameter">
+          minor diameter
+        </omdoc:ref>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS base="http://docs.omdoc.org/cad/arithmetics.omdoc" module="arithmetics" name="times">
+            </om:OMS>
+            <om:OMV name="d"></om:OMV>
+            <om:OMA>
+              <om:OMS base="http://docs.omdoc.org/cad/arith.omdoc" module="arith" name="divide"></om:OMS>
+              <om:OMA>
+                <om:OMS base="http://docs.omdoc.org/cad/arithmetics.omdoc" module="arithmetics" name="times">
+                </om:OMS>
+                <om:OMI>5</om:OMI>
+                <om:OMA>
+                  <om:OMS base="http://docs.omdoc.org/cad/latexml.omdoc" module="latexml" name="square-root">
+                  </om:OMS>
+                  <om:OMI>3</om:OMI>
+                </om:OMA>
+              </om:OMA>
+              <om:OMI>8</om:OMI>
+            </om:OMA>
+            <om:OMV name="p"></om:OMV>
+          </om:OMA>
+        </om:OMOBJ>
+        .
+</p>
+      <p 
+      about="#ISOmetricthread.def.CMP1.p2" class="ltx_p" id="ISOmetricthread.def.CMP1.p2" xmlns="http://www.w3.org/1999/xhtml">
+        The following threads are recognized by the ISO 261 standard:
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>1</om:OMI>
+            <om:OMF dec="0.25"/>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMF dec="1.2"/>
+            <om:OMF dec="0.25"/>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMF dec="1.6"/>
+            <om:OMF dec="0.35"/>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>2</om:OMI>
+            <om:OMF dec="0.4"/>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMF dec="2.5"/>
+            <om:OMF dec="0.45"/>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>3</om:OMI>
+            <om:OMF dec="0.5"/>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>4</om:OMI>
+            <om:OMF dec="0.7"/>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>5</om:OMI>
+            <om:OMF dec="0.8"/>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>6</om:OMI>
+            <om:OMI>1</om:OMI>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>8</om:OMI>
+            <om:OMF dec="1.25"/>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>8</om:OMI>
+            <om:OMI>1</om:OMI>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>10</om:OMI>
+            <om:OMF dec="1.5"/>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>10</om:OMI>
+            <om:OMF dec="1.25"/>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>10</om:OMI>
+            <om:OMI>1</om:OMI>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>12</om:OMI>
+            <om:OMF dec="1.75"/>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>12</om:OMI>
+            <om:OMF dec="1.5"/>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>12</om:OMI>
+            <om:OMF dec="1.25"/>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>16</om:OMI>
+            <om:OMI>2</om:OMI>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>16</om:OMI>
+            <om:OMF dec="1.5"/>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>20</om:OMI>
+            <om:OMF dec="2.5"/>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>20</om:OMI>
+            <om:OMI>2</om:OMI>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>20</om:OMI>
+            <om:OMF dec="1.5"/>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>24</om:OMI>
+            <om:OMI>3</om:OMI>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>24</om:OMI>
+            <om:OMI>2</om:OMI>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>30</om:OMI>
+            <om:OMF dec="3.5"/>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>30</om:OMI>
+            <om:OMI>2</om:OMI>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>36</om:OMI>
+            <om:OMI>4</om:OMI>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>36</om:OMI>
+            <om:OMI>3</om:OMI>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>42</om:OMI>
+            <om:OMF dec="4.5"/>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>42</om:OMI>
+            <om:OMI>3</om:OMI>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>48</om:OMI>
+            <om:OMI>5</om:OMI>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>48</om:OMI>
+            <om:OMI>3</om:OMI>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>56</om:OMI>
+            <om:OMF dec="5.5"/>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>56</om:OMI>
+            <om:OMI>4</om:OMI>
+          </om:OMA>
+        </om:OMOBJ>
+        ,
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>64</om:OMI>
+            <om:OMI>6</om:OMI>
+          </om:OMA>
+        </om:OMOBJ>
+        , and
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS 
+            base="http://docs.omdoc.org/cad/ISOmetricthread.omdoc" module="ISOmetricthread" name="ISOmetricthread">
+</om:OMS>
+            <om:OMI>64</om:OMI>
+            <om:OMI>4</om:OMI>
+          </om:OMA>
+        </om:OMOBJ>
+        . The names of those threads that only exist in one pitch may be shortened by leaving out the pitch information.
+</p>
+</omdoc:CMP>
+</definition>
+</omdoc>

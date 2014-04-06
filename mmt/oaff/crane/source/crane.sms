@@ -1,0 +1,5 @@
+\begin{module}[id=crane]%
+\importmodule[load=\FCAD{crane/cds/sheave}]{sheave}%
+\importmodule[load=\FCAD{crane/cds/winch}]{winch}%
+\importmodule[load=\FCAD{crane/cds/hoist}]{hoist}%
+\end{module}%

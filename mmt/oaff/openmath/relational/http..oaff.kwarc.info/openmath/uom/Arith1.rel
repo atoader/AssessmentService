@@ -1,0 +1,13 @@
+HasDomain http://oaff.kwarc.info/openmath/uom?Arith1 http://www.openmath.org/cd?arith1
+HasCodomain http://oaff.kwarc.info/openmath/uom?Arith1 http://cds.omdoc.org/urtheories?ScalaOM
+view http://oaff.kwarc.info/openmath/uom?Arith1
+Declares http://oaff.kwarc.info/openmath/uom?Arith1 http://oaff.kwarc.info/openmath/uom?Arith1?plus
+Declares http://oaff.kwarc.info/openmath/uom?Arith1 http://oaff.kwarc.info/openmath/uom?Arith1?minus
+Declares http://oaff.kwarc.info/openmath/uom?Arith1 http://oaff.kwarc.info/openmath/uom?Arith1?times
+Declares http://oaff.kwarc.info/openmath/uom?Arith1 http://oaff.kwarc.info/openmath/uom?Arith1?divide
+Declares http://oaff.kwarc.info/openmath/uom?Arith1 http://oaff.kwarc.info/openmath/uom?Arith1?power
+Declares http://oaff.kwarc.info/openmath/uom?Arith1 http://oaff.kwarc.info/openmath/uom?Arith1?root
+Declares http://oaff.kwarc.info/openmath/uom?Arith1 http://oaff.kwarc.info/openmath/uom?Arith1?abs
+Declares http://oaff.kwarc.info/openmath/uom?Arith1 http://oaff.kwarc.info/openmath/uom?Arith1?unary_minus
+Declares http://oaff.kwarc.info/openmath/uom?Arith1 http://oaff.kwarc.info/openmath/uom?Arith1?gcd
+Declares http://oaff.kwarc.info/openmath/uom?Arith1 http://oaff.kwarc.info/openmath/uom?Arith1?lcm

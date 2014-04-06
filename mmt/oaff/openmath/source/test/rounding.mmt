@@ -1,0 +1,20 @@
+namespace http://oaff.kwarc.info/openmath/test
+
+import cd http://www.openmath.org/cd
+
+theory Rounding =
+  include cd:?relation1
+  include cd:?logic1
+  include cd:?rounding1
+  floorTest : FMP = ⌊ 3.4 ⌋ = 3
+  ceilingTest : FMP = ⌈ 1.2 ⌉ = 2
+  roundTest : FMP = round 3.7 = 4
+  truncTest : FMP = trunc 3.7 = 3
+
+
+view RoundingTest : ?Rounding -> http://cds.omdoc.org/urtheories?ScalaOM =
+  include cd:?OpenMath  = http://cds.omdoc.org/urtheories?Syntactic
+  include cd:?relation1 = uom?Relation1
+  include cd:?logic1 = uom?Logic1
+  include cd:?rounding1 = uom?Rounding1
+

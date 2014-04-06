@@ -1,0 +1,22 @@
+<omdoc base="http://www.openmath.org/uom/nums.mmt">
+        <view name="Nums1" base="http://oaff.kwarc.info/openmath/uom" from="http://www.openmath.org/cd?nums1" to="http://cds.omdoc.org/urtheories?ScalaOM">
+           <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/nums.mmt#48.2.0-577.21.1"/></metadata>
+           <constant name="rational"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/nums.mmt#142.4.2-573.19.3"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="num"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV><om:OMV position="1" name="den"><type><om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[(num, den) match {
+		  case (OMI(x), OMI(y)) =>
+		    if (y == 0) throw UOMException("nums1.rational: division by zero")
+		    if (Numbers.isInt(x.toDouble/y.toDouble)) return OMI(x/y)
+		    var x2 = x
+		    var y2 = y
+		    if (y < 0) {
+		      x2 = -x
+		      y2 = -y
+		    }
+		    var gcd = x2.gcd(y2)
+		    rational(OMI(x2/gcd), OMI(y2/gcd))
+		  case _ => rational(num, den)
+	  }]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant>
+         </view>
+     </omdoc>

@@ -1,0 +1,11 @@
+\begin{module}[id=price-function]%
+  \importmodule[load=\FCAD{flange/cds/financial-transaction}]{financial-transaction}%
+  \gimport{functions}%
+\symdef[name=unitprice]{unitpriceOp}{u_1}%
+\symdef{unitprice}[1]{\unitpriceOp}%
+\symdef[name=unitpricefunction]{unitpricefunctionOp}{p}%
+\symdef{unitpricefunction}[1]{\prefix\unitpricefunctionOp{#1}}%
+\symdef{discountedprice}[3]{\prefix{{#1}_{#2}}{#3}}%
+\symdef[name=discountedunitprice]{discountedunitpriceOp}[2]{u_{#1}^{#2}}%
+\symdef{discountedunitprice}[3]{\prefix{\discountedunitpriceOp{#1}{#2}}{#3}}%
+\end{module}%

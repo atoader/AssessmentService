@@ -1,0 +1,48 @@
+// This is an MMT script that builds this project. It can be run by checking out MMT at https://svn.kwarc.info/repos/MMT/deploy and running MMT using the shell scripts given there.
+
+log console
+log file mmt.log
+//log+ presenter
+//log+ backend
+log+ controller
+//log+ extman
+//log+ reader
+log+ archive    
+//log+ checker
+//log+ object-checker
+//log+ query
+//log+ catalog
+//log+ checker
+log+ frameit
+log+ uom
+log+ server
+//log+ abox
+//log+ structure-parser
+//log+ parser
+//log+ scanner
+//log+ lf
+log+ library
+
+extension info.kwarc.mmt.lf.Plugin
+extension info.kwarc.mmt.frameit.FrameitPlugin
+
+archive add ../../oaff/urtheories
+build urtheories mmt-omdoc
+build urtheories index
+
+archive add ../../oaff/openmath
+
+//archive openmath clean
+build openmath mmt-omdoc
+build openmath index
+archive openmath extract http..www.openmath.org
+archive openmath extract http..oaff.kwarc.info
+//archive openmath mar openmath.mar
+archive openmath register info.kwarc.oaff.openmath.uom
+
+archive add ../../oaff/assessment
+build assessment mmt-omdoc
+build assessment index
+
+server on 8080
+base http://docs.omdoc.org/mmt

@@ -1,0 +1,84 @@
+<omdoc base="http://www.openmath.org/test/complex.mmt">
+        <theory name="Complex" base="http://oaff.kwarc.info/openmath/test">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/complex.mmt#88.4.0-365.13.1"/></metadata>
+        <import from="http://www.openmath.org/cd?arith1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/complex.mmt#107.5.2-126.5.21"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?relation1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/complex.mmt#129.6.2-151.6.24"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?logic1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/complex.mmt#154.7.2-173.7.21"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?complex1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/complex.mmt#176.8.2-197.8.23"/></metadata>
+            
+          </import><constant name="realTest1">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/complex.mmt#200.9.2-235.9.37"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="complex1" name="real"/>
+              <om:OMA position="1"><om:OMS position="1_0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMA position="1_1"><om:OMS position="1_1_0" base="http://www.openmath.org/cd" module="complex1" name="complex_cartesian"/>
+              <om:OMI position="1_1_1">1</om:OMI><om:OMI position="1_1_2">2</om:OMI>
+      </om:OMA><om:OMI position="1_2">1</om:OMI>
+      </om:OMA>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant><constant name="imaginaryTest">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/complex.mmt#238.10.2-277.10.41"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="complex1" name="imaginary"/>
+              <om:OMA position="1"><om:OMS position="1_0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMA position="1_1"><om:OMS position="1_1_0" base="http://www.openmath.org/cd" module="complex1" name="complex_cartesian"/>
+              <om:OMI position="1_1_1">1</om:OMI><om:OMI position="1_1_2">2</om:OMI>
+      </om:OMA><om:OMI position="1_2">2</om:OMI>
+      </om:OMA>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant><constant name="argument">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/complex.mmt#280.11.2-315.11.37"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="complex1" name="argument"/>
+              <om:OMA position="1"><om:OMS position="1_0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMA position="1_1"><om:OMS position="1_1_0" base="http://www.openmath.org/cd" module="complex1" name="complex_polar"/>
+              <om:OMI position="1_1_1">1</om:OMI><om:OMI position="1_1_2">2</om:OMI>
+      </om:OMA><om:OMI position="1_2">2</om:OMI>
+      </om:OMA>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant><constant name="conjugate">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/complex.mmt#318.12.2-363.12.47"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="complex1" name="conjugate"/>
+              <om:OMA position="1"><om:OMS position="1_0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMA position="1_1"><om:OMS position="1_1_0" base="http://www.openmath.org/cd" module="complex1" name="complex_cartesian"/>
+              <om:OMI position="1_1_1">1</om:OMI><om:OMI position="1_1_2">2</om:OMI>
+      </om:OMA><om:OMA position="1_2"><om:OMS position="1_2_0" base="http://www.openmath.org/cd" module="complex1" name="complex_cartesian"/>
+              <om:OMI position="1_2_1">1</om:OMI><om:OMA position="1_2_2"><om:OMS position="1_2_2_0" base="http://www.openmath.org/cd" module="arith1" name="unary_minus"/>
+              <om:OMI position="1_2_2_1">2</om:OMI>
+      </om:OMA>
+      </om:OMA>
+      </om:OMA>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant>
+      </theory><view name="ComplexTest" base="http://oaff.kwarc.info/openmath/test" from="http://oaff.kwarc.info/openmath/test?Complex" to="http://cds.omdoc.org/urtheories?ScalaOM">
+           <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/complex.mmt#367.15.0-668.21.1"/></metadata>
+           <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3FOpenMath]" domain="http://www.openmath.org/cd?OpenMath">
+                     <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/complex.mmt#442.16.2-509.16.69"/></metadata>
+                     <value><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://cds.omdoc.org/urtheories" module="Syntactic"/></om:OMOBJ></value>
+                </import><import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Farith1]" domain="http://www.openmath.org/cd?arith1">
+                     <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/complex.mmt#512.17.2-548.17.38"/></metadata>
+                     <value><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Arith1"/></om:OMOBJ></value>
+                </import><import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Frelation1]" domain="http://www.openmath.org/cd?relation1">
+                     <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/complex.mmt#551.18.2-590.18.41"/></metadata>
+                     <value><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Relation1"/></om:OMOBJ></value>
+                </import><import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Flogic1]" domain="http://www.openmath.org/cd?logic1">
+                     <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/complex.mmt#593.19.2-626.19.35"/></metadata>
+                     <value><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Logic1"/></om:OMOBJ></value>
+                </import><import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Fcomplex1]" domain="http://www.openmath.org/cd?complex1">
+                     <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/complex.mmt#629.20.2-666.20.39"/></metadata>
+                     <value><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Complex1"/></om:OMOBJ></value>
+                </import>
+         </view>
+     </omdoc>

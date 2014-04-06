@@ -1,0 +1,22 @@
+theory http://www.openmath.org/cd?units_imperial1
+HasMeta http://www.openmath.org/cd?units_imperial1 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?units_imperial1 http://www.openmath.org/cd?units_imperial1?acre
+constant: http://www.openmath.org/cd?units_imperial1?acre
+Declares http://www.openmath.org/cd?units_imperial1 http://www.openmath.org/cd?units_imperial1?bar
+constant: http://www.openmath.org/cd?units_imperial1?bar
+Declares http://www.openmath.org/cd?units_imperial1 http://www.openmath.org/cd?units_imperial1?foot
+constant: http://www.openmath.org/cd?units_imperial1?foot
+Declares http://www.openmath.org/cd?units_imperial1 http://www.openmath.org/cd?units_imperial1?mile
+constant: http://www.openmath.org/cd?units_imperial1?mile
+Declares http://www.openmath.org/cd?units_imperial1 http://www.openmath.org/cd?units_imperial1?miles_per_hr
+constant: http://www.openmath.org/cd?units_imperial1?miles_per_hr
+Declares http://www.openmath.org/cd?units_imperial1 http://www.openmath.org/cd?units_imperial1?miles_per_hr_sqrd
+constant: http://www.openmath.org/cd?units_imperial1?miles_per_hr_sqrd
+Declares http://www.openmath.org/cd?units_imperial1 http://www.openmath.org/cd?units_imperial1?pint
+constant: http://www.openmath.org/cd?units_imperial1?pint
+Declares http://www.openmath.org/cd?units_imperial1 http://www.openmath.org/cd?units_imperial1?pound_force
+constant: http://www.openmath.org/cd?units_imperial1?pound_force
+Declares http://www.openmath.org/cd?units_imperial1 http://www.openmath.org/cd?units_imperial1?pound_mass
+constant: http://www.openmath.org/cd?units_imperial1?pound_mass
+Declares http://www.openmath.org/cd?units_imperial1 http://www.openmath.org/cd?units_imperial1?yard
+constant: http://www.openmath.org/cd?units_imperial1?yard

@@ -1,0 +1,18 @@
+HasDomain http://oaff.kwarc.info/openmath/uom?Set1 http://www.openmath.org/cd?set1
+HasCodomain http://oaff.kwarc.info/openmath/uom?Set1 http://cds.omdoc.org/urtheories?ScalaOM
+view http://oaff.kwarc.info/openmath/uom?Set1
+Declares http://oaff.kwarc.info/openmath/uom?Set1 http://oaff.kwarc.info/openmath/uom?Set1?cartesian_product
+Declares http://oaff.kwarc.info/openmath/uom?Set1 http://oaff.kwarc.info/openmath/uom?Set1?emptyset
+Declares http://oaff.kwarc.info/openmath/uom?Set1 http://oaff.kwarc.info/openmath/uom?Set1?map
+Declares http://oaff.kwarc.info/openmath/uom?Set1 http://oaff.kwarc.info/openmath/uom?Set1?size
+Declares http://oaff.kwarc.info/openmath/uom?Set1 http://oaff.kwarc.info/openmath/uom?Set1?set
+Declares http://oaff.kwarc.info/openmath/uom?Set1 http://oaff.kwarc.info/openmath/uom?Set1?suchthat
+Declares http://oaff.kwarc.info/openmath/uom?Set1 http://oaff.kwarc.info/openmath/uom?Set1?intersect
+Declares http://oaff.kwarc.info/openmath/uom?Set1 http://oaff.kwarc.info/openmath/uom?Set1?union
+Declares http://oaff.kwarc.info/openmath/uom?Set1 http://oaff.kwarc.info/openmath/uom?Set1?in
+Declares http://oaff.kwarc.info/openmath/uom?Set1 http://oaff.kwarc.info/openmath/uom?Set1?notin
+Declares http://oaff.kwarc.info/openmath/uom?Set1 http://oaff.kwarc.info/openmath/uom?Set1?setdiff
+Declares http://oaff.kwarc.info/openmath/uom?Set1 http://oaff.kwarc.info/openmath/uom?Set1?subset
+Declares http://oaff.kwarc.info/openmath/uom?Set1 http://oaff.kwarc.info/openmath/uom?Set1?prsubset
+Declares http://oaff.kwarc.info/openmath/uom?Set1 http://oaff.kwarc.info/openmath/uom?Set1?notsubset
+Declares http://oaff.kwarc.info/openmath/uom?Set1 http://oaff.kwarc.info/openmath/uom?Set1?notprsubset

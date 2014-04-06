@@ -1,0 +1,7 @@
+HasDomain http://oaff.kwarc.info/openmath/uom?Integer1 http://www.openmath.org/cd?integer1
+HasCodomain http://oaff.kwarc.info/openmath/uom?Integer1 http://cds.omdoc.org/urtheories?ScalaOM
+view http://oaff.kwarc.info/openmath/uom?Integer1
+Declares http://oaff.kwarc.info/openmath/uom?Integer1 http://oaff.kwarc.info/openmath/uom?Integer1?factorof
+Declares http://oaff.kwarc.info/openmath/uom?Integer1 http://oaff.kwarc.info/openmath/uom?Integer1?factorial
+Declares http://oaff.kwarc.info/openmath/uom?Integer1 http://oaff.kwarc.info/openmath/uom?Integer1?quotient
+Declares http://oaff.kwarc.info/openmath/uom?Integer1 http://oaff.kwarc.info/openmath/uom?Integer1?remainder

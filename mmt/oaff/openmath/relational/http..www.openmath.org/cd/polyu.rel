@@ -1,0 +1,10 @@
+theory http://www.openmath.org/cd?polyu
+HasMeta http://www.openmath.org/cd?polyu http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?polyu http://www.openmath.org/cd?polyu?term
+constant: http://www.openmath.org/cd?polyu?term
+Declares http://www.openmath.org/cd?polyu http://www.openmath.org/cd?polyu?poly_u_rep
+constant: http://www.openmath.org/cd?polyu?poly_u_rep
+Declares http://www.openmath.org/cd?polyu http://www.openmath.org/cd?polyu?polynomial_u
+constant: http://www.openmath.org/cd?polyu?polynomial_u
+Declares http://www.openmath.org/cd?polyu http://www.openmath.org/cd?polyu?polynomial_ring_u
+constant: http://www.openmath.org/cd?polyu?polynomial_ring_u

@@ -1,0 +1,79 @@
+http://mercurial.selenic.com/downloads/
+http://isabelle.in.tum.de/repos/isabelle/rev/21c42b095c84
+
+----------------
+http://www.jedit.org/api/org/gjt/sp/jedit/syntax/TokenMarker.html
+chops text into tokens for assigning font style
+to hide, use degenerate font style
+
+http://www.jedit.org/api/org/gjt/sp/jedit/buffer/JEditBuffer.html#markTokens%28int,%20org.gjt.sp.jedit.syntax.TokenHandler%29
+calls
+http://www.jedit.org/api/org/gjt/sp/jedit/syntax/TokenMarker.html#markTokens%28org.gjt.sp.jedit.syntax.TokenMarker.LineContext,%20org.gjt.sp.jedit.syntax.TokenHandler,%20javax.swing.text.Segment%29
+Makarius overrides it
+tokens sent to http://www.jedit.org/api/org/gjt/sp/jedit/syntax/TokenHandler.html
+
+Makarius replaces jEdit's default TextAreaPainter with his Text_Area_Painter
+then swaps out TextAreaPainter$PaintText with his
+
+own painter: because TokenMarker always starts from 0 to get context
+TokenMarker needed to get font metrics, which is needed to convert logical and pixel coordinates
+
+patches\jedit-4.5.1\extended_styles adds additional styles
+
+TokenMarkup determined by Mode,
+mode provided by ModeProvider based on buffer
+Makarius replaces ModeProvider to force his TokenMarkup provider for his mode
+------------
+
+isabelle/scala uses jEdit plugin for Scala interpreter in jEdit console
+
+try styx font or Makarius's font isabelleText
+
+-------------
+My investigation of the data flow:
+
+Recall: every EditPane has one TextArea, and every TextArea has one TextAreaPainter
+Moreover, every TextArea has a ChunkCache.
+
+1) EditPane.initPainter(TextAreaPainter painter) sets styles by calling
+  String defaultFont = jEdit.getProperty("view.font");
+  int defaultFontSize = jEdit.getIntegerProperty("view.fontsize",12);
+  painter.setStyles(SyntaxUtilities.loadStyles(defaultFont,defaultFontSize));
+  
+  EditPane.propertiesChanged calls initPainter again (called in particular by the constructor)
+  
+  In particular, the properties only contain entries of the form
+    view.font.TOKENTYPE=color:COLOR bgColor:COLOR style:b style:i
+  additional TextAttributes of a Font (underline etc. are not used)
+  font family and size are maintained globally and not per token type
+  
+2) TextAreaPainter.styles holds the styles (via getStyles/setStyles)
+
+3) The constructor TextAreaPainter(TextArea textArea) adds several default TextAreaExtensions
+   among them PaintText (see 8)
+
+4) The ChunkCache calls maintains a DisplayTokenHandler and calls init(textArea.getPainter.getStyles, ...)
+
+5) DisplayTokenHandler holds the styles (set via init)
+
+6) DisplayTokenHandler calls the constructor Chunk(byte id, ..., SyntaxStyle[] styles, byte defaultID)
+
+7) The constructor of a Chunk sets its style as styles[id].
+
+8) PaintText calls Chunk.paintChunkList to paint a list of chunks.
+
+
+In prinicple, one could do the following to change the styles arbitrarily, i.e., in a TextAreaExtension that runs before PaintText
+var chunk = textArea.chunkCache.getLineInfo(screenLine).chunks
+while (chunks != null) {
+  chunk.style ...
+  chunk = chunk.next
+}
+But chunkCache, getLineInfo, and chunks are package-private in the textarea package.
+
+A workaround is this
+
+package org.gjt.sp.jedit.textarea
+case class Trick(textArea: TextArea) {
+   textArea.chunkCache.getLineInfo(0).chunks.style = ...
+}

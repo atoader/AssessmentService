@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="Minmax" base="http://oaff.kwarc.info/openmath/test">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/minmax.mmt#88.4.0-281.11.1"/>
+    </metadata>
+    <import from="http://www.openmath.org/cd?relation1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/minmax.mmt#106.5.2-128.5.24"/>
+      </metadata>
+    </import>
+    <import from="http://www.openmath.org/cd?logic1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/minmax.mmt#131.6.2-150.6.21"/>
+      </metadata>
+    </import>
+    <import from="http://www.openmath.org/cd?minmax1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/minmax.mmt#153.7.2-173.7.22"/>
+      </metadata>
+    </import>
+    <import from="http://www.openmath.org/cd?list1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/minmax.mmt#176.8.2-194.8.20"/>
+      </metadata>
+    </import>
+    <constant name="minTest">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/minmax.mmt#197.9.2-235.9.40"/>
+      </metadata>
+      <type>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/>
+        </om:OMOBJ>
+      </type>
+      <definition>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS position="0" base="http://www.openmath.org/cd" module="minmax1" name="min"/>
+            <om:OMA position="1">
+              <om:OMS position="1_0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMA position="1_1">
+                <om:OMS position="1_1_0" base="http://www.openmath.org/cd" module="list1" name="list"/>
+                <om:OMI position="1_1_1">3</om:OMI>
+                <om:OMI position="1_1_2">1</om:OMI>
+                <om:OMI position="1_1_3">2</om:OMI>
+                <om:OMI position="1_1_4">4</om:OMI>
+              </om:OMA>
+              <om:OMI position="1_2">1</om:OMI>
+            </om:OMA>
+          </om:OMA>
+        </om:OMOBJ>
+      </definition>
+    </constant>
+    <constant name="maxTest">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/minmax.mmt#238.10.2-279.10.43"/>
+      </metadata>
+      <type>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/>
+        </om:OMOBJ>
+      </type>
+      <definition>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS position="0" base="http://www.openmath.org/cd" module="minmax1" name="max"/>
+            <om:OMA position="1">
+              <om:OMS position="1_0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMA position="1_1">
+                <om:OMS position="1_1_0" base="http://www.openmath.org/cd" module="list1" name="list"/>
+                <om:OMI position="1_1_1">3</om:OMI>
+                <om:OMI position="1_1_2">1</om:OMI>
+                <om:OMI position="1_1_3">2</om:OMI>
+                <om:OMI position="1_1_4">4</om:OMI>
+                <om:OMI position="1_1_5">3</om:OMI>
+              </om:OMA>
+              <om:OMI position="1_2">4</om:OMI>
+            </om:OMA>
+          </om:OMA>
+        </om:OMOBJ>
+      </definition>
+    </constant>
+  </theory>
+</omdoc>

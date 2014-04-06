@@ -1,0 +1,4 @@
+theory http://www.openmath.org/cd?units_sts
+HasMeta http://www.openmath.org/cd?units_sts http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?units_sts http://www.openmath.org/cd?units_sts?unit_prefix
+constant: http://www.openmath.org/cd?units_sts?unit_prefix

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="LawOfCosinesSol" base="http://cds.omdoc.org/frameit">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#611.34.0-739.37.1"/>
+    </metadata>
+    <import from="http://cds.omdoc.org/frameit?LawOfCosines">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#639.35.2-661.35.24"/>
+      </metadata>
+    </import>
+    <constant name="h">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#664.36.2-737.36.75"/>
+      </metadata>
+      <definition>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS position="0" base="http://www.openmath.org/cd" module="arith1" name="root"/>
+            <om:OMA position="1">
+              <om:OMS position="1_0" base="http://www.openmath.org/cd" module="arith1" name="minus"/>
+              <om:OMA position="1_1">
+                <om:OMS position="1_1_0" base="http://www.openmath.org/cd" module="arith1" name="plus"/>
+                <om:OMA position="1_1_1">
+                  <om:OMS position="1_1_1_0" base="http://www.openmath.org/cd" module="arith1" name="times"/>
+                  <om:OMS position="1_1_1_1" base="http://cds.omdoc.org/frameit" module="LawOfCosines" name="d"/>
+                  <om:OMS position="1_1_1_2" base="http://cds.omdoc.org/frameit" module="LawOfCosines" name="d"/>
+                </om:OMA>
+                <om:OMA position="1_1_2">
+                  <om:OMS position="1_1_2_0" base="http://www.openmath.org/cd" module="arith1" name="times"/>
+                  <om:OMS position="1_1_2_1" base="http://cds.omdoc.org/frameit" module="LawOfCosines" name="base"/>
+                  <om:OMS position="1_1_2_2" base="http://cds.omdoc.org/frameit" module="LawOfCosines" name="base"/>
+                </om:OMA>
+              </om:OMA>
+              <om:OMA position="1_2">
+                <om:OMS position="1_2_0" base="http://www.openmath.org/cd" module="arith1" name="times"/>
+                <om:OMA position="1_2_1">
+                  <om:OMS position="1_2_1_0" base="http://www.openmath.org/cd" module="arith1" name="times"/>
+                  <om:OMA position="1_2_1_1">
+                    <om:OMS position="1_2_1_1_0" base="http://www.openmath.org/cd" module="arith1" name="times"/>
+                    <om:OMI position="1_2_1_1_1">2</om:OMI>
+                    <om:OMS position="1_2_1_1_2" base="http://cds.omdoc.org/frameit" module="LawOfCosines" name="base"/>
+                  </om:OMA>
+                  <om:OMS position="1_2_1_2" base="http://cds.omdoc.org/frameit" module="LawOfCosines" name="d"/>
+                </om:OMA>
+                <om:OMA position="1_2_2">
+                  <om:OMS position="1_2_2_0" base="http://www.openmath.org/cd" module="transc1" name="cos"/>
+                  <om:OMS position="1_2_2_1" base="http://cds.omdoc.org/frameit" module="LawOfCosines" name="alpha"/>
+                </om:OMA>
+              </om:OMA>
+            </om:OMA>
+            <om:OMI position="2">2</om:OMI>
+          </om:OMA>
+        </om:OMOBJ>
+      </definition>
+    </constant>
+  </theory>
+</omdoc>

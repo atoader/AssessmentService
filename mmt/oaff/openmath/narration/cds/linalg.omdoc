@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc base="http://www.openmath.org/cds/linalg.omdoc">
+  <mref target="http://www.openmath.org/cd?linalg1"/>
+  <mref target="http://www.openmath.org/cd?linalg2"/>
+  <mref target="http://www.openmath.org/cd?linalg4"/>
+  <mref target="http://www.openmath.org/cd?linalg5"/>
+</omdoc>

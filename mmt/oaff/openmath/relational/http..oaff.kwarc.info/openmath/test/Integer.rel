@@ -1,0 +1,13 @@
+theory http://oaff.kwarc.info/openmath/test?Integer
+Includes http://oaff.kwarc.info/openmath/test?Integer http://www.openmath.org/cd?integer1
+Includes http://oaff.kwarc.info/openmath/test?Integer http://www.openmath.org/cd?nums1
+Includes http://oaff.kwarc.info/openmath/test?Integer http://www.openmath.org/cd?relation1
+Includes http://oaff.kwarc.info/openmath/test?Integer http://www.openmath.org/cd?logic1
+Declares http://oaff.kwarc.info/openmath/test?Integer http://oaff.kwarc.info/openmath/test?Integer?factorialTest
+constant: http://oaff.kwarc.info/openmath/test?Integer?factorialTest
+Declares http://oaff.kwarc.info/openmath/test?Integer http://oaff.kwarc.info/openmath/test?Integer?factorofTest
+constant: http://oaff.kwarc.info/openmath/test?Integer?factorofTest
+Declares http://oaff.kwarc.info/openmath/test?Integer http://oaff.kwarc.info/openmath/test?Integer?quotientTest
+constant: http://oaff.kwarc.info/openmath/test?Integer?quotientTest
+Declares http://oaff.kwarc.info/openmath/test?Integer http://oaff.kwarc.info/openmath/test?Integer?remainderTest
+constant: http://oaff.kwarc.info/openmath/test?Integer?remainderTest

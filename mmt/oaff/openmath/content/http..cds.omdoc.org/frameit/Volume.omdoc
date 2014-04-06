@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="Volume" base="http://cds.omdoc.org/frameit">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#742.40.0-793.44.1"/>
+    </metadata>
+    <import from="http://cds.omdoc.org/frameit?RatiosSol">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#760.41.2-779.41.21"/>
+      </metadata>
+    </import>
+    <constant name="l">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#782.42.2-785.42.5"/>
+      </metadata>
+    </constant>
+    <constant name="w">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#788.43.2-791.43.5"/>
+      </metadata>
+    </constant>
+  </theory>
+</omdoc>

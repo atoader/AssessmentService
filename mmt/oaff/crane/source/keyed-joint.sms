@@ -1,0 +1,3 @@
+\begin{module}[id=keyed-joint]%
+\importmodule[load=\FCAD{crane/cds/torque}]{torque}%
+\end{module}%

@@ -1,0 +1,4 @@
+theory http://cds.omdoc.org/assessment?Assessment
+Includes http://cds.omdoc.org/assessment?Assessment http://cds.omdoc.org/assessment?ValuationFunction
+Declares http://cds.omdoc.org/assessment?Assessment http://cds.omdoc.org/assessment?Assessment?assess_value
+constant: http://cds.omdoc.org/assessment?Assessment?assess_value

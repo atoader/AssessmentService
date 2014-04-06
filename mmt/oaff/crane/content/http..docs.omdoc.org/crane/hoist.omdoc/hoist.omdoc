@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="hoist" base="http://docs.omdoc.org/crane/hoist.omdoc">
+    <constant name="hoist"> </constant>
+    <constant name="lifting-hook"> </constant>
+    <import from="http://docs.omdoc.org/../../fcad/crane/cds/cable?cable"> </import>
+  </theory>
+</omdoc>

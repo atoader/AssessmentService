@@ -1,0 +1,31 @@
+<omdoc base="http://docs.omdoc.org/cad/partnumber.omdoc">
+  <theory name="partnumber" base="http://docs.omdoc.org/cad/partnumber.omdoc">
+    <import from="../../../fcad/flange/cds/nutbolt?nutbolt"> </import>
+    <import from="../../../fcad/flange/cds/color?color"> </import>
+    <constant name="part-number"> </constant>
+  </theory>
+  <definition for="http://docs.omdoc.org/cad/partnumber.omdoc?partnumber?part-number">
+    <omdoc:CMP 
+    stex:srcref="../../../fcad/flange/cds/partnumber.tex#textrange(from=6;0,to=12;16)" about="#part-number.def.CMP1" xml:id="part-number.def.CMP1" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#part-number.def.CMP1.p1" class="ltx_p" id="part-number.def.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        An (inventory)
+        <omdoc:ref target="http://docs.omdoc.org/cad/partnumber.omdoc?partnumber?part-number">
+          part number
+        </omdoc:ref>
+        is an identifier of a
+        <omdoc:ref target="http://docs.omdoc.org/cad/solidobj.omdoc?solidobj?solid-object">
+          solid object
+        </omdoc:ref>
+        for the purposes of inventory and pricing. The part number is determined by the type of the object and its characteristic properties, such as the thread (for
+        <omdoc:ref target="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?nut"> nuts </omdoc:ref>
+        and
+        <omdoc:ref target="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?bolt"> bolts </omdoc:ref>
+        ), the head type (for and
+        <omdoc:ref target="http://docs.omdoc.org/cad/nutbolt.omdoc?nutbolt?bolt"> bolts </omdoc:ref>
+        ),
+        <omdoc:ref target="http://docs.omdoc.org/cad/color.omdoc?color?color-."> color . </omdoc:ref>
+</p>
+</omdoc:CMP>
+  </definition>
+</omdoc>

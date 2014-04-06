@@ -1,0 +1,4 @@
+theory http://cds.omdoc.org/frameit?RatiosSol
+Includes http://cds.omdoc.org/frameit?RatiosSol http://cds.omdoc.org/frameit?Ratios
+Declares http://cds.omdoc.org/frameit?RatiosSol http://cds.omdoc.org/frameit?RatiosSol?building_height
+constant: http://cds.omdoc.org/frameit?RatiosSol?building_height

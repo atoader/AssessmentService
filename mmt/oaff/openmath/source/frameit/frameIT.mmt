@@ -1,0 +1,68 @@
+namespace http://cds.omdoc.org/frameit
+
+theory Ratios =
+  include http://www.openmath.org/cd?arith1
+  building_shadow 
+  human_height 
+  human_shadow 
+
+
+theory RatiosSol =
+  include ?Ratios
+  building_height = human_height * ( building_shadow / human_shadow ) 
+
+
+theory BasicTrig =
+  include http://www.openmath.org/cd?arith1
+  include http://www.openmath.org/cd?transc1
+  d 
+  alpha 
+
+
+theory BasicTrigSol = 
+  include ?BasicTrig
+  h = d * tan(alpha) 
+
+
+theory LawOfCosines =
+  include http://www.openmath.org/cd?arith1
+  include http://www.openmath.org/cd?transc1
+  d 
+  alpha 
+  base
+
+
+theory LawOfCosinesSol = 
+  include ?LawOfCosines
+  h = root ((d * d) + (base * base) - (((2 * base) * d) * cos(alpha))) 2  
+
+
+
+theory Volume =
+  include ?RatiosSol
+  l 
+  w 
+
+
+theory VolumeSol =
+  include ?Volume
+  v = l * w * h
+
+
+
+theory Concrete =
+  include http://www.openmath.org/cd?arith1
+  mass 
+  density 
+
+
+theory ConcreteSol =
+  include ?Concrete
+  vol = mass * density
+  
+
+theory FreeSpace =
+  include ?Concrete
+  include ?Volume
+  free = v - vol
+

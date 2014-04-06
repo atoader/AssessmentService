@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="BasicTrigSol" base="http://cds.omdoc.org/frameit">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#401.21.0-470.24.1"/>
+    </metadata>
+    <import from="http://cds.omdoc.org/frameit?BasicTrig">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#426.22.2-445.22.21"/>
+      </metadata>
+    </import>
+    <constant name="h">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#448.23.2-468.23.22"/>
+      </metadata>
+      <definition>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS position="0" base="http://www.openmath.org/cd" module="arith1" name="times"/>
+            <om:OMS position="1" base="http://cds.omdoc.org/frameit" module="BasicTrig" name="d"/>
+            <om:OMA position="2">
+              <om:OMS position="2_0" base="http://www.openmath.org/cd" module="transc1" name="tan"/>
+              <om:OMS position="2_1" base="http://cds.omdoc.org/frameit" module="BasicTrig" name="alpha"/>
+            </om:OMA>
+          </om:OMA>
+        </om:OMOBJ>
+      </definition>
+    </constant>
+  </theory>
+</omdoc>

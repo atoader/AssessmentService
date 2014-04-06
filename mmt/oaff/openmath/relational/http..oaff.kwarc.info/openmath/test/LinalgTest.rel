@@ -1,0 +1,10 @@
+HasDomain http://oaff.kwarc.info/openmath/test?LinalgTest http://oaff.kwarc.info/openmath/test?Linalg
+HasCodomain http://oaff.kwarc.info/openmath/test?LinalgTest http://cds.omdoc.org/urtheories?ScalaOM
+view http://oaff.kwarc.info/openmath/test?LinalgTest
+Declares http://oaff.kwarc.info/openmath/test?LinalgTest http://oaff.kwarc.info/openmath/test?LinalgTest?[http:%2F%2Fwww.openmath.org%2Fcd%3FOpenMath]
+Declares http://oaff.kwarc.info/openmath/test?LinalgTest http://oaff.kwarc.info/openmath/test?LinalgTest?[http:%2F%2Fwww.openmath.org%2Fcd%3Farith1]
+Declares http://oaff.kwarc.info/openmath/test?LinalgTest http://oaff.kwarc.info/openmath/test?LinalgTest?[http:%2F%2Fwww.openmath.org%2Fcd%3Frelation1]
+Declares http://oaff.kwarc.info/openmath/test?LinalgTest http://oaff.kwarc.info/openmath/test?LinalgTest?[http:%2F%2Fwww.openmath.org%2Fcd%3Flogic1]
+Declares http://oaff.kwarc.info/openmath/test?LinalgTest http://oaff.kwarc.info/openmath/test?LinalgTest?[http:%2F%2Fwww.openmath.org%2Fcd%3Flinalg1]
+Declares http://oaff.kwarc.info/openmath/test?LinalgTest http://oaff.kwarc.info/openmath/test?LinalgTest?[http:%2F%2Fwww.openmath.org%2Fcd%3Flinalg2]
+Declares http://oaff.kwarc.info/openmath/test?LinalgTest http://oaff.kwarc.info/openmath/test?LinalgTest?[http:%2F%2Fwww.openmath.org%2Fcd%3Flinalg4]

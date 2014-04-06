@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="List" base="http://oaff.kwarc.info/openmath/test">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/list.mmt#88.4.0-542.17.1"/>
+    </metadata>
+    <import from="http://www.openmath.org/cd?arith1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/list.mmt#104.5.2-123.5.21"/>
+      </metadata>
+    </import>
+    <import from="http://www.openmath.org/cd?relation1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/list.mmt#126.6.2-148.6.24"/>
+      </metadata>
+    </import>
+    <import from="http://www.openmath.org/cd?logic1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/list.mmt#151.7.2-170.7.21"/>
+      </metadata>
+    </import>
+    <import from="http://www.openmath.org/cd?list1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/list.mmt#173.8.2-191.8.20"/>
+      </metadata>
+    </import>
+    <import from="http://www.openmath.org/cd?list2">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/list.mmt#194.9.2-212.9.20"/>
+      </metadata>
+    </import>
+    <constant name="in_test">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/list.mmt#215.10.2-256.10.43"/>
+      </metadata>
+      <type>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/>
+        </om:OMOBJ>
+      </type>
+      <definition>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMSF>
+            <om:text format="http://oaff.kwarc.info/openmath/test?List"><![CDATA[member 1 [1,2,3] = true]]></om:text>
+          </om:OMSF>
+        </om:OMOBJ>
+      </definition>
+    </constant>
+    <constant name="list_selector_test">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/list.mmt#259.11.2-315.11.58"/>
+      </metadata>
+      <type>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/>
+        </om:OMOBJ>
+      </type>
+      <definition>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS position="0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+            <om:OMA position="1">
+              <om:OMS position="1_0" base="http://www.openmath.org/cd" module="list2" name="list_selector"/>
+              <om:OMI position="1_1">2</om:OMI>
+              <om:OMA position="1_2">
+                <om:OMS position="1_2_0" base="http://www.openmath.org/cd" module="list1" name="list"/>
+                <om:OMI position="1_2_1">1</om:OMI>
+                <om:OMI position="1_2_2">2</om:OMI>
+                <om:OMI position="1_2_3">3</om:OMI>
+              </om:OMA>
+            </om:OMA>
+            <om:OMI position="2">2</om:OMI>
+          </om:OMA>
+        </om:OMOBJ>
+      </definition>
+    </constant>
+    <constant name="first_test">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/list.mmt#318.12.2-353.12.37"/>
+      </metadata>
+      <type>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/>
+        </om:OMOBJ>
+      </type>
+      <definition>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS position="0" base="http://www.openmath.org/cd" module="list2" name="first"/>
+            <om:OMA position="1">
+              <om:OMS position="1_0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMA position="1_1">
+                <om:OMS position="1_1_0" base="http://www.openmath.org/cd" module="list1" name="list"/>
+                <om:OMI position="1_1_1">1</om:OMI>
+                <om:OMI position="1_1_2">2</om:OMI>
+                <om:OMI position="1_1_3">3</om:OMI>
+              </om:OMA>
+              <om:OMI position="1_2">1</om:OMI>
+            </om:OMA>
+          </om:OMA>
+        </om:OMOBJ>
+      </definition>
+    </constant>
+    <constant name="rest_test">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/list.mmt#356.13.2-394.13.40"/>
+      </metadata>
+      <type>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/>
+        </om:OMOBJ>
+      </type>
+      <definition>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS position="0" base="http://www.openmath.org/cd" module="list2" name="rest"/>
+            <om:OMA position="1">
+              <om:OMS position="1_0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMA position="1_1">
+                <om:OMS position="1_1_0" base="http://www.openmath.org/cd" module="list1" name="list"/>
+                <om:OMI position="1_1_1">1</om:OMI>
+                <om:OMI position="1_1_2">2</om:OMI>
+                <om:OMI position="1_1_3">3</om:OMI>
+              </om:OMA>
+              <om:OMA position="1_2">
+                <om:OMS position="1_2_0" base="http://www.openmath.org/cd" module="list1" name="list"/>
+                <om:OMI position="1_2_1">2</om:OMI>
+                <om:OMI position="1_2_2">3</om:OMI>
+              </om:OMA>
+            </om:OMA>
+          </om:OMA>
+        </om:OMOBJ>
+      </definition>
+    </constant>
+    <constant name="append_test">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/list.mmt#397.14.2-450.14.55"/>
+      </metadata>
+      <type>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/>
+        </om:OMOBJ>
+      </type>
+      <definition>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS position="0" base="http://www.openmath.org/cd" module="list2" name="append"/>
+            <om:OMA position="1">
+              <om:OMS position="1_0" base="http://www.openmath.org/cd" module="list1" name="list"/>
+              <om:OMI position="1_1">1</om:OMI>
+              <om:OMI position="1_2">2</om:OMI>
+              <om:OMI position="1_3">3</om:OMI>
+            </om:OMA>
+            <om:OMA position="2">
+              <om:OMS position="2_0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMA position="2_1">
+                <om:OMS position="2_1_0" base="http://www.openmath.org/cd" module="list1" name="list"/>
+                <om:OMI position="2_1_1">4</om:OMI>
+                <om:OMI position="2_1_2">5</om:OMI>
+              </om:OMA>
+              <om:OMA position="2_2">
+                <om:OMS position="2_2_0" base="http://www.openmath.org/cd" module="list1" name="list"/>
+                <om:OMI position="2_2_1">1</om:OMI>
+                <om:OMI position="2_2_2">2</om:OMI>
+                <om:OMI position="2_2_3">3</om:OMI>
+                <om:OMI position="2_2_4">4</om:OMI>
+                <om:OMI position="2_2_5">5</om:OMI>
+              </om:OMA>
+            </om:OMA>
+          </om:OMA>
+        </om:OMOBJ>
+      </definition>
+    </constant>
+    <constant name="cons_test">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/list.mmt#453.15.2-493.15.42"/>
+      </metadata>
+      <type>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/>
+        </om:OMOBJ>
+      </type>
+      <definition>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS position="0" base="http://www.openmath.org/cd" module="list2" name="cons"/>
+            <om:OMI position="1">1</om:OMI>
+            <om:OMA position="2">
+              <om:OMS position="2_0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMA position="2_1">
+                <om:OMS position="2_1_0" base="http://www.openmath.org/cd" module="list1" name="list"/>
+                <om:OMI position="2_1_1">2</om:OMI>
+                <om:OMI position="2_1_2">3</om:OMI>
+              </om:OMA>
+              <om:OMA position="2_2">
+                <om:OMS position="2_2_0" base="http://www.openmath.org/cd" module="list1" name="list"/>
+                <om:OMI position="2_2_1">1</om:OMI>
+                <om:OMI position="2_2_2">2</om:OMI>
+                <om:OMI position="2_2_3">3</om:OMI>
+              </om:OMA>
+            </om:OMA>
+          </om:OMA>
+        </om:OMOBJ>
+      </definition>
+    </constant>
+    <constant name="reverse_test">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/list.mmt#496.16.2-540.16.46"/>
+      </metadata>
+      <type>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/>
+        </om:OMOBJ>
+      </type>
+      <definition>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMA>
+            <om:OMS position="0" base="http://www.openmath.org/cd" module="list2" name="reverse"/>
+            <om:OMA position="1">
+              <om:OMS position="1_0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMA position="1_1">
+                <om:OMS position="1_1_0" base="http://www.openmath.org/cd" module="list1" name="list"/>
+                <om:OMI position="1_1_1">1</om:OMI>
+                <om:OMI position="1_1_2">2</om:OMI>
+                <om:OMI position="1_1_3">3</om:OMI>
+              </om:OMA>
+              <om:OMA position="1_2">
+                <om:OMS position="1_2_0" base="http://www.openmath.org/cd" module="list1" name="list"/>
+                <om:OMI position="1_2_1">3</om:OMI>
+                <om:OMI position="1_2_2">2</om:OMI>
+                <om:OMI position="1_2_3">1</om:OMI>
+              </om:OMA>
+            </om:OMA>
+          </om:OMA>
+        </om:OMOBJ>
+      </definition>
+    </constant>
+  </theory>
+</omdoc>

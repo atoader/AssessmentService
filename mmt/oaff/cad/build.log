@@ -1,0 +1,59 @@
+user: log file /home/costea/kwarc/MMT/oaff/cad/build.log finished
+user: log+ archive
+user: log+ archive finished
+user: extension info.kwarc.mmt.stex.STeXImporter 
+user: extension info.kwarc.mmt.stex.STeXImporter  finished
+user: extension info.kwarc.mmt.planetary.PlanetaryPlugin 
+user: extension info.kwarc.mmt.planetary.PlanetaryPlugin  finished
+user: archive add /home/costea/kwarc/MMT/oaff/cad
+user: archive add /home/costea/kwarc/MMT/oaff/cad finished
+user: archive cad stex-omdoc  
+archive: entering /home/costea/kwarc/MMT/oaff/cad/source
+error: add error: a declaration for the name thread already exists
+archive: leaving  /home/costea/kwarc/MMT/oaff/cad/source
+user: archive cad stex-omdoc   finished
+user: archive cad index  
+archive: entering /home/costea/kwarc/MMT/oaff/cad/compiled
+archive: leaving  /home/costea/kwarc/MMT/oaff/cad/compiled
+user: archive cad index   finished
+user: archive cad extract  
+archive: entering /home/costea/kwarc/MMT/oaff/cad/content
+archive: entering /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org
+archive: entering /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad
+archive: entering /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/ISOhexbolt.omdoc
+archive: leaving  /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/ISOhexbolt.omdoc
+archive: entering /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/color.omdoc
+archive: leaving  /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/color.omdoc
+archive: entering /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/physobj.omdoc
+archive: leaving  /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/physobj.omdoc
+archive: entering /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/ISOhexnut.omdoc
+archive: leaving  /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/ISOhexnut.omdoc
+archive: entering /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/importsall.omdoc
+archive: leaving  /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/importsall.omdoc
+archive: entering /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/nutbolt.omdoc
+archive: leaving  /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/nutbolt.omdoc
+archive: entering /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/solidobj.omdoc
+archive: leaving  /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/solidobj.omdoc
+archive: entering /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/five-sizes.omdoc
+archive: leaving  /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/five-sizes.omdoc
+archive: entering /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/financial-transaction.omdoc
+archive: leaving  /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/financial-transaction.omdoc
+archive: entering /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/thread.omdoc
+archive: leaving  /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/thread.omdoc
+archive: entering /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/flange-bolt-gasket.omdoc
+archive: leaving  /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/flange-bolt-gasket.omdoc
+archive: entering /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/partnumber.omdoc
+archive: leaving  /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/partnumber.omdoc
+archive: entering /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/enclosed-cooling-system.omdoc
+archive: leaving  /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/enclosed-cooling-system.omdoc
+archive: entering /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/piping.omdoc
+archive: leaving  /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/piping.omdoc
+archive: entering /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/ISOmetricthread.omdoc
+archive: leaving  /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/ISOmetricthread.omdoc
+archive: entering /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/price-function.omdoc
+archive: leaving  /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad/price-function.omdoc
+archive: leaving  /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org/cad
+archive: leaving  /home/costea/kwarc/MMT/oaff/cad/content/http..docs.omdoc.org
+archive: leaving  /home/costea/kwarc/MMT/oaff/cad/content
+user: archive cad extract   finished
+user: exit

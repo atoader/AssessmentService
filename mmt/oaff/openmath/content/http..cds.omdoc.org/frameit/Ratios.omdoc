@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="Ratios" base="http://cds.omdoc.org/frameit">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#41.2.0-157.7.1"/>
+    </metadata>
+    <import from="http://www.openmath.org/cd?arith1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#59.3.2-101.3.44"/>
+      </metadata>
+    </import>
+    <constant name="building_shadow">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#104.4.2-121.4.19"/>
+      </metadata>
+    </constant>
+    <constant name="human_height">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#124.5.2-138.5.16"/>
+      </metadata>
+    </constant>
+    <constant name="human_shadow">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#141.6.2-155.6.16"/>
+      </metadata>
+    </constant>
+  </theory>
+</omdoc>

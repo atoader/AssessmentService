@@ -1,0 +1,14 @@
+theory http://www.openmath.org/cd?combinat1
+HasMeta http://www.openmath.org/cd?combinat1 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?combinat1 http://www.openmath.org/cd?combinat1?binomial
+constant: http://www.openmath.org/cd?combinat1?binomial
+Declares http://www.openmath.org/cd?combinat1 http://www.openmath.org/cd?combinat1?multinomial
+constant: http://www.openmath.org/cd?combinat1?multinomial
+Declares http://www.openmath.org/cd?combinat1 http://www.openmath.org/cd?combinat1?Stirling1
+constant: http://www.openmath.org/cd?combinat1?Stirling1
+Declares http://www.openmath.org/cd?combinat1 http://www.openmath.org/cd?combinat1?Stirling2
+constant: http://www.openmath.org/cd?combinat1?Stirling2
+Declares http://www.openmath.org/cd?combinat1 http://www.openmath.org/cd?combinat1?Fibonacci
+constant: http://www.openmath.org/cd?combinat1?Fibonacci
+Declares http://www.openmath.org/cd?combinat1 http://www.openmath.org/cd?combinat1?Bell
+constant: http://www.openmath.org/cd?combinat1?Bell

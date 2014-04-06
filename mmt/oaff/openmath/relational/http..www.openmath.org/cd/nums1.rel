@@ -1,0 +1,16 @@
+theory http://www.openmath.org/cd?nums1
+HasMeta http://www.openmath.org/cd?nums1 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?nums1 http://www.openmath.org/cd?nums1?NaN
+constant: http://www.openmath.org/cd?nums1?NaN
+Declares http://www.openmath.org/cd?nums1 http://www.openmath.org/cd?nums1?infinity
+constant: http://www.openmath.org/cd?nums1?infinity
+Declares http://www.openmath.org/cd?nums1 http://www.openmath.org/cd?nums1?pi
+constant: http://www.openmath.org/cd?nums1?pi
+Declares http://www.openmath.org/cd?nums1 http://www.openmath.org/cd?nums1?e
+constant: http://www.openmath.org/cd?nums1?e
+Declares http://www.openmath.org/cd?nums1 http://www.openmath.org/cd?nums1?i
+constant: http://www.openmath.org/cd?nums1?i
+Declares http://www.openmath.org/cd?nums1 http://www.openmath.org/cd?nums1?gamma
+constant: http://www.openmath.org/cd?nums1?gamma
+Declares http://www.openmath.org/cd?nums1 http://www.openmath.org/cd?nums1?rational
+constant: http://www.openmath.org/cd?nums1?rational

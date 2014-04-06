@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="polyu" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/polygrp.mmt#39.2.0-172.7.1"/>
+    </metadata>
+    <constant name="term">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/polygrp.mmt#68.3.2-84.3.18"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?polyu?term" precedence="0" fixity="mixfix" arguments="term 1 2"/>
+      </notation>
+    </constant>
+    <constant name="poly_u_rep">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/polygrp.mmt#87.4.2-111.4.26"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?polyu?poly_u_rep" precedence="0" fixity="mixfix" arguments="Poly 1 2,…"/>
+      </notation>
+    </constant>
+    <constant name="polynomial_u">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/polygrp.mmt#114.5.2-138.5.26"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?polyu?polynomial_u" precedence="0" fixity="mixfix" arguments="1 from 2"/>
+      </notation>
+    </constant>
+    <constant name="polynomial_ring_u">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/polygrp.mmt#141.6.2-170.6.31"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?polyu?polynomial_ring_u" precedence="0" fixity="mixfix" arguments="ring 1 2"/>
+      </notation>
+    </constant>
+  </theory>
+</omdoc>

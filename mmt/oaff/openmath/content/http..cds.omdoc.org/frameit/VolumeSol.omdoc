@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="VolumeSol" base="http://cds.omdoc.org/frameit">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#795.46.0-851.49.1"/>
+    </metadata>
+    <import from="http://cds.omdoc.org/frameit?Volume">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#816.47.2-832.47.18"/>
+      </metadata>
+    </import>
+    <constant name="v">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#835.48.2-849.48.16"/>
+      </metadata>
+      <definition>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMSF>
+            <om:text format="http://cds.omdoc.org/frameit?VolumeSol"><![CDATA[l * w * h]]></om:text>
+          </om:OMSF>
+        </om:OMOBJ>
+      </definition>
+    </constant>
+  </theory>
+</omdoc>

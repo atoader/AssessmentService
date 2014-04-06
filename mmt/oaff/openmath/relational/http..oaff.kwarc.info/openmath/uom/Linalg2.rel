@@ -1,0 +1,6 @@
+HasDomain http://oaff.kwarc.info/openmath/uom?Linalg2 http://www.openmath.org/cd?linalg2
+HasCodomain http://oaff.kwarc.info/openmath/uom?Linalg2 http://cds.omdoc.org/urtheories?ScalaOM
+view http://oaff.kwarc.info/openmath/uom?Linalg2
+Declares http://oaff.kwarc.info/openmath/uom?Linalg2 http://oaff.kwarc.info/openmath/uom?Linalg2?vector
+Declares http://oaff.kwarc.info/openmath/uom?Linalg2 http://oaff.kwarc.info/openmath/uom?Linalg2?matrixrow
+Declares http://oaff.kwarc.info/openmath/uom?Linalg2 http://oaff.kwarc.info/openmath/uom?Linalg2?matrix

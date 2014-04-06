@@ -1,0 +1,12 @@
+theory http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket
+Declares http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?flange
+constant: http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?flange
+Declares http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?blind-flange
+constant: http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?blind-flange
+Declares http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?gasket
+constant: http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?gasket
+Declares http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?flange-gasket
+constant: http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?flange-gasket
+Declares http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?flange-bolt-gasket
+constant: http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket?flange-bolt-gasket
+Includes http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc?flange-bolt-gasket http://docs.omdoc.org/../../fcad/flange/cds/nutbolt?nutbolt

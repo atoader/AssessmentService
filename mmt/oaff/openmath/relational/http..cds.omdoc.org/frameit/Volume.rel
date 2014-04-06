@@ -1,0 +1,6 @@
+theory http://cds.omdoc.org/frameit?Volume
+Includes http://cds.omdoc.org/frameit?Volume http://cds.omdoc.org/frameit?RatiosSol
+Declares http://cds.omdoc.org/frameit?Volume http://cds.omdoc.org/frameit?Volume?l
+constant: http://cds.omdoc.org/frameit?Volume?l
+Declares http://cds.omdoc.org/frameit?Volume http://cds.omdoc.org/frameit?Volume?w
+constant: http://cds.omdoc.org/frameit?Volume?w

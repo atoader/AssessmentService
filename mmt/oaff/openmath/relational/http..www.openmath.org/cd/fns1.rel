@@ -1,0 +1,4 @@
+theory http://www.openmath.org/cd?fns1
+HasMeta http://www.openmath.org/cd?fns1 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?fns1 http://www.openmath.org/cd?fns1?lambda
+constant: http://www.openmath.org/cd?fns1?lambda

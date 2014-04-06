@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc base="http://www.openmath.org/cds/units.omdoc">
+  <mref target="http://www.openmath.org/cd?dimensions1"/>
+  <mref target="http://www.openmath.org/cd?units_metric1"/>
+  <mref target="http://www.openmath.org/cd?units_imperial1"/>
+  <mref target="http://www.openmath.org/cd?units_ops1"/>
+  <mref target="http://www.openmath.org/cd?units_siprefix1"/>
+  <mref target="http://www.openmath.org/cd?units_sts"/>
+  <mref target="http://www.openmath.org/cd?units_time"/>
+  <mref target="http://www.openmath.org/cd?units_us1"/>
+</omdoc>

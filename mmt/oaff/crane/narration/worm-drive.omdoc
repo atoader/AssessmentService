@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc base="http://docs.omdoc.org/crane/worm-drive.omdoc">
+  <mref target="http://docs.omdoc.org/crane/worm-drive.omdoc?worm-drive"/>
+  <definition 
+  for="http://docs.omdoc.org/crane/worm-drive.omdoc?worm-drive?worm-gear http://docs.omdoc.org/crane/worm-drive.omdoc?worm-drive?worm http://docs.omdoc.org/crane/worm-drive.omdoc?worm-drive?worm-drive">
+    <omdoc:CMP 
+    xml:id="worm-drive.definition6.CMP1" about="#worm-drive.definition6.CMP1" stex:srcref="../../../../../stc/fcad/crane/cds/worm-drive.tex#textrange(from=4;1,to=8;18)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="worm-drive.definition6.CMP1.p1" class="ltx_p" about="#worm-drive.definition6.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/crane/worm-drive.omdoc?worm-drive?worm-drive"> worm drive </omdoc:ref>
+        is a
+        <omdoc:ref target="http://docs.omdoc.org/crane/transmission.omdoc?transmission?transmission-i"> transmission i </omdoc:ref>
+        n which a
+        <omdoc:ref target="http://docs.omdoc.org/crane/worm-drive.omdoc?worm-drive?worm"> worm </omdoc:ref>
+        (which is a
+        <omdoc:ref target="http://docs.omdoc.org/crane/gear.omdoc?gear?gear"> gear </omdoc:ref>
+        in the form of a screw) meshes with a
+        <omdoc:ref target="http://docs.omdoc.org/crane/worm-drive.omdoc?worm-drive?worm-gear"> worm gear </omdoc:ref>
+        (also called a
+        <omdoc:ref target="http://docs.omdoc.org/crane/worm-drive.omdoc?worm-drive?worm-gear"> worm wheel </omdoc:ref>
+        ).
+      </p>
+</omdoc:CMP>
+</definition>
+</omdoc>

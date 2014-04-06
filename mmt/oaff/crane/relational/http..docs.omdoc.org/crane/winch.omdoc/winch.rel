@@ -1,0 +1,8 @@
+theory http://docs.omdoc.org/crane/winch.omdoc?winch
+Declares http://docs.omdoc.org/crane/winch.omdoc?winch http://docs.omdoc.org/crane/winch.omdoc?winch?winch
+constant: http://docs.omdoc.org/crane/winch.omdoc?winch?winch
+Declares http://docs.omdoc.org/crane/winch.omdoc?winch http://docs.omdoc.org/crane/winch.omdoc?winch?spool
+constant: http://docs.omdoc.org/crane/winch.omdoc?winch?spool
+Declares http://docs.omdoc.org/crane/winch.omdoc?winch http://docs.omdoc.org/crane/winch.omdoc?winch?crank
+constant: http://docs.omdoc.org/crane/winch.omdoc?winch?crank
+Includes http://docs.omdoc.org/crane/winch.omdoc?winch http://docs.omdoc.org/../../fcad/crane/cds/cable?cable

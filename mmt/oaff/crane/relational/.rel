@@ -1,0 +1,16 @@
+document http://docs.omdoc.org/crane
+Declares http://docs.omdoc.org/crane http://docs.omdoc.org/crane/assembly-crane.omdoc
+Declares http://docs.omdoc.org/crane http://docs.omdoc.org/crane/cable.omdoc
+Declares http://docs.omdoc.org/crane http://docs.omdoc.org/crane/castor.omdoc
+Declares http://docs.omdoc.org/crane http://docs.omdoc.org/crane/crane.omdoc
+Declares http://docs.omdoc.org/crane http://docs.omdoc.org/crane/gear.omdoc
+Declares http://docs.omdoc.org/crane http://docs.omdoc.org/crane/hoist.omdoc
+Declares http://docs.omdoc.org/crane http://docs.omdoc.org/crane/keyed-joint.omdoc
+Declares http://docs.omdoc.org/crane http://docs.omdoc.org/crane/rope.omdoc
+Declares http://docs.omdoc.org/crane http://docs.omdoc.org/crane/sheave.omdoc
+Declares http://docs.omdoc.org/crane http://docs.omdoc.org/crane/taskdescription.omdoc
+Declares http://docs.omdoc.org/crane http://docs.omdoc.org/crane/torque.omdoc
+Declares http://docs.omdoc.org/crane http://docs.omdoc.org/crane/transmission.omdoc
+Declares http://docs.omdoc.org/crane http://docs.omdoc.org/crane/welding.omdoc
+Declares http://docs.omdoc.org/crane http://docs.omdoc.org/crane/winch.omdoc
+Declares http://docs.omdoc.org/crane http://docs.omdoc.org/crane/worm-drive.omdoc

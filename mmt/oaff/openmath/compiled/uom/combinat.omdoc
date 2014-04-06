@@ -1,0 +1,9 @@
+<omdoc base="http://www.openmath.org/uom/combinat.mmt">
+        <view name="Combinat1" base="http://oaff.kwarc.info/openmath/uom" from="http://www.openmath.org/cd?combinat1" to="http://cds.omdoc.org/urtheories?ScalaOM">
+           <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/combinat.mmt#48.2.0-149.4.1"/></metadata>
+           
+         </view><view name="Permut1" base="http://oaff.kwarc.info/openmath/uom" from="http://www.openmath.org/cd?permut1" to="http://cds.omdoc.org/urtheories?ScalaOM">
+           <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/combinat.mmt#153.6.0-250.8.1"/></metadata>
+           
+         </view>
+     </omdoc>

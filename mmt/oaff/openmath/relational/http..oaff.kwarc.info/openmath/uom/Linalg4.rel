@@ -1,0 +1,6 @@
+HasDomain http://oaff.kwarc.info/openmath/uom?Linalg4 http://www.openmath.org/cd?linalg4
+HasCodomain http://oaff.kwarc.info/openmath/uom?Linalg4 http://cds.omdoc.org/urtheories?ScalaOM
+view http://oaff.kwarc.info/openmath/uom?Linalg4
+Declares http://oaff.kwarc.info/openmath/uom?Linalg4 http://oaff.kwarc.info/openmath/uom?Linalg4?columncount
+Declares http://oaff.kwarc.info/openmath/uom?Linalg4 http://oaff.kwarc.info/openmath/uom?Linalg4?rowcount
+Declares http://oaff.kwarc.info/openmath/uom?Linalg4 http://oaff.kwarc.info/openmath/uom?Linalg4?size

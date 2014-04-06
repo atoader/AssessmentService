@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="nutbolt" base="http://docs.omdoc.org/cad/nutbolt.omdoc">
+    <constant name="bolt"> </constant>
+    <constant name="thread"> </constant>
+    <constant name="nut"> </constant>
+    <constant name="height"> </constant>
+    <constant name="flat-size"> </constant>
+    <constant name="acorn-nut"> </constant>
+    <constant name="hex-nut"> </constant>
+    <constant name="wing-nut"> </constant>
+    <constant name="length"> </constant>
+    <constant name="head"> </constant>
+    <import from="http://docs.omdoc.org/../../fcad/flange/cds/thread?thread"> </import>
+    <import from="http://docs.omdoc.org/../../fcad/flange/cds/solidobj?solidobj"> </import>
+  </theory>
+</omdoc>

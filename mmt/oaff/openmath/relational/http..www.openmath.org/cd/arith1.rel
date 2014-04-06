@@ -1,0 +1,26 @@
+theory http://www.openmath.org/cd?arith1
+HasMeta http://www.openmath.org/cd?arith1 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?arith1 http://www.openmath.org/cd?arith1?plus
+constant: http://www.openmath.org/cd?arith1?plus
+Declares http://www.openmath.org/cd?arith1 http://www.openmath.org/cd?arith1?minus
+constant: http://www.openmath.org/cd?arith1?minus
+Declares http://www.openmath.org/cd?arith1 http://www.openmath.org/cd?arith1?times
+constant: http://www.openmath.org/cd?arith1?times
+Declares http://www.openmath.org/cd?arith1 http://www.openmath.org/cd?arith1?divide
+constant: http://www.openmath.org/cd?arith1?divide
+Declares http://www.openmath.org/cd?arith1 http://www.openmath.org/cd?arith1?power
+constant: http://www.openmath.org/cd?arith1?power
+Declares http://www.openmath.org/cd?arith1 http://www.openmath.org/cd?arith1?root
+constant: http://www.openmath.org/cd?arith1?root
+Declares http://www.openmath.org/cd?arith1 http://www.openmath.org/cd?arith1?abs
+constant: http://www.openmath.org/cd?arith1?abs
+Declares http://www.openmath.org/cd?arith1 http://www.openmath.org/cd?arith1?unary_minus
+constant: http://www.openmath.org/cd?arith1?unary_minus
+Declares http://www.openmath.org/cd?arith1 http://www.openmath.org/cd?arith1?gcd
+constant: http://www.openmath.org/cd?arith1?gcd
+Declares http://www.openmath.org/cd?arith1 http://www.openmath.org/cd?arith1?lcm
+constant: http://www.openmath.org/cd?arith1?lcm
+Declares http://www.openmath.org/cd?arith1 http://www.openmath.org/cd?arith1?product
+constant: http://www.openmath.org/cd?arith1?product
+Declares http://www.openmath.org/cd?arith1 http://www.openmath.org/cd?arith1?sum
+constant: http://www.openmath.org/cd?arith1?sum

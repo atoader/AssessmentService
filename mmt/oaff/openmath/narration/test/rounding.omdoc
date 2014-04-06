@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc base="http://www.openmath.org/test/rounding.omdoc">
+  <mref target="http://oaff.kwarc.info/openmath/test?Rounding"/>
+  <mref target="http://oaff.kwarc.info/openmath/test?RoundingTest"/>
+</omdoc>

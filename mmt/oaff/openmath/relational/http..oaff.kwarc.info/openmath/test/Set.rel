@@ -1,0 +1,31 @@
+theory http://oaff.kwarc.info/openmath/test?Set
+Includes http://oaff.kwarc.info/openmath/test?Set http://www.openmath.org/cd?arith1
+Includes http://oaff.kwarc.info/openmath/test?Set http://www.openmath.org/cd?relation1
+Includes http://oaff.kwarc.info/openmath/test?Set http://www.openmath.org/cd?logic1
+Includes http://oaff.kwarc.info/openmath/test?Set http://www.openmath.org/cd?set1
+Declares http://oaff.kwarc.info/openmath/test?Set http://oaff.kwarc.info/openmath/test?Set?size_test
+constant: http://oaff.kwarc.info/openmath/test?Set?size_test
+Declares http://oaff.kwarc.info/openmath/test?Set http://oaff.kwarc.info/openmath/test?Set?intersect_test
+constant: http://oaff.kwarc.info/openmath/test?Set?intersect_test
+Declares http://oaff.kwarc.info/openmath/test?Set http://oaff.kwarc.info/openmath/test?Set?union_test
+constant: http://oaff.kwarc.info/openmath/test?Set?union_test
+Declares http://oaff.kwarc.info/openmath/test?Set http://oaff.kwarc.info/openmath/test?Set?setdiff_test1
+constant: http://oaff.kwarc.info/openmath/test?Set?setdiff_test1
+Declares http://oaff.kwarc.info/openmath/test?Set http://oaff.kwarc.info/openmath/test?Set?setdiff_test2
+constant: http://oaff.kwarc.info/openmath/test?Set?setdiff_test2
+Declares http://oaff.kwarc.info/openmath/test?Set http://oaff.kwarc.info/openmath/test?Set?subset_test1
+constant: http://oaff.kwarc.info/openmath/test?Set?subset_test1
+Declares http://oaff.kwarc.info/openmath/test?Set http://oaff.kwarc.info/openmath/test?Set?subset_test2
+constant: http://oaff.kwarc.info/openmath/test?Set?subset_test2
+Declares http://oaff.kwarc.info/openmath/test?Set http://oaff.kwarc.info/openmath/test?Set?prsubset_test1
+constant: http://oaff.kwarc.info/openmath/test?Set?prsubset_test1
+Declares http://oaff.kwarc.info/openmath/test?Set http://oaff.kwarc.info/openmath/test?Set?prsubset_test2
+constant: http://oaff.kwarc.info/openmath/test?Set?prsubset_test2
+Declares http://oaff.kwarc.info/openmath/test?Set http://oaff.kwarc.info/openmath/test?Set?notsubset_test
+constant: http://oaff.kwarc.info/openmath/test?Set?notsubset_test
+Declares http://oaff.kwarc.info/openmath/test?Set http://oaff.kwarc.info/openmath/test?Set?notprsubset_test
+constant: http://oaff.kwarc.info/openmath/test?Set?notprsubset_test
+Declares http://oaff.kwarc.info/openmath/test?Set http://oaff.kwarc.info/openmath/test?Set?in_test
+constant: http://oaff.kwarc.info/openmath/test?Set?in_test
+Declares http://oaff.kwarc.info/openmath/test?Set http://oaff.kwarc.info/openmath/test?Set?notin_test
+constant: http://oaff.kwarc.info/openmath/test?Set?notin_test

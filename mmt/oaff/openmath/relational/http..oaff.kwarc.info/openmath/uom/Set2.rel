@@ -1,0 +1,4 @@
+HasDomain http://oaff.kwarc.info/openmath/uom?Set2 http://www.openmath.org/cd?set2
+HasCodomain http://oaff.kwarc.info/openmath/uom?Set2 http://cds.omdoc.org/urtheories?ScalaOM
+view http://oaff.kwarc.info/openmath/uom?Set2
+Declares http://oaff.kwarc.info/openmath/uom?Set2 http://oaff.kwarc.info/openmath/uom?Set2?lift_binary

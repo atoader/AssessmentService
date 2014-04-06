@@ -1,0 +1,41 @@
+<omdoc base="http://www.openmath.org/cds/relation.mmt">
+        <theory name="relation1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/relation.mmt#39.2.0-232.10.1"/></metadata>
+        <constant name="eq">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/relation.mmt#72.3.2-91.3.21"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?relation1?eq" precedence="10" fixity="mixfix" arguments="1 = 2"/></notation>
+     </constant><constant name="lt">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/relation.mmt#94.4.2-113.4.21"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?relation1?lt" precedence="10" fixity="mixfix" arguments="1 &lt; 2"/></notation>
+     </constant><constant name="gt">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/relation.mmt#116.5.2-135.5.21"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?relation1?gt" precedence="10" fixity="mixfix" arguments="1 &gt; 2"/></notation>
+     </constant><constant name="neq">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/relation.mmt#138.6.2-158.6.22"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?relation1?neq" precedence="10" fixity="mixfix" arguments="1 ≠ 2"/></notation>
+     </constant><constant name="leq">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/relation.mmt#161.7.2-181.7.22"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?relation1?leq" precedence="10" fixity="mixfix" arguments="1 ≤ 2"/></notation>
+     </constant><constant name="geq">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/relation.mmt#184.8.2-204.8.22"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?relation1?geq" precedence="10" fixity="mixfix" arguments="1 ≥ 2"/></notation>
+     </constant><constant name="approx">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/relation.mmt#207.9.2-230.9.25"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?relation1?approx" precedence="10" fixity="mixfix" arguments="1 ≈ 2"/></notation>
+     </constant>
+      </theory>
+     </omdoc>

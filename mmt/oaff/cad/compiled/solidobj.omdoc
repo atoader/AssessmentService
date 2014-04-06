@@ -1,0 +1,55 @@
+<omdoc base="http://docs.omdoc.org/cad/solidobj.omdoc">
+  <theory name="solidobj" base="http://docs.omdoc.org/cad/solidobj.omdoc">
+    <import from="../../../fcad/flange/cds/physobj?physobj"> </import>
+    <constant name="solid-object"> </constant>
+    <constant name="shape"> </constant>
+    <constant name="solidobjects">
+      <notation>
+        <text-notation 
+        dimensions="1" name="http://docs.omdoc.org/cad/solidobj.omdoc?solidobj?solidobjects" precedence="1" fixity="mixfix" arguments="SObj">
+</text-notation>
+      </notation>
+    </constant>
+    <constant name="type"> </constant>
+  </theory>
+  <definition 
+  for="http://docs.omdoc.org/cad/solidobj.omdoc?solidobj?solid-object http://docs.omdoc.org/cad/solidobj.omdoc?solidobj?shape">
+    <omdoc:CMP 
+    stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=3;1,to=10;16)" about="#solidobj.definition4.CMP1" xml:id="solidobj.definition4.CMP1" xmlns:om="http://www.openmath.org/OpenMath" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#solidobj.definition4.CMP1.p1" class="ltx_p" id="solidobj.definition4.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/cad/solidobj.omdoc?solidobj?solid-object">
+          solid object
+        </omdoc:ref>
+        is a
+        <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?physical-object">
+          physical object
+        </omdoc:ref>
+        that is
+        <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?solid"> solid </omdoc:ref>
+        .
+</p>
+      <p 
+      about="#solidobj.definition4.CMP1.p2" class="ltx_p" id="solidobj.definition4.CMP1.p2" xmlns="http://www.w3.org/1999/xhtml">
+        As the
+        <omdoc:ref target="http://docs.omdoc.org/cad/physobj.omdoc?physobj?extent"> extent </omdoc:ref>
+        of solid objects is constant over time (unless subjected to external forces), we can speak of the
+        <omdoc:ref target="http://docs.omdoc.org/cad/solidobj.omdoc?solidobj?shape"> shape </omdoc:ref>
+        of a solid object as its current extent.
+</p>
+</omdoc:CMP>
+</definition>
+  <definition 
+  for="http://docs.omdoc.org/cad/solidobj.omdoc?solidobj?type http://docs.omdoc.org/cad/solidobj.omdoc?solidobj?solid-object http://docs.omdoc.org/cad/solidobj.omdoc?solidobj?shape">
+    <omdoc:CMP 
+    stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=13;1,to=16;16)" about="#solidobj.definition7.CMP1" xml:id="solidobj.definition7.CMP1" xmlns:om="http://www.openmath.org/OpenMath" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#solidobj.definition7.CMP1.p1" class="ltx_p" id="solidobj.definition7.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        The
+        <omdoc:ref target="http://docs.omdoc.org/cad/solidobj.omdoc?solidobj?type"> type </omdoc:ref>
+        of a solid object is usually characterized by classifying objects by their shape and substance.
+</p>
+</omdoc:CMP>
+</definition>
+</omdoc>

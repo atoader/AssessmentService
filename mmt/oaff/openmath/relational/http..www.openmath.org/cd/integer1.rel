@@ -1,0 +1,10 @@
+theory http://www.openmath.org/cd?integer1
+HasMeta http://www.openmath.org/cd?integer1 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?integer1 http://www.openmath.org/cd?integer1?factorial
+constant: http://www.openmath.org/cd?integer1?factorial
+Declares http://www.openmath.org/cd?integer1 http://www.openmath.org/cd?integer1?factorof
+constant: http://www.openmath.org/cd?integer1?factorof
+Declares http://www.openmath.org/cd?integer1 http://www.openmath.org/cd?integer1?quotient
+constant: http://www.openmath.org/cd?integer1?quotient
+Declares http://www.openmath.org/cd?integer1 http://www.openmath.org/cd?integer1?remainder
+constant: http://www.openmath.org/cd?integer1?remainder

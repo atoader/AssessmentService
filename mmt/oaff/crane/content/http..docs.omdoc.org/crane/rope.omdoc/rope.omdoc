@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="rope" base="http://docs.omdoc.org/crane/rope.omdoc">
+    <constant name="rope"> </constant>
+  </theory>
+</omdoc>

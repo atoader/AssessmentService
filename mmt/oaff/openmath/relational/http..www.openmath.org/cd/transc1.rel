@@ -1,0 +1,56 @@
+theory http://www.openmath.org/cd?transc1
+HasMeta http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?arccos
+constant: http://www.openmath.org/cd?transc1?arccos
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?arccosh
+constant: http://www.openmath.org/cd?transc1?arccosh
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?arccot
+constant: http://www.openmath.org/cd?transc1?arccot
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?arccoth
+constant: http://www.openmath.org/cd?transc1?arccoth
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?arccsc
+constant: http://www.openmath.org/cd?transc1?arccsc
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?arccsch
+constant: http://www.openmath.org/cd?transc1?arccsch
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?arcsec
+constant: http://www.openmath.org/cd?transc1?arcsec
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?arcsech
+constant: http://www.openmath.org/cd?transc1?arcsech
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?arcsin
+constant: http://www.openmath.org/cd?transc1?arcsin
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?arcsinh
+constant: http://www.openmath.org/cd?transc1?arcsinh
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?arctan
+constant: http://www.openmath.org/cd?transc1?arctan
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?arctanh
+constant: http://www.openmath.org/cd?transc1?arctanh
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?cos
+constant: http://www.openmath.org/cd?transc1?cos
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?cosh
+constant: http://www.openmath.org/cd?transc1?cosh
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?cot
+constant: http://www.openmath.org/cd?transc1?cot
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?coth
+constant: http://www.openmath.org/cd?transc1?coth
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?csc
+constant: http://www.openmath.org/cd?transc1?csc
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?csch
+constant: http://www.openmath.org/cd?transc1?csch
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?exp
+constant: http://www.openmath.org/cd?transc1?exp
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?ln
+constant: http://www.openmath.org/cd?transc1?ln
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?log
+constant: http://www.openmath.org/cd?transc1?log
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?sec
+constant: http://www.openmath.org/cd?transc1?sec
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?sech
+constant: http://www.openmath.org/cd?transc1?sech
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?sin
+constant: http://www.openmath.org/cd?transc1?sin
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?sinh
+constant: http://www.openmath.org/cd?transc1?sinh
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?tan
+constant: http://www.openmath.org/cd?transc1?tan
+Declares http://www.openmath.org/cd?transc1 http://www.openmath.org/cd?transc1?tanh
+constant: http://www.openmath.org/cd?transc1?tanh

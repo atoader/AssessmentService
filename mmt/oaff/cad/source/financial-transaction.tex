@@ -1,0 +1,51 @@
+\begin{module}[id=financial-transaction]
+  \importmodule[load=\SiSsI{winograd/cds/legalentities}]{legalentities}
+  \importmodule[load=\KWARCslides{units/en/quantities}]{quantities}
+\begin{definition}
+  A \defii{financial}{transaction} is an agreement, communication, or movement carried out
+  between two \trefii[legalentities]{legal}{person}s to exchange an \defi{asset} (goods or
+  services) for \defi{payment} (usually a quantity of money called the
+  \defii{transaction}{price} or \defii[transaction-price]{traded}{price}). The
+  \trefii[legalentities]{legal}{person} providing the asset in a transaction is called the
+  \defi{seller} (or \defi[seller]{vendor}) and the \trefii[legalentities]{legal}{person}
+  providing the payment the \defi{buyer}.
+\end{definition}
+
+A financial transaction is usually initiated by either an \trefi{offer} or a \trefi{bid},
+which (after negotiations) leads to a transaction.  Therefore we distinguish the
+\trefii{asking}{price} (the amount asked by the \atrefi{vendor}{seller}) from the
+\trefii{bid}{price} (the quantity of payment offered by a \trefi{buyer}), which may differ
+from the \trefii{transaction}{price}.
+
+\begin{definition}[id=bid.def]
+  A \defi{bid} is a communication in which a potential \trefi{buyer} offers to buy a
+  certain \trefi{asset} for a given \trefi{payment}, the \defii{bid}{price}.
+\end{definition}
+
+\begin{definition}[id=offer.def]
+  An \defi{offer} is a communication in which a potential \trefi{seller} offers to buy a
+  certain \trefi{asset} for a given \trefi{payment}, the \defii{asking}{price}
+\end{definition}
+
+\begin{definition}
+  If a \trefi{financial}{transaction} contains more than one position, then we distinguish
+  the \defii{individual}{price} of a position from the \defii{overall}{price} of the
+  transaction, which often the sum of all individual prices.
+\end{definition}
+
+\begin{definition}
+  If we do not want to distinguish between \trefii{bid}{price}, \trefii{offer}{price},
+  \trefii{transaction}{price}, \trefii{individua}{price}, and \trefii{overall}{price} we
+  simply use the word \defi{price} to mean any of them.
+\end{definition}
+
+\end{module}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "all"
+%%% End: 
+
+% LocalWords:  winograd legalentities defii trefii defi defiii ednote dmath
+% LocalWords:  timeinterval KWARCslides trefi trefi symdef unitpricefunction
+% LocalWords:  unitpricefunctionOp defeq scalarqmul scalarqdiv atrefi

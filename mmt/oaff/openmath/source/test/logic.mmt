@@ -1,0 +1,20 @@
+namespace http://oaff.kwarc.info/openmath/test
+
+import cd http://www.openmath.org/cd
+
+theory Logic =
+  include cd:?relation1
+  include cd:?logic1
+  equivalentTest : FMP = true ⟺  true
+  impliesTest : FMP = false ⟹ false
+  notTest : FMP = ¬ true = false
+  andTest : FMP = true ∧ false = false
+  orTest : FMP = true ∨ false = true
+  xorTest : FMP = true ⊻ false = true
+
+
+view LogicTest : ?Logic -> http://cds.omdoc.org/urtheories?ScalaOM =
+  include cd:?OpenMath  = http://cds.omdoc.org/urtheories?Syntactic
+  include cd:?relation1 = uom?Relation1
+  include cd:?logic1 = uom?Logic1
+

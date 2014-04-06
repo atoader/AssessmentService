@@ -1,0 +1,18 @@
+<omdoc base="http://docs.omdoc.org/crane/transmission.omdoc">
+  <theory name="transmission" base="http://docs.omdoc.org/crane/transmission.omdoc">
+    <constant name="transmission"> </constant>
+  </theory>
+  <definition for="http://docs.omdoc.org/crane/transmission.omdoc?transmission?transmission">
+    <omdoc:CMP 
+    stex:srcref="../../../../../stc/fcad/crane/cds/transmission.tex#textrange(from=2;1,to=5;18)" about="#transmission.definition2.CMP1" xml:id="transmission.definition2.CMP1" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#transmission.definition2.CMP1.p1" class="ltx_p" id="transmission.definition2.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/crane/transmission.omdoc?transmission?transmission">
+          transmission
+        </omdoc:ref>
+        is a machine that provides speed and torque conversions from a rotating power source to another device.
+</p>
+</omdoc:CMP>
+  </definition>
+</omdoc>

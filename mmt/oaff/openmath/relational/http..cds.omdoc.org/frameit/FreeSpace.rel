@@ -1,0 +1,5 @@
+theory http://cds.omdoc.org/frameit?FreeSpace
+Includes http://cds.omdoc.org/frameit?FreeSpace http://cds.omdoc.org/frameit?Concrete
+Includes http://cds.omdoc.org/frameit?FreeSpace http://cds.omdoc.org/frameit?Volume
+Declares http://cds.omdoc.org/frameit?FreeSpace http://cds.omdoc.org/frameit?FreeSpace?free
+constant: http://cds.omdoc.org/frameit?FreeSpace?free

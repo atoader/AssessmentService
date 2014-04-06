@@ -1,0 +1,20 @@
+namespace http://oaff.kwarc.info/openmath/test
+
+import cd http://www.openmath.org/cd
+
+theory Minmax =
+  include cd:?relation1
+  include cd:?logic1
+  include cd:?minmax1
+  include cd:?list1
+  minTest : FMP = min [3, 1, 2, 4] = 1
+  maxTest : FMP = max [3, 1, 2, 4, 3] = 4
+
+
+view MinmaxTest : ?Minmax -> http://cds.omdoc.org/urtheories?ScalaOM =
+  include cd:?OpenMath  = http://cds.omdoc.org/urtheories?Syntactic
+  include cd:?relation1 = uom?Relation1
+  include cd:?logic1 = uom?Logic1
+  include cd:?list1 = uom?List1
+  include cd:?minmax1 = uom?Minmax1
+

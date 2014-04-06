@@ -1,0 +1,36 @@
+namespace http://oaff.kwarc.info/openmath/uom
+
+view Integer1 : http://www.openmath.org/cd?integer1 -> http://cds.omdoc.org/urtheories?ScalaOM =
+
+  factorof = (a: Term, b: Term) scala
+    (a,b) match {
+      case (OMI(m), OMI(n)) => if (n % m == 0) logic1.`true` else logic1.`false`
+      case _ => a
+    }
+  
+  
+  factorial = (a: Term) scala
+      def fact(n: BigInt) : BigInt =
+        if (n == 0 || n == 1) return 1 else return n * fact(n - 1) 
+      
+      a match {
+        case OMI(n) => OMI(fact(n))
+        case _ => a
+      }
+  
+  
+  quotient = (a: Term, b: Term) scala
+    (a,b) match {
+      case (OMI(m), OMI(n)) => OMI(m / n)
+      case _ => a
+    }
+  
+  
+  remainder = (a: Term, b: Term) scala
+    (a,b) match {
+      case (OMI(m), OMI(n)) => OMI(m % n)
+      case _ => a
+    }
+  
+  
+

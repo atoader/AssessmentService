@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc base="http://docs.omdoc.org/crane/hoist.omdoc">
+  <mref target="http://docs.omdoc.org/crane/hoist.omdoc?hoist"/>
+  <definition for="http://docs.omdoc.org/crane/hoist.omdoc?hoist?hoist">
+    <omdoc:CMP 
+    xml:id="hoist.definition3.CMP1" about="#hoist.definition3.CMP1" stex:srcref="../../../../../stc/fcad/crane/cds/hoist.tex#textrange(from=3;1,to=9;18)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="hoist.definition3.CMP1.p1" class="ltx_p" about="#hoist.definition3.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/crane/hoist.omdoc?hoist?hoist"> hoist </omdoc:ref>
+        is a device used for lifting or lowering a load by means of a drum or lift-wheel around which
+        <omdoc:ref target="http://docs.omdoc.org/crane/rope.omdoc?rope?rope"> rope </omdoc:ref>
+        ,
+        <omdoc:ref target="http://docs.omdoc.org/crane/cable.omdoc?cable?cable"> cable </omdoc:ref>
+        , or
+        <omdoc:ref target="http://docs.omdoc.org/crane/chain.omdoc?chain?chain"> chain </omdoc:ref>
+        wraps. It may be manually operated, electrically or pneumatically driven and may use chain, fiber or wire rope as its lifting medium. The load is attached to the hoist by means of a
+        <omdoc:ref target="http://docs.omdoc.org/crane/hoist.omdoc?hoist?lifting-hook"> lifting hook </omdoc:ref>
+        .
+      </p>
+</omdoc:CMP>
+  </definition>
+  <definition for="http://docs.omdoc.org/crane/hoist.omdoc?hoist?lifting-hook http://docs.omdoc.org/crane/hoist.omdoc?hoist?hoist">
+    <omdoc:CMP 
+    xml:id="hoist.definition5.CMP1" about="#hoist.definition5.CMP1" stex:srcref="../../../../../stc/fcad/crane/cds/hoist.tex#textrange(from=11;1,to=17;18)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <p id="hoist.definition5.CMP1.p1" class="ltx_p" about="#hoist.definition5.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/crane/hoist.omdoc?hoist?lifting-hook"> lifting hook </omdoc:ref>
+        is a device for grabbing and lifting loads by means of a
+        <omdoc:ref target="http://docs.omdoc.org/crane/hoist.omdoc?hoist?hoist"> hoist </omdoc:ref>
+        . A lifting hook is usually equipped with a safety latch to prevent the disengagement of the lifting wire rope sling, chain or rope to which the load is attached. A lifting hook may have one or more built-in pulleys to amplify the lifting force.
+      </p>
+</omdoc:CMP>
+  </definition>
+</omdoc>

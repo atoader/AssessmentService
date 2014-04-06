@@ -1,0 +1,7 @@
+HasDomain http://oaff.kwarc.info/openmath/test?RelationTest http://oaff.kwarc.info/openmath/test?Relation
+HasCodomain http://oaff.kwarc.info/openmath/test?RelationTest http://cds.omdoc.org/urtheories?ScalaOM
+view http://oaff.kwarc.info/openmath/test?RelationTest
+Declares http://oaff.kwarc.info/openmath/test?RelationTest http://oaff.kwarc.info/openmath/test?RelationTest?[http:%2F%2Fwww.openmath.org%2Fcd%3FOpenMath]
+Declares http://oaff.kwarc.info/openmath/test?RelationTest http://oaff.kwarc.info/openmath/test?RelationTest?[http:%2F%2Fwww.openmath.org%2Fcd%3Frelation1]
+Declares http://oaff.kwarc.info/openmath/test?RelationTest http://oaff.kwarc.info/openmath/test?RelationTest?[http:%2F%2Fwww.openmath.org%2Fcd%3Flogic1]
+Declares http://oaff.kwarc.info/openmath/test?RelationTest http://oaff.kwarc.info/openmath/test?RelationTest?[http:%2F%2Fwww.openmath.org%2Fcd%3Fcomplex1]

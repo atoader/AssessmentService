@@ -1,0 +1,31 @@
+theory http://oaff.kwarc.info/openmath/test?Linalg
+Includes http://oaff.kwarc.info/openmath/test?Linalg http://www.openmath.org/cd?arith1
+Includes http://oaff.kwarc.info/openmath/test?Linalg http://www.openmath.org/cd?relation1
+Includes http://oaff.kwarc.info/openmath/test?Linalg http://www.openmath.org/cd?logic1
+Includes http://oaff.kwarc.info/openmath/test?Linalg http://www.openmath.org/cd?linalg1
+Includes http://oaff.kwarc.info/openmath/test?Linalg http://www.openmath.org/cd?linalg2
+Includes http://oaff.kwarc.info/openmath/test?Linalg http://www.openmath.org/cd?linalg4
+Declares http://oaff.kwarc.info/openmath/test?Linalg http://oaff.kwarc.info/openmath/test?Linalg?outerproduct_test
+constant: http://oaff.kwarc.info/openmath/test?Linalg?outerproduct_test
+Declares http://oaff.kwarc.info/openmath/test?Linalg http://oaff.kwarc.info/openmath/test?Linalg?scalaproduct_test
+constant: http://oaff.kwarc.info/openmath/test?Linalg?scalaproduct_test
+Declares http://oaff.kwarc.info/openmath/test?Linalg http://oaff.kwarc.info/openmath/test?Linalg?vectorproduct_test
+constant: http://oaff.kwarc.info/openmath/test?Linalg?vectorproduct_test
+Declares http://oaff.kwarc.info/openmath/test?Linalg http://oaff.kwarc.info/openmath/test?Linalg?vector_selector_test
+constant: http://oaff.kwarc.info/openmath/test?Linalg?vector_selector_test
+Declares http://oaff.kwarc.info/openmath/test?Linalg http://oaff.kwarc.info/openmath/test?Linalg?matrix_selector_test
+constant: http://oaff.kwarc.info/openmath/test?Linalg?matrix_selector_test
+Declares http://oaff.kwarc.info/openmath/test?Linalg http://oaff.kwarc.info/openmath/test?Linalg?transpose_test
+constant: http://oaff.kwarc.info/openmath/test?Linalg?transpose_test
+Declares http://oaff.kwarc.info/openmath/test?Linalg http://oaff.kwarc.info/openmath/test?Linalg?size_test
+constant: http://oaff.kwarc.info/openmath/test?Linalg?size_test
+Declares http://oaff.kwarc.info/openmath/test?Linalg http://oaff.kwarc.info/openmath/test?Linalg?rowcount_test
+constant: http://oaff.kwarc.info/openmath/test?Linalg?rowcount_test
+Declares http://oaff.kwarc.info/openmath/test?Linalg http://oaff.kwarc.info/openmath/test?Linalg?columncount_test
+constant: http://oaff.kwarc.info/openmath/test?Linalg?columncount_test
+Declares http://oaff.kwarc.info/openmath/test?Linalg http://oaff.kwarc.info/openmath/test?Linalg?plus_vec_test
+constant: http://oaff.kwarc.info/openmath/test?Linalg?plus_vec_test
+Declares http://oaff.kwarc.info/openmath/test?Linalg http://oaff.kwarc.info/openmath/test?Linalg?plus_mat_test
+constant: http://oaff.kwarc.info/openmath/test?Linalg?plus_mat_test
+Declares http://oaff.kwarc.info/openmath/test?Linalg http://oaff.kwarc.info/openmath/test?Linalg?times_mat_test
+constant: http://oaff.kwarc.info/openmath/test?Linalg?times_mat_test

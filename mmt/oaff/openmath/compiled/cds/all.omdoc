@@ -1,0 +1,114 @@
+<omdoc base="http://www.openmath.org/cds/all.mmt">
+        <theory name="all" base="http://www.openmath.org/cd">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#39.2.0-1732.39.1"/></metadata>
+        <import from="http://www.openmath.org/cd?setname1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#54.3.2-98.3.46"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?setname2">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#101.4.2-145.4.46"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?logic1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#148.5.2-190.5.44"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?integer1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#193.6.2-237.6.46"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?arith1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#240.7.2-282.7.44"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?arith2">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#285.8.2-327.8.44"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?complex1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#330.9.2-374.9.46"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?nums1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#377.10.2-418.10.43"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?list1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#421.11.2-462.11.43"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?list2">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#465.12.2-506.12.43"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?set1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#509.13.2-549.13.42"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?set2">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#552.14.2-592.14.42"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?fns1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#595.15.2-635.15.42"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?linalg1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#638.16.2-681.16.45"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?linalg2">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#684.17.2-727.17.45"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?linalg4">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#730.18.2-773.18.45"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?linalg5">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#776.19.2-819.19.45"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?relation1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#822.20.2-867.20.47"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?minmax1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#870.21.2-913.21.45"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?rounding1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#916.22.2-961.22.47"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?dimensions1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#964.23.2-1011.23.49"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?units_metric1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#1014.24.2-1063.24.51"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?units_imperial1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#1066.25.2-1117.25.53"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?units_ops1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#1120.26.2-1166.26.48"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?units_siprefix1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#1169.27.2-1220.27.53"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?units_sts">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#1223.28.2-1268.28.47"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?units_time">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#1271.29.2-1317.29.48"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?units_us1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#1320.30.2-1365.30.47"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?interval1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#1368.31.2-1413.31.47"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?polyu">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#1416.32.2-1457.32.43"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?poly">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#1460.33.2-1500.33.42"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?string">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#1503.34.2-1545.34.44"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?transc1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#1548.35.2-1591.35.45"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?indNat">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#1594.36.2-1636.36.44"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?combinat1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#1639.37.2-1684.37.47"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?permut1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/all.mmt#1687.38.2-1730.38.45"/></metadata>
+            
+          </import>
+      </theory>
+     </omdoc>

@@ -1,0 +1,5 @@
+HasDomain http://oaff.kwarc.info/openmath/uom?Minmax1 http://www.openmath.org/cd?minmax1
+HasCodomain http://oaff.kwarc.info/openmath/uom?Minmax1 http://cds.omdoc.org/urtheories?ScalaOM
+view http://oaff.kwarc.info/openmath/uom?Minmax1
+Declares http://oaff.kwarc.info/openmath/uom?Minmax1 http://oaff.kwarc.info/openmath/uom?Minmax1?min
+Declares http://oaff.kwarc.info/openmath/uom?Minmax1 http://oaff.kwarc.info/openmath/uom?Minmax1?max

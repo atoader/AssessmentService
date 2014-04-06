@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="flange-bolt-gasket" base="http://docs.omdoc.org/cad/flange-bolt-gasket.omdoc">
+    <constant name="flange"> </constant>
+    <constant name="blind-flange"> </constant>
+    <constant name="gasket"> </constant>
+    <constant name="flange-gasket"> </constant>
+    <constant name="flange-bolt-gasket"> </constant>
+    <import from="http://docs.omdoc.org/../../fcad/flange/cds/nutbolt?nutbolt"> </import>
+  </theory>
+</omdoc>

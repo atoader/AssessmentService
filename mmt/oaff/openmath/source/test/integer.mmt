@@ -1,0 +1,22 @@
+namespace http://oaff.kwarc.info/openmath/test
+
+import cd http://www.openmath.org/cd
+
+theory Integer =
+  include cd:?integer1
+  include cd:?nums1
+  include cd:?relation1
+  include cd:?logic1
+  factorialTest : FMP = 4 ! = 24
+  factorofTest : FMP = 3 | 6 = true
+  quotientTest : FMP = 6 div 3 = 2
+  remainderTest : FMP = 7 mod 3 = 1
+
+
+view IntegerTest : ?Integer -> http://cds.omdoc.org/urtheories?ScalaOM =
+  include cd:?OpenMath  = http://cds.omdoc.org/urtheories?Syntactic
+  include cd:?integer1    = uom?Integer1
+  include cd:?relation1 = uom?Relation1
+  include cd:?logic1 = uom?Logic1
+  include cd:?nums1 = uom?Nums1
+

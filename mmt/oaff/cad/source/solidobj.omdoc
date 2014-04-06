@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!--This OMDoc document is generated from an sTeX-encoded one via LaTeXML, you may want to reconsider editing it.-->
+<omdoc xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns:om="http://www.openmath.org/OpenMath" xml:base="https://tnt.kwarc.info/repos/stc/fcad/flange/cds/solidobj" xml:id="Document">
+  <metadata/>
+  <theory xml:id="solidobj" about="#solidobj" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=1;0,to=17;12)">
+    <omdoc:imports from="../../../fcad/flange/cds/physobj#physobj" xml:id="solidobj.imports1" about="#solidobj.imports1" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=2;0,to=2;31)"/>
+    <omdoc:symbol name="solid-object" xml:id="solid-object.def.sym" about="#solid-object.def.sym" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=3;1,to=10;16)"/>
+    <omdoc:symbol name="shape" xml:id="shape.def.sym" about="#shape.def.sym" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=3;1,to=10;16)"/>
+    <omdoc:definition for="solid-object shape" xml:id="solidobj.definition4" about="#solidobj.definition4" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=3;1,to=10;16)">
+      <omdoc:CMP xml:id="solidobj.definition4.CMP1" about="#solidobj.definition4.CMP1" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=3;1,to=10;16)">
+<p xmlns="http://www.w3.org/1999/xhtml" id="solidobj.definition4.CMP1.p1" class="ltx_p" about="#solidobj.definition4.CMP1.p1">A <omdoc:idx xml:id="solidobj.definition4.CMP1.p1.idx1" about="#solidobj.definition4.CMP1.p1.idx1" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=3;48,to=4;25)"><omdoc:idt xml:id="solidobj.definition4.CMP1.p1.idx1.idt1" about="#solidobj.definition4.CMP1.p1.idx1.idt1" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=3;48,to=4;25)"><omdoc:term cd="solidobj" name="solid-object" role="definiendum" xml:id="solidobj.definition4.CMP1.p1.idx1.idt1.term1" about="#solidobj.definition4.CMP1.p1.idx1.idt1.term1" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=3;48,to=4;25)">solid object</omdoc:term></omdoc:idt><omdoc:ide index="default" xml:id="solidobj.definition4.CMP1.p1.idx1.ide2" about="#solidobj.definition4.CMP1.p1.idx1.ide2" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=3;48,to=4;25)"><omdoc:idp>solid</omdoc:idp><omdoc:idp>object</omdoc:idp></omdoc:ide></omdoc:idx> is a <omdoc:term cd="physobj" name="physical-object" xml:id="solidobj.definition4.CMP1.p1.term2" about="#solidobj.definition4.CMP1.p1.term2" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=3;8,to=4;65)">physical object</omdoc:term> that is
+<omdoc:term cd="physobj" name="solid" xml:id="solidobj.definition4.CMP1.p1.term3" about="#solidobj.definition4.CMP1.p1.term3" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=4;1,to=5;24)">solid</omdoc:term>.</p>
+<p xmlns="http://www.w3.org/1999/xhtml" id="solidobj.definition4.CMP1.p2" class="ltx_p" about="#solidobj.definition4.CMP1.p2">As the <omdoc:term cd="physobj" name="extent" xml:id="solidobj.definition4.CMP1.p2.term1" about="#solidobj.definition4.CMP1.p2.term1" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=6;57,to=7;32)">extent</omdoc:term> of solid objects is constant over time (unless subjected
+to external forces), we can speak of the <omdoc:idx xml:id="solidobj.definition4.CMP1.p2.idx2" about="#solidobj.definition4.CMP1.p2.idx2" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=7;33,to=8;55)"><omdoc:idt xml:id="solidobj.definition4.CMP1.p2.idx2.idt1" about="#solidobj.definition4.CMP1.p2.idx2.idt1" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=7;33,to=8;55)"><omdoc:term cd="solidobj" name="shape" role="definiendum" xml:id="solidobj.definition4.CMP1.p2.idx2.idt1.term1" about="#solidobj.definition4.CMP1.p2.idx2.idt1.term1" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=7;33,to=8;55)">shape</omdoc:term></omdoc:idt><omdoc:ide index="default" xml:id="solidobj.definition4.CMP1.p2.idx2.ide2" about="#solidobj.definition4.CMP1.p2.idx2.ide2" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=7;33,to=8;55)"><omdoc:idp>shape</omdoc:idp></omdoc:ide></omdoc:idx> of a solid object as its current
+extent.</p></omdoc:CMP>
+    </omdoc:definition>
+    <omdoc:symbol name="solidobjects" xml:id="solidobjects.sym" about="#solidobjects.sym" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=12;0,to=12;34)"/>
+    <omdoc:notation cd="solidobj" name="solidobjects">
+      <omdoc:prototype>
+        <om:OMS cd="solidobj" name="solidobjects"/>
+      </omdoc:prototype>
+      <omdoc:rendering>
+        <text>SObj</text>
+      </omdoc:rendering>
+    </omdoc:notation>
+    <omdoc:symbol name="type" xml:id="type.def.sym" about="#type.def.sym" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=13;1,to=16;16)"/>
+    <omdoc:definition for="type solid-object shape" xml:id="solidobj.definition7" about="#solidobj.definition7" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=13;1,to=16;16)">
+      <omdoc:CMP xml:id="solidobj.definition7.CMP1" about="#solidobj.definition7.CMP1" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=13;1,to=16;16)">
+<p xmlns="http://www.w3.org/1999/xhtml" id="solidobj.definition7.CMP1.p1" class="ltx_p" about="#solidobj.definition7.CMP1.p1">The <omdoc:idx xml:id="solidobj.definition7.CMP1.p1.idx1" about="#solidobj.definition7.CMP1.p1.idx1" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=13;69,to=14;17)"><omdoc:idt xml:id="solidobj.definition7.CMP1.p1.idx1.idt1" about="#solidobj.definition7.CMP1.p1.idx1.idt1" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=13;69,to=14;17)"><omdoc:term cd="solidobj" name="type" role="definiendum" xml:id="solidobj.definition7.CMP1.p1.idx1.idt1.term1" about="#solidobj.definition7.CMP1.p1.idx1.idt1.term1" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=13;69,to=14;17)">type</omdoc:term></omdoc:idt><omdoc:ide index="default" xml:id="solidobj.definition7.CMP1.p1.idx1.ide2" about="#solidobj.definition7.CMP1.p1.idx1.ide2" stex:srcref="../../../fcad/flange/cds/solidobj.tex#textrange(from=13;69,to=14;17)"><omdoc:idp>type</omdoc:idp></omdoc:ide></omdoc:idx> of a solid object is usually characterized by classifying objects by
+their shape and substance.</p></omdoc:CMP>
+    </omdoc:definition>
+  </theory>
+</omdoc>

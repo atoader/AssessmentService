@@ -1,0 +1,34 @@
+theory http://www.openmath.org/cd?poly
+HasMeta http://www.openmath.org/cd?poly http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?poly http://www.openmath.org/cd?poly?power
+constant: http://www.openmath.org/cd?poly?power
+Declares http://www.openmath.org/cd?poly http://www.openmath.org/cd?poly?factored
+constant: http://www.openmath.org/cd?poly?factored
+Declares http://www.openmath.org/cd?poly http://www.openmath.org/cd?poly?squarefreed
+constant: http://www.openmath.org/cd?poly?squarefreed
+Declares http://www.openmath.org/cd?poly http://www.openmath.org/cd?poly?partially_factored
+constant: http://www.openmath.org/cd?poly?partially_factored
+Declares http://www.openmath.org/cd?poly http://www.openmath.org/cd?poly?expand
+constant: http://www.openmath.org/cd?poly?expand
+Declares http://www.openmath.org/cd?poly http://www.openmath.org/cd?poly?degree
+constant: http://www.openmath.org/cd?poly?degree
+Declares http://www.openmath.org/cd?poly http://www.openmath.org/cd?poly?degree_wrt
+constant: http://www.openmath.org/cd?poly?degree_wrt
+Declares http://www.openmath.org/cd?poly http://www.openmath.org/cd?poly?leading_coefficient
+constant: http://www.openmath.org/cd?poly?leading_coefficient
+Declares http://www.openmath.org/cd?poly http://www.openmath.org/cd?poly?coefficient
+constant: http://www.openmath.org/cd?poly?coefficient
+Declares http://www.openmath.org/cd?poly http://www.openmath.org/cd?poly?coefficient_ring
+constant: http://www.openmath.org/cd?poly?coefficient_ring
+Declares http://www.openmath.org/cd?poly http://www.openmath.org/cd?poly?evaluate
+constant: http://www.openmath.org/cd?poly?evaluate
+Declares http://www.openmath.org/cd?poly http://www.openmath.org/cd?poly?factor
+constant: http://www.openmath.org/cd?poly?factor
+Declares http://www.openmath.org/cd?poly http://www.openmath.org/cd?poly?squarefree
+constant: http://www.openmath.org/cd?poly?squarefree
+Declares http://www.openmath.org/cd?poly http://www.openmath.org/cd?poly?discriminant
+constant: http://www.openmath.org/cd?poly?discriminant
+Declares http://www.openmath.org/cd?poly http://www.openmath.org/cd?poly?resultant
+constant: http://www.openmath.org/cd?poly?resultant
+Declares http://www.openmath.org/cd?poly http://www.openmath.org/cd?poly?convert
+constant: http://www.openmath.org/cd?poly?convert

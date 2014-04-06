@@ -1,0 +1,16 @@
+theory http://www.openmath.org/cd?linalg1
+HasMeta http://www.openmath.org/cd?linalg1 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?linalg1 http://www.openmath.org/cd?linalg1?determinant
+constant: http://www.openmath.org/cd?linalg1?determinant
+Declares http://www.openmath.org/cd?linalg1 http://www.openmath.org/cd?linalg1?matrix_selector
+constant: http://www.openmath.org/cd?linalg1?matrix_selector
+Declares http://www.openmath.org/cd?linalg1 http://www.openmath.org/cd?linalg1?outerproduct
+constant: http://www.openmath.org/cd?linalg1?outerproduct
+Declares http://www.openmath.org/cd?linalg1 http://www.openmath.org/cd?linalg1?scalarproduct
+constant: http://www.openmath.org/cd?linalg1?scalarproduct
+Declares http://www.openmath.org/cd?linalg1 http://www.openmath.org/cd?linalg1?transpose
+constant: http://www.openmath.org/cd?linalg1?transpose
+Declares http://www.openmath.org/cd?linalg1 http://www.openmath.org/cd?linalg1?vector_selector
+constant: http://www.openmath.org/cd?linalg1?vector_selector
+Declares http://www.openmath.org/cd?linalg1 http://www.openmath.org/cd?linalg1?vectorproduct
+constant: http://www.openmath.org/cd?linalg1?vectorproduct

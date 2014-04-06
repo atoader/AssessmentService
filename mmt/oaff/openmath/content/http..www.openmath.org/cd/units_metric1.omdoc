@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="units_metric1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#320.25.0-670.43.1"/>
+    </metadata>
+    <constant name="Coulomb">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#358.26.2-370.26.14"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?units_metric1?Coulomb" precedence="0" fixity="mixfix" arguments="C"/>
+      </notation>
+    </constant>
+    <constant name="Joule">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#374.27.2-384.27.12"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?units_metric1?Joule" precedence="0" fixity="mixfix" arguments="J"/>
+      </notation>
+    </constant>
+    <constant name="Newton">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#388.28.2-399.28.13"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?units_metric1?Newton" precedence="0" fixity="mixfix" arguments="N"/>
+      </notation>
+    </constant>
+    <constant name="Newton_per_sqr_metre">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#403.29.2-432.29.31"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?units_metric1?Newton_per_sqr_metre" precedence="0" fixity="mixfix" arguments="Npsqm"/>
+      </notation>
+    </constant>
+    <constant name="Pascal">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#436.30.2-448.30.14"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?units_metric1?Pascal" precedence="0" fixity="mixfix" arguments="Pa"/>
+      </notation>
+    </constant>
+    <constant name="Watt">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#452.31.2-461.31.11"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?units_metric1?Watt" precedence="0" fixity="mixfix" arguments="W"/>
+      </notation>
+    </constant>
+    <constant name="amp">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#465.32.2-473.32.10"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?units_metric1?amp" precedence="0" fixity="mixfix" arguments="A"/>
+      </notation>
+    </constant>
+    <constant name="degree_Kelvin">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#477.33.2-495.33.20"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?units_metric1?degree_Kelvin" precedence="0" fixity="mixfix" arguments="K"/>
+      </notation>
+    </constant>
+    <constant name="gramme">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#499.34.2-510.34.13"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?units_metric1?gramme" precedence="0" fixity="mixfix" arguments="g"/>
+      </notation>
+    </constant>
+    <constant name="litre">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#514.35.2-524.35.12"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?units_metric1?litre" precedence="0" fixity="mixfix" arguments="l"/>
+      </notation>
+    </constant>
+    <constant name="litre_pre1964">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#528.36.2-542.36.16"/>
+      </metadata>
+    </constant>
+    <constant name="metre">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#546.37.2-556.37.12"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?units_metric1?metre" precedence="0" fixity="mixfix" arguments="m"/>
+      </notation>
+    </constant>
+    <constant name="metre_sqrd">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#560.38.2-577.38.19"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?units_metric1?metre_sqrd" precedence="0" fixity="mixfix" arguments="sqm"/>
+      </notation>
+    </constant>
+    <constant name="metres_per_second">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#581.39.2-605.39.26"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?units_metric1?metres_per_second" precedence="0" fixity="mixfix" arguments="mps"/>
+      </notation>
+    </constant>
+    <constant name="metres_per_second_sqrd">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#609.40.2-640.40.33"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?units_metric1?metres_per_second_sqrd" precedence="0" fixity="mixfix" arguments="mpssq"/>
+      </notation>
+    </constant>
+    <constant name="second">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#644.41.2-655.41.13"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?units_metric1?second" precedence="0" fixity="mixfix" arguments="s"/>
+      </notation>
+    </constant>
+    <constant name="volt">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#659.42.2-668.42.11"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?units_metric1?volt" precedence="0" fixity="mixfix" arguments="v"/>
+      </notation>
+    </constant>
+  </theory>
+</omdoc>

@@ -1,0 +1,47 @@
+<omdoc base="http://www.openmath.org/uom/complex.mmt">
+        <view name="Complex1" base="http://oaff.kwarc.info/openmath/uom" from="http://www.openmath.org/cd?complex1" to="http://cds.omdoc.org/urtheories?ScalaOM">
+           <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/complex.mmt#48.2.0-1327.51.1"/></metadata>
+           <constant name="complex_cartesian"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/complex.mmt#148.4.2-306.9.3"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="re"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV><om:OMV position="1" name="im"><type><om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[Numbers.isRealZero(im) match {
+      case Some(true) => re
+		  case _ => complex_cartesian(re, im)
+	  }]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="complex_polar"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/complex.mmt#310.11.1-527.17.3"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="r"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV><om:OMV position="1" name="phi"><type><om:OMS position="1_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[(Numbers.isRealZero(r), Numbers.isRealZero(phi)) match {
+	    case (Some(true), _) => OMI(0)
+	    case (_, Some(true)) => r
+	    case _ => complex_polar(r, phi) 
+	  }]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="real"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/complex.mmt#531.19.1-709.25.3"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="z"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[z match {
+	    case complex_cartesian(re, _) => re
+	    case complex_polar(r, phi) => arith1.times(r, transc1.cos(phi))
+	    case _ => real(z)
+	  }]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="imaginary"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/complex.mmt#713.27.1-901.33.3"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="z"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[z match {
+	    case complex_cartesian(_, im) => im
+	    case complex_polar(r, phi) => arith1.times(r, transc1.sin(phi))
+	    case _ => imaginary(z)
+	  }]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="argument"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/complex.mmt#905.35.1-1081.41.3"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="z"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[z match {
+	    case complex_cartesian(re, im) => Numbers.atan2(im, re)
+	    case complex_polar(r, phi) => phi
+	    case _ => argument(z)
+	  }]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant><constant name="conjugate"><metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/uom/complex.mmt#1085.43.1-1324.49.3"/></metadata><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMBIND><om:OMS position="0" base="http://cds.omdoc.org/urtheories" module="Scala" name="Lambda"/>
+                 <om:OMBVAR><om:OMV position="0" name="z"><type><om:OMS position="0_1" base="http://cds.omdoc.org/urtheories" module="ScalaOM" name="Term"/></type></om:OMV></om:OMBVAR>
+                 <om:OMSF><om:text format="scala"><![CDATA[z match {
+	    case complex_cartesian(re, im) => complex_cartesian(re, arith1.unary_minus(im))
+	    case complex_polar(r, phi) => complex_polar(r, arith1.unary_minus(phi))
+	    case _ => argument(z)
+	  }]]></om:text></om:OMSF>
+      </om:OMBIND></om:OMOBJ></constant>
+         </view>
+     </omdoc>

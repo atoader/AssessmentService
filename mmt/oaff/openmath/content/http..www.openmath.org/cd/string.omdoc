@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="string" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/string.mmt#39.2.0-135.6.1"/>
+    </metadata>
+    <constant name="strlen">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/string.mmt#69.3.2-87.3.20"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?string?strlen" precedence="0" fixity="mixfix" arguments="strlen 1"/>
+      </notation>
+    </constant>
+    <constant name="strcat">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/string.mmt#90.4.2-110.4.22"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?string?strcat" precedence="0" fixity="mixfix" arguments="strcat 1 2"/>
+      </notation>
+    </constant>
+    <constant name="substr">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/string.mmt#113.5.2-133.5.22"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?string?substr" precedence="0" fixity="mixfix" arguments="substr 1 2"/>
+      </notation>
+    </constant>
+  </theory>
+</omdoc>

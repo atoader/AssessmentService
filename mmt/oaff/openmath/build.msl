@@ -1,0 +1,35 @@
+// This is an MMT script that builds this project. It can be run by checking out MMT at https://svn.kwarc.info/repos/MMT/deploy and running MMT using the shell scripts given there.
+
+log console
+log file mmt.log
+//log+ presenter
+//log+ backend
+log+ controller
+//log+ extman
+//log+ reader
+log+ archive    
+//log+ checker
+//log+ object-checker
+//log+ query
+//log+ catalog
+//log+ server
+//log+ checker
+log+ uom
+//log+ abox
+//log+ structure-parser
+//log+ parser
+//log+ scanner
+//log+ lf
+//log+ library
+//plugin info.kwarc.mmt.lf.Plugin
+
+archive add ../urtheories
+archive add .
+
+//archive openmath clean
+build openmath mmt-omdoc
+build openmath index
+archive openmath extract http..www.openmath.org
+archive openmath extract http..oaff.kwarc.info
+archive openmath mar openmath.mar
+exit

@@ -1,0 +1,25 @@
+<omdoc base="http://docs.omdoc.org/crane/sheave.omdoc">
+  <theory name="sheave" base="http://docs.omdoc.org/crane/sheave.omdoc">
+    <import from="../../../fcad/crane/cds/cable?cable"> </import>
+    <constant name="sheave"> </constant>
+    <constant name="pulley"> </constant>
+  </theory>
+  <definition 
+  for="http://docs.omdoc.org/crane/sheave.omdoc?sheave?pulley http://docs.omdoc.org/crane/sheave.omdoc?sheave?sheave">
+    <omdoc:CMP 
+    stex:srcref="../../../../../stc/fcad/crane/cds/sheave.tex#textrange(from=3;1,to=7;16)" about="#sheave.definition4.CMP1" xml:id="sheave.definition4.CMP1" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns="http://omdoc.org/ns" xmlns:omdoc="http://omdoc.org/ns">
+      <p 
+      about="#sheave.definition4.CMP1.p1" class="ltx_p" id="sheave.definition4.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+        A
+        <omdoc:ref target="http://docs.omdoc.org/crane/sheave.omdoc?sheave?sheave"> sheave </omdoc:ref>
+        is a wheel or roller with a groove along its edge for holding a belt, rope, or
+        <omdoc:ref target="http://docs.omdoc.org/crane/cable.omdoc?cable?cable"> cable </omdoc:ref>
+        . When hung between two supports and equipped with a belt, rope or
+        <omdoc:ref target="http://docs.omdoc.org/crane/cable.omdoc?cable?cable"> cable </omdoc:ref>
+        , one or more sheaves make up a
+        <omdoc:ref target="http://docs.omdoc.org/crane/sheave.omdoc?sheave?pulley"> pulley </omdoc:ref>
+        .
+</p>
+</omdoc:CMP>
+</definition>
+</omdoc>

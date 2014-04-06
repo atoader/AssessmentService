@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="financial-transaction" base="http://docs.omdoc.org/cad/financial-transaction.omdoc">
+    <constant name="financial-transaction"> </constant>
+    <constant name="asset"> </constant>
+    <constant name="payment"> </constant>
+    <constant name="transaction-price"> </constant>
+    <constant name="seller"> </constant>
+    <constant name="buyer"> </constant>
+    <constant name="bid"> </constant>
+    <constant name="bid-price"> </constant>
+    <constant name="offer"> </constant>
+    <constant name="asking-price"> </constant>
+    <constant name="individual-price"> </constant>
+    <constant name="overall-price"> </constant>
+    <constant name="price"> </constant>
+    <import from="http://docs.omdoc.org/../../sissi/winograd/cds/legalentities?legalentities"> </import>
+    <import from="http://docs.omdoc.org/../../slides/units/en/quantities?quantities"> </import>
+  </theory>
+</omdoc>

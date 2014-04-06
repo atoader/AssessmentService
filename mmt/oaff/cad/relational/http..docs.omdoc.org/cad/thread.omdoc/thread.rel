@@ -1,0 +1,23 @@
+theory http://docs.omdoc.org/cad/thread.omdoc?thread
+Declares http://docs.omdoc.org/cad/thread.omdoc?thread http://docs.omdoc.org/cad/thread.omdoc?thread?screw-thread
+constant: http://docs.omdoc.org/cad/thread.omdoc?thread?screw-thread
+Declares http://docs.omdoc.org/cad/thread.omdoc?thread http://docs.omdoc.org/cad/thread.omdoc?thread?straight-thread
+constant: http://docs.omdoc.org/cad/thread.omdoc?thread?straight-thread
+Declares http://docs.omdoc.org/cad/thread.omdoc?thread http://docs.omdoc.org/cad/thread.omdoc?thread?external-thread
+constant: http://docs.omdoc.org/cad/thread.omdoc?thread?external-thread
+Declares http://docs.omdoc.org/cad/thread.omdoc?thread http://docs.omdoc.org/cad/thread.omdoc?thread?internal-thread
+constant: http://docs.omdoc.org/cad/thread.omdoc?thread?internal-thread
+Declares http://docs.omdoc.org/cad/thread.omdoc?thread http://docs.omdoc.org/cad/thread.omdoc?thread?tapered-thread
+constant: http://docs.omdoc.org/cad/thread.omdoc?thread?tapered-thread
+Declares http://docs.omdoc.org/cad/thread.omdoc?thread http://docs.omdoc.org/cad/thread.omdoc?thread?major-diameter
+constant: http://docs.omdoc.org/cad/thread.omdoc?thread?major-diameter
+Declares http://docs.omdoc.org/cad/thread.omdoc?thread http://docs.omdoc.org/cad/thread.omdoc?thread?minor-diameter
+constant: http://docs.omdoc.org/cad/thread.omdoc?thread?minor-diameter
+Declares http://docs.omdoc.org/cad/thread.omdoc?thread http://docs.omdoc.org/cad/thread.omdoc?thread?angle
+constant: http://docs.omdoc.org/cad/thread.omdoc?thread?angle
+Declares http://docs.omdoc.org/cad/thread.omdoc?thread http://docs.omdoc.org/cad/thread.omdoc?thread?pitch
+constant: http://docs.omdoc.org/cad/thread.omdoc?thread?pitch
+Declares http://docs.omdoc.org/cad/thread.omdoc?thread http://docs.omdoc.org/cad/thread.omdoc?thread?start
+constant: http://docs.omdoc.org/cad/thread.omdoc?thread?start
+Declares http://docs.omdoc.org/cad/thread.omdoc?thread http://docs.omdoc.org/cad/thread.omdoc?thread?lead
+constant: http://docs.omdoc.org/cad/thread.omdoc?thread?lead

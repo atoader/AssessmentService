@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="dimensions1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#39.2.0-318.23.1"/>
+    </metadata>
+    <constant name="acceleration">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#74.3.2-87.3.15"/>
+      </metadata>
+    </constant>
+    <constant name="area">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#90.4.2-95.4.7"/>
+      </metadata>
+    </constant>
+    <constant name="charge">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#98.5.2-105.5.9"/>
+      </metadata>
+    </constant>
+    <constant name="concentration">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#109.6.2-123.6.16"/>
+      </metadata>
+    </constant>
+    <constant name="current">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#126.7.2-134.7.10"/>
+      </metadata>
+    </constant>
+    <constant name="density">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#138.8.2-146.8.10"/>
+      </metadata>
+    </constant>
+    <constant name="displacement">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#150.9.2-163.9.15"/>
+      </metadata>
+    </constant>
+    <constant name="energy">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#167.10.2-174.10.9"/>
+      </metadata>
+    </constant>
+    <constant name="force">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#178.11.2-184.11.8"/>
+      </metadata>
+    </constant>
+    <constant name="length">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#188.12.2-195.12.9"/>
+      </metadata>
+    </constant>
+    <constant name="mass">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#199.13.2-204.13.7"/>
+      </metadata>
+    </constant>
+    <constant name="momentum">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#208.14.2-217.14.11"/>
+      </metadata>
+    </constant>
+    <constant name="pressure">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#221.15.2-230.15.11"/>
+      </metadata>
+    </constant>
+    <constant name="resistance">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#234.16.2-245.16.13"/>
+      </metadata>
+    </constant>
+    <constant name="speed">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#249.17.2-255.17.8"/>
+      </metadata>
+    </constant>
+    <constant name="temperature">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#259.18.2-271.18.14"/>
+      </metadata>
+    </constant>
+    <constant name="time">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#275.19.2-280.19.7"/>
+      </metadata>
+    </constant>
+    <constant name="velocity">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#284.20.2-293.20.11"/>
+      </metadata>
+    </constant>
+    <constant name="voltage">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#297.21.2-305.21.10"/>
+      </metadata>
+    </constant>
+    <constant name="volume">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/units.mmt#309.22.2-316.22.9"/>
+      </metadata>
+    </constant>
+  </theory>
+</omdoc>

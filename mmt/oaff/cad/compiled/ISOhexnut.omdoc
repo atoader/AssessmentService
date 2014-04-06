@@ -1,0 +1,6 @@
+<omdoc base="http://docs.omdoc.org/cad/ISOhexnut.omdoc">
+  <theory name="ISOhexnut" base="http://docs.omdoc.org/cad/ISOhexnut.omdoc">
+    <import from="../../../fcad/flange/cds/ISOmetricthread?ISOmetricthread"> </import>
+    <import from="../../../fcad/flange/cds/nutbolt?nutbolt"> </import>
+  </theory>
+</omdoc>

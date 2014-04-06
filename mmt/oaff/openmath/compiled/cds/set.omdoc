@@ -1,0 +1,89 @@
+<omdoc base="http://www.openmath.org/cds/set.mmt">
+        <theory name="set1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/set.mmt#39.2.0-445.18.1"/></metadata>
+        <constant name="cartesian_product">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/set.mmt#67.3.2-97.3.32"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?set1?cartesian_product" precedence="0" fixity="mixfix" arguments="prod 1,…"/></notation>
+     </constant><constant name="emptyset">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/set.mmt#100.4.2-114.4.16"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?set1?emptyset" precedence="0" fixity="mixfix" arguments="∅"/></notation>
+     </constant><constant name="map">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/set.mmt#117.5.2-135.5.20"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?set1?map" precedence="0" fixity="mixfix" arguments="map_set 1 2"/></notation>
+     </constant><constant name="size">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/set.mmt#138.6.2-153.6.17"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?set1?size" precedence="0" fixity="mixfix" arguments="card 1"/></notation>
+     </constant><constant name="suchthat">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/set.mmt#156.7.2-180.7.26"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?set1?suchthat" precedence="0" fixity="mixfix" arguments="suchthat 1 2"/></notation>
+     </constant><constant name="set">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/set.mmt#183.8.2-205.8.24"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?set1?set" precedence="0" fixity="mixfix" arguments="{ 1,… }"/></notation>
+     </constant><constant name="intersect">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/set.mmt#208.9.2-232.9.26"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?set1?intersect" precedence="20" fixity="mixfix" arguments="1⋂…"/></notation>
+     </constant><constant name="union">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/set.mmt#235.10.2-255.10.22"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?set1?union" precedence="20" fixity="mixfix" arguments="1⋃…"/></notation>
+     </constant><constant name="setdiff">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/set.mmt#258.11.2-282.11.26"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?set1?setdiff" precedence="20" fixity="mixfix" arguments="1 ∖ 2"/></notation>
+     </constant><constant name="in">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/set.mmt#285.12.2-304.12.21"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?set1?in" precedence="10" fixity="mixfix" arguments="1 ∈ 2"/></notation>
+     </constant><constant name="notin">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/set.mmt#307.13.2-329.13.24"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?set1?notin" precedence="10" fixity="mixfix" arguments="1 ∉ 2"/></notation>
+     </constant><constant name="subset">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/set.mmt#332.14.2-355.14.25"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?set1?subset" precedence="10" fixity="mixfix" arguments="1 ⊆ 2"/></notation>
+     </constant><constant name="prsubset">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/set.mmt#358.15.2-383.15.27"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?set1?prsubset" precedence="10" fixity="mixfix" arguments="1 ⊂ 2"/></notation>
+     </constant><constant name="notsubset">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/set.mmt#386.16.2-412.16.28"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?set1?notsubset" precedence="10" fixity="mixfix" arguments="1 ⊈ 2"/></notation>
+     </constant><constant name="notprsubset">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/set.mmt#415.17.2-443.17.30"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?set1?notprsubset" precedence="10" fixity="mixfix" arguments="1 ⊄ 2"/></notation>
+     </constant>
+      </theory><theory name="set2" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/set.mmt#447.20.0-503.22.1"/></metadata>
+        <constant name="lift_binary">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/set.mmt#475.21.2-501.21.28"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?set2?lift_binary" precedence="0" fixity="mixfix" arguments="lift2 1 2 3"/></notation>
+     </constant>
+      </theory>
+     </omdoc>

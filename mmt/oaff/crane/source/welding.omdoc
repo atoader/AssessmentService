@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--This OMDoc document is generated from an sTeX-encoded one via LaTeXML, you may want to reconsider editing it.-->
+<omdoc xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX" xml:base="https://tnt.kwarc.info/repos/stc/fcad/crane/cds/welding" xml:id="Document">
+  <metadata/>
+  <theory xml:id="welding" about="#welding" stex:srcref="../../../../../stc/fcad/crane/cds/welding.tex#textrange(from=1;0,to=14;12)">
+    <omdoc:definition xml:id="welding.definition1" about="#welding.definition1" stex:srcref="../../../../../stc/fcad/crane/cds/welding.tex#textrange(from=2;1,to=8;16)">
+      <omdoc:CMP xml:id="welding.definition1.CMP1" about="#welding.definition1.CMP1" stex:srcref="../../../../../stc/fcad/crane/cds/welding.tex#textrange(from=2;1,to=8;16)">
+<p xmlns="http://www.w3.org/1999/xhtml" id="welding.definition1.CMP1.p1" class="ltx_p" about="#welding.definition1.CMP1.p1">Welding is a fabrication or sculptural process that joins materials, usually metals or
+thermoplastics, by causing coalescence. This is often done by melting the workpieces and
+adding a filler material to form a pool of molten material (the weld pool) that cools to
+become a strong joint, with pressure sometimes used in conjunction with heat, or by
+itself, to produce the weld.</p></omdoc:CMP>
+    </omdoc:definition>
+    <omdoc:symbol name="weldment-design" xml:id="weldment-design.def.sym" about="#weldment-design.def.sym" stex:srcref="../../../../../stc/fcad/crane/cds/welding.tex#textrange(from=10;1,to=13;16)"/>
+    <omdoc:definition for="weldment-design" xml:id="welding.definition3" about="#welding.definition3" stex:srcref="../../../../../stc/fcad/crane/cds/welding.tex#textrange(from=10;1,to=13;16)">
+      <omdoc:CMP xml:id="welding.definition3.CMP1" about="#welding.definition3.CMP1" stex:srcref="../../../../../stc/fcad/crane/cds/welding.tex#textrange(from=10;1,to=13;16)">
+<p xmlns="http://www.w3.org/1999/xhtml" id="welding.definition3.CMP1.p1" class="ltx_p" about="#welding.definition3.CMP1.p1">A <omdoc:idx xml:id="welding.definition3.CMP1.p1.idx1" about="#welding.definition3.CMP1.p1.idx1" stex:srcref="../../../../../stc/fcad/crane/cds/welding.tex#textrange(from=10;60,to=11;28)"><omdoc:idt xml:id="welding.definition3.CMP1.p1.idx1.idt1" about="#welding.definition3.CMP1.p1.idx1.idt1" stex:srcref="../../../../../stc/fcad/crane/cds/welding.tex#textrange(from=10;60,to=11;28)"><omdoc:term cd="welding" name="weldment-design" role="definiendum" xml:id="welding.definition3.CMP1.p1.idx1.idt1.term1" about="#welding.definition3.CMP1.p1.idx1.idt1.term1" stex:srcref="../../../../../stc/fcad/crane/cds/welding.tex#textrange(from=10;60,to=11;28)">weldment design</omdoc:term></omdoc:idt><omdoc:ide index="default" xml:id="welding.definition3.CMP1.p1.idx1.ide2" about="#welding.definition3.CMP1.p1.idx1.ide2" stex:srcref="../../../../../stc/fcad/crane/cds/welding.tex#textrange(from=10;60,to=11;28)"><omdoc:idp>weldment</omdoc:idp><omdoc:idp>design</omdoc:idp></omdoc:ide></omdoc:idx> is a <omdoc:term cd="design" name="design" xml:id="welding.definition3.CMP1.p1.term2" about="#welding.definition3.CMP1.p1.term2" stex:srcref="../../../../../stc/fcad/crane/cds/welding.tex#textrange(from=10;32,to=11;56)">design</omdoc:term> of an artefact whose components
+are mainly joined by <omdoc:term cd="welding" name="welding" xml:id="welding.definition3.CMP1.p1.term3" about="#welding.definition3.CMP1.p1.term3" stex:srcref="../../../../../stc/fcad/crane/cds/welding.tex#textrange(from=11;1,to=12;38)">welding</omdoc:term>.</p></omdoc:CMP>
+    </omdoc:definition>
+  </theory>
+</omdoc>

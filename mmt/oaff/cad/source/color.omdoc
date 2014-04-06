@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--This OMDoc document is generated from an sTeX-encoded one via LaTeXML, you may want to reconsider editing it.-->
+<omdoc xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX" xml:base="https://tnt.kwarc.info/repos/stc/fcad/flange/cds/color" xml:id="Document">
+  <metadata/>
+  <theory xml:id="color" about="#color" stex:srcref="../../../fcad/flange/cds/color.tex#textrange(from=1;0,to=8;12)">
+    <omdoc:imports from="../../../fcad/flange/cds/physobj#physobj" xml:id="color.imports1" about="#color.imports1" stex:srcref="../../../fcad/flange/cds/color.tex#textrange(from=2;0,to=2;31)"/>
+    <omdoc:symbol name="color" xml:id="color.def.sym" about="#color.def.sym" stex:srcref="../../../fcad/flange/cds/color.tex#textrange(from=3;1,to=7;16)"/>
+    <omdoc:definition for="color" xml:id="color.definition3" about="#color.definition3" stex:srcref="../../../fcad/flange/cds/color.tex#textrange(from=3;1,to=7;16)">
+      <omdoc:CMP xml:id="color.definition3.CMP1" about="#color.definition3.CMP1" stex:srcref="../../../fcad/flange/cds/color.tex#textrange(from=3;1,to=7;16)">
+<p xmlns="http://www.w3.org/1999/xhtml" id="color.definition3.CMP1.p1" class="ltx_p" about="#color.definition3.CMP1.p1">The <omdoc:idx xml:id="color.definition3.CMP1.p1.idx1" about="#color.definition3.CMP1.p1.idx1" stex:srcref="../../../fcad/flange/cds/color.tex#textrange(from=3;70,to=4;18)"><omdoc:idt xml:id="color.definition3.CMP1.p1.idx1.idt1" about="#color.definition3.CMP1.p1.idx1.idt1" stex:srcref="../../../fcad/flange/cds/color.tex#textrange(from=3;70,to=4;18)"><omdoc:term cd="color" name="color" role="definiendum" xml:id="color.definition3.CMP1.p1.idx1.idt1.term1" about="#color.definition3.CMP1.p1.idx1.idt1.term1" stex:srcref="../../../fcad/flange/cds/color.tex#textrange(from=3;70,to=4;18)">color</omdoc:term></omdoc:idt><omdoc:ide index="default" xml:id="color.definition3.CMP1.p1.idx1.ide2" about="#color.definition3.CMP1.p1.idx1.ide2" stex:srcref="../../../fcad/flange/cds/color.tex#textrange(from=3;70,to=4;18)"><omdoc:idp>color</omdoc:idp></omdoc:ide></omdoc:idx> of a <omdoc:term cd="physobj" name="physical-object" xml:id="color.definition3.CMP1.p1.term2" about="#color.definition3.CMP1.p1.term2" stex:srcref="../../../fcad/flange/cds/color.tex#textrange(from=3;30,to=4;58)">physical object</omdoc:term> is defined by the spectrum of
+lights it emits or reflects. It is determined by the object&#x2019;s substance, its temperature
+and the spectrum of the incoming light.</p></omdoc:CMP>
+    </omdoc:definition>
+  </theory>
+</omdoc>

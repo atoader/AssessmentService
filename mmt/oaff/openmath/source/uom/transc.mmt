@@ -1,0 +1,49 @@
+namespace http://oaff.kwarc.info/openmath/uom
+
+view Transc1 : http://www.openmath.org/cd?transc1 -> http://cds.omdoc.org/urtheories?ScalaOM =
+
+  sin = (a: Term) scala
+    Numbers.transc(a, sin(a), math.sin)
+	
+
+  cos = (a: Term) scala
+    Numbers.transc(a, cos(a), math.cos)
+	
+	
+	tan = (a: Term) scala
+    Numbers.transc(a, tan(a), math.tan)
+	
+	
+	cot = (a: Term) scala
+    arith1.divide(OMI(1), tan(a))
+	
+	
+	arcsin = (a: Term) scala
+    Numbers.transc(a, arcsin(a), math.asin)
+	
+	
+	arccos = (a: Term) scala
+    Numbers.transc(a, arccos(a), math.acos)
+	
+	
+	arctan = (a: Term) scala
+    Numbers.transc(a, arctan(a), math.atan)
+	
+	
+	arccot = (a: Term) scala
+    arith1.minus(arith1.divide(nums1.pi, OMI(2)), arctan(a)) 
+	
+	
+	exp = (a: Term) scala
+    Numbers.transc(a, exp(a), math.exp)
+	
+	
+	ln = (a: Term) scala
+    Numbers.transc(a, ln(a), math.log)
+	
+	
+	log = (a: Term, b: Term) scala
+    arith1.divide(ln(a), ln(b))
+	
+	
+

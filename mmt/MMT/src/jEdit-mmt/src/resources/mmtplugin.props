@@ -1,0 +1,62 @@
+# Lines starting with '#' are ignored.
+# name=value
+# another.name=another value
+# long.property=Long property value, split over \
+#     several lines
+# escape.property=Newlines and tabs can be inserted \
+#     using the \t and \n escapes
+# backslash.property=A backslash can be inserted by writing \\.
+
+# general plugin information
+plugin.info.kwarc.mmt.jedit.MMTPlugin.name=MMTPlugin
+plugin.info.kwarc.mmt.jedit.MMTPlugin.title=MMT
+plugin.info.kwarc.mmt.jedit.MMTPlugin.author=Florian Rabe
+plugin.info.kwarc.mmt.jedit.MMTPlugin.description=Support for editing MMT documents
+plugin.info.kwarc.mmt.jedit.MMTPlugin.longdescription=This plugin provides support for editing MMT documents, in particular LF files.
+plugin.info.kwarc.mmt.jedit.MMTPlugin.docs=doc.html
+
+plugin.info.kwarc.mmt.jedit.MMTPlugin.activate=startup
+plugin.info.kwarc.mmt.jedit.MMTPlugin.usePluginHome=true
+plugin.info.kwarc.mmt.jedit.MMTPlugin.jars=scala-library.jar tiscaf.jar mmt-api.jar lfcatalog.jar mmt-lf.jar
+plugin.info.kwarc.mmt.jedit.MMTPlugin.version=1
+plugin.info.kwarc.mmt.jedit.MMTPlugin.depend.0=jedit 04.05.00.00
+plugin.info.kwarc.mmt.jedit.MMTPlugin.depend.1=plugin errorlist.ErrorListPlugin 1.9
+plugin.info.kwarc.mmt.jedit.MMTPlugin.depend.1=plugin console.ConsolePlugin 4.2
+plugin.info.kwarc.mmt.jedit.MMTPlugin.depend.2=plugin sidekick.SideKickPlugin 1.3
+plugin.info.kwarc.mmt.jedit.MMTPlugin.depend.3=plugin gatchan.jedit.hyperlinks.HyperlinksPlugin 1.1
+
+# labels for actions defined in actions.xml
+mmt-showinfo.label=Show Dockable
+mmt-compile.label=Compile current buffer
+mmt-show.labearl=show hidable parts
+mmt-hide.label=hide hidable parts
+mmt-hideshow.label=toggle hidable parts
+mmt-makeHidable.label=make selection hidable
+mmt-hideCurrent.label=hide current
+
+# labels for actions defined in browser.actions.xml
+mmt-browser-compile.label=Compile
+
+# menu items for jEdit views
+plugin.info.kwarc.mmt.jedit.MMTPlugin.menu.label=MMT
+plugin.info.kwarc.mmt.jedit.MMTPlugin.menu=mmt-compile mmt-showinfo mmt-show mmt-hide mmt-hideshow mmt-hideCurrent mmt-makeHidable
+
+# menu items for file system browsers
+plugin.info.kwarc.mmt.jedit.MMTPlugin.browser-menu=mmt-browser-compile
+
+# options pane
+plugin.info.kwarc.mmt.jedit.MMTPlugin.option-pane=info.kwarc.mmt.jedit.MMTPlugin
+options.info.kwarc.mmt.jedit.MMTPlugin.label=MMT
+options.info.kwarc.mmt.jedit.MMTPlugin.code=new info.kwarc.mmt.jedit.MMTOptions();
+
+# toolbar buttons
+# mmt.read.icon=read.png
+
+# sidekick
+sidekick.parser.mmt.label=MMT parser
+mode.mmt.sidekick.parser=mmt
+mode.lf.sidekick.parser=mmt
+
+# hyperlink
+mode.mmt.hyperlink.source=mmt
+mode.lf.hyperlink.source=mmt

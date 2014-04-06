@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="worm-drive" base="http://docs.omdoc.org/crane/worm-drive.omdoc">
+    <constant name="worm-drive"> </constant>
+    <constant name="worm"> </constant>
+    <constant name="worm-gear"> </constant>
+    <import from="http://docs.omdoc.org/../../fcad/crane/cds/transmission?transmission"> </import>
+    <import from="http://docs.omdoc.org/../../fcad/crane/cds/gear?gear"> </import>
+  </theory>
+</omdoc>

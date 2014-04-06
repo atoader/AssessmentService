@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="FreeSpace" base="http://cds.omdoc.org/frameit">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#1012.63.0-1090.67.1"/>
+    </metadata>
+    <import from="http://cds.omdoc.org/frameit?Concrete">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#1033.64.2-1051.64.20"/>
+      </metadata>
+    </import>
+    <import from="http://cds.omdoc.org/frameit?Volume">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#1054.65.2-1070.65.18"/>
+      </metadata>
+    </import>
+    <constant name="free">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#1073.66.2-1088.66.17"/>
+      </metadata>
+      <definition>
+        <om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath">
+          <om:OMSF>
+            <om:text format="http://cds.omdoc.org/frameit?FreeSpace"><![CDATA[v - vol]]></om:text>
+          </om:OMSF>
+        </om:OMOBJ>
+      </definition>
+    </constant>
+  </theory>
+</omdoc>

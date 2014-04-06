@@ -1,0 +1,7 @@
+theory http://docs.omdoc.org/cad/ISOhexbolt.omdoc?ISOhexbolt
+Declares http://docs.omdoc.org/cad/ISOhexbolt.omdoc?ISOhexbolt http://docs.omdoc.org/cad/ISOhexbolt.omdoc?ISOhexbolt?size
+constant: http://docs.omdoc.org/cad/ISOhexbolt.omdoc?ISOhexbolt?size
+Declares http://docs.omdoc.org/cad/ISOhexbolt.omdoc?ISOhexbolt http://docs.omdoc.org/cad/ISOhexbolt.omdoc?ISOhexbolt?ISO-hex-bolt
+constant: http://docs.omdoc.org/cad/ISOhexbolt.omdoc?ISOhexbolt?ISO-hex-bolt
+Includes http://docs.omdoc.org/cad/ISOhexbolt.omdoc?ISOhexbolt http://docs.omdoc.org/../../fcad/flange/cds/ISOmetricthread?ISOmetricthread
+Includes http://docs.omdoc.org/cad/ISOhexbolt.omdoc?ISOhexbolt http://docs.omdoc.org/../../fcad/flange/cds/nutbolt?nutbolt

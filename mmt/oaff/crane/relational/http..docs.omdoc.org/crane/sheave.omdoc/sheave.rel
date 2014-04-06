@@ -1,0 +1,6 @@
+theory http://docs.omdoc.org/crane/sheave.omdoc?sheave
+Declares http://docs.omdoc.org/crane/sheave.omdoc?sheave http://docs.omdoc.org/crane/sheave.omdoc?sheave?sheave
+constant: http://docs.omdoc.org/crane/sheave.omdoc?sheave?sheave
+Declares http://docs.omdoc.org/crane/sheave.omdoc?sheave http://docs.omdoc.org/crane/sheave.omdoc?sheave?pulley
+constant: http://docs.omdoc.org/crane/sheave.omdoc?sheave?pulley
+Includes http://docs.omdoc.org/crane/sheave.omdoc?sheave http://docs.omdoc.org/../../fcad/crane/cds/cable?cable

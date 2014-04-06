@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="cable" base="http://docs.omdoc.org/crane/cable.omdoc">
+    <constant name="cable"> </constant>
+    <import from="http://docs.omdoc.org/../../fcad/crane/cds/rope?rope"> </import>
+  </theory>
+</omdoc>

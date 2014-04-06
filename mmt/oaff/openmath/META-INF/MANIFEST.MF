@@ -1,0 +1,3 @@
+id: openmath
+source-base: http://www.openmath.org/
+narration-base: http://www.openmath.org/

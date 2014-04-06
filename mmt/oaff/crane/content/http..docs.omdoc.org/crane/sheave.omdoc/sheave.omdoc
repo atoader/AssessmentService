@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="sheave" base="http://docs.omdoc.org/crane/sheave.omdoc">
+    <constant name="sheave"> </constant>
+    <constant name="pulley"> </constant>
+    <import from="http://docs.omdoc.org/../../fcad/crane/cds/cable?cable"> </import>
+  </theory>
+</omdoc>

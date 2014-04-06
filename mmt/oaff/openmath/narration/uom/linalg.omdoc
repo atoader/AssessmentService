@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc base="http://www.openmath.org/uom/linalg.omdoc">
+  <mref target="http://oaff.kwarc.info/openmath/uom?Linalg1"/>
+  <mref target="http://oaff.kwarc.info/openmath/uom?Linalg2"/>
+  <mref target="http://oaff.kwarc.info/openmath/uom?Linalg4"/>
+  <mref target="http://oaff.kwarc.info/openmath/uom?LinalgArith"/>
+</omdoc>

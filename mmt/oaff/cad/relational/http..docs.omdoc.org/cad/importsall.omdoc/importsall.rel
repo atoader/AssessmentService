@@ -1,0 +1,5 @@
+theory http://docs.omdoc.org/cad/importsall.omdoc?importsall
+Includes http://docs.omdoc.org/cad/importsall.omdoc?importsall http://docs.omdoc.org/../../fcad/flange/cds/ISOhexnut?ISOhexnut
+Includes http://docs.omdoc.org/cad/importsall.omdoc?importsall http://docs.omdoc.org/../../fcad/flange/cds/flange-bolt-gasket?flange-bolt-gasket
+Includes http://docs.omdoc.org/cad/importsall.omdoc?importsall http://docs.omdoc.org/../../fcad/flange/cds/solidobj?solidobj
+Includes http://docs.omdoc.org/cad/importsall.omdoc?importsall http://docs.omdoc.org/../../fcad/flange/cds/price-function?price-function

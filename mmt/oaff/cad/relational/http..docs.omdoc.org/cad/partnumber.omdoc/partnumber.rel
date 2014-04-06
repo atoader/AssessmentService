@@ -1,0 +1,5 @@
+theory http://docs.omdoc.org/cad/partnumber.omdoc?partnumber
+Declares http://docs.omdoc.org/cad/partnumber.omdoc?partnumber http://docs.omdoc.org/cad/partnumber.omdoc?partnumber?part-number
+constant: http://docs.omdoc.org/cad/partnumber.omdoc?partnumber?part-number
+Includes http://docs.omdoc.org/cad/partnumber.omdoc?partnumber http://docs.omdoc.org/../../fcad/flange/cds/nutbolt?nutbolt
+Includes http://docs.omdoc.org/cad/partnumber.omdoc?partnumber http://docs.omdoc.org/../../fcad/flange/cds/color?color

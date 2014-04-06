@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="arith2" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/arith.mmt#329.17.0-390.20.1"/>
+    </metadata>
+    <constant name="times">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/arith.mmt#359.18.2-365.18.8"/>
+      </metadata>
+    </constant>
+    <constant name="inverse">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/arith.mmt#368.19.2-388.19.22"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?arith2?inverse" precedence="0" fixity="mixfix" arguments="inverse 1"/>
+      </notation>
+    </constant>
+  </theory>
+</omdoc>

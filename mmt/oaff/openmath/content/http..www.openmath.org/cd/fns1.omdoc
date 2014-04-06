@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="fns1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/fns.mmt#39.2.0-95.4.1"/>
+    </metadata>
+    <constant name="lambda">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/fns.mmt#67.3.2-93.3.28"/>
+      </metadata>
+      <notation>
+        <text-notation name="http://www.openmath.org/cd?fns1?lambda" precedence="-10" fixity="mixfix" arguments="V1 ⟼ -2"/>
+      </notation>
+    </constant>
+  </theory>
+</omdoc>

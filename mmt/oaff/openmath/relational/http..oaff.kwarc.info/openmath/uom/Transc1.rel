@@ -1,0 +1,14 @@
+HasDomain http://oaff.kwarc.info/openmath/uom?Transc1 http://www.openmath.org/cd?transc1
+HasCodomain http://oaff.kwarc.info/openmath/uom?Transc1 http://cds.omdoc.org/urtheories?ScalaOM
+view http://oaff.kwarc.info/openmath/uom?Transc1
+Declares http://oaff.kwarc.info/openmath/uom?Transc1 http://oaff.kwarc.info/openmath/uom?Transc1?sin
+Declares http://oaff.kwarc.info/openmath/uom?Transc1 http://oaff.kwarc.info/openmath/uom?Transc1?cos
+Declares http://oaff.kwarc.info/openmath/uom?Transc1 http://oaff.kwarc.info/openmath/uom?Transc1?tan
+Declares http://oaff.kwarc.info/openmath/uom?Transc1 http://oaff.kwarc.info/openmath/uom?Transc1?cot
+Declares http://oaff.kwarc.info/openmath/uom?Transc1 http://oaff.kwarc.info/openmath/uom?Transc1?arcsin
+Declares http://oaff.kwarc.info/openmath/uom?Transc1 http://oaff.kwarc.info/openmath/uom?Transc1?arccos
+Declares http://oaff.kwarc.info/openmath/uom?Transc1 http://oaff.kwarc.info/openmath/uom?Transc1?arctan
+Declares http://oaff.kwarc.info/openmath/uom?Transc1 http://oaff.kwarc.info/openmath/uom?Transc1?arccot
+Declares http://oaff.kwarc.info/openmath/uom?Transc1 http://oaff.kwarc.info/openmath/uom?Transc1?exp
+Declares http://oaff.kwarc.info/openmath/uom?Transc1 http://oaff.kwarc.info/openmath/uom?Transc1?ln
+Declares http://oaff.kwarc.info/openmath/uom?Transc1 http://oaff.kwarc.info/openmath/uom?Transc1?log

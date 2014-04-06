@@ -1,0 +1,41 @@
+<omdoc base="http://www.openmath.org/cds/interval.mmt">
+        <theory name="interval1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/interval.mmt#39.2.0-263.10.1"/></metadata>
+        <constant name="integer_interval">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/interval.mmt#72.3.2-100.3.30"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?interval1?integer_interval" precedence="0" fixity="mixfix" arguments="iint 1 2"/></notation>
+     </constant><constant name="interval">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/interval.mmt#104.4.2-123.4.21"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?interval1?interval" precedence="0" fixity="mixfix" arguments="int 1 2"/></notation>
+     </constant><constant name="interval_cc">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/interval.mmt#127.5.2-149.5.24"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?interval1?interval_cc" precedence="0" fixity="mixfix" arguments="icc 1 2"/></notation>
+     </constant><constant name="interval_co">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/interval.mmt#153.6.2-175.6.24"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?interval1?interval_co" precedence="0" fixity="mixfix" arguments="ico 1 2"/></notation>
+     </constant><constant name="interval_oc">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/interval.mmt#179.7.2-201.7.24"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?interval1?interval_oc" precedence="0" fixity="mixfix" arguments="ioc 1 2"/></notation>
+     </constant><constant name="interval_oo">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/interval.mmt#205.8.2-227.8.24"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?interval1?interval_oo" precedence="0" fixity="mixfix" arguments="ioo 1 2"/></notation>
+     </constant><constant name="oriented_interval">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/interval.mmt#231.9.2-260.9.31"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?interval1?oriented_interval" precedence="0" fixity="mixfix" arguments="oint 1 2"/></notation>
+     </constant>
+      </theory>
+     </omdoc>

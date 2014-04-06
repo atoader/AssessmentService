@@ -1,0 +1,6 @@
+theory http://cds.omdoc.org/assessment?Profit
+Includes http://cds.omdoc.org/assessment?Profit http://cds.omdoc.org/assessment?Comparation
+Declares http://cds.omdoc.org/assessment?Profit http://cds.omdoc.org/assessment?Profit?pi
+constant: http://cds.omdoc.org/assessment?Profit?pi
+Declares http://cds.omdoc.org/assessment?Profit http://cds.omdoc.org/assessment?Profit?x
+constant: http://cds.omdoc.org/assessment?Profit?x

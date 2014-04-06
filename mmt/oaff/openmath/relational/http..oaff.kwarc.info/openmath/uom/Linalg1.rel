@@ -1,0 +1,9 @@
+HasDomain http://oaff.kwarc.info/openmath/uom?Linalg1 http://www.openmath.org/cd?linalg1
+HasCodomain http://oaff.kwarc.info/openmath/uom?Linalg1 http://cds.omdoc.org/urtheories?ScalaOM
+view http://oaff.kwarc.info/openmath/uom?Linalg1
+Declares http://oaff.kwarc.info/openmath/uom?Linalg1 http://oaff.kwarc.info/openmath/uom?Linalg1?vectorproduct
+Declares http://oaff.kwarc.info/openmath/uom?Linalg1 http://oaff.kwarc.info/openmath/uom?Linalg1?scalarproduct
+Declares http://oaff.kwarc.info/openmath/uom?Linalg1 http://oaff.kwarc.info/openmath/uom?Linalg1?outerproduct
+Declares http://oaff.kwarc.info/openmath/uom?Linalg1 http://oaff.kwarc.info/openmath/uom?Linalg1?vector_selector
+Declares http://oaff.kwarc.info/openmath/uom?Linalg1 http://oaff.kwarc.info/openmath/uom?Linalg1?matrix_selector
+Declares http://oaff.kwarc.info/openmath/uom?Linalg1 http://oaff.kwarc.info/openmath/uom?Linalg1?transpose

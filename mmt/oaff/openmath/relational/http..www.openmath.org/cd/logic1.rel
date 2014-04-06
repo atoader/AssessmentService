@@ -1,0 +1,18 @@
+theory http://www.openmath.org/cd?logic1
+HasMeta http://www.openmath.org/cd?logic1 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?logic1 http://www.openmath.org/cd?logic1?false
+constant: http://www.openmath.org/cd?logic1?false
+Declares http://www.openmath.org/cd?logic1 http://www.openmath.org/cd?logic1?true
+constant: http://www.openmath.org/cd?logic1?true
+Declares http://www.openmath.org/cd?logic1 http://www.openmath.org/cd?logic1?equivalent
+constant: http://www.openmath.org/cd?logic1?equivalent
+Declares http://www.openmath.org/cd?logic1 http://www.openmath.org/cd?logic1?implies
+constant: http://www.openmath.org/cd?logic1?implies
+Declares http://www.openmath.org/cd?logic1 http://www.openmath.org/cd?logic1?not
+constant: http://www.openmath.org/cd?logic1?not
+Declares http://www.openmath.org/cd?logic1 http://www.openmath.org/cd?logic1?and
+constant: http://www.openmath.org/cd?logic1?and
+Declares http://www.openmath.org/cd?logic1 http://www.openmath.org/cd?logic1?or
+constant: http://www.openmath.org/cd?logic1?or
+Declares http://www.openmath.org/cd?logic1 http://www.openmath.org/cd?logic1?xor
+constant: http://www.openmath.org/cd?logic1?xor

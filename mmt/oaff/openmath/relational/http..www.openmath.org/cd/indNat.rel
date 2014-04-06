@@ -1,0 +1,6 @@
+theory http://www.openmath.org/cd?indNat
+HasMeta http://www.openmath.org/cd?indNat http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?indNat http://www.openmath.org/cd?indNat?zero
+constant: http://www.openmath.org/cd?indNat?zero
+Declares http://www.openmath.org/cd?indNat http://www.openmath.org/cd?indNat?succ
+constant: http://www.openmath.org/cd?indNat?succ

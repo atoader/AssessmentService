@@ -1,0 +1,23 @@
+namespace http://oaff.kwarc.info/openmath/uom
+
+view Rounding1 : http://www.openmath.org/cd?rounding1 -> http://cds.omdoc.org/urtheories?ScalaOM =
+
+  ceiling = (a: Term) scala
+    Numbers.roundWithOp(a, math.ceil)
+  
+  
+  floor = (a: Term) scala
+    Numbers.roundWithOp(a, math.floor)
+  
+  
+  round = (a: Term) scala
+    Numbers.roundWithOp(a, Numbers.round)
+  
+  
+  trunc = (a: Term) scala
+    Numbers.roundWithOp(a, Numbers.trunc)
+  
+  
+
+
+

@@ -1,0 +1,38 @@
+<omdoc base="http://docs.omdoc.org/urtheories/term-reflection.mmt">
+        <theory name="Terms" base="http://cds.omdoc.org/urtheories/reflection">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://docs.omdoc.org/urtheories/term-reflection.mmt#55.2.0-247.9.1"/></metadata>
+        <import from="http://cds.omdoc.org/urtheories?Typed">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://docs.omdoc.org/urtheories/term-reflection.mmt#73.3.3-99.3.29"/></metadata>
+            
+          </import><constant name="formation">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://docs.omdoc.org/urtheories/term-reflection.mmt#107.5.3-138.5.34"/></metadata>
+       
+       
+       <notation><text-notation name="http://cds.omdoc.org/urtheories/reflection?Terms?formation" precedence="-10" fixity="mixfix" arguments="↑ 1 2"/></notation>
+     </constant><constant name="quote">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://docs.omdoc.org/urtheories/term-reflection.mmt#142.6.3-173.6.34"/></metadata>
+       
+       
+       <notation><text-notation name="http://cds.omdoc.org/urtheories/reflection?Terms?quote" precedence="-10" fixity="mixfix" arguments="⌜ 1 ⌝ 2"/></notation>
+     </constant><constant name="eval">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://docs.omdoc.org/urtheories/term-reflection.mmt#177.7.3-208.7.34"/></metadata>
+       
+       
+       <notation><text-notation name="http://cds.omdoc.org/urtheories/reflection?Terms?eval" precedence="-10" fixity="mixfix" arguments="⌞ 1 ⌟ 2"/></notation>
+     </constant><constant name="elim">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://docs.omdoc.org/urtheories/term-reflection.mmt#212.8.3-245.8.36"/></metadata>
+       
+       
+       <notation><text-notation name="http://cds.omdoc.org/urtheories/reflection?Terms?elim" precedence="10000" fixity="mixfix" arguments="1 ^ 2"/></notation>
+     </constant>
+      </theory><theory name="LFReflection" base="http://cds.omdoc.org/urtheories/reflection">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://docs.omdoc.org/urtheories/term-reflection.mmt#249.11.0-316.14.1"/></metadata>
+        <import from="http://cds.omdoc.org/urtheories?LF">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://docs.omdoc.org/urtheories/term-reflection.mmt#273.12.2-296.12.25"/></metadata>
+            
+          </import><import from="http://cds.omdoc.org/urtheories/reflection?Terms">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://docs.omdoc.org/urtheories/term-reflection.mmt#299.13.2-314.13.17"/></metadata>
+            
+          </import>
+      </theory>
+     </omdoc>

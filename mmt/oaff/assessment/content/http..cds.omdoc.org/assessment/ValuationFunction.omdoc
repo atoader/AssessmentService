@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="ValuationFunction" base="http://cds.omdoc.org/assessment">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/assessment/assessment.mmt#324.15.0-401.19.1"/>
+    </metadata>
+    <import from="http://cds.omdoc.org/assessment?Comparation">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/assessment/assessment.mmt#354.16.2-375.16.23"/>
+      </metadata>
+    </import>
+    <constant name="function">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/assessment/assessment.mmt#378.17.2-387.17.11"/>
+      </metadata>
+    </constant>
+    <constant name="value">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/assessment/assessment.mmt#391.18.2-397.18.8"/>
+      </metadata>
+    </constant>
+  </theory>
+</omdoc>

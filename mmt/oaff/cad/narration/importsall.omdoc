@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc base="http://docs.omdoc.org/cad/importsall.omdoc">
+  <mref target="http://docs.omdoc.org/cad/importsall.omdoc?importsall"/>
+  <plain-narration>
+    <omdoc:omtext 
+    xml:id="importsall.omtext1" about="#importsall.omtext1" stex:srcref="../../../fcad/flange/cds/importsall.tex#textrange(from=2;1,to=4;12)" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX">
+      <omdoc:CMP xml:id="importsall.omtext1.CMP1" about="#importsall.omtext1.CMP1" stex:srcref="../../../fcad/flange/cds/importsall.tex#textrange(from=2;1,to=2;15)">
+        <p id="importsall.omtext1.CMP1.p1" class="ltx_p" about="#importsall.omtext1.CMP1.p1" xmlns="http://www.w3.org/1999/xhtml">
+          this is only for generating the graph
+        </p>
+      </omdoc:CMP>
+</omdoc:omtext>
+  </plain-narration>
+</omdoc>

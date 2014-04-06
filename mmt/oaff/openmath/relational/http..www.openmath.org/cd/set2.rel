@@ -1,0 +1,4 @@
+theory http://www.openmath.org/cd?set2
+HasMeta http://www.openmath.org/cd?set2 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?set2 http://www.openmath.org/cd?set2?lift_binary
+constant: http://www.openmath.org/cd?set2?lift_binary

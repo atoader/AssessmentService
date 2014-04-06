@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="LawOfCosines" base="http://cds.omdoc.org/frameit">
+    <metadata>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#472.26.0-609.32.1"/>
+    </metadata>
+    <import from="http://www.openmath.org/cd?arith1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#496.27.2-538.27.44"/>
+      </metadata>
+    </import>
+    <import from="http://www.openmath.org/cd?transc1">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#541.28.2-584.28.45"/>
+      </metadata>
+    </import>
+    <constant name="d">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#587.29.2-590.29.5"/>
+      </metadata>
+    </constant>
+    <constant name="alpha">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#593.30.2-600.30.9"/>
+      </metadata>
+    </constant>
+    <constant name="base">
+      <metadata>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/frameit/frameIT.mmt#603.31.2-609.32.1"/>
+      </metadata>
+    </constant>
+  </theory>
+</omdoc>

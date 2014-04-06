@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="partnumber" base="http://docs.omdoc.org/cad/partnumber.omdoc">
+    <constant name="part-number"> </constant>
+    <import from="http://docs.omdoc.org/../../fcad/flange/cds/nutbolt?nutbolt"> </import>
+    <import from="http://docs.omdoc.org/../../fcad/flange/cds/color?color"> </import>
+  </theory>
+</omdoc>

@@ -1,0 +1,45 @@
+namespace http://www.openmath.org/cd
+
+theory linalg1 : ?OpenMath =
+  determinant # det 1
+  matrix_selector # 3 . 1 . 2 prec 49
+  outerproduct # 1 ⊗ 2 prec 30
+  scalarproduct # 1 ⋅ 2 prec 30
+  transpose # 1 T prec 50
+  vector_selector # 2 . 1 prec 50
+  vectorproduct # 1 × 2 prec 30
+
+
+theory linalg2 : ?OpenMath =
+  vector # ⟨ 1,… ⟩ prec 0 
+  matrixrow # row 1,… 
+  matrix # ⟪ 1,… ⟫ prec 0
+
+
+theory linalg4 : ?OpenMath =
+  characteristic_eqn
+  columncount # columncount 1 
+  eigenvalue 
+  eigenvector 
+  rank 
+  rowcount # rowcount 1 
+  size # vsize 1
+
+
+theory linalg5 : ?OpenMath =
+  zero # O 1 2
+  identity # I 1
+  diagonal_matrix # diag 1,…
+  scalar # scalar 1 2
+  const # const 1 2
+  banded # banded 1
+  symmetric # symmetric 1
+  skew_symmetric # skew_symmetric 1
+  Hermitian # Hermitian 1
+  anti_Hermitian # anti_Hermitian 1
+  lower_triangular # lower_triangular 1
+  upper_triangular # upper_triangular 1
+  tridiagonal # tridiagonal 1
+  lower_Hessenberg # lower_Hessenberg 1
+  upper_Hessenberg # upper_Hessenberg 1
+

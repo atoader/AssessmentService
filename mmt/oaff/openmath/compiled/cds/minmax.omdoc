@@ -1,0 +1,16 @@
+<omdoc base="http://www.openmath.org/cds/minmax.mmt">
+        <theory name="minmax1" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/minmax.mmt#39.2.0-99.5.1"/></metadata>
+        <constant name="min">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/minmax.mmt#70.3.2-82.3.14"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?minmax1?min" precedence="0" fixity="mixfix" arguments="min 1"/></notation>
+     </constant><constant name="max">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/minmax.mmt#85.4.2-97.4.14"/></metadata>
+       
+       
+       <notation><text-notation name="http://www.openmath.org/cd?minmax1?max" precedence="0" fixity="mixfix" arguments="max 1"/></notation>
+     </constant>
+      </theory>
+     </omdoc>

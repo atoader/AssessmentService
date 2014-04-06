@@ -1,0 +1,74 @@
+<omdoc base="http://www.openmath.org/test/logic.mmt">
+        <theory name="Logic" base="http://oaff.kwarc.info/openmath/test">
+        <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/logic.mmt#88.4.0-384.13.1"/></metadata>
+        <import from="http://www.openmath.org/cd?relation1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/logic.mmt#105.5.2-127.5.24"/></metadata>
+            
+          </import><import from="http://www.openmath.org/cd?logic1">
+            <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/logic.mmt#130.6.2-149.6.21"/></metadata>
+            
+          </import><constant name="equivalentTest">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/logic.mmt#152.7.2-189.7.39"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="logic1" name="equivalent"/>
+              <om:OMS position="1" base="http://www.openmath.org/cd" module="logic1" name="true"/><om:OMS position="2" base="http://www.openmath.org/cd" module="logic1" name="true"/>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant><constant name="impliesTest">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/logic.mmt#192.8.2-227.8.37"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="logic1" name="implies"/>
+              <om:OMS position="1" base="http://www.openmath.org/cd" module="logic1" name="false"/><om:OMS position="2" base="http://www.openmath.org/cd" module="logic1" name="false"/>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant><constant name="notTest">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/logic.mmt#230.9.2-262.9.34"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="logic1" name="not"/>
+              <om:OMA position="1"><om:OMS position="1_0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMS position="1_1" base="http://www.openmath.org/cd" module="logic1" name="true"/><om:OMS position="1_2" base="http://www.openmath.org/cd" module="logic1" name="false"/>
+      </om:OMA>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant><constant name="andTest">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/logic.mmt#265.10.2-303.10.40"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="logic1" name="and"/>
+              <om:OMS position="1" base="http://www.openmath.org/cd" module="logic1" name="true"/><om:OMA position="2"><om:OMS position="2_0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMS position="2_1" base="http://www.openmath.org/cd" module="logic1" name="false"/><om:OMS position="2_2" base="http://www.openmath.org/cd" module="logic1" name="false"/>
+      </om:OMA>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant><constant name="orTest">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/logic.mmt#306.11.2-342.11.38"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="logic1" name="or"/>
+              <om:OMS position="1" base="http://www.openmath.org/cd" module="logic1" name="true"/><om:OMA position="2"><om:OMS position="2_0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMS position="2_1" base="http://www.openmath.org/cd" module="logic1" name="false"/><om:OMS position="2_2" base="http://www.openmath.org/cd" module="logic1" name="true"/>
+      </om:OMA>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant><constant name="xorTest">
+       <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/logic.mmt#345.12.2-382.12.39"/></metadata>
+       <type><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://www.openmath.org/cd" module="OpenMath" name="FMP"/></om:OMOBJ></type>
+       <definition><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMA><om:OMS position="0" base="http://www.openmath.org/cd" module="logic1" name="xor"/>
+              <om:OMS position="1" base="http://www.openmath.org/cd" module="logic1" name="true"/><om:OMA position="2"><om:OMS position="2_0" base="http://www.openmath.org/cd" module="relation1" name="eq"/>
+              <om:OMS position="2_1" base="http://www.openmath.org/cd" module="logic1" name="false"/><om:OMS position="2_2" base="http://www.openmath.org/cd" module="logic1" name="true"/>
+      </om:OMA>
+      </om:OMA></om:OMOBJ></definition>
+       
+     </constant>
+      </theory><view name="LogicTest" base="http://oaff.kwarc.info/openmath/test" from="http://oaff.kwarc.info/openmath/test?Logic" to="http://cds.omdoc.org/urtheories?ScalaOM">
+           <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/logic.mmt#386.15.0-604.19.1"/></metadata>
+           <import name="[http:%2F%2Fwww.openmath.org%2Fcd%3FOpenMath]" domain="http://www.openmath.org/cd?OpenMath">
+                     <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/logic.mmt#457.16.2-524.16.69"/></metadata>
+                     <value><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://cds.omdoc.org/urtheories" module="Syntactic"/></om:OMOBJ></value>
+                </import><import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Frelation1]" domain="http://www.openmath.org/cd?relation1">
+                     <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/logic.mmt#527.17.2-566.17.41"/></metadata>
+                     <value><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Relation1"/></om:OMOBJ></value>
+                </import><import name="[http:%2F%2Fwww.openmath.org%2Fcd%3Flogic1]" domain="http://www.openmath.org/cd?logic1">
+                     <metadata><link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/test/logic.mmt#569.18.2-602.18.35"/></metadata>
+                     <value><om:OMOBJ xmlns:om="http://www.openmath.org/OpenMath"><om:OMS base="http://oaff.kwarc.info/openmath/uom" module="Logic1"/></om:OMOBJ></value>
+                </import>
+         </view>
+     </omdoc>

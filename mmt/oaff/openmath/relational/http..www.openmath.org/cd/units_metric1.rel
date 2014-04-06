@@ -1,0 +1,36 @@
+theory http://www.openmath.org/cd?units_metric1
+HasMeta http://www.openmath.org/cd?units_metric1 http://www.openmath.org/cd?OpenMath
+Declares http://www.openmath.org/cd?units_metric1 http://www.openmath.org/cd?units_metric1?Coulomb
+constant: http://www.openmath.org/cd?units_metric1?Coulomb
+Declares http://www.openmath.org/cd?units_metric1 http://www.openmath.org/cd?units_metric1?Joule
+constant: http://www.openmath.org/cd?units_metric1?Joule
+Declares http://www.openmath.org/cd?units_metric1 http://www.openmath.org/cd?units_metric1?Newton
+constant: http://www.openmath.org/cd?units_metric1?Newton
+Declares http://www.openmath.org/cd?units_metric1 http://www.openmath.org/cd?units_metric1?Newton_per_sqr_metre
+constant: http://www.openmath.org/cd?units_metric1?Newton_per_sqr_metre
+Declares http://www.openmath.org/cd?units_metric1 http://www.openmath.org/cd?units_metric1?Pascal
+constant: http://www.openmath.org/cd?units_metric1?Pascal
+Declares http://www.openmath.org/cd?units_metric1 http://www.openmath.org/cd?units_metric1?Watt
+constant: http://www.openmath.org/cd?units_metric1?Watt
+Declares http://www.openmath.org/cd?units_metric1 http://www.openmath.org/cd?units_metric1?amp
+constant: http://www.openmath.org/cd?units_metric1?amp
+Declares http://www.openmath.org/cd?units_metric1 http://www.openmath.org/cd?units_metric1?degree_Kelvin
+constant: http://www.openmath.org/cd?units_metric1?degree_Kelvin
+Declares http://www.openmath.org/cd?units_metric1 http://www.openmath.org/cd?units_metric1?gramme
+constant: http://www.openmath.org/cd?units_metric1?gramme
+Declares http://www.openmath.org/cd?units_metric1 http://www.openmath.org/cd?units_metric1?litre
+constant: http://www.openmath.org/cd?units_metric1?litre
+Declares http://www.openmath.org/cd?units_metric1 http://www.openmath.org/cd?units_metric1?litre_pre1964
+constant: http://www.openmath.org/cd?units_metric1?litre_pre1964
+Declares http://www.openmath.org/cd?units_metric1 http://www.openmath.org/cd?units_metric1?metre
+constant: http://www.openmath.org/cd?units_metric1?metre
+Declares http://www.openmath.org/cd?units_metric1 http://www.openmath.org/cd?units_metric1?metre_sqrd
+constant: http://www.openmath.org/cd?units_metric1?metre_sqrd
+Declares http://www.openmath.org/cd?units_metric1 http://www.openmath.org/cd?units_metric1?metres_per_second
+constant: http://www.openmath.org/cd?units_metric1?metres_per_second
+Declares http://www.openmath.org/cd?units_metric1 http://www.openmath.org/cd?units_metric1?metres_per_second_sqrd
+constant: http://www.openmath.org/cd?units_metric1?metres_per_second_sqrd
+Declares http://www.openmath.org/cd?units_metric1 http://www.openmath.org/cd?units_metric1?second
+constant: http://www.openmath.org/cd?units_metric1?second
+Declares http://www.openmath.org/cd?units_metric1 http://www.openmath.org/cd?units_metric1?volt
+constant: http://www.openmath.org/cd?units_metric1?volt

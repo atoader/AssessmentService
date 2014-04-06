@@ -1,0 +1,7 @@
+theory http://cds.omdoc.org/urtheories?Typed
+Declares http://cds.omdoc.org/urtheories?Typed http://cds.omdoc.org/urtheories?Typed?kind
+constant: http://cds.omdoc.org/urtheories?Typed?kind
+Declares http://cds.omdoc.org/urtheories?Typed http://cds.omdoc.org/urtheories?Typed?type
+constant: http://cds.omdoc.org/urtheories?Typed?type
+Includes http://cds.omdoc.org/urtheories?Typed http://cds.omdoc.org/mmt?Errors
+Includes http://cds.omdoc.org/urtheories?Typed http://cds.omdoc.org/mmt?ModExp

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
+  <theory name="piping" base="http://docs.omdoc.org/cad/piping.omdoc">
+    <constant name="pipe"> </constant>
+    <constant name="piping"> </constant>
+    <constant name="fitting"> </constant>
+    <constant name="clean-out"> </constant>
+    <import from="http://docs.omdoc.org/../../fcad/flange/cds/physobj?physobj"> </import>
+  </theory>
+</omdoc>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omdoc base="http://docs.omdoc.org/cad/price-function.omdoc">
+  <mref target="http://docs.omdoc.org/cad/price-function.omdoc?price-function"/>
+  <plain-narration>
+    <div 
+    id="price-function.p1" class="ltx_para" xmlns:omdoc="http://omdoc.org/ns" xmlns="http://omdoc.org/ns" xmlns:stex="http://kwarc.info/ns/sTeX" xmlns:om="http://www.openmath.org/OpenMath" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns="http://www.w3.org/1999/xhtml">
+      <p id="price-function.p1.p1" class="ltx_p" about="#price-function.p1.p1">
+        The
+        <omdoc:term 
+        cd="financial-transaction" name="price" xml:id="price-function.p1.p1.term1" about="#price-function.p1.p1.term1" stex:srcref="../../../fcad/flange/cds/price-function.tex#textrange(from=4;48,to=5;40)">
+          price
+</omdoc:term>
+        of an
+        <omdoc:term 
+        cd="financial-transaction" name="offer" xml:id="price-function.p1.p1.term2" about="#price-function.p1.p1.term2" stex:srcref="../../../fcad/flange/cds/price-function.tex#textrange(from=4;5,to=5;83)">
+          offer
+</omdoc:term>
+        or a
+        <omdoc:term 
+        cd="financial-transaction" name="bid" xml:id="price-function.p1.p1.term3" about="#price-function.p1.p1.term3" stex:srcref="../../../fcad/flange/cds/price-function.tex#textrange(from=5;52,to=6;34)">
+          bid
+</omdoc:term>
+        may vary with the amount of the asset. Therefore it is usually given as a function from quantities of goods to payments.
+      </p>
+</div>
+  </plain-narration>
+</omdoc>
