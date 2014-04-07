@@ -38,7 +38,7 @@ function gen_comparator_view(next_func) {
         type: "POST",
         url: "http://localhost:8080/:post",
         data: {
-            'body': "namespace http://cds.omdoc.org/assessment\nview ComparationInst : ?Comparation -> ?Lists = \nbase = 0\ncomp = gt\n",
+            'body': "namespace http://cds.omdoc.org/assessment\nview ComparationInst : ?Comparation -> ?Reals = \nbase = 0\ncomp = gt\n",
             'format': 'mmt',
             'dpath': '/home/assessment/'
         },
@@ -79,7 +79,7 @@ function concrete_profit(next_func) {
         type: "POST",
         url: "http://localhost:8080/:post",
         data: {
-            'body': "namespace http://cds.omdoc.org/assessment\nview ConcreteProfit : ?Profit -> ?Lists = \n include ?Comparation = ?ComparationInst\npi = [8,10,12]\nx = 2\n",
+            'body': "namespace http://cds.omdoc.org/assessment\nview ConcreteProfit : ?Profit -> ?Reals = \n include ?Comparation = ?ComparationInst\npi = [8,10,12]\nx = 2\n",
             'format': 'mmt',
             'dpath': '/home/assessment/'
         },

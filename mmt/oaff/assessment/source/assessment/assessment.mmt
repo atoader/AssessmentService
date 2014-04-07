@@ -1,6 +1,6 @@
 namespace http://cds.omdoc.org/assessment
 
-theory Lists = 
+theory Reals = 
   include http://www.openmath.org/cd?arith1
   include http://www.openmath.org/cd?relation1
   include http://www.openmath.org/cd?list1
@@ -8,7 +8,7 @@ theory Lists =
 
 
 theory Comparation = 
-  include ?Lists
+  include ?Reals
   base # base  
   comp # comp 1 2 
 
@@ -27,5 +27,5 @@ theory Profit =
 
 theory Assessment = 
   include ?ValuationFunction
-  assess_value = comp (list_selector value function) base
+  assess_value = comp value base
 
