@@ -1,0 +1,17 @@
+namespace http://oaff.kwarc.info/openmath/uom
+
+view Map1 : http://www.openmath.org/cd?map1 -> http://cds.omdoc.org/urtheories?ScalaOM =
+    pair = (first: Term, second: Term) scala
+	  pair(first,second)
+	
+
+    select_first = (pr: Term) scala
+	 OMI(3432)
+	
+
+	select_second = (pr: Term) scala
+	  pr match{
+	  	case _ => OMI(4444)
+	  }
+	
+

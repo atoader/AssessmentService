@@ -16,7 +16,7 @@ base http://www.openmath.org/cd?all
 archive openmath register info.kwarc.oaff.openmath.uom
 
 // run the test cases generated from the views in source/test
-archive openmath test info.kwarc.oaff.openmath.test
+// archive openmath test info.kwarc.oaff.openmath.test
 
 // drop into Scala interactive loop
 scala

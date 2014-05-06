@@ -12,7 +12,7 @@ view PolyuArith : http://www.openmath.org/cd?arith1 -> http://cds.omdoc.org/urth
     
     args foreach {
       case polyu.polynomial_u(p, _) => polys ::= p
-      case p@polyu.poly_u_rep(_) => polys :: p
+      case p@polyu.poly_u_rep(_) => polys ::= p
       case a => restArgs ::= a
     }
     if (polys == Nil) {
