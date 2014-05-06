@@ -1,106 +1,112 @@
-14:10:52.517	user: log file /home/alex/projects/thesis/mmt/oaff/openmath/mmt.log finished
-14:10:52.520	user: log+ controller
-14:10:52.520	user: log+ controller finished
-14:10:52.521	user: log+ archive
-14:10:52.521	user: log+ archive finished
-14:10:52.524	user: log+ uom
-14:10:52.524	user: log+ uom finished
-14:10:52.530	user: archive add /home/alex/projects/thesis/mmt/oaff/urtheories
-14:10:52.570	user: archive add /home/alex/projects/thesis/mmt/oaff/urtheories finished
-14:10:52.571	user: archive add /home/alex/projects/thesis/mmt/oaff/openmath
-14:10:52.573	user: archive add /home/alex/projects/thesis/mmt/oaff/openmath finished
-14:10:52.587	user: archive openmath mmt-omdoc  
-14:10:52.642	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/source
-14:10:52.643	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/source/test
-14:10:52.826	    controller: retrieving http://www.openmath.org/cd?relation1
-14:10:53.59	    controller: retrieved http://www.openmath.org/cd?relation1
-14:10:53.60	    controller: retrieving http://www.openmath.org/cd?OpenMath
-14:10:53.86	    controller: retrieved http://www.openmath.org/cd?OpenMath
-14:10:53.93	    controller: retrieving http://www.openmath.org/cd?logic1
-14:10:53.158	    controller: retrieved http://www.openmath.org/cd?logic1
-14:10:53.159	    controller: retrieving http://www.openmath.org/cd?complex1
-14:10:53.199	    controller: retrieved http://www.openmath.org/cd?complex1
-14:10:53.760	controller: retrieving http://cds.omdoc.org/urtheories?ScalaOM
-14:10:53.777	controller: retrieved http://cds.omdoc.org/urtheories?ScalaOM
-14:10:53.846	    controller: retrieving http://www.openmath.org/cd?integer1
-14:10:53.866	    controller: retrieved http://www.openmath.org/cd?integer1
-14:10:53.874	    controller: retrieving http://www.openmath.org/cd?nums1
-14:10:53.901	    controller: retrieved http://www.openmath.org/cd?nums1
-14:10:54.17	    controller: retrieving http://www.openmath.org/cd?arith1
-14:10:54.55	    controller: retrieved http://www.openmath.org/cd?arith1
-14:10:54.56	    controller: retrieving http://www.openmath.org/cd?list1
-14:10:54.71	    controller: retrieved http://www.openmath.org/cd?list1
-14:10:54.72	    controller: retrieving http://www.openmath.org/cd?list2
-14:10:54.105	    controller: retrieved http://www.openmath.org/cd?list2
-14:10:54.473	    controller: retrieving http://www.openmath.org/cd?rounding1
-14:10:54.483	    controller: retrieved http://www.openmath.org/cd?rounding1
-14:10:54.563	    controller: retrieving http://www.openmath.org/cd?linalg1
-14:10:54.581	    controller: retrieved http://www.openmath.org/cd?linalg1
-14:10:54.581	    controller: retrieving http://www.openmath.org/cd?linalg2
-14:10:54.600	    controller: retrieved http://www.openmath.org/cd?linalg2
-14:10:54.600	    controller: retrieving http://www.openmath.org/cd?linalg4
-14:10:54.622	    controller: retrieved http://www.openmath.org/cd?linalg4
-14:10:54.947	    controller: retrieving http://www.openmath.org/cd?minmax1
-14:10:54.954	    controller: retrieved http://www.openmath.org/cd?minmax1
-14:10:55.86	    controller: retrieving http://www.openmath.org/cd?set1
-14:10:55.121	    controller: retrieved http://www.openmath.org/cd?set1
-14:10:55.496	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/source/test
-14:10:55.497	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/source/uom
-14:10:55.502	    controller: retrieving http://cds.omdoc.org/urtheories?Scala
-14:10:55.564	    controller: retrieved http://cds.omdoc.org/urtheories?Scala
-14:10:55.621	controller: retrieving http://www.openmath.org/cd?polyu
-14:10:55.632	controller: retrieved http://www.openmath.org/cd?polyu
-14:10:55.670	controller: retrieving http://www.openmath.org/cd?indNat
-14:10:55.678	controller: retrieved http://www.openmath.org/cd?indNat
-14:10:55.983	controller: retrieving http://www.openmath.org/cd?tensor1
-14:10:55.987	controller: retrieved http://www.openmath.org/cd?tensor1
-14:10:56.3	controller: retrieving http://www.openmath.org/cd?string
-14:10:56.18	controller: retrieved http://www.openmath.org/cd?string
-14:10:56.113	controller: retrieving http://www.openmath.org/cd?transc1
-14:10:56.190	controller: retrieved http://www.openmath.org/cd?transc1
-14:10:56.254	controller: retrieving http://www.openmath.org/cd?set2
-14:10:56.259	controller: retrieved http://www.openmath.org/cd?set2
-14:10:56.313	controller: retrieving http://www.openmath.org/cd?combinat1
-14:10:56.322	controller: retrieved http://www.openmath.org/cd?combinat1
-14:10:56.323	controller: retrieving http://www.openmath.org/cd?permut1
-14:10:56.330	controller: retrieved http://www.openmath.org/cd?permut1
-14:10:56.332	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/source/uom
-14:10:56.333	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/source/frameit
-14:10:56.415	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/source/frameit
-14:10:56.415	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/source/cds
-14:10:56.741	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/source/cds
-14:10:56.742	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/source
-14:10:56.743	user: archive openmath mmt-omdoc   finished
-14:10:56.744	user: archive openmath index  
-14:10:56.747	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/compiled
-14:10:56.748	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/compiled/test
-14:10:57.837	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/compiled/test
-14:10:57.837	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/compiled/uom
-14:10:58.485	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/compiled/uom
-14:10:58.485	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/compiled/frameit
-14:10:58.640	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/compiled/frameit
-14:10:58.640	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/compiled/cds
-14:10:59.465	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/compiled/cds
-14:10:59.472	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/compiled
-14:10:59.472	user: archive openmath index   finished
-14:10:59.505	user: archive openmath extract  http..www.openmath.org
-14:10:59.510	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/content/http..www.openmath.org
-14:10:59.511	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/content/http..www.openmath.org/cd
-14:10:59.665	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/content/http..www.openmath.org/cd
-14:10:59.666	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/content/http..www.openmath.org
-14:10:59.666	user: archive openmath extract  http..www.openmath.org finished
-14:10:59.667	user: archive openmath extract  http..oaff.kwarc.info
-14:10:59.667	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/content/http..oaff.kwarc.info
-14:10:59.668	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/content/http..oaff.kwarc.info/openmath
-14:10:59.668	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/content/http..oaff.kwarc.info/openmath/test
-14:10:59.728	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/content/http..oaff.kwarc.info/openmath/test
-14:10:59.729	archive: entering /home/alex/projects/thesis/mmt/oaff/openmath/content/http..oaff.kwarc.info/openmath/uom
-14:10:59.801	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/content/http..oaff.kwarc.info/openmath/uom
-14:10:59.802	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/content/http..oaff.kwarc.info/openmath
-14:10:59.802	archive: leaving  /home/alex/projects/thesis/mmt/oaff/openmath/content/http..oaff.kwarc.info
-14:10:59.802	user: archive openmath extract  http..oaff.kwarc.info finished
-14:10:59.806	user: archive openmath mar /home/alex/projects/thesis/mmt/oaff/openmath/openmath.mar
-14:10:59.809	archive: building math archive at /home/alex/projects/thesis/mmt/oaff/openmath/openmath.mar
-14:11:00.82	archive: done
-14:11:00.171	user: archive openmath mar /home/alex/projects/thesis/mmt/oaff/openmath/openmath.mar finished
-14:11:00.173	user: exit
+16:03:28.759	user: log file /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/mmt.log finished
+16:03:28.760	user: log+ controller
+16:03:28.760	user: log+ controller finished
+16:03:28.761	user: log+ archive
+16:03:28.761	user: log+ archive finished
+16:03:28.762	user: log+ uom
+16:03:28.762	user: log+ uom finished
+16:03:28.767	user: archive add /home/mihnea/kwarc/AssessmentService/mmt/oaff/urtheories
+16:03:28.777	user: archive add /home/mihnea/kwarc/AssessmentService/mmt/oaff/urtheories finished
+16:03:28.777	user: archive add /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath
+16:03:28.778	user: archive add /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath finished
+16:03:28.785	user: archive openmath mmt-omdoc  
+16:03:28.800	archive: entering /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/source
+16:03:28.801	archive: entering /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/source/uom
+16:03:28.838	controller: retrieving http://www.openmath.org/cd?indNat
+16:03:28.909	controller: retrieved http://www.openmath.org/cd?indNat
+16:03:28.909	controller: retrieving http://cds.omdoc.org/urtheories?ScalaOM
+16:03:28.931	controller: retrieved http://cds.omdoc.org/urtheories?ScalaOM
+16:03:29.0	    controller: retrieving http://cds.omdoc.org/urtheories?Scala
+16:03:29.57	    controller: retrieved http://cds.omdoc.org/urtheories?Scala
+16:03:29.230	controller: retrieving http://www.openmath.org/cd?arith1
+16:03:29.268	controller: retrieved http://www.openmath.org/cd?arith1
+16:03:29.321	controller: retrieving http://www.openmath.org/cd?logic1
+16:03:29.336	controller: retrieved http://www.openmath.org/cd?logic1
+16:03:29.347	controller: retrieving http://www.openmath.org/cd?string
+16:03:29.354	controller: retrieved http://www.openmath.org/cd?string
+16:03:29.362	controller: retrieving http://www.openmath.org/cd?nums1
+16:03:29.371	controller: retrieved http://www.openmath.org/cd?nums1
+16:03:29.381	controller: retrieving http://www.openmath.org/cd?polyu
+16:03:29.389	controller: retrieved http://www.openmath.org/cd?polyu
+16:03:29.395	controller: retrieving http://www.openmath.org/cd?tensor1
+16:03:29.399	controller: retrieved http://www.openmath.org/cd?tensor1
+16:03:29.411	controller: retrieving http://www.openmath.org/cd?rounding1
+16:03:29.420	controller: retrieved http://www.openmath.org/cd?rounding1
+16:03:29.441	controller: retrieving http://www.openmath.org/cd?integer1
+16:03:29.449	controller: retrieved http://www.openmath.org/cd?integer1
+16:03:29.462	controller: retrieving http://www.openmath.org/cd?minmax1
+16:03:29.467	controller: retrieved http://www.openmath.org/cd?minmax1
+16:03:29.504	controller: retrieving http://www.openmath.org/cd?list1
+16:03:29.510	controller: retrieved http://www.openmath.org/cd?list1
+16:03:29.511	controller: retrieving http://www.openmath.org/cd?list2
+16:03:29.524	controller: retrieved http://www.openmath.org/cd?list2
+16:03:29.553	controller: retrieving http://www.openmath.org/cd?complex1
+16:03:29.562	controller: retrieved http://www.openmath.org/cd?complex1
+16:03:29.608	controller: retrieving http://www.openmath.org/cd?set1
+16:03:29.626	controller: retrieved http://www.openmath.org/cd?set1
+16:03:29.629	controller: retrieving http://www.openmath.org/cd?set2
+16:03:29.632	controller: retrieved http://www.openmath.org/cd?set2
+16:03:29.679	controller: retrieving http://www.openmath.org/cd?linalg1
+16:03:29.688	controller: retrieved http://www.openmath.org/cd?linalg1
+16:03:29.689	controller: retrieving http://www.openmath.org/cd?linalg2
+16:03:29.694	controller: retrieved http://www.openmath.org/cd?linalg2
+16:03:29.695	controller: retrieving http://www.openmath.org/cd?linalg4
+16:03:29.701	controller: retrieved http://www.openmath.org/cd?linalg4
+16:03:29.728	controller: retrieving http://www.openmath.org/cd?relation1
+16:03:29.736	controller: retrieved http://www.openmath.org/cd?relation1
+16:03:29.744	controller: retrieving http://www.openmath.org/cd?combinat1
+16:03:29.751	controller: retrieved http://www.openmath.org/cd?combinat1
+16:03:29.751	controller: retrieving http://www.openmath.org/cd?permut1
+16:03:29.754	controller: retrieved http://www.openmath.org/cd?permut1
+16:03:29.772	controller: retrieving http://www.openmath.org/cd?transc1
+16:03:29.807	controller: retrieved http://www.openmath.org/cd?transc1
+16:03:29.817	archive: leaving  /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/source/uom
+16:03:29.817	archive: entering /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/source/cds
+16:03:29.819	  controller: retrieving http://www.openmath.org/cd?OpenMath
+16:03:29.823	  controller: retrieved http://www.openmath.org/cd?OpenMath
+16:03:29.960	controller: retrieving http://www.openmath.org/cd?fns1
+16:03:29.962	controller: retrieved http://www.openmath.org/cd?fns1
+16:03:29.963	controller: retrieving http://www.openmath.org/cd?linalg5
+16:03:29.974	controller: retrieved http://www.openmath.org/cd?linalg5
+16:03:30.17	archive: leaving  /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/source/cds
+16:03:30.17	archive: entering /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/source/test
+16:03:30.470	archive: leaving  /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/source/test
+16:03:30.470	archive: entering /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/source/frameit
+16:03:30.495	archive: leaving  /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/source/frameit
+16:03:30.495	archive: leaving  /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/source
+16:03:30.495	user: archive openmath mmt-omdoc   finished
+16:03:30.496	user: archive openmath index  
+16:03:30.497	archive: entering /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/compiled
+16:03:30.497	archive: entering /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/compiled/uom
+16:03:30.790	archive: leaving  /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/compiled/uom
+16:03:30.790	archive: entering /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/compiled/cds
+16:03:31.19	archive: leaving  /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/compiled/cds
+16:03:31.19	archive: entering /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/compiled/test
+16:03:31.308	archive: leaving  /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/compiled/test
+16:03:31.308	archive: entering /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/compiled/frameit
+16:03:31.342	archive: leaving  /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/compiled/frameit
+16:03:31.342	archive: leaving  /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/compiled
+16:03:31.342	user: archive openmath index   finished
+16:03:31.347	user: archive openmath extract  http..www.openmath.org
+16:03:31.348	archive: entering /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/content/http..www.openmath.org
+16:03:31.348	archive: entering /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/content/http..www.openmath.org/cd
+16:03:31.408	archive: leaving  /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/content/http..www.openmath.org/cd
+16:03:31.408	archive: leaving  /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/content/http..www.openmath.org
+16:03:31.408	user: archive openmath extract  http..www.openmath.org finished
+16:03:31.409	user: archive openmath extract  http..oaff.kwarc.info
+16:03:31.409	archive: entering /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/content/http..oaff.kwarc.info
+16:03:31.409	archive: entering /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/content/http..oaff.kwarc.info/openmath
+16:03:31.409	archive: entering /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/content/http..oaff.kwarc.info/openmath/uom
+16:03:31.463	archive: leaving  /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/content/http..oaff.kwarc.info/openmath/uom
+16:03:31.463	archive: entering /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/content/http..oaff.kwarc.info/openmath/test
+16:03:31.499	archive: leaving  /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/content/http..oaff.kwarc.info/openmath/test
+16:03:31.499	archive: leaving  /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/content/http..oaff.kwarc.info/openmath
+16:03:31.500	archive: leaving  /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/content/http..oaff.kwarc.info
+16:03:31.500	user: archive openmath extract  http..oaff.kwarc.info finished
+16:03:31.501	user: archive openmath mar /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/openmath.mar
+16:03:31.502	archive: building math archive at /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/openmath.mar
+16:03:31.582	archive: done
+16:03:31.616	archive: building Java archive at /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/openmath.jar
+16:03:31.617	archive: done
+16:03:31.617	user: archive openmath mar /home/mihnea/kwarc/AssessmentService/mmt/oaff/openmath/openmath.mar finished
+16:03:31.618	user: exit

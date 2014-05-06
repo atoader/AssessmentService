@@ -6,53 +6,53 @@ import info.kwarc.mmt.api.uom._
 
 object NAMESPACE extends DocumentScala {
 
-    addView(info.kwarc.oaff.openmath.uom.Nums1)
-
-    addView(info.kwarc.oaff.openmath.uom.OMString)
-
-    addView(info.kwarc.oaff.openmath.uom.List1)
-
-    addView(info.kwarc.oaff.openmath.uom.Rounding1)
-
-    addView(info.kwarc.oaff.openmath.uom.Minmax1)
-
-    addView(info.kwarc.oaff.openmath.uom.Logic1)
-
-    addView(info.kwarc.oaff.openmath.uom.List2)
-
-    addView(info.kwarc.oaff.openmath.uom.IndNat)
-
-    addView(info.kwarc.oaff.openmath.uom.Transc1)
-
-    addView(info.kwarc.oaff.openmath.uom.Tensor1)
+    addView(info.kwarc.oaff.openmath.uom.Relation1)
 
     addView(info.kwarc.oaff.openmath.uom.Arith1)
-
-    addView(info.kwarc.oaff.openmath.uom.LinalgArith)
 
     addView(info.kwarc.oaff.openmath.uom.Complex1)
 
     addView(info.kwarc.oaff.openmath.uom.Linalg2)
 
-    addView(info.kwarc.oaff.openmath.uom.Linalg4)
-
-    addView(info.kwarc.oaff.openmath.uom.Polyu)
-
-    addView(info.kwarc.oaff.openmath.uom.Integer1)
-
     addView(info.kwarc.oaff.openmath.uom.Permut1)
-
-    addView(info.kwarc.oaff.openmath.uom.Relation1)
-
-    addView(info.kwarc.oaff.openmath.uom.Set2)
 
     addView(info.kwarc.oaff.openmath.uom.Set1)
 
+    addView(info.kwarc.oaff.openmath.uom.Integer1)
+
+    addView(info.kwarc.oaff.openmath.uom.Polyu)
+
     addView(info.kwarc.oaff.openmath.uom.Linalg1)
+
+    addView(info.kwarc.oaff.openmath.uom.Transc1)
+
+    addView(info.kwarc.oaff.openmath.uom.Minmax1)
 
     addView(info.kwarc.oaff.openmath.uom.PolyuArith)
 
+    addView(info.kwarc.oaff.openmath.uom.LinalgArith)
+
+    addView(info.kwarc.oaff.openmath.uom.Logic1)
+
     addView(info.kwarc.oaff.openmath.uom.Combinat1)
+
+    addView(info.kwarc.oaff.openmath.uom.IndNat)
+
+    addView(info.kwarc.oaff.openmath.uom.Nums1)
+
+    addView(info.kwarc.oaff.openmath.uom.Linalg4)
+
+    addView(info.kwarc.oaff.openmath.uom.Set2)
+
+    addView(info.kwarc.oaff.openmath.uom.OMString)
+
+    addView(info.kwarc.oaff.openmath.uom.List2)
+
+    addView(info.kwarc.oaff.openmath.uom.Rounding1)
+
+    addView(info.kwarc.oaff.openmath.uom.List1)
+
+    addView(info.kwarc.oaff.openmath.uom.Tensor1)
 
 }
 

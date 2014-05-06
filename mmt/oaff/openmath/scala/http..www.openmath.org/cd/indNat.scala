@@ -9,7 +9,7 @@ import ConstantScala._
 trait indNat extends TheoryScala {
   def indNat_zero(): Term
 
-  def indNat_succ(x1: Term, x2: Term, x3: Term, x4: Term, x5: Term, x6: Term, x7: Term, x8: Term, x9: Term, x10: Term, x11: Term, x12: Term, x13: Term, x14: Term, x15: Term, x16: Term, x17: Term, x18: Term, x19: Term, x20: Term, x21: Term, x22: Term, x23: Term, x24: Term, x25: Term, x26: Term, x27: Term, x28: Term, x29: Term, x30: Term, x31: Term, x32: Term, x33: Term, x34: Term, x35: Term, x36: Term, x37: Term, x38: Term, x39: Term, x40: Term, x41: Term, x42: Term, x43: Term, x44: Term, x45: Term, x46: Term, x47: Term, x48: Term, x49: Term, x50: Term): Term
+  def indNat_succ(x1: Term): Term
 
 }
 
@@ -26,9 +26,9 @@ object indNat extends TheoryScalaAux {
   object succ extends ConstantScala {
     val parent = _path
     val name = "succ"
-    def apply(x1: Term, x2: Term, x3: Term, x4: Term, x5: Term, x6: Term, x7: Term, x8: Term, x9: Term, x10: Term, x11: Term, x12: Term, x13: Term, x14: Term, x15: Term, x16: Term, x17: Term, x18: Term, x19: Term, x20: Term, x21: Term, x22: Term, x23: Term, x24: Term, x25: Term, x26: Term, x27: Term, x28: Term, x29: Term, x30: Term, x31: Term, x32: Term, x33: Term, x34: Term, x35: Term, x36: Term, x37: Term, x38: Term, x39: Term, x40: Term, x41: Term, x42: Term, x43: Term, x44: Term, x45: Term, x46: Term, x47: Term, x48: Term, x49: Term, x50: Term) = OMA(OMID(this.path), x1 :: x2 :: x3 :: x4 :: x5 :: x6 :: x7 :: x8 :: x9 :: x10 :: x11 :: x12 :: x13 :: x14 :: x15 :: x16 :: x17 :: x18 :: x19 :: x20 :: x21 :: x22 :: x23 :: x24 :: x25 :: x26 :: x27 :: x28 :: x29 :: x30 :: x31 :: x32 :: x33 :: x34 :: x35 :: x36 :: x37 :: x38 :: x39 :: x40 :: x41 :: x42 :: x43 :: x44 :: x45 :: x46 :: x47 :: x48 :: x49 :: x50:: Nil)
-    def unapply(t: Term): Option[(Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term, Term)] = t match {
-      case OMA(OMID(this.path), x1 :: x2 :: x3 :: x4 :: x5 :: x6 :: x7 :: x8 :: x9 :: x10 :: x11 :: x12 :: x13 :: x14 :: x15 :: x16 :: x17 :: x18 :: x19 :: x20 :: x21 :: x22 :: x23 :: x24 :: x25 :: x26 :: x27 :: x28 :: x29 :: x30 :: x31 :: x32 :: x33 :: x34 :: x35 :: x36 :: x37 :: x38 :: x39 :: x40 :: x41 :: x42 :: x43 :: x44 :: x45 :: x46 :: x47 :: x48 :: x49 :: x50:: Nil) => Some((x1, x2, x3, x4, x5, x6, x7, x8, x9, x10, x11, x12, x13, x14, x15, x16, x17, x18, x19, x20, x21, x22, x23, x24, x25, x26, x27, x28, x29, x30, x31, x32, x33, x34, x35, x36, x37, x38, x39, x40, x41, x42, x43, x44, x45, x46, x47, x48, x49, x50))
+    def apply(x1: Term) = OMA(OMID(this.path), x1:: Nil)
+    def unapply(t: Term): Option[Term] = t match {
+      case OMA(OMID(this.path), x1:: Nil) => Some(x1)
       case _ => None
     }
   }

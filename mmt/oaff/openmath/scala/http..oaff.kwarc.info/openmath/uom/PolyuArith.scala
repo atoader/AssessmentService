@@ -18,7 +18,7 @@ trait PolyuArith extends ViewScala with arith1 {
     
     args foreach {
       case polyu.polynomial_u(p, _) => polys ::= p
-      case p@polyu.poly_u_rep(_) => polys :: p
+      case p@polyu.poly_u_rep(_) => polys ::= p
       case a => restArgs ::= a
     }
     if (polys == Nil) {

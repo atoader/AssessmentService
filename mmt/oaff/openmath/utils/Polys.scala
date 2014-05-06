@@ -40,7 +40,7 @@ object Polys {
   
   def addPolys(polys: List[Term]) : Term = {
     var terms: List[List[Term]] = Nil
-    tolys.foreach {
+    polys.foreach {
       // TODO take variable into account
       case poly_u_rep(_, ls) => terms ::= ls
       case _ =>

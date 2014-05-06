@@ -18,13 +18,13 @@ trait IndNat extends ViewScala with indNat {
   // UOM end http://oaff.kwarc.info/openmath/uom?IndNat?zero
 
   // UOM start http://oaff.kwarc.info/openmath/uom?IndNat?succ
-  def indNat_succ(x1: Term, x2: Term, x3: Term, x4: Term, x5: Term, x6: Term, x7: Term, x8: Term, x9: Term, x10: Term, x11: Term, x12: Term, x13: Term, x14: Term, x15: Term, x16: Term, x17: Term, x18: Term, x19: Term, x20: Term, x21: Term, x22: Term, x23: Term, x24: Term, x25: Term, x26: Term, x27: Term, x28: Term, x29: Term, x30: Term, x31: Term, x32: Term, x33: Term, x34: Term, x35: Term, x36: Term, x37: Term, x38: Term, x39: Term, x40: Term, x41: Term, x42: Term, x43: Term, x44: Term, x45: Term, x46: Term, x47: Term, x48: Term, x49: Term, x50: Term) : Term = {
+  def indNat_succ(x1: Term) : Term = {
     throw Unimplemented("indNat_succ")
   }
   // UOM end http://oaff.kwarc.info/openmath/uom?IndNat?succ
 
   declares(Implementation.constant(indNat.zero.path)(indNat_zero _))
-  declares(Implementation.AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA(indNat.succ.path)(indNat_succ _))
+  declares(Implementation.A(indNat.succ.path)(indNat_succ _))
 
 }
 

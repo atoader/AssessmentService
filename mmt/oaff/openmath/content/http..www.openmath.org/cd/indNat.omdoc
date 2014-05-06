@@ -2,7 +2,7 @@
 <omdoc xmlns:om="http://www.openmath.org/OpenMath" xmlns="http://omdoc.org/ns">
   <theory name="indNat" base="http://www.openmath.org/cd" meta="http://www.openmath.org/cd?OpenMath">
     <metadata>
-      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/indNat.mmt#39.2.0-94.5.1"/>
+      <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/indNat.mmt#39.2.0-101.5.1"/>
     </metadata>
     <constant name="zero">
       <metadata>
@@ -11,10 +11,10 @@
     </constant>
     <constant name="succ">
       <metadata>
-        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/indNat.mmt#77.4.2-92.4.17"/>
+        <link rel="http://cds.omdoc.org/mmt?metadata?sourceRef" resource="http://www.openmath.org/cds/indNat.mmt#77.4.2-99.4.24"/>
       </metadata>
       <notation>
-        <text-notation name="http://www.openmath.org/cd?indNat?succ" precedence="0" fixity="mixfix" arguments="succ 50"/>
+        <text-notation name="http://www.openmath.org/cd?indNat?succ" precedence="50" fixity="mixfix" arguments="succ 1"/>
       </notation>
     </constant>
   </theory>
